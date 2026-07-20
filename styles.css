@@ -219,6 +219,195 @@ h2 {
     border: 1px dashed #CBD5E1;
 }
 
+/* Interactive Guide Details */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.guide-internal-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.g-tab-btn {
+    background: none;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    margin-bottom: -2px; /* overlap border */
+}
+
+.g-tab-btn:hover {
+    color: var(--primary-color);
+}
+
+.g-tab-btn.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.g-tab-content.hidden {
+    display: none;
+}
+
+.references-box {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.references-box h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+}
+
+.references-box ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.references-box li {
+    background: #F8FAFC;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    border-left: 3px solid var(--accent-color);
+}
+
+.practice-intro {
+    text-align: center;
+    padding: 2rem;
+    background: #EFF6FF;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.practice-intro p {
+    margin-bottom: 1.5rem;
+    color: var(--text-muted);
+}
+
+/* Graphic SVG container */
+.graphic-box {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+/* Interactive Practice Feedback & UI */
+.practice-question-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-top: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.practice-context {
+    margin-bottom: 1rem;
+    font-style: italic;
+    padding: 1rem;
+    background: #F8FAFC;
+    border-left: 3px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.practice-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.practice-feedback {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.practice-feedback.success {
+    display: block;
+    background: #ECFDF5;
+    border: 1px solid #34D399;
+    color: #065F46;
+}
+
+.practice-feedback.error {
+    display: block;
+    background: #FEF2F2;
+    border: 1px solid #F87171;
+    color: #991B1B;
+}
+
+.practice-feedback h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-muted);
+    background: #F8FAFC;
+    border-radius: 8px;
+    border: 2px dashed var(--border-color);
+}
+.empty-state .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+/* Animations for tabs */
+.g-tab-content {
+    animation: fadeInTab 0.3s ease-out;
+}
+@keyframes fadeInTab {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
 .step-list {
     margin-left: 1.5rem;
     margin-bottom: 1rem;

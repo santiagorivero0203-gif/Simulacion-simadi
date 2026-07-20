@@ -19,7 +19,8 @@ const state = {
     },
     timerInterval: null,
     timeRemaining: 0,      // Tiempo restante en segundos
-    timeUsed: 0            // Tiempo transcurrido en segundos
+    timeUsed: 0,           // Tiempo transcurrido en segundos
+    guidesData: null       // Datos interactivos de las guías
 };
 
 // ============================================
@@ -94,6 +95,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch('preguntas.json');
         if (!response.ok) throw new Error('No se pudo cargar la base de datos de preguntas.');
         state.allQuestions = await response.json();
+        
+        // Cargar guías interactivas
+        try {
+            const guidesRes = await fetch('guides.json');
+            if (guidesRes.ok) {
+                state.guidesData = await guidesRes.json();
+            }
+        } catch(e) {
+            console.error("Error cargando guías:", e);
+        }
         
         // Configurar listener para cambio de área y actualizar temas disponibles
         DOM.setup.area.addEventListener('change', () => {
@@ -189,279 +200,10 @@ function formatTime(seconds) {
 // GUÍAS DE ESTUDIO
 // ============================================
 
-const guidesData = {
-    verbal: [
-        {
-            id: "verbal-comprension",
-            title: "Comprensión de Lectura",
-            content: "Identificar ideas principales, inferencias y detalles explícitos del texto. Es fundamental leer el texto con atención y basarse estrictamente en lo que está escrito o se infiere lógicamente.",
-            details: `
-                <p>La comprensión de lectura evalúa tu capacidad para entender, analizar e interpretar textos escritos. No se trata solo de decodificar palabras, sino de extraer el mensaje profundo.</p>
-                <h4>Estrategias Clave</h4>
-                <ul class="step-list">
-                    <li><strong>Lee activamente:</strong> Subraya mentalmente las ideas principales de cada párrafo.</li>
-                    <li><strong>Identifica el tono:</strong> ¿El autor está informando, criticando o persuadiendo?</li>
-                    <li><strong>Cíñete al texto:</strong> Las respuestas correctas <em>siempre</em> se basan en lo escrito explícitamente o inferido lógicamente. No uses tus propios conocimientos previos si contradicen el texto.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><em>"En 1775, convivieron en Venezuela una curandería desbordante y libre con una curandería selecta aprobada por las autoridades..."</em></p>
-                    <p><strong>Pregunta:</strong> A partir de 1775...</p>
-                    <p><strong>Respuesta Correcta:</strong> Convivieron con los médicos dos clases de curanderos: los selectos y los que ejercían sin control.</p>
-                    <p><strong>Análisis:</strong> La respuesta es una paráfrasis directa de la cita textual. "Desbordante y libre" equivale a "sin control".</p>
-                </div>
-            `
-        },
-        {
-            id: "verbal-ordenacion",
-            title: "Ordenación Lógica de Párrafos",
-            content: "Reconstruir el orden original de un texto desordenado. Busca conectores lógicos, la introducción del tema, el desarrollo y la conclusión.",
-            details: `
-                <p>Este tipo de pregunta requiere que organices una serie de oraciones (generalmente numeradas) para formar un párrafo coherente y con sentido lógico.</p>
-                <h4>Pasos para resolver</h4>
-                <ul class="step-list">
-                    <li>Busca la <strong>oración introductoria</strong>: Suele presentar el tema de forma general y no usa pronombres referenciales como "Estos", "Por lo tanto", o "Sin embargo".</li>
-                    <li>Encuentra <strong>conectores lógicos</strong>: Palabras como "Además", "En conclusión", "Por otro lado" indican el orden forzado de dos oraciones.</li>
-                    <li>Establece relaciones causa-efecto o secuencias cronológicas.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p>Ordena:<br>
-                    (1) Por lo tanto, el ejercicio es vital.<br>
-                    (2) El sedentarismo causa problemas cardiovasculares.<br>
-                    (3) Muchas personas hoy en día no hacen actividad física.</p>
-                    <p><strong>Orden Correcto:</strong> (3) -> (2) -> (1)</p>
-                    <p><strong>Análisis:</strong> La (3) introduce la situación actual. La (2) explica la consecuencia de esa situación (causa-efecto). La (1) concluye basándose en lo anterior ("Por lo tanto").</p>
-                </div>
-            `
-        },
-        {
-            id: "verbal-completacion",
-            title: "Completación de Oraciones",
-            content: "Rellenar blancos con concordancia gramatical y semántica. Las palabras elegidas deben darle sentido lógico a la oración respetando el tiempo verbal y el género.",
-            details: `
-                <p>Debes seleccionar la pareja de palabras que al insertarse en los espacios en blanco le den a la oración un sentido lógico y gramaticalmente correcto.</p>
-                <h4>Estrategias</h4>
-                <ul class="step-list">
-                    <li><strong>Concordancia:</strong> Verifica el género (masculino/femenino) y número (singular/plural).</li>
-                    <li><strong>Contexto:</strong> Lee la oración e intenta adivinar qué palabra iría antes de mirar las opciones.</li>
-                    <li><strong>Descarte por partes:</strong> A menudo, la primera palabra de una opción encaja, pero la segunda no. Descarta opciones parcialmente incorrectas de inmediato.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><em>En caso de enfermedad, la familia y el círculo de amigos _______ atención a medida que el grupo de allegados se _______.</em></p>
-                    <p><strong>Respuesta Correcta:</strong> prestan / restringe.</p>
-                    <p><strong>Análisis:</strong> Gramaticalmente, "familia y círculo" (plural) requiere "prestan". Por lógica, si hay una enfermedad larga, el círculo de apoyo suele disminuir ("se restringe").</p>
-                </div>
-            `
-        },
-        {
-            id: "verbal-sinonimos",
-            title: "Sinónimos",
-            content: "Identificar palabras con significado equivalente en el contexto dado. A veces las palabras tienen varios significados, usa el contexto para elegir el adecuado.",
-            details: `
-                <p>Se evalúa tu vocabulario. Debes elegir la palabra que tenga un significado equivalente a la palabra resaltada, siempre tomando en cuenta el <strong>contexto</strong> en que se utiliza.</p>
-                <h4>Estrategias</h4>
-                <ul class="step-list">
-                    <li>Reemplaza la palabra en la oración con cada una de las opciones. La que mantenga el sentido original es la correcta.</li>
-                    <li>Cuidado con las "falsas amistades": palabras que suenan parecido pero significan cosas distintas.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><em>Todo individuo tiene el derecho a expresar un pensamiento <strong>divergente</strong>.</em></p>
-                    <p><strong>Opciones:</strong> a) discrepante, b) aburrido, c) similar.</p>
-                    <p><strong>Respuesta Correcta:</strong> a) discrepante.</p>
-                    <p><strong>Análisis:</strong> Un pensamiento "divergente" es aquel que difiere o se aparta de la norma, lo cual es sinónimo exacto de "discrepante".</p>
-                </div>
-            `
-        }
-    ],
-    logico: [
-        {
-            id: "logico-cuadraticas",
-            title: "Ecuaciones Cuadráticas",
-            content: "Resolución de ecuaciones de la forma ax² + bx + c = 0 mediante factorización o usando la fórmula cuadrática.",
-            details: `
-                <p>Una ecuación cuadrática tiene la forma general <strong>ax² + bx + c = 0</strong>, donde <em>x</em> es la incógnita y siempre tendrá hasta dos soluciones o raíces.</p>
-                <h4>Métodos de Resolución</h4>
-                <ul class="step-list">
-                    <li><strong>Factorización:</strong> Busca dos números que sumados den <em>b</em> y multiplicados den <em>c</em> (cuando a=1).</li>
-                    <li><strong>Fórmula General:</strong> Funciona para cualquier cuadrática.</li>
-                </ul>
-                <div class="formula-box">
-                    x = [ -b ± √(b² - 4ac) ] / 2a
-                </div>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Resolver:</strong> x² - 5x + 6 = 0</p>
-                    <p><strong>Por Factorización:</strong> Buscamos dos números que sumen -5 y multipliquen +6. Estos son -3 y -2.</p>
-                    <p>La ecuación se factoriza como: (x - 3)(x - 2) = 0</p>
-                    <p>Las soluciones son los valores que hacen cero los paréntesis: <strong>x = 3</strong> y <strong>x = 2</strong>.</p>
-                </div>
-            `
-        },
-        {
-            id: "logico-lineales",
-            title: "Planteamiento de Ecuaciones Lineales",
-            content: "Traducción de problemas verbales (edades, cantidades) a ecuaciones matemáticas simples y su resolución paso a paso.",
-            details: `
-                <p>Consiste en traducir un problema expresado en lenguaje verbal a una ecuación matemática con una o más incógnitas.</p>
-                <h4>Traducciones Comunes</h4>
-                <ul class="step-list">
-                    <li>"El doble de un número" &rarr; 2x</li>
-                    <li>"La edad que tendré dentro de 10 años" &rarr; x + 10</li>
-                    <li>"La tercera parte de algo" &rarr; x / 3</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> La edad actual de Zaira es la séptima parte de la edad que tendrá dentro de 66 años.</p>
-                    <p><strong>Planteamiento:</strong> Sea Z la edad actual. <br>
-                    Z = (Z + 66) / 7</p>
-                    <p><strong>Resolución:</strong><br>
-                    Multiplicamos por 7: 7Z = Z + 66<br>
-                    Restamos Z: 6Z = 66<br>
-                    Dividimos entre 6: <strong>Z = 11</strong></p>
-                </div>
-            `
-        },
-        {
-            id: "logico-fracciones",
-            title: "Fracciones Aplicadas",
-            content: "Operaciones con fracciones (suma, resta, multiplicación y división) aplicadas a problemas de la vida real (ej. capacidades, repartos).",
-            details: `
-                <p>Las fracciones evalúan tu capacidad de dividir un todo en partes iguales y operar con ellas en situaciones cotidianas.</p>
-                <h4>Conceptos Clave</h4>
-                <ul class="step-list">
-                    <li><strong>Multiplicación de fracciones:</strong> Se multiplica numerador con numerador y denominador con denominador.</li>
-                    <li><strong>División (Ley de la doble C):</strong> (a/b) ÷ (c/d) = (a·d) / (b·c).</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Con 3/4 de litros de vino se llenan 5 copas. ¿Cuál es la capacidad de cada copa?</p>
-                    <p><strong>Planteamiento:</strong> Hay que dividir la cantidad total (3/4) entre el número de partes (5).</p>
-                    <p><strong>Resolución:</strong><br>
-                    (3/4) ÷ 5 = (3/4) ÷ (5/1) = (3 × 1) / (4 × 5) = <strong>3/20 litros</strong>.</p>
-                    <p>En decimal: 3 ÷ 20 = 0.15 litros.</p>
-                </div>
-            `
-        },
-        {
-            id: "logico-inecuaciones",
-            title: "Inecuaciones e Intervalos",
-            content: "Resolución de inecuaciones y operaciones con intervalos (unión e intersección de conjuntos numéricos en la recta real).",
-            details: `
-                <p>Las inecuaciones expresan desigualdades (>, <, ≥, ≤). A diferencia de una ecuación, su solución no es un solo número, sino un <strong>conjunto o intervalo</strong> de números.</p>
-                <h4>Símbolos y Corchetes</h4>
-                <ul class="step-list">
-                    <li><strong>< o > (Abierto):</strong> El extremo NO está incluido. Se usa paréntesis ( ).</li>
-                    <li><strong>≤ o ≥ (Cerrado):</strong> El extremo SÍ está incluido. Se usa corchete [ ].</li>
-                    <li><strong>Unión (∪):</strong> Juntar todos los elementos de dos conjuntos.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Hallar la unión de los conjuntos B = {x | x < 4} y C = {x | -1 < x ≤ 5}.</p>
-                    <p><strong>Análisis:</strong><br>
-                    B abarca desde -∞ hasta 4 (sin incluir). B = (-∞, 4)<br>
-                    C solapa a B desde -1 y lo extiende hasta el 5 (incluido). C = (-1, 5]</p>
-                    <p><strong>Resultado:</strong> Al unir B y C, cubrimos sin interrupciones desde el -∞ hasta el 5 incluido. La unión es <strong>(-∞, 5]</strong>.</p>
-                </div>
-            `
-        },
-        {
-            id: "logico-porcentajes",
-            title: "Porcentajes Sucesivos",
-            content: "Cálculo del efecto acumulado de aplicar varios descuentos o aumentos porcentuales de forma encadenada.",
-            details: `
-                <p>Cuando aplicas un descuento y luego otro, <strong>NO</strong> se suman los porcentajes. El segundo descuento se aplica sobre el nuevo precio ya rebajado, no sobre el precio original.</p>
-                <h4>Fórmula Práctica</h4>
-                <ul class="step-list">
-                    <li>En lugar de calcular el descuento, <strong>calcula lo que pagas</strong>. Si descuentan el 10%, pagas el 90% (0.90).</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Descuentos sucesivos del 10% y 20%. ¿A qué descuento único equivalen?</p>
-                    <p><strong>Resolución:</strong><br>
-                    1. Si te descuentan 10%, pagas el 90% (0.90).<br>
-                    2. Si luego te descuentan 20%, pagas el 80% (0.80) del 90%.<br>
-                    3. Precio final = 0.90 × 0.80 = 0.72 = 72%.</p>
-                    <p><strong>Conclusión:</strong> Si pagas el 72% del producto, el descuento total que recibiste fue: 100% - 72% = <strong>28%</strong> (y no 30%).</p>
-                </div>
-            `
-        },
-        {
-            id: "logico-analogias",
-            title: "Analogías (Verbal-Matemático)",
-            content: "Identificar la relación lógica (proporción, unidades de medida, categorías) que existe entre pares de palabras o conceptos.",
-            details: `
-                <p>Una analogía es una comparación que establece una relación de semejanza entre dos pares de palabras o conceptos.</p>
-                <h4>Tipos Comunes</h4>
-                <ul class="step-list">
-                    <li>Magnitud a unidad de medida (Tiempo - Segundo).</li>
-                    <li>Parte a todo (Dedo - Mano).</li>
-                    <li>Sinónimos o antónimos.</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Segundo es a tiempo lo que kilogramo es a...</p>
-                    <p><strong>Análisis:</strong> El "segundo" es la unidad de medida estándar del concepto físico "tiempo". Por lo tanto, el "kilogramo" es la unidad de medida estándar de la <strong>masa</strong> (no del peso, que se mide en Newtons).</p>
-                    <p><strong>Respuesta:</strong> Masa.</p>
-                </div>
-            `
-        }
-    ],
-    ciencia: [
-        {
-            id: "ciencia-logaritmos",
-            title: "Logaritmos",
-            content: "Aplicación de las propiedades de los logaritmos, resolución de ecuaciones logarítmicas y uso de la fórmula de cambio de base.",
-            details: `
-                <p>Un logaritmo responde a la pregunta: ¿A qué exponente debo elevar una base para obtener cierto número? Ej: log₂(8) = 3 porque 2³ = 8.</p>
-                <h4>Propiedades Fundamentales</h4>
-                <div class="formula-box">
-                    log(A × B) = log(A) + log(B)<br>
-                    log(A / B) = log(A) - log(B)<br>
-                    log(Aⁿ) = n × log(A)<br>
-                    Cambio base: log_b(A) = log_c(A) / log_c(b)
-                </div>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Resolver log₃(x) + log₃(2) = 1</p>
-                    <p><strong>Resolución:</strong><br>
-                    1. Aplicar propiedad de suma (multiplicación): log₃(2x) = 1<br>
-                    2. Convertir a exponencial: 3¹ = 2x<br>
-                    3. Despejar x: <strong>x = 3/2</strong></p>
-                </div>
-            `
-        },
-        {
-            id: "ciencia-abstracto",
-            title: "Razonamiento Lógico Abstracto",
-            content: "Resolución de acertijos lógicos y matemáticos abstractos (criptogramas, patrones numéricos, relaciones complejas).",
-            details: `
-                <p>Estos ejercicios evalúan el pensamiento lateral y la capacidad de encontrar patrones ocultos en secuencias gráficas, numéricas o situaciones ilógicas aparentes.</p>
-                <h4>Estrategias</h4>
-                <ul class="step-list">
-                    <li>No te quedes con la primera impresión. Si un problema matemático parece imposible, probablemente sea un acertijo lógico.</li>
-                    <li>En secuencias numéricas, prueba calcular la diferencia entre números adyacentes, o buscar patrones alternados (salto de rana).</li>
-                </ul>
-                <div class="guide-example-box">
-                    <div class="example-title">Ejemplo Resuelto</div>
-                    <p><strong>Problema:</strong> Tienes libros de novela, ensayo y poesía. Todos son de novela menos dos. Todos son de ensayo menos dos. Todos son de poesía menos dos. ¿Cuántos libros tienes en total?</p>
-                    <p><strong>Análisis Lógico:</strong> La única forma de que "todos menos dos" sean de cada categoría simultáneamente, es que tengas exactamente 1 libro de cada tipo.</p>
-                    <p>Si tienes 3 libros (1 Novela, 1 Ensayo, 1 Poesía):<br>
-                    Todos menos dos (Ensayo y Poesía) son Novela (1). ¡Cumple!</p>
-                    <p><strong>Respuesta:</strong> 3 libros en total.</p>
-                </div>
-            `
-        }
-    ]
-};
-
 function renderGuideContent(tabId) {
     if (!DOM.nav.guidesContent) return;
-    const data = guidesData[tabId] || [];
+    const data = state.guidesData ? (state.guidesData[tabId] || []) : [];
     
-    // Create elements instead of concatenating HTML string to attach event listeners easily
     DOM.nav.guidesContent.innerHTML = '';
     
     data.forEach(item => {
@@ -472,7 +214,6 @@ function renderGuideContent(tabId) {
             <p>${item.content}</p>
         `;
         
-        // Add click listener to open detail view
         card.addEventListener('click', () => {
             openGuideDetail(item);
         });
@@ -481,12 +222,213 @@ function renderGuideContent(tabId) {
     });
 }
 
+/**
+ * Abre la vista detallada de una guía de estudio.
+ * Renderiza la teoría, exámenes pasados, práctica interactiva y referencias.
+ * - Usa clases CSS en vez de estilos en línea.
+ * - Reemplaza alert() por feedback visual integrado en el DOM.
+ * - Añade animaciones fade-in a las pestañas.
+ * - Muestra "empty states" amigables cuando no hay contenido.
+ * @param {object} item - Objeto de guía con title, theory, pastExams, practiceTopics, etc.
+ */
 function openGuideDetail(item) {
-    // Populate detail screen
     DOM.guideDetail.title.textContent = item.title;
-    DOM.guideDetail.content.innerHTML = item.details;
-    
-    // Switch screen
+
+    // 1. YouTube Video
+    const videoContainer = document.getElementById('guide-video-container');
+    if (item.youtubeId) {
+        videoContainer.innerHTML = `<iframe src="https://www.youtube.com/embed/${item.youtubeId}" allowfullscreen></iframe>`;
+        videoContainer.classList.remove('hidden');
+    } else {
+        videoContainer.innerHTML = '';
+        videoContainer.classList.add('hidden');
+    }
+
+    // 2. Theory Tab (Inject Graphics + Theory)
+    const theoryContent = document.getElementById('guide-theory');
+    let theoryHtml = item.theory || '';
+    if (item.graphics) {
+        theoryHtml = `<div class="graphic-box">${item.graphics}</div>` + theoryHtml;
+    }
+    theoryContent.innerHTML = theoryHtml || `
+        <div class="empty-state">
+            <div class="icon">📚</div>
+            <p>La teoría de este tema está siendo preparada. Pronto estará disponible.</p>
+        </div>`;
+
+    // 3. Past Exams Tab — with cleaner card design
+    const examsContent = document.getElementById('guide-exams');
+    examsContent.innerHTML = '';
+    if (item.pastExams && item.pastExams.length > 0) {
+        item.pastExams.forEach((exam, idx) => {
+            const card = document.createElement('div');
+            card.className = 'guide-example-box';
+            // Build options list
+            let optionsHtml = '';
+            if (exam.opciones && exam.opciones.length > 0) {
+                optionsHtml = `<ul style="margin:0.5rem 0 0.5rem 1.2rem;">
+                    ${exam.opciones.map((o, i) => `<li><strong>${String.fromCharCode(65+i)})</strong> ${o}</li>`).join('')}
+                </ul>`;
+            }
+            card.innerHTML = `
+                <div class="example-title">Examen Pasado #${idx + 1}</div>
+                <p><strong>Pregunta:</strong> ${exam.pregunta}</p>
+                ${optionsHtml}
+                <p style="margin-top: 0.5rem;"><strong>✅ Respuesta Correcta:</strong> ${exam.correcta}</p>
+                <p><strong>📖 Resolución:</strong> ${exam.resolucion}</p>
+            `;
+            examsContent.appendChild(card);
+        });
+    } else {
+        examsContent.innerHTML = `
+            <div class="empty-state">
+                <div class="icon">🏛️</div>
+                <p>Aún no hemos cargado preguntas de exámenes pasados para este tema. ¡Pronto!</p>
+            </div>`;
+    }
+
+    // 4. References
+    const refContainer = document.getElementById('guide-references');
+    const refList = document.getElementById('guide-references-list');
+    if (item.references && item.references.length > 0) {
+        refList.innerHTML = '';
+        item.references.forEach(ref => {
+            refList.innerHTML += `<li><span>📄 ${ref.guideName}</span><span>${ref.pages}</span></li>`;
+        });
+        refContainer.classList.remove('hidden');
+    } else {
+        refContainer.classList.add('hidden');
+    }
+
+    // 5. Setup Internal Tabs — reclone nodes to remove stale listeners
+    const tabs = document.querySelectorAll('.g-tab-btn');
+    tabs.forEach(tab => {
+        const newTab = tab.cloneNode(true);
+        tab.parentNode.replaceChild(newTab, tab);
+        newTab.addEventListener('click', (e) => {
+            document.querySelectorAll('.g-tab-btn').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.g-tab-content').forEach(c => c.classList.add('hidden'));
+            e.target.classList.add('active');
+            const target = document.getElementById(e.target.dataset.target);
+            if (target) {
+                target.classList.remove('hidden');
+                // Re-trigger animation by forcing reflow
+                target.style.animation = 'none';
+                void target.offsetHeight;
+                target.style.animation = '';
+            }
+        });
+    });
+
+    // Reset to Theory tab
+    document.querySelectorAll('.g-tab-btn')[0].click();
+
+    // 6. Setup Practice logic — with integrated DOM feedback (no alert())
+    const startPracticeBtn = document.getElementById('start-guide-practice-btn');
+    const practiceArea = document.getElementById('guide-practice-area');
+
+    const newPracticeBtn = startPracticeBtn.cloneNode(true);
+    startPracticeBtn.parentNode.replaceChild(newPracticeBtn, startPracticeBtn);
+    practiceArea.classList.add('hidden');
+    practiceArea.innerHTML = '';
+
+    newPracticeBtn.addEventListener('click', () => {
+        const topics = item.practiceTopics || [];
+        const relatedQuestions = state.allQuestions.filter(q => topics.includes(q.tema));
+
+        if (relatedQuestions.length === 0) {
+            practiceArea.innerHTML = `
+                <div class="empty-state">
+                    <div class="icon">🔍</div>
+                    <p>No hay preguntas cargadas para este tema en el banco actual.</p>
+                </div>`;
+            practiceArea.classList.remove('hidden');
+            return;
+        }
+
+        // Pick a random question
+        const q = relatedQuestions[Math.floor(Math.random() * relatedQuestions.length)];
+
+        // Build the question card using CSS classes (no inline styles)
+        const card = document.createElement('div');
+        card.className = 'practice-question-card';
+
+        if (q.contexto) {
+            const ctx = document.createElement('div');
+            ctx.className = 'practice-context';
+            ctx.textContent = q.contexto;
+            card.appendChild(ctx);
+        }
+
+        const questionTitle = document.createElement('h4');
+        questionTitle.style.marginTop = '0';
+        questionTitle.textContent = q.pregunta;
+        card.appendChild(questionTitle);
+
+        const optionsDiv = document.createElement('div');
+        optionsDiv.className = 'practice-options';
+
+        // Feedback panel (initially hidden)
+        const feedbackDiv = document.createElement('div');
+        feedbackDiv.className = 'practice-feedback';
+
+        let answered = false;
+        q.opciones.forEach(opt => {
+            const btn = document.createElement('button');
+            btn.className = 'btn-secondary';
+            btn.textContent = opt;
+            btn.onclick = () => {
+                if (answered) return; // Prevent re-answering
+                answered = true;
+
+                // Visual mark on the clicked button
+                if (opt === q.correcta) {
+                    btn.style.background = '#10B981';
+                    btn.style.color = '#fff';
+                    btn.style.borderColor = '#10B981';
+                    feedbackDiv.className = 'practice-feedback success';
+                    feedbackDiv.innerHTML = `
+                        <h4>✅ ¡Correcto!</h4>
+                        <p>${q.justificacion || 'Excelente respuesta.'}</p>
+                        <button class="btn-secondary" id="next-practice-btn" style="margin-top:0.5rem;">Siguiente pregunta →</button>
+                    `;
+                } else {
+                    btn.style.background = '#EF4444';
+                    btn.style.color = '#fff';
+                    btn.style.borderColor = '#EF4444';
+                    // Highlight the correct answer
+                    optionsDiv.querySelectorAll('button').forEach(b => {
+                        if (b.textContent === q.correcta) {
+                            b.style.background = '#10B981';
+                            b.style.color = '#fff';
+                            b.style.borderColor = '#10B981';
+                        }
+                    });
+                    feedbackDiv.className = 'practice-feedback error';
+                    feedbackDiv.innerHTML = `
+                        <h4>❌ Incorrecto</h4>
+                        <p><strong>Respuesta correcta:</strong> ${q.correcta}</p>
+                        <p>${q.justificacion || ''}</p>
+                        <button class="btn-secondary" id="next-practice-btn" style="margin-top:0.5rem;">Intentar con otra pregunta →</button>
+                    `;
+                }
+
+                card.appendChild(feedbackDiv);
+
+                // "Next question" button reloads a new question
+                document.getElementById('next-practice-btn').onclick = () => {
+                    newPracticeBtn.click();
+                };
+            };
+            optionsDiv.appendChild(btn);
+        });
+
+        card.appendChild(optionsDiv);
+        practiceArea.innerHTML = '';
+        practiceArea.appendChild(card);
+        practiceArea.classList.remove('hidden');
+    });
+
     switchScreen('guideDetail');
 }
 
