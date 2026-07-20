@@ -1,0 +1,18 @@
+{
+  "name": "simulacion-simadi",
+  "version": "1.0.0",
+  "description": "Simulador TDI - Test Diagnóstico Integral para preparación universitaria UCV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Proyecto estático, no requiere build step\""
+  },
+  "keywords": ["simulador", "tdi", "ucv", "examen", "preparatoria"],
+  "author": "Santiago Rivero",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^6.0.227"
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Diagnóstico Integral (TDI) - Simulador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- MediaPipe: Utilidades de cámara para capturar y procesar frames del video -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <!-- MediaPipe: Face Mesh - Modelo de malla facial con 468 landmarks en 3D -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="app-header">
+        <div class="logo">TDI Simulador</div>
+        <nav class="app-nav">
+            <button id="nav-simulador" class="nav-btn active">Simulador</button>
+            <button id="nav-guias" class="nav-btn">Guías de Estudio</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Pantalla de Guías de Estudio -->
+        <section id="guides-screen" class="screen">
+            <div class="card">
+                <h1>Guías de Estudio</h1>
+                <p class="subtitle">Material de apoyo basado en los temas evaluados en la prueba diagnóstica.</p>
+                
+                <div class="guides-tabs">
+                    <button class="tab-btn active" data-tab="verbal">Razonamiento Verbal</button>
+                    <button class="tab-btn" data-tab="logico">Razonamiento Lógico Numérico</button>
+                    <button class="tab-btn" data-tab="ciencia">Ciencia y Tecnología</button>
+                </div>
+
+                <div class="tab-content" id="guides-content">
+                    <!-- Contenido inyectado por JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Pantalla de Configuración -->
+        <section id="setup-screen" class="screen active">
+            <div class="card">
+                <h1>Configurar Simulación</h1>
+                <p class="subtitle">Parametriza tu examen para comenzar la prueba en condiciones reales.</p>
+                
+                <form id="setup-form">
+                    <div class="form-group">
+                        <label for="area">Área de Estudio (Aislamiento Estricto)</label>
+                        <select id="area" required>
+                            <option value="" disabled selected>Selecciona un área...</option>
+                            <option value="Razonamiento Lógico Numérico">Razonamiento Lógico Numérico</option>
+                            <option value="Razonamiento Verbal">Razonamiento Verbal</option>
+                            <option value="Ciencia y Tecnología">Ciencia y Tecnología</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group hidden" id="topics-container">
+                        <label>Temas a Evaluar</label>
+                        <small>Activa o desactiva los temas que deseas incluir en el simulador.</small>
+                        <div class="topics-grid" id="topics-grid">
+                            <!-- Checkboxes inyectados por JS -->
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="camera-preview-container">
+                        <label>Verificación de Cámara (Obligatorio)</label>
+                        <video id="setup-camera-preview" autoplay playsinline muted style="width: 100%; max-width: 320px; border-radius: 8px; background: #000; display: block; margin: 0 auto;"></video>
+                        <small id="setup-camera-status">Por favor concede permiso para usar tu cámara...</small>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="num-questions">Cantidad de Preguntas</label>
+                            <input type="number" id="num-questions" min="1" max="20" value="5" required>
+                            <small id="available-questions-hint"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time-limit">Límite de Tiempo (Minutos)</label>
+                            <input type="number" id="time-limit" min="1" max="120" value="10" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="start-btn">Iniciar Prueba</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Pantalla del Examen -->
+        <section id="exam-screen" class="screen">
+            <div class="exam-header">
+                <div class="exam-info">
+                    <span id="current-area-badge" class="badge"></span>
+                    <span id="question-counter">Pregunta 1 de 5</span>
+                </div>
+                <div class="timer-container">
+                    <span class="timer-icon">⏳</span>
+                    <span id="timer">10:00</span>
+                </div>
+            </div>
+
+            <div class="card question-card">
+                <h2 id="question-text">Cargando pregunta...</h2>
+                <div class="options-container" id="options-container">
+                    <!-- Opciones inyectadas por JS -->
+                </div>
+            </div>
+
+            <div class="exam-footer">
+                <button id="prev-btn" class="btn-secondary" disabled>Anterior</button>
+                <button id="next-btn" class="btn-primary">Siguiente</button>
+                <button id="submit-btn" class="btn-danger hidden">Entregar Examen</button>
+            </div>
+        </section>
+
+        <!-- Pantalla de Reporte Final -->
+        <section id="report-screen" class="screen">
+            <div class="card">
+                <h1>Reporte de Evaluación</h1>
+                <div class="score-container">
+                    <div class="score-circle">
+                        <span id="score-text">0/0</span>
+                    </div>
+                    <div class="score-details">
+                        <p><strong>Calificación:</strong> <span id="score-percentage">0%</span></p>
+                        <p><strong>Tiempo utilizado:</strong> <span id="time-used">00:00</span></p>
+                    </div>
+                </div>
+
+                <div class="feedback-section">
+                    <h3>Desglose de Respuestas</h3>
+                    <div id="feedback-list" class="feedback-list">
+                        <!-- Items de feedback inyectados por JS -->
+                    </div>
+                </div>
+
+                <div class="feedback-section hidden" id="proctoring-report-section">
+                    <h3>Reporte Anti-Trampas (Proctoring)</h3>
+                    <div id="proctoring-list" class="feedback-list">
+                        <!-- Items de proctoring inyectados por JS -->
+                    </div>
+                </div>
+
+
+                <div class="report-actions">
+                    <button id="restart-btn" class="btn-primary">Volver al Inicio</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN DE MONITOREO ANTI-TRAMPAS (PROCTORING) -->
+    <!-- ============================================ -->
+
+    <!-- Contenedor principal del widget de vigilancia -->
+    <div id="proctor-widget" class="proctor-widget hidden">
+        <!-- Indicador de estado del monitoreo (punto verde/rojo) -->
+        <div class="proctor-status" id="proctor-status">
+            <span class="status-dot" id="status-dot"></span>
+            <span class="status-text" id="status-text">Monitoreando</span>
+        </div>
+        <!-- Miniatura de la cámara en tiempo real -->
+        <div class="proctor-video-wrapper">
+            <video id="proctor-video" autoplay playsinline muted></video>
+            <!-- Canvas invisible used for evidence capture -->
+            <canvas id="proctor-canvas" class="hidden"></canvas>
+        </div>
+        <!-- Contador de infracciones detectadas -->
+        <div class="proctor-violations" id="proctor-violations">
+            Infracciones: <strong id="violation-count">0</strong>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- MODAL DE ALERTA POR INFRACCIÓN -->
+    <!-- ============================================ -->
+    <div id="cheat-alert-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-icon">⚠️</div>
+            <h2 class="modal-title">Atención</h2>
+            <p class="modal-message">
+                Se ha detectado un movimiento no permitido. Por favor, mantén la vista al frente.
+            </p>
+            <p class="modal-submessage" id="modal-reason"></p>
+            <button id="modal-dismiss-btn" class="btn-primary modal-btn">Entendido</button>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- MODAL DE ERROR DE CÁMARA -->
+    <!-- ============================================ -->
+    <div id="camera-error-modal" class="modal-overlay hidden">
+        <div class="modal-content modal-error">
+            <div class="modal-icon">📷</div>
+            <h2 class="modal-title">Cámara No Disponible</h2>
+            <p class="modal-message" id="camera-error-message">
+                No se pudo acceder a la cámara. El monitoreo anti-trampas es obligatorio para continuar.
+            </p>
+            <button id="camera-error-btn" class="btn-primary modal-btn">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
