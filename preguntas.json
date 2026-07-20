@@ -2794,7 +2794,7 @@
       "1",
       "2",
       "3",
-      "3"
+      "22"
     ],
     "correcta": "1",
     "justificacion": "**Concepto Fundamental:** Sucesión Numérica y Término General. En una PA: an = a1 + (n-1)r.\n\n**Resolución:** Tenemos el sistema:\n1) a_3 = a1 + 2r = 5\n2) a_11 = a1 + 10r = 21\nRestando la ecuación 1 de la 2: 8r = 16 => r = 2. Sustituyendo r en la ec. 1: a1 = 5 - 2(2) = 1."
@@ -4530,7 +4530,7 @@
       "1",
       "2",
       "0",
-      "2"
+      "22"
     ],
     "correcta": "1",
     "justificacion": "Sabemos que $256 = 4^4$. Igualando exponentes: $x + 3 = 4 \\implies x = 1$."
@@ -4921,8 +4921,8 @@
     "opciones": [
       "1",
       "2",
-      "2",
-      "0"
+      "0",
+      "22"
     ],
     "correcta": "1",
     "justificacion": "Factorizamos $5^x$: $5^x (5^{2} - 1) = 120 \\implies 5^x (24) = 120 \\implies 5^x = 5 \\implies x = 1$."
@@ -5173,8 +5173,8 @@
     "opciones": [
       "2",
       "3",
-      "3",
-      "0"
+      "0",
+      "1"
     ],
     "correcta": "2",
     "justificacion": "Igualamos el exponente a 0: $2x^2 - 7x + 5 = 0$. Calculamos el discriminante $\\Delta = (-7)^2 - 4(2)(5)$. Si $\\Delta > 0$, hay 2 soluciones; si $\\Delta = 0$, hay 1; si $\\Delta < 0$, hay 0. En este caso hay 2 soluciones."
@@ -5201,8 +5201,8 @@
     "opciones": [
       "0",
       "3",
-      "0",
-      "1"
+      "1",
+      "21"
     ],
     "correcta": "0",
     "justificacion": "Igualamos el exponente a 0: $1x^2 - 2x + 5 = 0$. Calculamos el discriminante $\\Delta = (-2)^2 - 4(1)(5)$. Si $\\Delta > 0$, hay 2 soluciones; si $\\Delta = 0$, hay 1; si $\\Delta < 0$, hay 0. En este caso hay 0 soluciones."
@@ -5215,8 +5215,8 @@
     "opciones": [
       "0",
       "3",
-      "3",
-      "2"
+      "2",
+      "1"
     ],
     "correcta": "2",
     "justificacion": "Igualamos el exponente a 0: $3x^2 - 5x + -2 = 0$. Calculamos el discriminante $\\Delta = (-5)^2 - 4(3)(-2)$. Si $\\Delta > 0$, hay 2 soluciones; si $\\Delta = 0$, hay 1; si $\\Delta < 0$, hay 0. En este caso hay 2 soluciones."
@@ -5650,7 +5650,7 @@
       "10",
       "8",
       "16",
-      "16"
+      "4"
     ],
     "correcta": "8",
     "justificacion": "Es una proporción inversa. Total de días-hombre = 8 * 12 = 96. Para hacerlo en 6 días, se necesitan 96 / 6 = 16 trabajadores. Como ya tiene 8, debe contratar 8 adicionales."
@@ -6209,8 +6209,8 @@
     "opciones": [
       "David",
       "Ana",
-      "David",
-      "Elena"
+      "Elena",
+      "Ninguna de las anteriores"
     ],
     "correcta": "David",
     "justificacion": "El orden inverso es: 1ro Elena, 2do David, 3ro Carlos, 4to Ana. La segunda es David."
@@ -6224,7 +6224,7 @@
       "Lucía",
       "Carmen",
       "Miguel",
-      "Carmen"
+      "Ninguna de las anteriores"
     ],
     "correcta": "Carmen",
     "justificacion": "El orden inverso es: 1ro Carmen, 2do Lucía, 3ro Jorge, 4to Miguel. La primera es Carmen."
@@ -6236,9 +6236,9 @@
     "pregunta": "En una reunión se presentaron 4 propuestas. La primera fue de Pedro, la segunda de Juan, la tercera de Diego y la cuarta de Mateo. Según las normas, deben votarse en orden inverso a su presentación. ¿Cuál es la cuarta propuesta que se votará?",
     "opciones": [
       "Pedro",
-      "Pedro",
       "Diego",
-      "Mateo"
+      "Mateo",
+      "Ninguna de las anteriores"
     ],
     "correcta": "Pedro",
     "justificacion": "El orden inverso es: 1ro Mateo, 2do Diego, 3ro Juan, 4to Pedro. La cuarta es Pedro."
@@ -6363,8 +6363,8 @@
     "opciones": [
       "Domingo",
       "Viernes",
-      "Viernes",
-      "Lunes"
+      "Lunes",
+      "Ninguna de las anteriores"
     ],
     "correcta": "Viernes",
     "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si ayer de mañana fue Jueves, deducimos hoy y luego sumamos 1 para llegar a Viernes."
@@ -6392,7 +6392,7 @@
       "Viernes",
       "Lunes",
       "Domingo",
-      "Viernes"
+      "Ninguna de las anteriores"
     ],
     "correcta": "Viernes",
     "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si pasado mañana fue Sábado, deducimos hoy y luego sumamos 1 para llegar a Viernes."
@@ -6406,7 +6406,7 @@
       "Lunes",
       "Viernes",
       "Domingo",
-      "Viernes"
+      "Ninguna de las anteriores"
     ],
     "correcta": "Viernes",
     "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si ayer fue Miércoles, deducimos hoy y luego sumamos 1 para llegar a Viernes."
@@ -6742,7 +6742,7 @@
       "2",
       "4",
       "1",
-      "4"
+      "23"
     ],
     "correcta": "2",
     "justificacion": "Planteamos: $(5x \\cdot x^2) / 10 = x^2 \\implies (5/10)x^3 = x^2 \\implies x = 10/5 = 2$."
@@ -7036,7 +7036,7 @@
       "3645",
       "10935",
       "32805",
-      "32805"
+      "5468"
     ],
     "correcta": "10935",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 8: a_8 = 5 * 3^(8-1) = 5 * 2187 = 10935."
@@ -7049,8 +7049,8 @@
     "opciones": [
       "64",
       "128",
-      "128",
-      "32"
+      "32",
+      "85"
     ],
     "correcta": "64",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 2^(6-1) = 2 * 32 = 64."
@@ -7064,7 +7064,7 @@
       "160",
       "640",
       "320",
-      "640"
+      "341"
     ],
     "correcta": "320",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 7: a_7 = 5 * 2^(7-1) = 5 * 64 = 320."
@@ -7078,7 +7078,7 @@
       "3072",
       "768",
       "12288",
-      "12288"
+      "1536"
     ],
     "correcta": "3072",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 4^(6-1) = 3 * 1024 = 3072."
@@ -7091,8 +7091,8 @@
     "opciones": [
       "6561",
       "59049",
-      "59049",
-      "19683"
+      "19683",
+      "9842"
     ],
     "correcta": "19683",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
@@ -7104,9 +7104,9 @@
     "pregunta": "Hallar el 6° término de la sucesión geométrica: 2, 8, 32, 128...",
     "opciones": [
       "8192",
-      "8192",
       "512",
-      "2048"
+      "2048",
+      "1024"
     ],
     "correcta": "2048",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 4^(6-1) = 2 * 1024 = 2048."
@@ -7120,7 +7120,7 @@
       "13122",
       "1458",
       "4374",
-      "13122"
+      "2187"
     ],
     "correcta": "4374",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 8: a_8 = 2 * 3^(8-1) = 2 * 2187 = 4374."
@@ -7132,9 +7132,9 @@
     "pregunta": "Hallar el 9° término de la sucesión geométrica: 5, 15, 45, 135...",
     "opciones": [
       "98415",
-      "98415",
       "32805",
-      "10935"
+      "10935",
+      "16403"
     ],
     "correcta": "32805",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 9: a_9 = 5 * 3^(9-1) = 5 * 6561 = 32805."
@@ -7148,7 +7148,7 @@
       "78732",
       "8748",
       "26244",
-      "78732"
+      "13122"
     ],
     "correcta": "26244",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 3^(9-1) = 4 * 6561 = 26244."
@@ -7162,7 +7162,7 @@
       "160",
       "80",
       "320",
-      "320"
+      "181"
     ],
     "correcta": "160",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 2^(6-1) = 5 * 32 = 160."
@@ -7175,8 +7175,8 @@
     "opciones": [
       "1048576",
       "262144",
-      "1048576",
-      "65536"
+      "65536",
+      "131072"
     ],
     "correcta": "262144",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 4^(9-1) = 4 * 65536 = 262144."
@@ -7189,8 +7189,8 @@
     "opciones": [
       "13122",
       "1458",
-      "13122",
-      "4374"
+      "4374",
+      "2187"
     ],
     "correcta": "4374",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 8: a_8 = 2 * 3^(8-1) = 2 * 2187 = 4374."
@@ -7202,9 +7202,9 @@
     "pregunta": "Hallar el 7° término de la sucesión geométrica: 5, 20, 80, 320...",
     "opciones": [
       "81920",
-      "81920",
       "5120",
-      "20480"
+      "20480",
+      "10240"
     ],
     "correcta": "20480",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 5. Aplicando la fórmula para n = 7: a_7 = 5 * 4^(7-1) = 5 * 4096 = 20480."
@@ -7218,7 +7218,7 @@
       "32805",
       "10935",
       "98415",
-      "98415"
+      "16403"
     ],
     "correcta": "32805",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 9: a_9 = 5 * 3^(9-1) = 5 * 6561 = 32805."
@@ -7231,8 +7231,8 @@
     "opciones": [
       "96",
       "192",
-      "192",
-      "48"
+      "48",
+      "117"
     ],
     "correcta": "96",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 2^(6-1) = 3 * 32 = 96."
@@ -7245,8 +7245,8 @@
     "opciones": [
       "256",
       "128",
-      "256",
-      "64"
+      "64",
+      "149"
     ],
     "correcta": "128",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 2^(7-1) = 2 * 64 = 128."
@@ -7260,7 +7260,7 @@
       "192",
       "96",
       "384",
-      "384"
+      "213"
     ],
     "correcta": "192",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 7: a_7 = 3 * 2^(7-1) = 3 * 64 = 192."
@@ -7274,7 +7274,7 @@
       "4374",
       "486",
       "1458",
-      "4374"
+      "729"
     ],
     "correcta": "1458",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 3^(7-1) = 2 * 729 = 1458."
@@ -7288,7 +7288,7 @@
       "243",
       "2187",
       "729",
-      "2187"
+      "365"
     ],
     "correcta": "729",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 3^(6-1) = 3 * 243 = 729."
@@ -7302,7 +7302,7 @@
       "1215",
       "3645",
       "405",
-      "3645"
+      "608"
     ],
     "correcta": "1215",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 3^(6-1) = 5 * 243 = 1215."
@@ -7819,8 +7819,8 @@
     "opciones": [
       "16384",
       "65536",
-      "65536",
-      "4096"
+      "4096",
+      "8192"
     ],
     "correcta": "16384",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 4^(7-1) = 4 * 4096 = 16384."
@@ -7833,8 +7833,8 @@
     "opciones": [
       "64",
       "128",
-      "128",
-      "32"
+      "32",
+      "85"
     ],
     "correcta": "64",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 2^(6-1) = 2 * 32 = 64."
@@ -7848,7 +7848,7 @@
       "12288",
       "3072",
       "768",
-      "12288"
+      "1536"
     ],
     "correcta": "3072",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 4^(6-1) = 3 * 1024 = 3072."
@@ -7861,8 +7861,8 @@
     "opciones": [
       "972",
       "8748",
-      "8748",
-      "2916"
+      "2916",
+      "1458"
     ],
     "correcta": "2916",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 3^(7-1) = 4 * 729 = 2916."
@@ -7874,9 +7874,9 @@
     "pregunta": "Hallar el 8° término de la sucesión geométrica: 3, 12, 48, 192...",
     "opciones": [
       "196608",
-      "196608",
       "12288",
-      "49152"
+      "49152",
+      "24576"
     ],
     "correcta": "49152",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 8: a_8 = 3 * 4^(8-1) = 3 * 16384 = 49152."
@@ -7890,7 +7890,7 @@
       "48",
       "192",
       "96",
-      "192"
+      "117"
     ],
     "correcta": "96",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 2^(6-1) = 3 * 32 = 96."
@@ -7903,8 +7903,8 @@
     "opciones": [
       "256",
       "512",
-      "512",
-      "128"
+      "128",
+      "277"
     ],
     "correcta": "256",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 2^(7-1) = 4 * 64 = 256."
@@ -7916,9 +7916,9 @@
     "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 9, 27, 81...",
     "opciones": [
       "59049",
-      "59049",
       "19683",
-      "6561"
+      "6561",
+      "9842"
     ],
     "correcta": "19683",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
@@ -7932,7 +7932,7 @@
       "2187",
       "6561",
       "729",
-      "6561"
+      "1094"
     ],
     "correcta": "2187",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 7: a_7 = 3 * 3^(7-1) = 3 * 729 = 2187."
@@ -7946,7 +7946,7 @@
       "6561",
       "59049",
       "19683",
-      "59049"
+      "9842"
     ],
     "correcta": "19683",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
@@ -7959,8 +7959,8 @@
     "opciones": [
       "13122",
       "39366",
-      "39366",
-      "4374"
+      "4374",
+      "6561"
     ],
     "correcta": "13122",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 3^(9-1) = 2 * 6561 = 13122."
@@ -7973,8 +7973,8 @@
     "opciones": [
       "786432",
       "196608",
-      "786432",
-      "49152"
+      "49152",
+      "98304"
     ],
     "correcta": "196608",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 4^(9-1) = 3 * 65536 = 196608."
@@ -7988,7 +7988,7 @@
       "160",
       "320",
       "80",
-      "320"
+      "181"
     ],
     "correcta": "160",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 2^(6-1) = 5 * 32 = 160."
@@ -8002,7 +8002,7 @@
       "32768",
       "524288",
       "131072",
-      "524288"
+      "65536"
     ],
     "correcta": "131072",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 4^(9-1) = 2 * 65536 = 131072."
@@ -8015,8 +8015,8 @@
     "opciones": [
       "59049",
       "6561",
-      "59049",
-      "19683"
+      "19683",
+      "9842"
     ],
     "correcta": "19683",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
@@ -8030,7 +8030,7 @@
       "196608",
       "12288",
       "49152",
-      "196608"
+      "24576"
     ],
     "correcta": "49152",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 8: a_8 = 3 * 4^(8-1) = 3 * 16384 = 49152."
@@ -8044,7 +8044,7 @@
       "4374",
       "1458",
       "486",
-      "4374"
+      "729"
     ],
     "correcta": "1458",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 3^(7-1) = 2 * 729 = 1458."
@@ -8058,7 +8058,7 @@
       "2048",
       "512",
       "1024",
-      "2048"
+      "1045"
     ],
     "correcta": "1024",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 2^(9-1) = 4 * 256 = 1024."
@@ -8072,7 +8072,7 @@
       "39366",
       "4374",
       "13122",
-      "39366"
+      "6561"
     ],
     "correcta": "13122",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 3^(9-1) = 2 * 6561 = 13122."
@@ -8084,9 +8084,9 @@
     "pregunta": "Hallar el 7° término de la sucesión geométrica: 4, 12, 36, 108...",
     "opciones": [
       "8748",
-      "8748",
       "972",
-      "2916"
+      "2916",
+      "1458"
     ],
     "correcta": "2916",
     "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 3^(7-1) = 4 * 729 = 2916."
@@ -8398,5 +8398,1713 @@
     ],
     "correcta": "fugaz",
     "justificacion": "**Concepto Fundamental:** Sinonimia exacta.\n\n**Resolución:** Efímero significa de corta duración, pasajero. Su sinónimo directo es 'fugaz'. Las opciones 'duradero' y 'sólido' se acercan a sus antónimos."
+  },
+  {
+    "id": 1300,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "TELESCOPIO es a OBSERVAR lo que MICROSCOPIO es a:",
+    "opciones": [
+      "amplificar",
+      "reducir",
+      "comprimir",
+      "iluminar"
+    ],
+    "correcta": "amplificar",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Ambos son instrumentos ópticos. El telescopio observa lo lejano, el microscopio amplifica lo diminuto. La relación es instrumento-función."
+  },
+  {
+    "id": 1301,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "BRÚJULA es a ORIENTACIÓN lo que TERMÓMETRO es a:",
+    "opciones": [
+      "temperatura",
+      "presión",
+      "humedad",
+      "altitud"
+    ],
+    "correcta": "temperatura",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Una brújula mide/indica la orientación. Un termómetro mide/indica la temperatura. La relación es instrumento-magnitud medida."
+  },
+  {
+    "id": 1302,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "MARTILLO es a CLAVO lo que DESTORNILLADOR es a:",
+    "opciones": [
+      "tornillo",
+      "madera",
+      "tuerca",
+      "llave"
+    ],
+    "correcta": "tornillo",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El martillo actúa sobre el clavo para fijarlo. El destornillador actúa sobre el tornillo. Relación: herramienta-objeto sobre el que actúa."
+  },
+  {
+    "id": 1303,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "BISTURÍ es a CIRUJANO lo que CINCEL es a:",
+    "opciones": [
+      "escultor",
+      "pintor",
+      "arquitecto",
+      "carpintero"
+    ],
+    "correcta": "escultor",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El bisturí es la herramienta principal del cirujano. El cincel es la herramienta principal del escultor. Relación: herramienta-profesional."
+  },
+  {
+    "id": 1304,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "LUPA es a AUMENTAR lo que FILTRO es a:",
+    "opciones": [
+      "depurar",
+      "mezclar",
+      "evaporar",
+      "condensar"
+    ],
+    "correcta": "depurar",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** La lupa tiene como función aumentar la imagen. El filtro tiene como función depurar (separar impurezas). Relación: instrumento-función."
+  },
+  {
+    "id": 1305,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "PÁGINA es a LIBRO lo que ESCENA es a:",
+    "opciones": [
+      "obra teatral",
+      "película",
+      "novela",
+      "capítulo"
+    ],
+    "correcta": "obra teatral",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** La página es la unidad compositiva de un libro. La escena es la unidad compositiva de una obra teatral."
+  },
+  {
+    "id": 1306,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "CÉLULA es a TEJIDO lo que LADRILLO es a:",
+    "opciones": [
+      "pared",
+      "cemento",
+      "casa",
+      "arena"
+    ],
+    "correcta": "pared",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** La célula es la unidad que conforma un tejido biológico. El ladrillo es la unidad que conforma una pared. Relación: unidad-conjunto."
+  },
+  {
+    "id": 1307,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "VERSO es a POEMA lo que NOTA es a:",
+    "opciones": [
+      "melodía",
+      "instrumento",
+      "partitura",
+      "cantante"
+    ],
+    "correcta": "melodía",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Un verso es la unidad mínima de un poema. Una nota musical es la unidad mínima de una melodía."
+  },
+  {
+    "id": 1308,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "CAPÍTULO es a NOVELA lo que ACTO es a:",
+    "opciones": [
+      "drama",
+      "escena",
+      "prólogo",
+      "ensayo"
+    ],
+    "correcta": "drama",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El capítulo es una división estructural de la novela. El acto es una división estructural del drama/obra teatral."
+  },
+  {
+    "id": 1309,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "DEDO es a MANO lo que PÉTALO es a:",
+    "opciones": [
+      "flor",
+      "tallo",
+      "raíz",
+      "hoja"
+    ],
+    "correcta": "flor",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El dedo es una parte constitutiva de la mano. El pétalo es una parte constitutiva de la flor. Relación parte-todo."
+  },
+  {
+    "id": 1310,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "FUEGO es a CENIZA lo que LLUVIA es a:",
+    "opciones": [
+      "inundación",
+      "sequía",
+      "evaporación",
+      "nube"
+    ],
+    "correcta": "inundación",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El fuego produce ceniza como consecuencia directa. La lluvia excesiva produce inundación. Relación: causa-efecto."
+  },
+  {
+    "id": 1311,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "ESTUDIO es a APRENDIZAJE lo que EJERCICIO es a:",
+    "opciones": [
+      "salud",
+      "cansancio",
+      "deporte",
+      "gimnasio"
+    ],
+    "correcta": "salud",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El estudio produce aprendizaje como resultado positivo. El ejercicio produce salud como resultado positivo. Relación: actividad-beneficio."
+  },
+  {
+    "id": 1312,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "VIRUS es a ENFERMEDAD lo que TERREMOTO es a:",
+    "opciones": [
+      "destrucción",
+      "construcción",
+      "prevención",
+      "reconstrucción"
+    ],
+    "correcta": "destrucción",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Un virus causa enfermedad. Un terremoto causa destrucción. Relación: agente-consecuencia negativa."
+  },
+  {
+    "id": 1313,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "ABUNDANCIA es a ESCASEZ lo que OPULENCIA es a:",
+    "opciones": [
+      "miseria",
+      "riqueza",
+      "exceso",
+      "lujo"
+    ],
+    "correcta": "miseria",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Abundancia y escasez son antónimos. Opulencia (riqueza extrema) es antónimo de miseria (pobreza extrema)."
+  },
+  {
+    "id": 1314,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "ELOGIAR es a CENSURAR lo que PREMIAR es a:",
+    "opciones": [
+      "castigar",
+      "recompensar",
+      "aplaudir",
+      "celebrar"
+    ],
+    "correcta": "castigar",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Elogiar es el opuesto de censurar. Premiar es el opuesto de castigar. Relación de antonimia."
+  },
+  {
+    "id": 1315,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "OSADO es a AUDAZ lo que SAGAZ es a:",
+    "opciones": [
+      "astuto",
+      "tímido",
+      "torpe",
+      "lento"
+    ],
+    "correcta": "astuto",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Osado y audaz son sinónimos (valiente, atrevido). Sagaz y astuto son sinónimos (inteligente, perspicaz)."
+  },
+  {
+    "id": 1316,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "EFÍMERO es a FUGAZ lo que PERENNE es a:",
+    "opciones": [
+      "perpetuo",
+      "breve",
+      "transitorio",
+      "temporal"
+    ],
+    "correcta": "perpetuo",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Efímero y fugaz son sinónimos (de corta duración). Perenne y perpetuo son sinónimos (duradero, eterno)."
+  },
+  {
+    "id": 1317,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "LÚGUBRE es a TÉTRICO lo que JOVIAL es a:",
+    "opciones": [
+      "alegre",
+      "triste",
+      "sombrío",
+      "oscuro"
+    ],
+    "correcta": "alegre",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** Lúgubre y tétrico son sinónimos (oscuro, sombrío). Jovial y alegre son sinónimos (de buen humor)."
+  },
+  {
+    "id": 1318,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "ENOJO es a FURIA lo que TRISTEZA es a:",
+    "opciones": [
+      "desolación",
+      "melancolía",
+      "alegría",
+      "nostalgia"
+    ],
+    "correcta": "desolación",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** La furia es el grado máximo del enojo. La desolación es el grado máximo de la tristeza. Relación de intensidad."
+  },
+  {
+    "id": 1319,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "BRISA es a HURACÁN lo que LLOVIZNA es a:",
+    "opciones": [
+      "diluvio",
+      "granizo",
+      "nevada",
+      "sequía"
+    ],
+    "correcta": "diluvio",
+    "justificacion": "**Concepto Fundamental:** Analogías verbales. Se busca identificar la relación lógica entre el par base y replicarla.\n\n**Resolución:** El huracán es la forma extrema/intensa de la brisa (viento). El diluvio es la forma extrema de la llovizna (lluvia)."
+  },
+  {
+    "id": 1320,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'El orador hizo un discurso LACÓNICO pero contundente.'",
+    "opciones": [
+      "extenso",
+      "breve",
+      "aburrido",
+      "complejo"
+    ],
+    "correcta": "breve",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Lacónico = breve, conciso, de pocas palabras."
+  },
+  {
+    "id": 1321,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'Su actitud PUSILÁNIME le impidió defender su punto de vista.'",
+    "opciones": [
+      "cobarde",
+      "valiente",
+      "agresiva",
+      "diplomática"
+    ],
+    "correcta": "cobarde",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Pusilánime = falto de ánimo, cobarde, que no tiene valor para enfrentar situaciones."
+  },
+  {
+    "id": 1322,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'El juez mostró una actitud ECUÁNIME durante todo el proceso.'",
+    "opciones": [
+      "imparcial",
+      "severa",
+      "indulgente",
+      "distante"
+    ],
+    "correcta": "imparcial",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Ecuánime = que juzga con igualdad e imparcialidad, sin favorecer a ninguna parte."
+  },
+  {
+    "id": 1323,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'La DILAPIDACIÓN de los fondos públicos es un delito grave.'",
+    "opciones": [
+      "derroche",
+      "inversión",
+      "administración",
+      "recaudación"
+    ],
+    "correcta": "derroche",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Dilapidación = gastar sin control, derrochar bienes o dinero de forma irresponsable."
+  },
+  {
+    "id": 1324,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'El investigador es reconocido por su espíritu ACUCIOSO.'",
+    "opciones": [
+      "diligente",
+      "perezoso",
+      "distraído",
+      "ambicioso"
+    ],
+    "correcta": "diligente",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Acucioso = que actúa con diligencia, esmero y cuidado en lo que hace."
+  },
+  {
+    "id": 1325,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'El paisaje tenía una belleza BUCÓLICA que inspiraba tranquilidad.'",
+    "opciones": [
+      "campestre",
+      "urbana",
+      "artificial",
+      "monótona"
+    ],
+    "correcta": "campestre",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Bucólico = relativo al campo, a la vida pastoril, a la naturaleza rural."
+  },
+  {
+    "id": 1326,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'Las instrucciones del manual eran bastante CRÍPTICAS.'",
+    "opciones": [
+      "enigmáticas",
+      "claras",
+      "detalladas",
+      "simples"
+    ],
+    "correcta": "enigmáticas",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Críptico = oscuro, enigmático, difícil de entender o interpretar."
+  },
+  {
+    "id": 1327,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'Su comentario MORDAZ ofendió a varios de los presentes.'",
+    "opciones": [
+      "sarcástico",
+      "amable",
+      "ingenuo",
+      "constructivo"
+    ],
+    "correcta": "sarcástico",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Mordaz = agresivo, cáustico, que critica con ironía hiriente. Sarcástico es su sinónimo más cercano."
+  },
+  {
+    "id": 1328,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'El PROLÍFICO autor publicó más de 50 novelas en su carrera.'",
+    "opciones": [
+      "productivo",
+      "mediocre",
+      "selectivo",
+      "exigente"
+    ],
+    "correcta": "productivo",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Prolífico = que produce abundantemente, muy productivo en su campo."
+  },
+  {
+    "id": 1329,
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'La empresa adoptó medidas DRACONIANAS para reducir costos.'",
+    "opciones": [
+      "severas",
+      "flexibles",
+      "graduales",
+      "consensuadas"
+    ],
+    "correcta": "severas",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual. Se debe identificar la palabra con significado equivalente en el contexto dado.\n\n**Resolución:** Draconiano = excesivamente severo, riguroso, implacable (referencia a Dracón, legislador griego)."
+  },
+  {
+    "id": 1330,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'Estudió con dedicación; _________, aprobó con excelencia.'",
+    "opciones": [
+      "por lo tanto",
+      "sin embargo",
+      "aunque",
+      "a pesar de ello"
+    ],
+    "correcta": "por lo tanto",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación causa-consecuencia positiva. 'Por lo tanto' introduce la consecuencia lógica del estudio."
+  },
+  {
+    "id": 1331,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'El equipo jugó bien; _________, perdió el partido.'",
+    "opciones": [
+      "no obstante",
+      "por lo tanto",
+      "además",
+      "en efecto"
+    ],
+    "correcta": "no obstante",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de oposición/contraste. Se esperaba que ganara pero perdió. 'No obstante' marca esa contrariedad."
+  },
+  {
+    "id": 1332,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'La contaminación aumenta cada año; _________, las enfermedades respiratorias se multiplican.'",
+    "opciones": [
+      "en consecuencia",
+      "sin embargo",
+      "aunque",
+      "por el contrario"
+    ],
+    "correcta": "en consecuencia",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de causa-efecto directo. La contaminación causa más enfermedades. 'En consecuencia' articula esa causalidad."
+  },
+  {
+    "id": 1333,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'Es un estudiante brillante; _________, es muy responsable con sus deberes.'",
+    "opciones": [
+      "además",
+      "pero",
+      "sin embargo",
+      "en cambio"
+    ],
+    "correcta": "además",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación aditiva. Se suman dos cualidades positivas. 'Además' agrega una segunda virtud a la primera."
+  },
+  {
+    "id": 1334,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'No vino a clase; _________, presentó el trabajo a tiempo.'",
+    "opciones": [
+      "no obstante",
+      "por lo tanto",
+      "igualmente",
+      "asimismo"
+    ],
+    "correcta": "no obstante",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación adversativa. Se esperaría que al no venir no presentara el trabajo, pero lo hizo. 'No obstante' marca esa concesión."
+  },
+  {
+    "id": 1335,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'La vacuna es segura; _________, algunas personas presentan efectos secundarios leves.'",
+    "opciones": [
+      "sin embargo",
+      "por lo tanto",
+      "además",
+      "en efecto"
+    ],
+    "correcta": "sin embargo",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de contraste parcial. La afirmación general es positiva pero hay una salvedad. 'Sin embargo' introduce esa excepción."
+  },
+  {
+    "id": 1336,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'La tecnología avanza rápidamente; _________, debemos actualizarnos constantemente.'",
+    "opciones": [
+      "por consiguiente",
+      "aunque",
+      "al contrario",
+      "sino"
+    ],
+    "correcta": "por consiguiente",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de causa-consecuencia. El avance tecnológico exige actualización. 'Por consiguiente' introduce la conclusión lógica."
+  },
+  {
+    "id": 1337,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'El proyecto fracasó, _________ por falta de recursos _________ por mala planificación.'",
+    "opciones": [
+      "no solo / sino también",
+      "tanto / como",
+      "ni / ni",
+      "ya sea / o"
+    ],
+    "correcta": "no solo / sino también",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Estructura correlativa que introduce dos causas que se suman. 'No solo... sino también' agrega la segunda causa a la primera."
+  },
+  {
+    "id": 1338,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'Llovió intensamente durante la noche; _________, el evento se realizó según lo previsto.'",
+    "opciones": [
+      "a pesar de ello",
+      "por eso",
+      "en efecto",
+      "igualmente"
+    ],
+    "correcta": "a pesar de ello",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación concesiva. La lluvia no impidió el evento. 'A pesar de ello' marca que el obstáculo fue superado."
+  },
+  {
+    "id": 1339,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'No aprobó el examen; _________, deberá presentar una prueba de recuperación.'",
+    "opciones": [
+      "en consecuencia",
+      "sin embargo",
+      "además",
+      "aunque"
+    ],
+    "correcta": "en consecuencia",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de causa-efecto. No aprobar tiene como consecuencia la recuperación. 'En consecuencia' introduce esa derivación lógica."
+  },
+  {
+    "id": 1340,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'El candidato tiene experiencia; _________, carece de habilidades de comunicación.'",
+    "opciones": [
+      "no obstante",
+      "además",
+      "por lo tanto",
+      "en efecto"
+    ],
+    "correcta": "no obstante",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación adversativa. La experiencia es positiva pero se contrasta con una carencia. 'No obstante' introduce esa contraposición."
+  },
+  {
+    "id": 1341,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'El informe fue entregado a tiempo; _________, contenía varios errores de cálculo.'",
+    "opciones": [
+      "sin embargo",
+      "por consiguiente",
+      "asimismo",
+      "en resumen"
+    ],
+    "correcta": "sin embargo",
+    "justificacion": "**Concepto Fundamental:** Conectores textuales. Palabras o frases que articulan la relación lógica entre dos ideas.\n\n**Resolución:** Relación de contraste. La puntualidad es positiva, los errores son negativos. 'Sin embargo' marca esa oposición."
+  },
+  {
+    "id": 1342,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'El médico _________ una serie de exámenes que _________ la presencia de la enfermedad.'",
+    "opciones": [
+      "ordenó / confirmaron",
+      "negó / descartaron",
+      "pidió / negaron",
+      "evitó / detectaron"
+    ],
+    "correcta": "ordenó / confirmaron",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** La coherencia semántica indica que un médico 'ordena' exámenes y estos 'confirman' un diagnóstico."
+  },
+  {
+    "id": 1343,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'La _________ del discurso fue tal que logró _________ al público más escéptico.'",
+    "opciones": [
+      "elocuencia / persuadir",
+      "brevedad / aburrir",
+      "extensión / confundir",
+      "monotonía / irritar"
+    ],
+    "correcta": "elocuencia / persuadir",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** La elocuencia (hablar bien) tiene como efecto persuadir. Es la única combinación que expresa un logro positivo coherente."
+  },
+  {
+    "id": 1344,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'El _________ de aquel territorio fue consecuencia directa de la _________ de recursos naturales.'",
+    "opciones": [
+      "desarrollo / abundancia",
+      "deterioro / escasez",
+      "desarrollo / carencia",
+      "auge / ausencia"
+    ],
+    "correcta": "desarrollo / abundancia",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** El desarrollo de un territorio se vincula causalmente con la abundancia de recursos, no con su escasez."
+  },
+  {
+    "id": 1345,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'Su _________ al trabajo fue determinante para obtener el _________ en la empresa.'",
+    "opciones": [
+      "dedicación / ascenso",
+      "apatía / reconocimiento",
+      "indiferencia / premio",
+      "rechazo / aumento"
+    ],
+    "correcta": "dedicación / ascenso",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** Solo la dedicación (esfuerzo positivo) conduce coherentemente a un resultado positivo como el ascenso."
+  },
+  {
+    "id": 1346,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'La investigación _________ que las causas del fenómeno eran más _________ de lo que se suponía.'",
+    "opciones": [
+      "reveló / complejas",
+      "negó / simples",
+      "ocultó / evidentes",
+      "confirmó / sencillas"
+    ],
+    "correcta": "reveló / complejas",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** La investigación 'revela' hallazgos, y la oración implica que se descubrió mayor complejidad de la esperada."
+  },
+  {
+    "id": 1347,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'Las normas de _________ buscan garantizar el _________ de los ciudadanos en espacios públicos.'",
+    "opciones": [
+      "convivencia / bienestar",
+      "competencia / conflicto",
+      "aislamiento / peligro",
+      "exclusión / malestar"
+    ],
+    "correcta": "convivencia / bienestar",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** Las normas de convivencia existen para garantizar el bienestar colectivo. Es la única relación lógica y positiva."
+  },
+  {
+    "id": 1348,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'La _________ es una virtud que se fortalece cuando el individuo enfrenta _________ con entereza.'",
+    "opciones": [
+      "paciencia / adversidades",
+      "soberbia / éxitos",
+      "cobardía / retos",
+      "pereza / tareas"
+    ],
+    "correcta": "paciencia / adversidades",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** La paciencia como virtud se fortalece ante las adversidades. El resto de combinaciones son semánticamente incoherentes."
+  },
+  {
+    "id": 1349,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'El _________ de la población hacia las zonas urbanas generó una _________ en los servicios públicos.'",
+    "opciones": [
+      "desplazamiento / sobrecarga",
+      "retorno / mejora",
+      "aislamiento / reducción",
+      "rechazo / eficiencia"
+    ],
+    "correcta": "desplazamiento / sobrecarga",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** El desplazamiento (migración) masivo hacia ciudades causa sobrecarga en servicios. Es la relación causa-efecto coherente."
+  },
+  {
+    "id": 1350,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'Un líder _________ es capaz de _________ a su equipo incluso en los momentos más difíciles.'",
+    "opciones": [
+      "carismático / motivar",
+      "autoritario / ignorar",
+      "inseguro / dirigir",
+      "pasivo / inspirar"
+    ],
+    "correcta": "carismático / motivar",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** El carisma como cualidad de liderazgo tiene como efecto natural la capacidad de motivar, incluso en adversidad."
+  },
+  {
+    "id": 1351,
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "pregunta": "Complete: 'La _________ de los hechos demostró que el acusado era _________ de los cargos imputados.'",
+    "opciones": [
+      "evidencia / inocente",
+      "ausencia / culpable",
+      "ocultación / responsable",
+      "fabricación / víctima"
+    ],
+    "correcta": "evidencia / inocente",
+    "justificacion": "**Concepto Fundamental:** Completación de oraciones. Se busca la combinación que mantiene coherencia semántica y gramatical.\n\n**Resolución:** La evidencia (pruebas) demostró inocencia. Es la relación jurídica y lógica más coherente de las opciones."
+  },
+  {
+    "id": 1352,
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "pregunta": "Ordene las oraciones para formar un párrafo coherente:\n(1) Por eso, la educación es la herramienta más poderosa para transformar sociedades.\n(2) La ignorancia genera pobreza, violencia y atraso.\n(3) Un pueblo educado es capaz de tomar mejores decisiones colectivas.\n(4) La historia demuestra que las naciones que invierten en educación prosperan.",
+    "opciones": [
+      "(2)(4)(3)(1)",
+      "(4)(2)(1)(3)",
+      "(1)(2)(3)(4)",
+      "(3)(1)(4)(2)"
+    ],
+    "correcta": "(2)(4)(3)(1)",
+    "justificacion": "**Concepto Fundamental:** Ordenación lógica. Se organizan oraciones siguiendo un hilo argumentativo coherente (cronológico, causa-efecto, general-particular).\n\n**Resolución:** Se plantea el problema (2: ignorancia), se sustenta con evidencia (4: la historia), se presenta el beneficio (3: mejores decisiones), se concluye con la tesis (1: por eso, la educación transforma)."
+  },
+  {
+    "id": 1353,
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "pregunta": "Ordene las oraciones para formar un párrafo coherente:\n(1) Finalmente, el agua limpia llega a los hogares.\n(2) El proceso comienza con la captación del agua de ríos o embalses.\n(3) Luego, el agua pasa por filtros que eliminan impurezas.\n(4) Después, se le añaden sustancias químicas para su potabilización.",
+    "opciones": [
+      "(2)(3)(4)(1)",
+      "(1)(2)(3)(4)",
+      "(2)(4)(3)(1)",
+      "(3)(2)(4)(1)"
+    ],
+    "correcta": "(2)(3)(4)(1)",
+    "justificacion": "**Concepto Fundamental:** Ordenación lógica. Se organizan oraciones siguiendo un hilo argumentativo coherente (cronológico, causa-efecto, general-particular).\n\n**Resolución:** Orden cronológico del proceso de potabilización: captación (2), filtrado (3), potabilización química (4), distribución final (1)."
+  },
+  {
+    "id": 1354,
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "pregunta": "Ordene las oraciones para formar un párrafo coherente:\n(1) Sin embargo, requiere práctica constante y disciplina.\n(2) El ajedrez es considerado uno de los deportes mentales más completos.\n(3) Desarrolla habilidades de concentración, planificación y toma de decisiones.\n(4) Quienes lo practican regularmente muestran mejoras significativas en su rendimiento académico.",
+    "opciones": [
+      "(2)(3)(1)(4)",
+      "(3)(2)(4)(1)",
+      "(1)(2)(3)(4)",
+      "(4)(3)(2)(1)"
+    ],
+    "correcta": "(2)(3)(1)(4)",
+    "justificacion": "**Concepto Fundamental:** Ordenación lógica. Se organizan oraciones siguiendo un hilo argumentativo coherente (cronológico, causa-efecto, general-particular).\n\n**Resolución:** Se presenta el tema (2: ajedrez como deporte mental), se enumeran beneficios (3), se introduce un contraste (1: requiere práctica), se concluye con evidencia (4: mejoras académicas)."
+  },
+  {
+    "id": 1355,
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "pregunta": "Ordene las oraciones para formar un párrafo coherente:\n(1) Este fenómeno se conoce como efecto invernadero.\n(2) Ciertos gases en la atmósfera atrapan el calor del sol.\n(3) Como resultado, la temperatura global ha aumentado en las últimas décadas.\n(4) La actividad industrial humana ha incrementado la concentración de estos gases.",
+    "opciones": [
+      "(2)(1)(4)(3)",
+      "(4)(2)(1)(3)",
+      "(1)(2)(3)(4)",
+      "(3)(4)(2)(1)"
+    ],
+    "correcta": "(2)(1)(4)(3)",
+    "justificacion": "**Concepto Fundamental:** Ordenación lógica. Se organizan oraciones siguiendo un hilo argumentativo coherente (cronológico, causa-efecto, general-particular).\n\n**Resolución:** Se explica el fenómeno natural (2: gases atrapan calor), se le da nombre (1: efecto invernadero), se presenta la causa humana (4: actividad industrial), se concluye con la consecuencia (3: aumento de temperatura)."
+  },
+  {
+    "id": 1356,
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "pregunta": "Ordene las oraciones para formar un párrafo coherente:\n(1) Esto convierte al español en un idioma de gran relevancia mundial.\n(2) Es la lengua oficial de más de 20 países.\n(3) El español es el segundo idioma más hablado del mundo por número de hablantes nativos.\n(4) Además, millones de personas lo estudian como segunda lengua.",
+    "opciones": [
+      "(3)(2)(4)(1)",
+      "(2)(3)(1)(4)",
+      "(1)(3)(2)(4)",
+      "(4)(2)(3)(1)"
+    ],
+    "correcta": "(3)(2)(4)(1)",
+    "justificacion": "**Concepto Fundamental:** Ordenación lógica. Se organizan oraciones siguiendo un hilo argumentativo coherente (cronológico, causa-efecto, general-particular).\n\n**Resolución:** Se presenta el dato principal (3: segundo más hablado), se amplía (2: 20+ países), se agrega información (4: segunda lengua), se concluye (1: relevancia mundial)."
+  },
+  {
+    "id": 1357,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Qué oración utiliza correctamente la coma vocativa?",
+    "opciones": [
+      "María, ven aquí inmediatamente.",
+      "María ven, aquí inmediatamente.",
+      "María ven aquí, inmediatamente.",
+      "María ven aquí inmediatamente."
+    ],
+    "correcta": "María, ven aquí inmediatamente.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** La coma vocativa se coloca después del nombre cuando se interpela directamente a alguien al inicio de la oración."
+  },
+  {
+    "id": 1358,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿En cuál oración se usa correctamente el punto y coma?",
+    "opciones": [
+      "Unos preferían el cine; otros, el teatro.",
+      "Unos preferían el cine, otros; el teatro.",
+      "Unos preferían; el cine, otros el teatro.",
+      "Unos; preferían el cine, otros el teatro."
+    ],
+    "correcta": "Unos preferían el cine; otros, el teatro.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** El punto y coma separa oraciones yuxtapuestas con un verbo elidido (otros [preferían] el teatro). La coma tras 'otros' indica esa elipsis verbal."
+  },
+  {
+    "id": 1359,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿En cuál oración los dos puntos están correctamente utilizados?",
+    "opciones": [
+      "El profesor dijo: 'Estudien para el examen'.",
+      "El profesor: dijo 'Estudien para el examen'.",
+      "El profesor dijo 'Estudien: para el examen'.",
+      "El: profesor dijo 'Estudien para el examen'."
+    ],
+    "correcta": "El profesor dijo: 'Estudien para el examen'.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** Los dos puntos se usan para introducir citas textuales directas después de un verbo de decir."
+  },
+  {
+    "id": 1360,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Cuál oración contiene un error de puntuación?",
+    "opciones": [
+      "Simón Bolívar, el Libertador nació en Caracas.",
+      "Simón Bolívar, el Libertador, nació en Caracas.",
+      "El Libertador Simón Bolívar nació en Caracas.",
+      "Bolívar nació en Caracas, Venezuela."
+    ],
+    "correcta": "Simón Bolívar, el Libertador nació en Caracas.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** El inciso explicativo 'el Libertador' debe ir entre dos comas (apertura y cierre). Falta la segunda coma antes de 'nació'."
+  },
+  {
+    "id": 1361,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿En cuál caso se usa correctamente la coma enumerativa?",
+    "opciones": [
+      "Compró frutas, verduras, carnes y lácteos.",
+      "Compró frutas verduras, carnes, y lácteos.",
+      "Compró, frutas verduras carnes y lácteos.",
+      "Compró frutas, verduras carnes y, lácteos."
+    ],
+    "correcta": "Compró frutas, verduras, carnes y lácteos.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** La coma enumerativa separa elementos de una lista. El último elemento se une con 'y' sin coma previa (en español estándar)."
+  },
+  {
+    "id": 1362,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "Seleccione la oración con uso correcto de los paréntesis:",
+    "opciones": [
+      "Gustavo Díaz Solís (1920-2012) fue un destacado profesor.",
+      "Gustavo Díaz Solís 1920-2012 fue un (destacado) profesor.",
+      "Gustavo (Díaz Solís) 1920-2012 fue un destacado profesor.",
+      "(Gustavo) Díaz Solís 1920-2012 fue un destacado profesor."
+    ],
+    "correcta": "Gustavo Díaz Solís (1920-2012) fue un destacado profesor.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** Los paréntesis se usan para incluir datos aclaratorios como fechas de nacimiento y muerte, sin alterar la oración principal."
+  },
+  {
+    "id": 1363,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Cuál oración necesita dos puntos?",
+    "opciones": [
+      "Le dije lo siguiente no vuelvas a llegar tarde.",
+      "Le dije lo siguiente, no vuelvas a llegar tarde.",
+      "Le dije lo siguiente; no vuelvas a llegar tarde.",
+      "Le dije: lo siguiente no vuelvas a llegar tarde."
+    ],
+    "correcta": "Le dije lo siguiente no vuelvas a llegar tarde.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** La frase introductoria 'lo siguiente' anuncia una enumeración o cita, lo cual exige dos puntos: 'Le dije lo siguiente: no vuelvas a llegar tarde'."
+  },
+  {
+    "id": 1364,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Qué signo de puntuación falta en: 'Queridos estudiantes les doy la bienvenida al curso'?",
+    "opciones": [
+      "Coma después de 'estudiantes'",
+      "Punto y coma después de 'estudiantes'",
+      "Dos puntos después de 'Queridos'",
+      "Punto después de 'curso'"
+    ],
+    "correcta": "Coma después de 'estudiantes'",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** Se trata de un vocativo ('Queridos estudiantes'). El vocativo debe separarse del resto de la oración con una coma."
+  },
+  {
+    "id": 1365,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿En cuál caso la coma explicativa es necesaria?",
+    "opciones": [
+      "Mi hermano que vive en Madrid vendrá mañana.",
+      "Mi hermano vive en Madrid.",
+      "Mi hermano vendrá mañana desde Madrid.",
+      "Mi único hermano vendrá desde Madrid."
+    ],
+    "correcta": "Mi hermano que vive en Madrid vendrá mañana.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** Si el hablante tiene un solo hermano, 'que vive en Madrid' es una aposición explicativa y debe ir entre comas: 'Mi hermano, que vive en Madrid, vendrá mañana'."
+  },
+  {
+    "id": 1366,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Cuál oración usa correctamente los dos puntos en una enumeración?",
+    "opciones": [
+      "Necesito tres cosas: paciencia, dedicación y constancia.",
+      "Necesito: tres cosas paciencia, dedicación y constancia.",
+      "Necesito tres cosas paciencia: dedicación y constancia.",
+      "Necesito tres: cosas paciencia dedicación y constancia."
+    ],
+    "correcta": "Necesito tres cosas: paciencia, dedicación y constancia.",
+    "justificacion": "**Concepto Fundamental:** Normativa de signos de puntuación del español.\n\n**Resolución:** Los dos puntos se usan para introducir una enumeración previamente anunciada ('tres cosas:')."
+  },
+  {
+    "id": 1367,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "En un triángulo rectángulo, los catetos miden 3 cm y 4 cm. ¿Cuánto mide la hipotenusa?",
+    "opciones": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "correcta": "5 cm",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Teorema de Pitágoras: h² = 3² + 4² = 9 + 16 = 25. h = √25 = 5 cm."
+  },
+  {
+    "id": 1368,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuál es el área de un triángulo con base 10 cm y altura 6 cm?",
+    "opciones": [
+      "30 cm²",
+      "60 cm²",
+      "16 cm²",
+      "36 cm²"
+    ],
+    "correcta": "30 cm²",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** A = (b × h) / 2 = (10 × 6) / 2 = 60 / 2 = 30 cm²."
+  },
+  {
+    "id": 1369,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuánto suman los ángulos internos de un hexágono regular?",
+    "opciones": [
+      "720°",
+      "540°",
+      "360°",
+      "900°"
+    ],
+    "correcta": "720°",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Suma de ángulos internos = (n - 2) × 180° = (6 - 2) × 180° = 4 × 180° = 720°."
+  },
+  {
+    "id": 1370,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuál es el perímetro de un cuadrado cuya diagonal mide 10√2 cm?",
+    "opciones": [
+      "40 cm",
+      "20 cm",
+      "30 cm",
+      "50 cm"
+    ],
+    "correcta": "40 cm",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** En un cuadrado, diagonal = lado × √2. Entonces lado = 10√2 / √2 = 10 cm. Perímetro = 4 × 10 = 40 cm."
+  },
+  {
+    "id": 1371,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "Un círculo tiene un radio de 7 cm. ¿Cuál es su área? (Use π ≈ 22/7)",
+    "opciones": [
+      "154 cm²",
+      "44 cm²",
+      "308 cm²",
+      "77 cm²"
+    ],
+    "correcta": "154 cm²",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** A = π × r² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 cm²."
+  },
+  {
+    "id": 1372,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "En un triángulo rectángulo, si la hipotenusa mide 13 cm y un cateto mide 5 cm, ¿cuánto mide el otro cateto?",
+    "opciones": [
+      "12 cm",
+      "8 cm",
+      "10 cm",
+      "11 cm"
+    ],
+    "correcta": "12 cm",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Por Pitágoras: cateto² = 13² - 5² = 169 - 25 = 144. Cateto = √144 = 12 cm."
+  },
+  {
+    "id": 1373,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuál es el volumen de un cubo de arista 5 cm?",
+    "opciones": [
+      "125 cm³",
+      "25 cm³",
+      "75 cm³",
+      "150 cm³"
+    ],
+    "correcta": "125 cm³",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** V = arista³ = 5³ = 125 cm³."
+  },
+  {
+    "id": 1374,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "Dos ángulos son suplementarios. Si uno mide 65°, ¿cuánto mide el otro?",
+    "opciones": [
+      "115°",
+      "125°",
+      "25°",
+      "295°"
+    ],
+    "correcta": "115°",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Ángulos suplementarios suman 180°. El otro = 180° - 65° = 115°."
+  },
+  {
+    "id": 1375,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuál es el área lateral de un cilindro con radio 3 cm y altura 10 cm? (Use π ≈ 3.14)",
+    "opciones": [
+      "188.4 cm²",
+      "94.2 cm²",
+      "282.6 cm²",
+      "56.52 cm²"
+    ],
+    "correcta": "188.4 cm²",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Área lateral = 2πrh = 2 × 3.14 × 3 × 10 = 188.4 cm²."
+  },
+  {
+    "id": 1376,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "Un trapecio tiene bases de 8 cm y 12 cm, y una altura de 5 cm. ¿Cuál es su área?",
+    "opciones": [
+      "50 cm²",
+      "40 cm²",
+      "60 cm²",
+      "100 cm²"
+    ],
+    "correcta": "50 cm²",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** A = [(B + b) × h] / 2 = [(12 + 8) × 5] / 2 = (20 × 5) / 2 = 100 / 2 = 50 cm²."
+  },
+  {
+    "id": 1377,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuántas diagonales tiene un octógono?",
+    "opciones": [
+      "20",
+      "16",
+      "24",
+      "28"
+    ],
+    "correcta": "20",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Número de diagonales = n(n-3)/2 = 8(8-3)/2 = 8×5/2 = 40/2 = 20."
+  },
+  {
+    "id": 1378,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "Si el apotema de un hexágono regular es 5√3 cm, ¿cuánto mide su lado?",
+    "opciones": [
+      "10 cm",
+      "5 cm",
+      "15 cm",
+      "20 cm"
+    ],
+    "correcta": "10 cm",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** En un hexágono regular, apotema = (lado × √3) / 2. Entonces 5√3 = (lado × √3) / 2 → lado = 10 cm."
+  },
+  {
+    "id": 1379,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "¿Cuál es el volumen de una esfera de radio 6 cm? (Use π ≈ 3.14)",
+    "opciones": [
+      "904.32 cm³",
+      "452.16 cm³",
+      "113.04 cm³",
+      "1808.64 cm³"
+    ],
+    "correcta": "904.32 cm³",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** V = (4/3)πr³ = (4/3) × 3.14 × 216 = (4/3) × 678.24 = 904.32 cm³."
+  },
+  {
+    "id": 1380,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "Un ángulo central de una circunferencia mide 60°. Si el radio es 12 cm, ¿cuál es la longitud del arco? (Use π ≈ 3.14)",
+    "opciones": [
+      "12.56 cm",
+      "6.28 cm",
+      "25.12 cm",
+      "37.68 cm"
+    ],
+    "correcta": "12.56 cm",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Longitud de arco = (θ/360°) × 2πr = (60/360) × 2 × 3.14 × 12 = (1/6) × 75.36 = 12.56 cm."
+  },
+  {
+    "id": 1381,
+    "area": "Ciencia y Tecnología",
+    "tema": "Geometría",
+    "pregunta": "En un rombo, las diagonales miden 16 cm y 12 cm. ¿Cuál es su área?",
+    "opciones": [
+      "96 cm²",
+      "192 cm²",
+      "48 cm²",
+      "144 cm²"
+    ],
+    "correcta": "96 cm²",
+    "justificacion": "**Concepto Fundamental:** Geometría euclidiana.\n\n**Resolución:** Área del rombo = (D × d) / 2 = (16 × 12) / 2 = 192 / 2 = 96 cm²."
+  },
+  {
+    "id": 1382,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuál es la unidad del Sistema Internacional (SI) para medir la fuerza?",
+    "opciones": [
+      "Newton (N)",
+      "Julio (J)",
+      "Pascal (Pa)",
+      "Watt (W)"
+    ],
+    "correcta": "Newton (N)",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** El Newton (N) es la unidad de fuerza en el SI. 1 N = 1 kg·m/s². El Julio mide energía, el Pascal mide presión y el Watt mide potencia."
+  },
+  {
+    "id": 1383,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un automóvil viaja a velocidad constante de 72 km/h. ¿Cuántos metros recorre en 5 segundos?",
+    "opciones": [
+      "100 m",
+      "72 m",
+      "360 m",
+      "50 m"
+    ],
+    "correcta": "100 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** 72 km/h = 72 × (1000/3600) = 20 m/s. Distancia = v × t = 20 × 5 = 100 m."
+  },
+  {
+    "id": 1384,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un cuerpo parte del reposo y acelera uniformemente a 3 m/s². ¿Qué velocidad alcanza a los 8 segundos?",
+    "opciones": [
+      "24 m/s",
+      "11 m/s",
+      "16 m/s",
+      "32 m/s"
+    ],
+    "correcta": "24 m/s",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** v = v₀ + at = 0 + 3 × 8 = 24 m/s. Parte del reposo (v₀ = 0)."
+  },
+  {
+    "id": 1385,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuál es la aceleración de un cuerpo cuya velocidad cambia de 10 m/s a 30 m/s en 4 segundos?",
+    "opciones": [
+      "5 m/s²",
+      "10 m/s²",
+      "7.5 m/s²",
+      "20 m/s²"
+    ],
+    "correcta": "5 m/s²",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** a = (vf - vi) / t = (30 - 10) / 4 = 20 / 4 = 5 m/s²."
+  },
+  {
+    "id": 1386,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un objeto en caída libre (g = 10 m/s²) tarda 3 segundos en llegar al suelo. ¿Desde qué altura fue soltado?",
+    "opciones": [
+      "45 m",
+      "30 m",
+      "90 m",
+      "15 m"
+    ],
+    "correcta": "45 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** h = ½gt² = ½ × 10 × 9 = 45 m. Se usa la fórmula de caída libre con velocidad inicial cero."
+  },
+  {
+    "id": 1387,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Si un auto frena uniformemente desde 20 m/s hasta detenerse en 5 segundos, ¿qué distancia recorre durante el frenado?",
+    "opciones": [
+      "50 m",
+      "100 m",
+      "25 m",
+      "40 m"
+    ],
+    "correcta": "50 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** d = (vi + vf)/2 × t = (20 + 0)/2 × 5 = 10 × 5 = 50 m."
+  },
+  {
+    "id": 1388,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuántos kilogramos son 5000 gramos?",
+    "opciones": [
+      "5 kg",
+      "50 kg",
+      "0.5 kg",
+      "500 kg"
+    ],
+    "correcta": "5 kg",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** 1 kg = 1000 g. Por lo tanto, 5000 g ÷ 1000 = 5 kg."
+  },
+  {
+    "id": 1389,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un proyectil es lanzado verticalmente hacia arriba con una velocidad de 40 m/s (g = 10 m/s²). ¿Cuál es la altura máxima que alcanza?",
+    "opciones": [
+      "80 m",
+      "40 m",
+      "160 m",
+      "200 m"
+    ],
+    "correcta": "80 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** En la altura máxima vf = 0. Usando vf² = vi² - 2gh: 0 = 1600 - 20h → h = 80 m."
+  },
+  {
+    "id": 1390,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuál de las siguientes NO es una magnitud vectorial?",
+    "opciones": [
+      "Temperatura",
+      "Velocidad",
+      "Aceleración",
+      "Fuerza"
+    ],
+    "correcta": "Temperatura",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** La temperatura es una magnitud escalar (solo tiene magnitud). Velocidad, aceleración y fuerza son vectoriales (tienen magnitud y dirección)."
+  },
+  {
+    "id": 1391,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un tren recorre 300 km en 2 horas y 30 minutos. ¿Cuál es su velocidad media?",
+    "opciones": [
+      "120 km/h",
+      "150 km/h",
+      "100 km/h",
+      "130 km/h"
+    ],
+    "correcta": "120 km/h",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** v = d/t = 300 km / 2.5 h = 120 km/h. Nota: 2h 30min = 2.5 horas."
+  },
+  {
+    "id": 1392,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un cuerpo se mueve con MRU a 15 m/s. ¿Qué distancia recorre en 1 minuto?",
+    "opciones": [
+      "900 m",
+      "150 m",
+      "15 m",
+      "1500 m"
+    ],
+    "correcta": "900 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** d = v × t = 15 m/s × 60 s = 900 m. En MRU, la velocidad es constante."
+  },
+  {
+    "id": 1393,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuál es la unidad de medida de la presión en el Sistema Internacional?",
+    "opciones": [
+      "Pascal (Pa)",
+      "Newton (N)",
+      "Bar",
+      "Atmósfera (atm)"
+    ],
+    "correcta": "Pascal (Pa)",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** El Pascal (Pa) = N/m² es la unidad del SI para presión. Bar y atm son unidades no-SI pero comunes."
+  },
+  {
+    "id": 1394,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Dos cuerpos parten del mismo punto en sentidos opuestos a 20 m/s y 30 m/s respectivamente. ¿A qué distancia estarán después de 10 segundos?",
+    "opciones": [
+      "500 m",
+      "200 m",
+      "300 m",
+      "100 m"
+    ],
+    "correcta": "500 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** Van en sentidos opuestos, así que la velocidad relativa de separación es 20 + 30 = 50 m/s. Distancia = 50 × 10 = 500 m."
+  },
+  {
+    "id": 1395,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "Un cuerpo acelera de 0 a 60 m/s en 10 segundos. ¿Cuánta distancia recorre en ese tiempo?",
+    "opciones": [
+      "300 m",
+      "600 m",
+      "150 m",
+      "60 m"
+    ],
+    "correcta": "300 m",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** d = vi×t + ½at². Con a = 60/10 = 6 m/s²: d = 0 + ½ × 6 × 100 = 300 m. O bien: d = (0+60)/2 × 10 = 300 m."
+  },
+  {
+    "id": 1396,
+    "area": "Ciencia y Tecnología",
+    "tema": "Física (Cinemática y Unidades)",
+    "pregunta": "¿Cuántos centímetros hay en 2.5 metros?",
+    "opciones": [
+      "250 cm",
+      "25 cm",
+      "2500 cm",
+      "0.025 cm"
+    ],
+    "correcta": "250 cm",
+    "justificacion": "**Concepto Fundamental:** Física fundamental.\n\n**Resolución:** 1 m = 100 cm. Por lo tanto, 2.5 m × 100 = 250 cm."
+  },
+  {
+    "id": 1397,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: x² - 7x + 12 = 0",
+    "opciones": [
+      "x = 3 y x = 4",
+      "x = -3 y x = -4",
+      "x = 2 y x = 6",
+      "x = -2 y x = 6"
+    ],
+    "correcta": "x = 3 y x = 4",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Factorizando: (x-3)(x-4) = 0. Las raíces son x = 3 y x = 4 (suman 7, multiplican 12)."
+  },
+  {
+    "id": 1398,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: x² + 2x - 15 = 0",
+    "opciones": [
+      "x = 3 y x = -5",
+      "x = -3 y x = 5",
+      "x = 5 y x = 3",
+      "x = -5 y x = -3"
+    ],
+    "correcta": "x = 3 y x = -5",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Factorizando: (x+5)(x-3) = 0. Las raíces son x = -5 y x = 3 (suman -2 con signo cambiado a +2, multiplican -15)."
+  },
+  {
+    "id": 1399,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: 2x² - 8x = 0",
+    "opciones": [
+      "x = 0 y x = 4",
+      "x = 0 y x = -4",
+      "x = 2 y x = 4",
+      "x = -2 y x = 4"
+    ],
+    "correcta": "x = 0 y x = 4",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Factor común: 2x(x - 4) = 0. Las raíces son x = 0 y x = 4."
+  },
+  {
+    "id": 1400,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: x² - 9 = 0",
+    "opciones": [
+      "x = 3 y x = -3",
+      "x = 9 y x = -9",
+      "x = 3 y x = 3",
+      "x = 81 y x = -81"
+    ],
+    "correcta": "x = 3 y x = -3",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Diferencia de cuadrados: (x+3)(x-3) = 0. Las raíces son x = 3 y x = -3."
+  },
+  {
+    "id": 1401,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "¿Cuál es la suma de las raíces de x² - 10x + 21 = 0?",
+    "opciones": [
+      "10",
+      "21",
+      "7",
+      "-10"
+    ],
+    "correcta": "10",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Por las relaciones de Vieta: la suma de las raíces = -(-10)/1 = 10. (Las raíces son 3 y 7)."
+  },
+  {
+    "id": 1402,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "¿Cuál es el producto de las raíces de x² + 5x + 6 = 0?",
+    "opciones": [
+      "6",
+      "-6",
+      "5",
+      "-5"
+    ],
+    "correcta": "6",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Por Vieta: el producto de las raíces = c/a = 6/1 = 6. (Las raíces son -2 y -3, y (-2)×(-3) = 6)."
+  },
+  {
+    "id": 1403,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: x² - 16x + 64 = 0",
+    "opciones": [
+      "x = 8 (raíz doble)",
+      "x = 4 y x = 16",
+      "x = -8 (raíz doble)",
+      "x = 32 y x = 2"
+    ],
+    "correcta": "x = 8 (raíz doble)",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Es un trinomio cuadrado perfecto: (x-8)² = 0. La raíz doble es x = 8."
+  },
+  {
+    "id": 1404,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "¿Cuántas raíces reales tiene la ecuación x² + 4x + 5 = 0?",
+    "opciones": [
+      "Ninguna (discriminante negativo)",
+      "Dos raíces distintas",
+      "Una raíz doble",
+      "Infinitas raíces"
+    ],
+    "correcta": "Ninguna (discriminante negativo)",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Discriminante = b² - 4ac = 16 - 20 = -4 < 0. No tiene raíces reales (solo complejas)."
+  },
+  {
+    "id": 1405,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Si una de las raíces de x² - kx + 12 = 0 es x = 3, ¿cuál es el valor de k?",
+    "opciones": [
+      "7",
+      "4",
+      "12",
+      "15"
+    ],
+    "correcta": "7",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Si x=3 es raíz, el producto de raíces = 12, entonces la otra raíz es 12/3 = 4. La suma = 3+4 = 7 = k."
+  },
+  {
+    "id": 1406,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Ecuaciones Cuadráticas",
+    "pregunta": "Resuelva: x² - 6x + 8 = 0",
+    "opciones": [
+      "x = 2 y x = 4",
+      "x = -2 y x = -4",
+      "x = 1 y x = 8",
+      "x = -1 y x = 8"
+    ],
+    "correcta": "x = 2 y x = 4",
+    "justificacion": "**Concepto Fundamental:** Ecuaciones de segundo grado y factorización.\n\n**Resolución:** Factorizando: (x-2)(x-4) = 0. Las raíces son 2 y 4 (suman 6 y multiplican 8)."
+  },
+  {
+    "id": 1407,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "Se lanza un dado justo. ¿Cuál es la probabilidad de obtener un número par?",
+    "opciones": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "2/3"
+    ],
+    "correcta": "1/2",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Números pares en un dado: {2, 4, 6} = 3 casos favorables. Total: 6. P = 3/6 = 1/2."
+  },
+  {
+    "id": 1408,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "De una baraja de 52 cartas, ¿cuál es la probabilidad de sacar un As?",
+    "opciones": [
+      "1/13",
+      "1/52",
+      "4/13",
+      "1/4"
+    ],
+    "correcta": "1/13",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Hay 4 ases en 52 cartas. P = 4/52 = 1/13."
+  },
+  {
+    "id": 1409,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "Se lanzan dos monedas. ¿Cuál es la probabilidad de obtener al menos una cara?",
+    "opciones": [
+      "3/4",
+      "1/2",
+      "1/4",
+      "1/3"
+    ],
+    "correcta": "3/4",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Espacio muestral: {CC, CS, SC, SS}. Al menos una cara: {CC, CS, SC} = 3. P = 3/4."
+  },
+  {
+    "id": 1410,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "En una urna hay 5 bolas rojas y 3 azules. ¿Cuál es la probabilidad de sacar una bola azul?",
+    "opciones": [
+      "3/8",
+      "5/8",
+      "3/5",
+      "1/3"
+    ],
+    "correcta": "3/8",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Total = 5 + 3 = 8. P(azul) = 3/8."
+  },
+  {
+    "id": 1411,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "Se lanza un dado. ¿Cuál es la probabilidad de obtener un número mayor que 4?",
+    "opciones": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/6"
+    ],
+    "correcta": "1/3",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Números mayores que 4: {5, 6} = 2 casos. P = 2/6 = 1/3."
+  },
+  {
+    "id": 1412,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "Si la probabilidad de que llueva mañana es 0.3, ¿cuál es la probabilidad de que NO llueva?",
+    "opciones": [
+      "0.7",
+      "0.3",
+      "0.5",
+      "1.3"
+    ],
+    "correcta": "0.7",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** P(no llueva) = 1 - P(llueva) = 1 - 0.3 = 0.7. Los eventos complementarios suman 1."
+  },
+  {
+    "id": 1413,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "Se lanzan dos dados. ¿Cuál es la probabilidad de que la suma sea 7?",
+    "opciones": [
+      "1/6",
+      "1/12",
+      "1/36",
+      "7/36"
+    ],
+    "correcta": "1/6",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Combinaciones que suman 7: (1,6)(2,5)(3,4)(4,3)(5,2)(6,1) = 6. Total: 36. P = 6/36 = 1/6."
+  },
+  {
+    "id": 1414,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "De un grupo de 10 estudiantes (6 mujeres y 4 hombres), se elige uno al azar. ¿Cuál es la probabilidad de elegir una mujer?",
+    "opciones": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "6/10"
+    ],
+    "correcta": "3/5",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** P = 6/10 = 3/5. Nota: 6/10 y 3/5 son equivalentes, pero la forma simplificada es 3/5."
+  },
+  {
+    "id": 1415,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "¿Cuántos resultados posibles hay al lanzar una moneda 4 veces?",
+    "opciones": [
+      "16",
+      "8",
+      "4",
+      "32"
+    ],
+    "correcta": "16",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Cada lanzamiento tiene 2 resultados. Total = 2⁴ = 16 resultados posibles."
+  },
+  {
+    "id": 1416,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "pregunta": "En una caja hay 3 bolas rojas, 2 azules y 5 verdes. Si se extrae una al azar, ¿cuál es la probabilidad de que NO sea verde?",
+    "opciones": [
+      "1/2",
+      "1/5",
+      "3/10",
+      "2/5"
+    ],
+    "correcta": "1/2",
+    "justificacion": "**Concepto Fundamental:** Probabilidad clásica (casos favorables / casos posibles).\n\n**Resolución:** Total = 10. No verde = 3 + 2 = 5. P = 5/10 = 1/2."
+  },
+  {
+    "id": 1417,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "pregunta": "Lea el siguiente texto y responda:\n\n\"La inteligencia artificial (IA) está transformando la educación a un ritmo sin precedentes. Los sistemas adaptativos de aprendizaje pueden personalizar el contenido según las fortalezas y debilidades de cada estudiante. Sin embargo, expertos advierten que la tecnología no debe reemplazar al docente, sino complementar su labor. El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico, algo que las máquinas aún no pueden replicar plenamente. La clave está en encontrar un equilibrio entre la eficiencia tecnológica y la calidez humana en el proceso educativo.\"\n\n¿Cuál es la idea principal del texto?",
+    "opciones": [
+      "La IA debe complementar, no reemplazar, al docente en la educación.",
+      "La IA es superior a los profesores en todos los aspectos.",
+      "Los profesores deben ser eliminados del sistema educativo.",
+      "La tecnología no tiene lugar en la educación moderna."
+    ],
+    "correcta": "La IA debe complementar, no reemplazar, al docente en la educación.",
+    "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** El texto argumenta que la IA transforma la educación pero no debe reemplazar al docente. La tesis central es el equilibrio entre tecnología y rol humano."
+  },
+  {
+    "id": 1418,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "pregunta": "Lea el siguiente texto y responda:\n\n\"La inteligencia artificial (IA) está transformando la educación a un ritmo sin precedentes. Los sistemas adaptativos de aprendizaje pueden personalizar el contenido según las fortalezas y debilidades de cada estudiante. Sin embargo, expertos advierten que la tecnología no debe reemplazar al docente, sino complementar su labor. El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico, algo que las máquinas aún no pueden replicar plenamente. La clave está en encontrar un equilibrio entre la eficiencia tecnológica y la calidez humana en el proceso educativo.\"\n\nSegún el texto, ¿hacia qué rol evoluciona el profesor?",
+    "opciones": [
+      "Facilitador del pensamiento crítico",
+      "Programador de sistemas de IA",
+      "Supervisor de máquinas",
+      "Evaluador automatizado"
+    ],
+    "correcta": "Facilitador del pensamiento crítico",
+    "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** El texto dice literalmente: 'El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico'."
+  },
+  {
+    "id": 1419,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "pregunta": "Lea el siguiente texto y responda:\n\n\"La inteligencia artificial (IA) está transformando la educación a un ritmo sin precedentes. Los sistemas adaptativos de aprendizaje pueden personalizar el contenido según las fortalezas y debilidades de cada estudiante. Sin embargo, expertos advierten que la tecnología no debe reemplazar al docente, sino complementar su labor. El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico, algo que las máquinas aún no pueden replicar plenamente. La clave está en encontrar un equilibrio entre la eficiencia tecnológica y la calidez humana en el proceso educativo.\"\n\n¿Qué es lo que 'las máquinas aún no pueden replicar plenamente'?",
+    "opciones": [
+      "El pensamiento crítico",
+      "La personalización del contenido",
+      "La eficiencia tecnológica",
+      "La velocidad de procesamiento"
+    ],
+    "correcta": "El pensamiento crítico",
+    "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** El texto afirma que el profesor guía el pensamiento crítico, 'algo que las máquinas aún no pueden replicar plenamente'."
+  },
+  {
+    "id": 1420,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "pregunta": "Lea el siguiente texto y responda:\n\n\"La inteligencia artificial (IA) está transformando la educación a un ritmo sin precedentes. Los sistemas adaptativos de aprendizaje pueden personalizar el contenido según las fortalezas y debilidades de cada estudiante. Sin embargo, expertos advierten que la tecnología no debe reemplazar al docente, sino complementar su labor. El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico, algo que las máquinas aún no pueden replicar plenamente. La clave está en encontrar un equilibrio entre la eficiencia tecnológica y la calidez humana en el proceso educativo.\"\n\n¿Cuál es el tono predominante del texto?",
+    "opciones": [
+      "Reflexivo y equilibrado",
+      "Alarmista y catastrófico",
+      "Entusiasta sin reservas",
+      "Pesimista y resignado"
+    ],
+    "correcta": "Reflexivo y equilibrado",
+    "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** El texto presenta ventajas de la IA pero también advierte sobre sus límites. Busca 'un equilibrio', lo que denota un tono reflexivo y balanceado."
+  },
+  {
+    "id": 1421,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "pregunta": "Lea el siguiente texto y responda:\n\n\"La inteligencia artificial (IA) está transformando la educación a un ritmo sin precedentes. Los sistemas adaptativos de aprendizaje pueden personalizar el contenido según las fortalezas y debilidades de cada estudiante. Sin embargo, expertos advierten que la tecnología no debe reemplazar al docente, sino complementar su labor. El rol del profesor evoluciona hacia el de un facilitador que guía el pensamiento crítico, algo que las máquinas aún no pueden replicar plenamente. La clave está en encontrar un equilibrio entre la eficiencia tecnológica y la calidez humana en el proceso educativo.\"\n\nSe puede inferir del texto que:",
+    "opciones": [
+      "El autor valora tanto la tecnología como el factor humano.",
+      "El autor se opone completamente a la IA en educación.",
+      "El autor cree que los docentes son prescindibles.",
+      "El autor considera que la IA es solo una moda pasajera."
+    ],
+    "correcta": "El autor valora tanto la tecnología como el factor humano.",
+    "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** Al proponer 'equilibrio entre eficiencia tecnológica y calidez humana', el autor demuestra que valora ambos componentes."
   }
 ]
