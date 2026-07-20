@@ -7051,5 +7051,1545 @@
     "tema": "Sistemas de Ecuaciones",
     "justificacion": "Sean $x$ (mayor) e $y$ (menor). $x + y = 60$. Por el algoritmo de la división: $x = 4y + 10$. Sustituyendo: $(4y + 10) + y = 60 \\implies 5y = 50 \\implies y = 10$. Luego $x = 50$.",
     "id": 1189
+  },
+  {
+    "id": 1190,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 2, 6, 7 y 14 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "36",
+      "84",
+      "44",
+      "42"
+    ],
+    "correcta": "42",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 2, 6, 7 y 14. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 42. Por lo tanto, coincidirán en 42 días."
+  },
+  {
+    "id": 1191,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 4, 8, 10 y 11 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "444",
+      "880",
+      "432",
+      "440"
+    ],
+    "correcta": "440",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 4, 8, 10 y 11. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 440. Por lo tanto, coincidirán en 440 días."
+  },
+  {
+    "id": 1192,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 6, 8 y 14 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "336",
+      "171",
+      "162",
+      "168"
+    ],
+    "correcta": "168",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 6, 8 y 14. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 168. Por lo tanto, coincidirán en 168 días."
+  },
+  {
+    "id": 1193,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 8, 9 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "72",
+      "144",
+      "75",
+      "64"
+    ],
+    "correcta": "72",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 8, 9 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 72. Por lo tanto, coincidirán en 72 días."
+  },
+  {
+    "id": 1194,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 6, 5, 10 y 15 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "36",
+      "30",
+      "60",
+      "25"
+    ],
+    "correcta": "30",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 6, 5, 10 y 15. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 30. Por lo tanto, coincidirán en 30 días."
+  },
+  {
+    "id": 1195,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 7, 6 y 16 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "339",
+      "336",
+      "329",
+      "672"
+    ],
+    "correcta": "336",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 7, 6 y 16. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 336. Por lo tanto, coincidirán en 336 días."
+  },
+  {
+    "id": 1196,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 8, 6 y 17 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "400",
+      "816",
+      "411",
+      "408"
+    ],
+    "correcta": "408",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 8, 6 y 17. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 408. Por lo tanto, coincidirán en 408 días."
+  },
+  {
+    "id": 1197,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 2, 6, 7 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "78",
+      "84",
+      "168",
+      "86"
+    ],
+    "correcta": "84",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 2, 6, 7 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 84. Por lo tanto, coincidirán en 84 días."
+  },
+  {
+    "id": 1198,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 2, 8, 7 y 18 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "1008",
+      "496",
+      "504",
+      "506"
+    ],
+    "correcta": "504",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 2, 8, 7 y 18. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 504. Por lo tanto, coincidirán en 504 días."
+  },
+  {
+    "id": 1199,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 6, 7, 6 y 19 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "798",
+      "791",
+      "804",
+      "1596"
+    ],
+    "correcta": "798",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 6, 7, 6 y 19. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 798. Por lo tanto, coincidirán en 798 días."
+  },
+  {
+    "id": 1200,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "pregunta": "Para hacer 300m de una obra, 17 obreros trabajaron 12 días a razón de 6 h/día. ¿Cuántos días de 6 h/día necesitarán 24 obreros para realizar 600m de la misma obra?",
+    "opciones": [
+      "22",
+      "19",
+      "17",
+      "14"
+    ],
+    "correcta": "17",
+    "justificacion": "**Concepto Fundamental:** Regla de Tres Compuesta. Relacionamos la incógnita (Días) con el resto: Hombres (Inversa, a más hombres menos días), Horas/día (Inversa), Obra (Directa, a más obra más días).\n\n**Resolución:** Usando el método de los signos (+ arriba y - abajo para la incógnita; para inversa: + menor, - mayor; para directa: - menor, + mayor). Al plantear y despejar obtenemos: x = (17 * 12 * 6 * 600) / (24 * 6 * 300) = 17 días."
+  },
+  {
+    "id": 1201,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "pregunta": "Para hacer 700m de una obra, 24 obreros trabajaron 8 días a razón de 7 h/día. ¿Cuántos días de 8 h/día necesitarán 28 obreros para realizar 700m de la misma obra?",
+    "opciones": [
+      "11",
+      "6",
+      "8",
+      "3"
+    ],
+    "correcta": "6",
+    "justificacion": "**Concepto Fundamental:** Regla de Tres Compuesta. Relacionamos la incógnita (Días) con el resto: Hombres (Inversa, a más hombres menos días), Horas/día (Inversa), Obra (Directa, a más obra más días).\n\n**Resolución:** Usando el método de los signos (+ arriba y - abajo para la incógnita; para inversa: + menor, - mayor; para directa: - menor, + mayor). Al plantear y despejar obtenemos: x = (24 * 8 * 7 * 700) / (28 * 8 * 700) = 6 días."
+  },
+  {
+    "id": 1202,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 8° término de la sucesión geométrica: 5, 15, 45, 135...",
+    "opciones": [
+      "3645",
+      "10935",
+      "32805",
+      "32805"
+    ],
+    "correcta": "10935",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 8: a_8 = 5 * 3^(8-1) = 5 * 2187 = 10935."
+  },
+  {
+    "id": 1203,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 2, 4, 8, 16...",
+    "opciones": [
+      "64",
+      "128",
+      "128",
+      "32"
+    ],
+    "correcta": "64",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 2^(6-1) = 2 * 32 = 64."
+  },
+  {
+    "id": 1204,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 5, 10, 20, 40...",
+    "opciones": [
+      "160",
+      "640",
+      "320",
+      "640"
+    ],
+    "correcta": "320",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 7: a_7 = 5 * 2^(7-1) = 5 * 64 = 320."
+  },
+  {
+    "id": 1205,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 3, 12, 48, 192...",
+    "opciones": [
+      "3072",
+      "768",
+      "12288",
+      "12288"
+    ],
+    "correcta": "3072",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 4^(6-1) = 3 * 1024 = 3072."
+  },
+  {
+    "id": 1206,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "6561",
+      "59049",
+      "59049",
+      "19683"
+    ],
+    "correcta": "19683",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
+  },
+  {
+    "id": 1207,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 2, 8, 32, 128...",
+    "opciones": [
+      "8192",
+      "8192",
+      "512",
+      "2048"
+    ],
+    "correcta": "2048",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 4^(6-1) = 2 * 1024 = 2048."
+  },
+  {
+    "id": 1208,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 8° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "13122",
+      "1458",
+      "4374",
+      "13122"
+    ],
+    "correcta": "4374",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 8: a_8 = 2 * 3^(8-1) = 2 * 2187 = 4374."
+  },
+  {
+    "id": 1209,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 5, 15, 45, 135...",
+    "opciones": [
+      "98415",
+      "98415",
+      "32805",
+      "10935"
+    ],
+    "correcta": "32805",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 9: a_9 = 5 * 3^(9-1) = 5 * 6561 = 32805."
+  },
+  {
+    "id": 1210,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 4, 12, 36, 108...",
+    "opciones": [
+      "78732",
+      "8748",
+      "26244",
+      "78732"
+    ],
+    "correcta": "26244",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 3^(9-1) = 4 * 6561 = 26244."
+  },
+  {
+    "id": 1211,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 5, 10, 20, 40...",
+    "opciones": [
+      "160",
+      "80",
+      "320",
+      "320"
+    ],
+    "correcta": "160",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 2^(6-1) = 5 * 32 = 160."
+  },
+  {
+    "id": 1212,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 4, 16, 64, 256...",
+    "opciones": [
+      "1048576",
+      "262144",
+      "1048576",
+      "65536"
+    ],
+    "correcta": "262144",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 4^(9-1) = 4 * 65536 = 262144."
+  },
+  {
+    "id": 1213,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 8° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "13122",
+      "1458",
+      "13122",
+      "4374"
+    ],
+    "correcta": "4374",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 8: a_8 = 2 * 3^(8-1) = 2 * 2187 = 4374."
+  },
+  {
+    "id": 1214,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 5, 20, 80, 320...",
+    "opciones": [
+      "81920",
+      "81920",
+      "5120",
+      "20480"
+    ],
+    "correcta": "20480",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 5. Aplicando la fórmula para n = 7: a_7 = 5 * 4^(7-1) = 5 * 4096 = 20480."
+  },
+  {
+    "id": 1215,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 5, 15, 45, 135...",
+    "opciones": [
+      "32805",
+      "10935",
+      "98415",
+      "98415"
+    ],
+    "correcta": "32805",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 9: a_9 = 5 * 3^(9-1) = 5 * 6561 = 32805."
+  },
+  {
+    "id": 1216,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 3, 6, 12, 24...",
+    "opciones": [
+      "96",
+      "192",
+      "192",
+      "48"
+    ],
+    "correcta": "96",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 2^(6-1) = 3 * 32 = 96."
+  },
+  {
+    "id": 1217,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 2, 4, 8, 16...",
+    "opciones": [
+      "256",
+      "128",
+      "256",
+      "64"
+    ],
+    "correcta": "128",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 2^(7-1) = 2 * 64 = 128."
+  },
+  {
+    "id": 1218,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 3, 6, 12, 24...",
+    "opciones": [
+      "192",
+      "96",
+      "384",
+      "384"
+    ],
+    "correcta": "192",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 7: a_7 = 3 * 2^(7-1) = 3 * 64 = 192."
+  },
+  {
+    "id": 1219,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "4374",
+      "486",
+      "1458",
+      "4374"
+    ],
+    "correcta": "1458",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 3^(7-1) = 2 * 729 = 1458."
+  },
+  {
+    "id": 1220,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "243",
+      "2187",
+      "729",
+      "2187"
+    ],
+    "correcta": "729",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 3^(6-1) = 3 * 243 = 729."
+  },
+  {
+    "id": 1221,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 5, 15, 45, 135...",
+    "opciones": [
+      "1215",
+      "3645",
+      "405",
+      "3645"
+    ],
+    "correcta": "1215",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 3^(6-1) = 5 * 243 = 1215."
+  },
+  {
+    "id": 1222,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 28 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 24/3",
+      "x < 24/3",
+      "x > 32/3",
+      "x < 32/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 28. Resolviendo: 3x - 4 > 28 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1223,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 5 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 25 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 10",
+      "x > 6.666666666666667",
+      "x < 6.666666666666667",
+      "x < 10"
+    ],
+    "correcta": "x > 10",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 5. La suma es (x) + (2x - 5) > 25. Resolviendo: 3x - 5 > 25 => 3x > 30 => x > 10."
+  },
+  {
+    "id": 1224,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 5 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 34 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 13",
+      "x < 9.666666666666666",
+      "x > 13",
+      "x > 9.666666666666666"
+    ],
+    "correcta": "x > 13",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 5. La suma es (x) + (2x - 5) > 34. Resolviendo: 3x - 5 > 34 => 3x > 39 => x > 13."
+  },
+  {
+    "id": 1225,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 28 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 32/3",
+      "x > 24/3",
+      "x > 32/3",
+      "x < 24/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 28. Resolviendo: 3x - 4 > 28 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1226,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 6 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 27 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 11",
+      "x > 7",
+      "x > 11",
+      "x < 7"
+    ],
+    "correcta": "x > 11",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 6. La suma es (x) + (2x - 6) > 27. Resolviendo: 3x - 6 > 27 => 3x > 33 => x > 11."
+  },
+  {
+    "id": 1227,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 25 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 18/3",
+      "x > 18/3",
+      "x < 32/3",
+      "x > 32/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 25. Resolviendo: 3x - 7 > 25 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1228,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 32 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 13",
+      "x < 8.333333333333334",
+      "x > 8.333333333333334",
+      "x < 13"
+    ],
+    "correcta": "x > 13",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 32. Resolviendo: 3x - 7 > 32 => 3x > 39 => x > 13."
+  },
+  {
+    "id": 1229,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 5 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 28 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 7.666666666666667",
+      "x > 11",
+      "x < 11",
+      "x < 7.666666666666667"
+    ],
+    "correcta": "x > 11",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 5. La suma es (x) + (2x - 5) > 28. Resolviendo: 3x - 5 > 28 => 3x > 33 => x > 11."
+  },
+  {
+    "id": 1230,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 5 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 24/3",
+      "x < 34/3",
+      "x > 34/3",
+      "x < 24/3"
+    ],
+    "correcta": "x > 34/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 5. La suma es (x) + (2x - 5) > 29. Resolviendo: 3x - 5 > 29 => 3x > 34 => x > 34/3."
+  },
+  {
+    "id": 1231,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 32 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 35/3",
+      "x > 29/3",
+      "x < 29/3",
+      "x < 35/3"
+    ],
+    "correcta": "x > 35/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 32. Resolviendo: 3x - 3 > 32 => 3x > 35 => x > 35/3."
+  },
+  {
+    "id": 1232,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 33 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 12",
+      "x < 10",
+      "x > 12",
+      "x > 10"
+    ],
+    "correcta": "x > 12",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 33. Resolviendo: 3x - 3 > 33 => 3x > 36 => x > 12."
+  },
+  {
+    "id": 1233,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 25 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 21/3",
+      "x > 29/3",
+      "x < 29/3",
+      "x < 21/3"
+    ],
+    "correcta": "x > 29/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 25. Resolviendo: 3x - 4 > 25 => 3x > 29 => x > 29/3."
+  },
+  {
+    "id": 1234,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 32/3",
+      "x > 26/3",
+      "x < 32/3",
+      "x < 26/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 29. Resolviendo: 3x - 3 > 29 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1235,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 6 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 32 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 26/3",
+      "x > 38/3",
+      "x > 26/3",
+      "x < 38/3"
+    ],
+    "correcta": "x > 38/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 6. La suma es (x) + (2x - 6) > 32. Resolviendo: 3x - 6 > 32 => 3x > 38 => x > 38/3."
+  },
+  {
+    "id": 1236,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 33 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 10",
+      "x < 10",
+      "x > 12",
+      "x < 12"
+    ],
+    "correcta": "x > 12",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 33. Resolviendo: 3x - 3 > 33 => 3x > 36 => x > 12."
+  },
+  {
+    "id": 1237,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 31 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 38/3",
+      "x < 24/3",
+      "x > 38/3",
+      "x > 24/3"
+    ],
+    "correcta": "x > 38/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 31. Resolviendo: 3x - 7 > 31 => 3x > 38 => x > 38/3."
+  },
+  {
+    "id": 1238,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 32 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 35/3",
+      "x > 29/3",
+      "x < 29/3",
+      "x > 35/3"
+    ],
+    "correcta": "x > 35/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 32. Resolviendo: 3x - 3 > 32 => 3x > 35 => x > 35/3."
+  },
+  {
+    "id": 1239,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 32 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 13",
+      "x > 8.333333333333334",
+      "x < 8.333333333333334",
+      "x < 13"
+    ],
+    "correcta": "x > 13",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 32. Resolviendo: 3x - 7 > 32 => 3x > 39 => x > 13."
+  },
+  {
+    "id": 1240,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 30 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 26/3",
+      "x < 34/3",
+      "x > 26/3",
+      "x > 34/3"
+    ],
+    "correcta": "x > 34/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 30. Resolviendo: 3x - 4 > 30 => 3x > 34 => x > 34/3."
+  },
+  {
+    "id": 1241,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 27 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 20/3",
+      "x > 34/3",
+      "x < 34/3",
+      "x > 20/3"
+    ],
+    "correcta": "x > 34/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 27. Resolviendo: 3x - 7 > 27 => 3x > 34 => x > 34/3."
+  },
+  {
+    "id": 1242,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 4, 6, 10 y 11 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "664",
+      "1320",
+      "654",
+      "660"
+    ],
+    "correcta": "660",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 4, 6, 10 y 11. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 660. Por lo tanto, coincidirán en 660 días."
+  },
+  {
+    "id": 1243,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 2, 4, 9 y 14 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "254",
+      "504",
+      "248",
+      "252"
+    ],
+    "correcta": "252",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 2, 4, 9 y 14. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 252. Por lo tanto, coincidirán en 252 días."
+  },
+  {
+    "id": 1244,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 6, 7, 8 y 14 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "168",
+      "336",
+      "161",
+      "174"
+    ],
+    "correcta": "168",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 6, 7, 8 y 14. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 168. Por lo tanto, coincidirán en 168 días."
+  },
+  {
+    "id": 1245,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 6, 8, 6 y 13 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "304",
+      "624",
+      "312",
+      "318"
+    ],
+    "correcta": "312",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 6, 8, 6 y 13. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 312. Por lo tanto, coincidirán en 312 días."
+  },
+  {
+    "id": 1246,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 4, 8, 6 y 13 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "624",
+      "304",
+      "312",
+      "316"
+    ],
+    "correcta": "312",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 4, 8, 6 y 13. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 312. Por lo tanto, coincidirán en 312 días."
+  },
+  {
+    "id": 1247,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 4, 7, 10 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "420",
+      "424",
+      "413",
+      "840"
+    ],
+    "correcta": "420",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 4, 7, 10 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 420. Por lo tanto, coincidirán en 420 días."
+  },
+  {
+    "id": 1248,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 5, 8, 9 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "365",
+      "720",
+      "352",
+      "360"
+    ],
+    "correcta": "360",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 5, 8, 9 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 360. Por lo tanto, coincidirán en 360 días."
+  },
+  {
+    "id": 1249,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 5, 7, 10 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "425",
+      "840",
+      "413",
+      "420"
+    ],
+    "correcta": "420",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 5, 7, 10 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 420. Por lo tanto, coincidirán en 420 días."
+  },
+  {
+    "id": 1250,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 5, 10 y 17 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "1020",
+      "505",
+      "513",
+      "510"
+    ],
+    "correcta": "510",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 5, 10 y 17. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 510. Por lo tanto, coincidirán en 510 días."
+  },
+  {
+    "id": 1251,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 5, 8, 6 y 12 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "112",
+      "125",
+      "120",
+      "240"
+    ],
+    "correcta": "120",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 5, 8, 6 y 12. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 120. Por lo tanto, coincidirán en 120 días."
+  },
+  {
+    "id": 1252,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 4, 8, 7 y 15 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "832",
+      "840",
+      "844",
+      "1680"
+    ],
+    "correcta": "840",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 4, 8, 7 y 15. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 840. Por lo tanto, coincidirán en 840 días."
+  },
+  {
+    "id": 1253,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 6, 8, 9 y 16 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "288",
+      "144",
+      "136",
+      "150"
+    ],
+    "correcta": "144",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 6, 8, 9 y 16. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 144. Por lo tanto, coincidirán en 144 días."
+  },
+  {
+    "id": 1254,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 2, 7, 10 y 14 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "140",
+      "63",
+      "72",
+      "70"
+    ],
+    "correcta": "70",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 2, 7, 10 y 14. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 70. Por lo tanto, coincidirán en 70 días."
+  },
+  {
+    "id": 1255,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 7, 6 y 18 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "126",
+      "129",
+      "252",
+      "119"
+    ],
+    "correcta": "126",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 7, 6 y 18. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 126. Por lo tanto, coincidirán en 126 días."
+  },
+  {
+    "id": 1256,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Teoría de Números (MCM/MCD)",
+    "pregunta": "Cuatro naves espaciales giran alrededor de un planeta. Tardan 3, 6, 7 y 15 días respectivamente en dar una vuelta completa. Si inician simultáneamente, ¿Cuántos días transcurrirán hasta que se vuelvan a encontrar alineados por primera vez?",
+    "opciones": [
+      "420",
+      "210",
+      "213",
+      "204"
+    ],
+    "correcta": "210",
+    "justificacion": "**Concepto Fundamental:** Mínimo Común Múltiplo (M.C.M.). Se utiliza para calcular coincidencias en el tiempo de eventos periódicos simultáneos.\n\n**Resolución:** Debemos calcular el M.C.M. de los tiempos. Los tiempos son 3, 6, 7 y 15. Al descomponer en factores primos y tomar comunes y no comunes con mayor exponente, el M.C.M. es 210. Por lo tanto, coincidirán en 210 días."
+  },
+  {
+    "id": 1257,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "pregunta": "Para hacer 300m de una obra, 24 obreros trabajaron 8 días a razón de 6 h/día. ¿Cuántos días de 8 h/día necesitarán 16 obreros para realizar 700m de la misma obra?",
+    "opciones": [
+      "23",
+      "18",
+      "26",
+      "21"
+    ],
+    "correcta": "21",
+    "justificacion": "**Concepto Fundamental:** Regla de Tres Compuesta. Relacionamos la incógnita (Días) con el resto: Hombres (Inversa, a más hombres menos días), Horas/día (Inversa), Obra (Directa, a más obra más días).\n\n**Resolución:** Usando el método de los signos (+ arriba y - abajo para la incógnita; para inversa: + menor, - mayor; para directa: - menor, + mayor). Al plantear y despejar obtenemos: x = (24 * 8 * 6 * 700) / (16 * 8 * 300) = 21 días."
+  },
+  {
+    "id": 1258,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 4, 16, 64, 256...",
+    "opciones": [
+      "16384",
+      "65536",
+      "65536",
+      "4096"
+    ],
+    "correcta": "16384",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 4^(7-1) = 4 * 4096 = 16384."
+  },
+  {
+    "id": 1259,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 2, 4, 8, 16...",
+    "opciones": [
+      "64",
+      "128",
+      "128",
+      "32"
+    ],
+    "correcta": "64",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 2. Aplicando la fórmula para n = 6: a_6 = 2 * 2^(6-1) = 2 * 32 = 64."
+  },
+  {
+    "id": 1260,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 3, 12, 48, 192...",
+    "opciones": [
+      "12288",
+      "3072",
+      "768",
+      "12288"
+    ],
+    "correcta": "3072",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 4^(6-1) = 3 * 1024 = 3072."
+  },
+  {
+    "id": 1261,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 4, 12, 36, 108...",
+    "opciones": [
+      "972",
+      "8748",
+      "8748",
+      "2916"
+    ],
+    "correcta": "2916",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 3^(7-1) = 4 * 729 = 2916."
+  },
+  {
+    "id": 1262,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 8° término de la sucesión geométrica: 3, 12, 48, 192...",
+    "opciones": [
+      "196608",
+      "196608",
+      "12288",
+      "49152"
+    ],
+    "correcta": "49152",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 8: a_8 = 3 * 4^(8-1) = 3 * 16384 = 49152."
+  },
+  {
+    "id": 1263,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 3, 6, 12, 24...",
+    "opciones": [
+      "48",
+      "192",
+      "96",
+      "192"
+    ],
+    "correcta": "96",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 3. Aplicando la fórmula para n = 6: a_6 = 3 * 2^(6-1) = 3 * 32 = 96."
+  },
+  {
+    "id": 1264,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 4, 8, 16, 32...",
+    "opciones": [
+      "256",
+      "512",
+      "512",
+      "128"
+    ],
+    "correcta": "256",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 2^(7-1) = 4 * 64 = 256."
+  },
+  {
+    "id": 1265,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "59049",
+      "59049",
+      "19683",
+      "6561"
+    ],
+    "correcta": "19683",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
+  },
+  {
+    "id": 1266,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "2187",
+      "6561",
+      "729",
+      "6561"
+    ],
+    "correcta": "2187",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 7: a_7 = 3 * 3^(7-1) = 3 * 729 = 2187."
+  },
+  {
+    "id": 1267,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "6561",
+      "59049",
+      "19683",
+      "59049"
+    ],
+    "correcta": "19683",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
+  },
+  {
+    "id": 1268,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "13122",
+      "39366",
+      "39366",
+      "4374"
+    ],
+    "correcta": "13122",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 3^(9-1) = 2 * 6561 = 13122."
+  },
+  {
+    "id": 1269,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 12, 48, 192...",
+    "opciones": [
+      "786432",
+      "196608",
+      "786432",
+      "49152"
+    ],
+    "correcta": "196608",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 4^(9-1) = 3 * 65536 = 196608."
+  },
+  {
+    "id": 1270,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 6° término de la sucesión geométrica: 5, 10, 20, 40...",
+    "opciones": [
+      "160",
+      "320",
+      "80",
+      "320"
+    ],
+    "correcta": "160",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 5. Aplicando la fórmula para n = 6: a_6 = 5 * 2^(6-1) = 5 * 32 = 160."
+  },
+  {
+    "id": 1271,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 2, 8, 32, 128...",
+    "opciones": [
+      "32768",
+      "524288",
+      "131072",
+      "524288"
+    ],
+    "correcta": "131072",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 4^(9-1) = 2 * 65536 = 131072."
+  },
+  {
+    "id": 1272,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 3, 9, 27, 81...",
+    "opciones": [
+      "59049",
+      "6561",
+      "59049",
+      "19683"
+    ],
+    "correcta": "19683",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 3. Aplicando la fórmula para n = 9: a_9 = 3 * 3^(9-1) = 3 * 6561 = 19683."
+  },
+  {
+    "id": 1273,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 8° término de la sucesión geométrica: 3, 12, 48, 192...",
+    "opciones": [
+      "196608",
+      "12288",
+      "49152",
+      "196608"
+    ],
+    "correcta": "49152",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 4. El primer término es a_1 = 3. Aplicando la fórmula para n = 8: a_8 = 3 * 4^(8-1) = 3 * 16384 = 49152."
+  },
+  {
+    "id": 1274,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "4374",
+      "1458",
+      "486",
+      "4374"
+    ],
+    "correcta": "1458",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 7: a_7 = 2 * 3^(7-1) = 2 * 729 = 1458."
+  },
+  {
+    "id": 1275,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 4, 8, 16, 32...",
+    "opciones": [
+      "2048",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "correcta": "1024",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 2. El primer término es a_1 = 4. Aplicando la fórmula para n = 9: a_9 = 4 * 2^(9-1) = 4 * 256 = 1024."
+  },
+  {
+    "id": 1276,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 9° término de la sucesión geométrica: 2, 6, 18, 54...",
+    "opciones": [
+      "39366",
+      "4374",
+      "13122",
+      "39366"
+    ],
+    "correcta": "13122",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 2. Aplicando la fórmula para n = 9: a_9 = 2 * 3^(9-1) = 2 * 6561 = 13122."
+  },
+  {
+    "id": 1277,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "pregunta": "Hallar el 7° término de la sucesión geométrica: 4, 12, 36, 108...",
+    "opciones": [
+      "8748",
+      "8748",
+      "972",
+      "2916"
+    ],
+    "correcta": "2916",
+    "justificacion": "**Concepto Fundamental:** Progresión Geométrica. El término general se calcula como a_n = a_1 * r^(n-1).\n\n**Resolución:** Observamos que la sucesión multiplica cada término por una razón r = 3. El primer término es a_1 = 4. Aplicando la fórmula para n = 7: a_7 = 4 * 3^(7-1) = 4 * 729 = 2916."
+  },
+  {
+    "id": 1278,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 32/3",
+      "x < 32/3",
+      "x < 26/3",
+      "x > 26/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 29. Resolviendo: 3x - 3 > 29 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1279,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 33 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 37/3",
+      "x > 29/3",
+      "x < 37/3",
+      "x < 29/3"
+    ],
+    "correcta": "x > 37/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 33. Resolviendo: 3x - 4 > 33 => 3x > 37 => x > 37/3."
+  },
+  {
+    "id": 1280,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 8.333333333333334",
+      "x < 11",
+      "x > 11",
+      "x < 8.333333333333334"
+    ],
+    "correcta": "x > 11",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 29. Resolviendo: 3x - 4 > 29 => 3x > 33 => x > 11."
+  },
+  {
+    "id": 1281,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 7 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 25 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 18/3",
+      "x > 32/3",
+      "x < 32/3",
+      "x > 18/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 7. La suma es (x) + (2x - 7) > 25. Resolviendo: 3x - 7 > 25 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1282,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 34 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 30/3",
+      "x < 30/3",
+      "x < 38/3",
+      "x > 38/3"
+    ],
+    "correcta": "x > 38/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 34. Resolviendo: 3x - 4 > 34 => 3x > 38 => x > 38/3."
+  },
+  {
+    "id": 1283,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 34 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 38/3",
+      "x > 30/3",
+      "x > 38/3",
+      "x < 30/3"
+    ],
+    "correcta": "x > 38/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 34. Resolviendo: 3x - 4 > 34 => 3x > 38 => x > 38/3."
+  },
+  {
+    "id": 1284,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 33 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 29/3",
+      "x < 37/3",
+      "x > 37/3",
+      "x < 29/3"
+    ],
+    "correcta": "x > 37/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 33. Resolviendo: 3x - 4 > 33 => 3x > 37 => x > 37/3."
+  },
+  {
+    "id": 1285,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 4 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 30 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 26/3",
+      "x < 34/3",
+      "x > 34/3",
+      "x < 26/3"
+    ],
+    "correcta": "x > 34/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 4. La suma es (x) + (2x - 4) > 30. Resolviendo: 3x - 4 > 30 => 3x > 34 => x > 34/3."
+  },
+  {
+    "id": 1286,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 32/3",
+      "x > 32/3",
+      "x < 26/3",
+      "x > 26/3"
+    ],
+    "correcta": "x > 32/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 29. Resolviendo: 3x - 3 > 29 => 3x > 32 => x > 32/3."
+  },
+  {
+    "id": 1287,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 6 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 34 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x > 28/3",
+      "x < 40/3",
+      "x > 40/3",
+      "x < 28/3"
+    ],
+    "correcta": "x > 40/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 6. La suma es (x) + (2x - 6) > 34. Resolviendo: 3x - 6 > 34 => 3x > 40 => x > 40/3."
+  },
+  {
+    "id": 1288,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 3 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 33 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 10",
+      "x > 12",
+      "x > 10",
+      "x < 12"
+    ],
+    "correcta": "x > 12",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 3. La suma es (x) + (2x - 3) > 33. Resolviendo: 3x - 3 > 33 => 3x > 36 => x > 12."
+  },
+  {
+    "id": 1289,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Modelaje Algebraico e Inecuaciones",
+    "pregunta": "María tiene 5 años menos que el doble de la edad de Julia. Se sabe que ambas edades suman estrictamente más de 29 años. Si 'x' es la edad de Julia, ¿cómo se expresa el dominio de edad de Julia matemáticamente?",
+    "opciones": [
+      "x < 34/3",
+      "x < 24/3",
+      "x > 24/3",
+      "x > 34/3"
+    ],
+    "correcta": "x > 34/3",
+    "justificacion": "**Concepto Fundamental:** Modelaje de Inecuaciones. A diferencia de las ecuaciones, las inecuaciones requieren respetar el sentido de la desigualdad (mayor, menor, mayor o igual).\n\n**Resolución:** Sea la edad de Julia = x. La edad de María = 2x - 5. La suma es (x) + (2x - 5) > 29. Resolviendo: 3x - 5 > 29 => 3x > 34 => x > 34/3."
+  },
+  {
+    "id": 1290,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "Elija el par de palabras que exprese mejor una relación similar a la de ORTOGRAFÍA : ESCRITURA",
+    "opciones": [
+      "semántica : significado",
+      "gramática : oración",
+      "lógica : razonamiento",
+      "sintaxis : sonido"
+    ],
+    "correcta": "lógica : razonamiento",
+    "justificacion": "**Concepto Fundamental:** Relación de normativa o disciplina a objeto de estudio/práctica.\n\n**Resolución:** La ortografía establece las reglas para la correcta escritura, así como la lógica establece los principios para un correcto razonamiento."
+  },
+  {
+    "id": 1291,
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "pregunta": "CONCIERTO es a ESPECTADOR lo que:",
+    "opciones": [
+      "partitura : músico",
+      "museo : obra",
+      "conferencia : oyente",
+      "teatro : escenario"
+    ],
+    "correcta": "conferencia : oyente",
+    "justificacion": "**Concepto Fundamental:** Relación de evento a receptor/público.\n\n**Resolución:** El concierto es un evento auditivo/visual donde el receptor es el espectador. Similarmente, la conferencia es un evento donde el receptor es el oyente."
+  },
+  {
+    "id": 1292,
+    "area": "Razonamiento Verbal",
+    "tema": "Uso del Vocabulario y Sinónimos",
+    "pregunta": "Identifique el sinónimo de la palabra subrayada: 'Su actitud PERTINAZ lo llevó al fracaso repetidas veces.'",
+    "opciones": [
+      "obstinada",
+      "indiferente",
+      "maleable",
+      "despistada"
+    ],
+    "correcta": "obstinada",
+    "justificacion": "**Concepto Fundamental:** Sinonimia contextual.\n\n**Resolución:** 'Pertinaz' se refiere a una persona muy terca, obstinada o testaruda en su actitud o ideas."
+  },
+  {
+    "id": 1293,
+    "area": "Razonamiento Verbal",
+    "tema": "Uso del Vocabulario y Antónimos",
+    "pregunta": "Señale el antónimo de la palabra 'EPÍLOGO':",
+    "opciones": [
+      "prefacio",
+      "resumen",
+      "conclusión",
+      "apéndice"
+    ],
+    "correcta": "prefacio",
+    "justificacion": "**Concepto Fundamental:** Antonimia morfológica/semántica.\n\n**Resolución:** El epílogo es la parte final de una obra (cierre). Su opuesto es el prefacio o prólogo (parte inicial o introducción)."
+  },
+  {
+    "id": 1294,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Qué oración hace un uso correcto de los signos de puntuación?",
+    "opciones": [
+      "El autor, afirmó: 'La ciencia es el motor del progreso'.",
+      "El autor afirmó: 'La ciencia es el motor del progreso'.",
+      "El autor afirmó: 'La ciencia, es el motor del progreso'.",
+      "El autor afirmó, 'La ciencia es el motor del progreso'."
+    ],
+    "correcta": "El autor afirmó: 'La ciencia es el motor del progreso'.",
+    "justificacion": "**Concepto Fundamental:** Uso de los dos puntos en citas textuales.\n\n**Resolución:** Cuando se introduce una cita textual directa después de un verbo de decir (como 'afirmó'), se deben usar dos puntos. No debe colocarse coma entre el sujeto y el verbo principal."
+  },
+  {
+    "id": 1295,
+    "area": "Razonamiento Verbal",
+    "tema": "Reglas de Puntuación",
+    "pregunta": "¿Cuál oración usa correctamente la coma enumerativa?",
+    "opciones": [
+      "Trajo manzanas, peras, uvas, y naranjas.",
+      "Trajo manzanas, peras, uvas y, naranjas.",
+      "Trajo manzanas peras, uvas, y naranjas.",
+      "Trajo manzanas, peras, uvas y naranjas."
+    ],
+    "correcta": "Trajo manzanas, peras, uvas y naranjas.",
+    "justificacion": "**Concepto Fundamental:** Enumeración simple.\n\n**Resolución:** En una enumeración sencilla en español, el último elemento se introduce con una conjunción (y) y no debe llevar coma inmediatamente antes de la conjunción, salvo excepciones sintácticas muy específicas que aquí no aplican."
+  },
+  {
+    "id": 1296,
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora: Inferencias",
+    "pregunta": "Lea el fragmento: 'La lluvia caía incesantemente. A través del cristal empañado, Carlos veía desdibujarse las luces de los autos, mientras el reloj marcaba las dos de la madrugada y el café ya estaba frío.'\nSe infiere del texto que:",
+    "opciones": [
+      "Carlos está conduciendo su auto bajo la lluvia.",
+      "Es de día y hace mucho calor en la habitación.",
+      "Carlos lleva mucho tiempo despierto y esperando.",
+      "Carlos no sabe preparar buen café."
+    ],
+    "correcta": "Carlos lleva mucho tiempo despierto y esperando.",
+    "justificacion": "**Concepto Fundamental:** Deducción a partir de marcas temporales y descriptivas.\n\n**Resolución:** Las 2 de la madrugada, sumado al cristal empañado, la observación estática de los autos y el 'café ya frío' indican un tiempo prolongado de espera y vigilia en un lugar cerrado."
+  },
+  {
+    "id": 1297,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete la oración con el conector adecuado: 'Quería ir al cine; _________, no le alcanzó el dinero para la entrada.'",
+    "opciones": [
+      "por consiguiente",
+      "sin embargo",
+      "además",
+      "asimismo"
+    ],
+    "correcta": "sin embargo",
+    "justificacion": "**Concepto Fundamental:** Conectores de contraste u oposición.\n\n**Resolución:** La primera oración expresa un deseo y la segunda un impedimento para realizar ese deseo. Por lo tanto, se necesita un conector adversativo que marque la contrariedad ('sin embargo')."
+  },
+  {
+    "id": 1298,
+    "area": "Razonamiento Verbal",
+    "tema": "Conectores Textuales",
+    "pregunta": "Complete: 'La empresa invirtió en tecnología; _________, mejoró su capacidad de producción en un 40%.'",
+    "opciones": [
+      "pero",
+      "aunque",
+      "en consecuencia",
+      "a pesar de ello"
+    ],
+    "correcta": "en consecuencia",
+    "justificacion": "**Concepto Fundamental:** Conectores de causa-efecto.\n\n**Resolución:** La inversión es la causa y la mejora de capacidad es la consecuencia lógica y directa. El conector 'en consecuencia' articula esta relación de forma impecable."
+  },
+  {
+    "id": 1299,
+    "area": "Razonamiento Verbal",
+    "tema": "Uso del Vocabulario y Sinónimos",
+    "pregunta": "Seleccione el sinónimo de la palabra 'EFÍMERO':",
+    "opciones": [
+      "duradero",
+      "fugaz",
+      "sólido",
+      "importante"
+    ],
+    "correcta": "fugaz",
+    "justificacion": "**Concepto Fundamental:** Sinonimia exacta.\n\n**Resolución:** Efímero significa de corta duración, pasajero. Su sinónimo directo es 'fugaz'. Las opciones 'duradero' y 'sólido' se acercan a sus antónimos."
   }
 ]
