@@ -539,20 +539,23 @@ function startSimulation(e) {
         if (!grouped[tema]) grouped[tema] = [];
         grouped[tema].push(q);
     });
-    
+
+    // Mezclar cada grupo internamente con Fisher-Yates
     Object.keys(grouped).forEach(tema => {
         grouped[tema] = shuffleArray(grouped[tema]);
     });
 
-    // Seleccionar round-robin para maximizar variedad de temas
+    // Mezclar también el orden de los temas para que el round-robin
+    // no siga siempre la misma secuencia predecible
+    const temasDisponibles = shuffleArray(Object.keys(grouped));
+
+    // Seleccionar round-robin desde temas ya mezclados
     const finalSelection = [];
-    const temasDisponibles = Object.keys(grouped);
-    
     let currentTemaIdx = 0;
     while (finalSelection.length < state.config.numQuestions && temasDisponibles.length > 0) {
         const temaIndex = currentTemaIdx % temasDisponibles.length;
         const tema = temasDisponibles[temaIndex];
-        
+
         if (grouped[tema].length > 0) {
             finalSelection.push(grouped[tema].shift());
             currentTemaIdx++;
@@ -561,7 +564,26 @@ function startSimulation(e) {
         }
     }
 
-    // Randomización total de las preguntas seleccionadas
+    // Paso de "deaglomeración": evitar que dos preguntas consecutivas
+    // sean del mismo tema intercambiándolas con otra posición aleatoria
+    for (let i = 1; i < finalSelection.length; i++) {
+        const prevTema = finalSelection[i - 1].tema || "General";
+        const currTema = finalSelection[i].tema || "General";
+        if (prevTema === currTema) {
+            // Buscar una posición diferente para intercambiar
+            const candidates = [];
+            for (let j = i + 1; j < finalSelection.length; j++) {
+                const jTema = finalSelection[j].tema || "General";
+                if (jTema !== currTema) candidates.push(j);
+            }
+            if (candidates.length > 0) {
+                const swapIdx = candidates[Math.floor(Math.random() * candidates.length)];
+                [finalSelection[i], finalSelection[swapIdx]] = [finalSelection[swapIdx], finalSelection[i]];
+            }
+        }
+    }
+
+    // Shuffle final robusto para eliminar cualquier patrón residual
     filteredQuestions = shuffleArray(finalSelection);
 
     // Preparar preguntas con opciones mezcladas para cada una
@@ -640,10 +662,31 @@ function renderQuestion() {
 
     // Renderizar opciones de respuesta
     DOM.exam.optionsContainer.innerHTML = '';
-    question.opcionesMezcladas.forEach(opt => {
+    
+    // Detectar si es una pregunta de comparación ortográfica
+    const isOrtografia = question.tipo === 'comparacion_ortografica';
+    if (isOrtografia) {
+        DOM.exam.optionsContainer.classList.add('ortografia-options');
+        // Añadir badge instructivo
+        const badge = document.createElement('p');
+        badge.className = 'ortografia-badge';
+        badge.textContent = '📝 Compara las versiones y selecciona la correctamente escrita:';
+        DOM.exam.optionsContainer.appendChild(badge);
+    } else {
+        DOM.exam.optionsContainer.classList.remove('ortografia-options');
+    }
+
+    const alphabet = ['A', 'B', 'C', 'D', 'E'];
+    question.opcionesMezcladas.forEach((opt, i) => {
         const btn = document.createElement('button');
-        btn.className = 'option-btn';
-        btn.textContent = opt;
+        btn.className = isOrtografia ? 'option-btn option-ortografica' : 'option-btn';
+        
+        if (isOrtografia) {
+            // Mostrar letra + texto en dos spans para mejor legibilidad comparativa
+            btn.innerHTML = `<span class="opt-letter">${alphabet[i]}</span><span class="opt-text">${opt}</span>`;
+        } else {
+            btn.textContent = opt;
+        }
         
         // Mantener selección previa si el usuario ya eligió esta opción
         if (state.userAnswers[index] === opt) {
