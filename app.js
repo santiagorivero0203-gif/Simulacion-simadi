@@ -302,35 +302,38 @@ function openGuideDetail(item) {
 
     // 5. Setup Internal Tabs — reclone nodes to remove stale listeners
     const tabs = document.querySelectorAll('.g-tab-btn');
-    tabs.forEach(tab => {
-        const newTab = tab.cloneNode(true);
-        tab.parentNode.replaceChild(newTab, tab);
-        newTab.addEventListener('click', (e) => {
-            document.querySelectorAll('.g-tab-btn').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.g-tab-content').forEach(c => c.classList.add('hidden'));
-            e.target.classList.add('active');
-            const target = document.getElementById(e.target.dataset.target);
-            if (target) {
-                target.classList.remove('hidden');
-                // Re-trigger animation by forcing reflow
-                target.style.animation = 'none';
-                void target.offsetHeight;
-                target.style.animation = '';
-            }
+    if (tabs.length > 0) {
+        tabs.forEach(tab => {
+            const newTab = tab.cloneNode(true);
+            tab.parentNode.replaceChild(newTab, tab);
+            newTab.addEventListener('click', (e) => {
+                document.querySelectorAll('.g-tab-btn').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.g-tab-content').forEach(c => c.classList.add('hidden'));
+                e.target.classList.add('active');
+                const target = document.getElementById(e.target.dataset.target);
+                if (target) {
+                    target.classList.remove('hidden');
+                    // Re-trigger animation by forcing reflow
+                    target.style.animation = 'none';
+                    void target.offsetHeight;
+                    target.style.animation = '';
+                }
+            });
         });
-    });
 
-    // Reset to Theory tab
-    document.querySelectorAll('.g-tab-btn')[0].click();
+        // Reset to Theory tab
+        document.querySelectorAll('.g-tab-btn')[0].click();
+    }
 
     // 6. Setup Practice logic — with integrated DOM feedback (no alert())
     const startPracticeBtn = document.getElementById('start-guide-practice-btn');
     const practiceArea = document.getElementById('guide-practice-area');
 
-    const newPracticeBtn = startPracticeBtn.cloneNode(true);
-    startPracticeBtn.parentNode.replaceChild(newPracticeBtn, startPracticeBtn);
-    practiceArea.classList.add('hidden');
-    practiceArea.innerHTML = '';
+    if (startPracticeBtn && practiceArea) {
+        const newPracticeBtn = startPracticeBtn.cloneNode(true);
+        startPracticeBtn.parentNode.replaceChild(newPracticeBtn, startPracticeBtn);
+        practiceArea.classList.add('hidden');
+        practiceArea.innerHTML = '';
 
     newPracticeBtn.addEventListener('click', () => {
         const topics = item.practiceTopics || [];
@@ -428,9 +431,11 @@ function openGuideDetail(item) {
         practiceArea.appendChild(card);
         practiceArea.classList.remove('hidden');
     });
+    }
 
     switchScreen('guideDetail');
 }
+
 
 // ============================================
 // CONFIGURACIÓN Y TEMAS DEL EXAMEN
