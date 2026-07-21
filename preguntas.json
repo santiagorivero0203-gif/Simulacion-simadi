@@ -11973,5 +11973,1970 @@
     "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
     "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
     "id": 1542
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 3x + 17 = 38",
+    "opciones": [
+      "14",
+      "4",
+      "7",
+      "10"
+    ],
+    "correcta": "7",
+    "justificacion": "Despejando x: 3x = 38 - 17 -> 3x = 21 -> x = 7",
+    "id": 1543
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 9x + 19 = 145",
+    "opciones": [
+      "28",
+      "14",
+      "13",
+      "16"
+    ],
+    "correcta": "14",
+    "justificacion": "Despejando x: 9x = 145 - 19 -> 9x = 126 -> x = 14",
+    "id": 1544
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 3x + 4 = 22",
+    "opciones": [
+      "8",
+      "12",
+      "5",
+      "6"
+    ],
+    "correcta": "6",
+    "justificacion": "Despejando x: 3x = 22 - 4 -> 3x = 18 -> x = 6",
+    "id": 1545
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 5x + 9 = 49",
+    "opciones": [
+      "16",
+      "8",
+      "10",
+      "6"
+    ],
+    "correcta": "8",
+    "justificacion": "Despejando x: 5x = 49 - 9 -> 5x = 40 -> x = 8",
+    "id": 1546
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 7x + 18 = 39",
+    "opciones": [
+      "3",
+      "10",
+      "1",
+      "6"
+    ],
+    "correcta": "3",
+    "justificacion": "Despejando x: 7x = 39 - 18 -> 7x = 21 -> x = 3",
+    "id": 1547
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 2x + 12 = 42",
+    "opciones": [
+      "30",
+      "13",
+      "17",
+      "15"
+    ],
+    "correcta": "15",
+    "justificacion": "Despejando x: 2x = 42 - 12 -> 2x = 30 -> x = 15",
+    "id": 1548
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 9x + 4 = 139",
+    "opciones": [
+      "17",
+      "30",
+      "12",
+      "15"
+    ],
+    "correcta": "15",
+    "justificacion": "Despejando x: 9x = 139 - 4 -> 9x = 135 -> x = 15",
+    "id": 1549
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 8x + 16 = 104",
+    "opciones": [
+      "11",
+      "22",
+      "14",
+      "8"
+    ],
+    "correcta": "11",
+    "justificacion": "Despejando x: 8x = 104 - 16 -> 8x = 88 -> x = 11",
+    "id": 1550
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 4x + 2 = 62",
+    "opciones": [
+      "15",
+      "12",
+      "30",
+      "18"
+    ],
+    "correcta": "15",
+    "justificacion": "Despejando x: 4x = 62 - 2 -> 4x = 60 -> x = 15",
+    "id": 1551
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 9x + 16 = 52",
+    "opciones": [
+      "8",
+      "3",
+      "4",
+      "5"
+    ],
+    "correcta": "4",
+    "justificacion": "Despejando x: 9x = 52 - 16 -> 9x = 36 -> x = 4",
+    "id": 1552
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 6x + 13 = 73",
+    "opciones": [
+      "8",
+      "20",
+      "10",
+      "13"
+    ],
+    "correcta": "10",
+    "justificacion": "Despejando x: 6x = 73 - 13 -> 6x = 60 -> x = 10",
+    "id": 1553
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 5x + 9 = 39",
+    "opciones": [
+      "12",
+      "7",
+      "6",
+      "5"
+    ],
+    "correcta": "6",
+    "justificacion": "Despejando x: 5x = 39 - 9 -> 5x = 30 -> x = 6",
+    "id": 1554
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 9x + 7 = 70",
+    "opciones": [
+      "9",
+      "14",
+      "4",
+      "7"
+    ],
+    "correcta": "7",
+    "justificacion": "Despejando x: 9x = 70 - 7 -> 9x = 63 -> x = 7",
+    "id": 1555
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 8x + 2 = 82",
+    "opciones": [
+      "12",
+      "10",
+      "8",
+      "20"
+    ],
+    "correcta": "10",
+    "justificacion": "Despejando x: 8x = 82 - 2 -> 8x = 80 -> x = 10",
+    "id": 1556
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resuelva la siguiente ecuación para x: 6x + 6 = 60",
+    "opciones": [
+      "11",
+      "18",
+      "9",
+      "6"
+    ],
+    "correcta": "9",
+    "justificacion": "Despejando x: 6x = 60 - 6 -> 6x = 54 -> x = 9",
+    "id": 1557
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 60% de 560?",
+    "opciones": [
+      "369",
+      "346",
+      "316",
+      "336"
+    ],
+    "correcta": "336",
+    "justificacion": "El 60% de 560 se calcula: (60/100) * 560 = 336",
+    "id": 1558
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 20% de 660?",
+    "opciones": [
+      "142",
+      "145",
+      "112",
+      "132"
+    ],
+    "correcta": "132",
+    "justificacion": "El 20% de 660 se calcula: (20/100) * 660 = 132",
+    "id": 1559
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 60% de 840?",
+    "opciones": [
+      "514",
+      "484",
+      "554",
+      "504"
+    ],
+    "correcta": "504",
+    "justificacion": "El 60% de 840 se calcula: (60/100) * 840 = 504",
+    "id": 1560
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 25% de 240?",
+    "opciones": [
+      "40",
+      "70",
+      "66",
+      "60"
+    ],
+    "correcta": "60",
+    "justificacion": "El 25% de 240 se calcula: (25/100) * 240 = 60",
+    "id": 1561
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 40% de 280?",
+    "opciones": [
+      "92",
+      "123",
+      "122",
+      "112"
+    ],
+    "correcta": "112",
+    "justificacion": "El 40% de 280 se calcula: (40/100) * 280 = 112",
+    "id": 1562
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 20% de 780?",
+    "opciones": [
+      "171",
+      "156",
+      "136",
+      "166"
+    ],
+    "correcta": "156",
+    "justificacion": "El 20% de 780 se calcula: (20/100) * 780 = 156",
+    "id": 1563
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 80% de 980?",
+    "opciones": [
+      "764",
+      "794",
+      "784",
+      "862"
+    ],
+    "correcta": "784",
+    "justificacion": "El 80% de 980 se calcula: (80/100) * 980 = 784",
+    "id": 1564
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 20% de 260?",
+    "opciones": [
+      "52",
+      "62",
+      "32",
+      "57"
+    ],
+    "correcta": "52",
+    "justificacion": "El 20% de 260 se calcula: (20/100) * 260 = 52",
+    "id": 1565
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 50% de 280?",
+    "opciones": [
+      "154",
+      "140",
+      "120",
+      "150"
+    ],
+    "correcta": "140",
+    "justificacion": "El 50% de 280 se calcula: (50/100) * 280 = 140",
+    "id": 1566
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 15% de 580?",
+    "opciones": [
+      "95",
+      "97",
+      "67",
+      "87"
+    ],
+    "correcta": "87",
+    "justificacion": "El 15% de 580 se calcula: (15/100) * 580 = 87",
+    "id": 1567
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 40% de 120?",
+    "opciones": [
+      "28",
+      "58",
+      "52",
+      "48"
+    ],
+    "correcta": "48",
+    "justificacion": "El 40% de 120 se calcula: (40/100) * 120 = 48",
+    "id": 1568
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 40% de 960?",
+    "opciones": [
+      "384",
+      "364",
+      "394",
+      "422"
+    ],
+    "correcta": "384",
+    "justificacion": "El 40% de 960 se calcula: (40/100) * 960 = 384",
+    "id": 1569
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 15% de 720?",
+    "opciones": [
+      "123",
+      "108",
+      "93",
+      "216"
+    ],
+    "correcta": "108",
+    "justificacion": "El 15% de 720 se calcula: (15/100) * 720 = 108",
+    "id": 1570
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 20% de 840?",
+    "opciones": [
+      "168",
+      "184",
+      "148",
+      "178"
+    ],
+    "correcta": "168",
+    "justificacion": "El 20% de 840 se calcula: (20/100) * 840 = 168",
+    "id": 1571
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el 60% de 860?",
+    "opciones": [
+      "496",
+      "516",
+      "567",
+      "526"
+    ],
+    "correcta": "516",
+    "justificacion": "El 60% de 860 se calcula: (60/100) * 860 = 516",
+    "id": 1572
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 10 años, la edad de un estudiante era 13 años. ¿Qué edad tendrá dentro de 3 años?",
+    "opciones": [
+      "23",
+      "16",
+      "36",
+      "26"
+    ],
+    "correcta": "26",
+    "justificacion": "Edad actual: 13 + 10 = 23. Edad futura: 23 + 3 = 26.",
+    "id": 1573
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 12 años, la edad de un estudiante era 5 años. ¿Qué edad tendrá dentro de 3 años?",
+    "opciones": [
+      "17",
+      "32",
+      "20",
+      "8"
+    ],
+    "correcta": "20",
+    "justificacion": "Edad actual: 5 + 12 = 17. Edad futura: 17 + 3 = 20.",
+    "id": 1574
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 4 años, la edad de un estudiante era 12 años. ¿Qué edad tendrá dentro de 4 años?",
+    "opciones": [
+      "30",
+      "16",
+      "20",
+      "24"
+    ],
+    "correcta": "20",
+    "justificacion": "Edad actual: 12 + 4 = 16. Edad futura: 16 + 4 = 20.",
+    "id": 1575
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 6 años, la edad de un estudiante era 7 años. ¿Qué edad tendrá dentro de 6 años?",
+    "opciones": [
+      "25",
+      "18",
+      "19",
+      "13"
+    ],
+    "correcta": "19",
+    "justificacion": "Edad actual: 7 + 6 = 13. Edad futura: 13 + 6 = 19.",
+    "id": 1576
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 10 años, la edad de un estudiante era 6 años. ¿Qué edad tendrá dentro de 5 años?",
+    "opciones": [
+      "21",
+      "16",
+      "31",
+      "11"
+    ],
+    "correcta": "21",
+    "justificacion": "Edad actual: 6 + 10 = 16. Edad futura: 16 + 5 = 21.",
+    "id": 1577
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 11 años, la edad de un estudiante era 9 años. ¿Qué edad tendrá dentro de 6 años?",
+    "opciones": [
+      "26",
+      "37",
+      "20",
+      "15"
+    ],
+    "correcta": "26",
+    "justificacion": "Edad actual: 9 + 11 = 20. Edad futura: 20 + 6 = 26.",
+    "id": 1578
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 9 años, la edad de un estudiante era 7 años. ¿Qué edad tendrá dentro de 7 años?",
+    "opciones": [
+      "14",
+      "16",
+      "32",
+      "23"
+    ],
+    "correcta": "23",
+    "justificacion": "Edad actual: 7 + 9 = 16. Edad futura: 16 + 7 = 23.",
+    "id": 1579
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 12 años, la edad de un estudiante era 13 años. ¿Qué edad tendrá dentro de 5 años?",
+    "opciones": [
+      "42",
+      "18",
+      "30",
+      "25"
+    ],
+    "correcta": "30",
+    "justificacion": "Edad actual: 13 + 12 = 25. Edad futura: 25 + 5 = 30.",
+    "id": 1580
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 5 años, la edad de un estudiante era 5 años. ¿Qué edad tendrá dentro de 6 años?",
+    "opciones": [
+      "21",
+      "16",
+      "10",
+      "11"
+    ],
+    "correcta": "16",
+    "justificacion": "Edad actual: 5 + 5 = 10. Edad futura: 10 + 6 = 16.",
+    "id": 1581
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hace 9 años, la edad de un estudiante era 5 años. ¿Qué edad tendrá dentro de 4 años?",
+    "opciones": [
+      "18",
+      "9",
+      "14",
+      "27"
+    ],
+    "correcta": "18",
+    "justificacion": "Edad actual: 5 + 9 = 14. Edad futura: 14 + 4 = 18.",
+    "id": 1582
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:4. Si la diferencia entre ellos es 26, ¿cuál es el número mayor?",
+    "opciones": [
+      "56",
+      "50",
+      "52",
+      "26"
+    ],
+    "correcta": "52",
+    "justificacion": "Diferencia de partes: 2. Multiplicador k: 26 / 2 = 13. Número mayor: 4 * 13 = 52.",
+    "id": 1583
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 4:7. Si la diferencia entre ellos es 45, ¿cuál es el número mayor?",
+    "opciones": [
+      "60",
+      "101",
+      "112",
+      "105"
+    ],
+    "correcta": "105",
+    "justificacion": "Diferencia de partes: 3. Multiplicador k: 45 / 3 = 15. Número mayor: 7 * 15 = 105.",
+    "id": 1584
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:5. Si la diferencia entre ellos es 21, ¿cuál es el número mayor?",
+    "opciones": [
+      "33",
+      "14",
+      "35",
+      "40"
+    ],
+    "correcta": "35",
+    "justificacion": "Diferencia de partes: 3. Multiplicador k: 21 / 3 = 7. Número mayor: 5 * 7 = 35.",
+    "id": 1585
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 3:4. Si la diferencia entre ellos es 15, ¿cuál es el número mayor?",
+    "opciones": [
+      "45",
+      "57",
+      "60",
+      "64"
+    ],
+    "correcta": "60",
+    "justificacion": "Diferencia de partes: 1. Multiplicador k: 15 / 1 = 15. Número mayor: 4 * 15 = 60.",
+    "id": 1586
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:4. Si la diferencia entre ellos es 18, ¿cuál es el número mayor?",
+    "opciones": [
+      "34",
+      "18",
+      "40",
+      "36"
+    ],
+    "correcta": "36",
+    "justificacion": "Diferencia de partes: 2. Multiplicador k: 18 / 2 = 9. Número mayor: 4 * 9 = 36.",
+    "id": 1587
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:4. Si la diferencia entre ellos es 10, ¿cuál es el número mayor?",
+    "opciones": [
+      "24",
+      "18",
+      "10",
+      "20"
+    ],
+    "correcta": "20",
+    "justificacion": "Diferencia de partes: 2. Multiplicador k: 10 / 2 = 5. Número mayor: 4 * 5 = 20.",
+    "id": 1588
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:7. Si la diferencia entre ellos es 30, ¿cuál es el número mayor?",
+    "opciones": [
+      "42",
+      "12",
+      "40",
+      "49"
+    ],
+    "correcta": "42",
+    "justificacion": "Diferencia de partes: 5. Multiplicador k: 30 / 5 = 6. Número mayor: 7 * 6 = 42.",
+    "id": 1589
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:7. Si la diferencia entre ellos es 75, ¿cuál es el número mayor?",
+    "opciones": [
+      "112",
+      "103",
+      "105",
+      "30"
+    ],
+    "correcta": "105",
+    "justificacion": "Diferencia de partes: 5. Multiplicador k: 75 / 5 = 15. Número mayor: 7 * 15 = 105.",
+    "id": 1590
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 2:7. Si la diferencia entre ellos es 55, ¿cuál es el número mayor?",
+    "opciones": [
+      "84",
+      "75",
+      "22",
+      "77"
+    ],
+    "correcta": "77",
+    "justificacion": "Diferencia de partes: 5. Multiplicador k: 55 / 5 = 11. Número mayor: 7 * 11 = 77.",
+    "id": 1591
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos números están en relación de 5:7. Si la diferencia entre ellos es 22, ¿cuál es el número mayor?",
+    "opciones": [
+      "55",
+      "84",
+      "77",
+      "72"
+    ],
+    "correcta": "77",
+    "justificacion": "Diferencia de partes: 2. Multiplicador k: 22 / 2 = 11. Número mayor: 7 * 11 = 77.",
+    "id": 1592
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 9, 16, 23, 30, 37, ...",
+    "opciones": [
+      "37",
+      "46",
+      "44",
+      "45"
+    ],
+    "correcta": "44",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +7.",
+    "id": 1593
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 6, 8, 10, 12, 14, ...",
+    "opciones": [
+      "18",
+      "17",
+      "16",
+      "14"
+    ],
+    "correcta": "16",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +2.",
+    "id": 1594
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 6, 10, 14, 18, 22, ...",
+    "opciones": [
+      "22",
+      "28",
+      "27",
+      "26"
+    ],
+    "correcta": "26",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +4.",
+    "id": 1595
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 6, 12, 18, 24, 30, ...",
+    "opciones": [
+      "30",
+      "36",
+      "37",
+      "38"
+    ],
+    "correcta": "36",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1596
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 4, 10, 16, 22, 28, ...",
+    "opciones": [
+      "35",
+      "36",
+      "28",
+      "34"
+    ],
+    "correcta": "34",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1597
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 3, 9, 15, 21, 27, ...",
+    "opciones": [
+      "34",
+      "27",
+      "35",
+      "33"
+    ],
+    "correcta": "33",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1598
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 1, 6, 11, 16, 21, ...",
+    "opciones": [
+      "26",
+      "28",
+      "21",
+      "27"
+    ],
+    "correcta": "26",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +5.",
+    "id": 1599
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 7, 12, 17, 22, 27, ...",
+    "opciones": [
+      "34",
+      "32",
+      "27",
+      "33"
+    ],
+    "correcta": "32",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +5.",
+    "id": 1600
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 3, 6, 9, 12, 15, ...",
+    "opciones": [
+      "15",
+      "19",
+      "20",
+      "18"
+    ],
+    "correcta": "18",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +3.",
+    "id": 1601
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 5, 8, 11, 14, 17, ...",
+    "opciones": [
+      "22",
+      "21",
+      "17",
+      "20"
+    ],
+    "correcta": "20",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +3.",
+    "id": 1602
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 5, 11, 17, 23, 29, ...",
+    "opciones": [
+      "37",
+      "36",
+      "35",
+      "29"
+    ],
+    "correcta": "35",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1603
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 6, 9, 12, 15, 18, ...",
+    "opciones": [
+      "21",
+      "22",
+      "23",
+      "18"
+    ],
+    "correcta": "21",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +3.",
+    "id": 1604
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 9, 13, 17, 21, 25, ...",
+    "opciones": [
+      "25",
+      "29",
+      "31",
+      "30"
+    ],
+    "correcta": "29",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +4.",
+    "id": 1605
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 1, 8, 15, 22, 29, ...",
+    "opciones": [
+      "36",
+      "38",
+      "37",
+      "29"
+    ],
+    "correcta": "36",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +7.",
+    "id": 1606
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 8, 10, 12, 14, 16, ...",
+    "opciones": [
+      "20",
+      "16",
+      "19",
+      "18"
+    ],
+    "correcta": "18",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +2.",
+    "id": 1607
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 7, 14, 21, 28, 35, ...",
+    "opciones": [
+      "44",
+      "42",
+      "35",
+      "43"
+    ],
+    "correcta": "42",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +7.",
+    "id": 1608
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 8, 14, 20, 26, 32, ...",
+    "opciones": [
+      "32",
+      "40",
+      "38",
+      "39"
+    ],
+    "correcta": "38",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1609
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 4, 7, 10, 13, 16, ...",
+    "opciones": [
+      "20",
+      "19",
+      "16",
+      "21"
+    ],
+    "correcta": "19",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +3.",
+    "id": 1610
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 1, 5, 9, 13, 17, ...",
+    "opciones": [
+      "21",
+      "22",
+      "17",
+      "23"
+    ],
+    "correcta": "21",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +4.",
+    "id": 1611
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 2, 6, 10, 14, 18, ...",
+    "opciones": [
+      "24",
+      "18",
+      "23",
+      "22"
+    ],
+    "correcta": "22",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +4.",
+    "id": 1612
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 3, 10, 17, 24, 31, ...",
+    "opciones": [
+      "31",
+      "38",
+      "39",
+      "40"
+    ],
+    "correcta": "38",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +7.",
+    "id": 1613
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 10, 14, 18, 22, 26, ...",
+    "opciones": [
+      "31",
+      "30",
+      "26",
+      "32"
+    ],
+    "correcta": "30",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +4.",
+    "id": 1614
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Identifique el número que continúa la serie: 9, 15, 21, 27, 33, ...",
+    "opciones": [
+      "39",
+      "40",
+      "41",
+      "33"
+    ],
+    "correcta": "39",
+    "justificacion": "Es una serie aritmética con una diferencia constante de +6.",
+    "id": 1615
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 1, 2, 4, 8, 16, ...?",
+    "opciones": [
+      "32",
+      "34",
+      "16",
+      "64"
+    ],
+    "correcta": "32",
+    "justificacion": "Es una serie geométrica con razón r=2.",
+    "id": 1616
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 3, 6, 12, 24, 48, ...?",
+    "opciones": [
+      "98",
+      "192",
+      "96",
+      "48"
+    ],
+    "correcta": "96",
+    "justificacion": "Es una serie geométrica con razón r=2.",
+    "id": 1617
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 3, 9, 27, 81, 243, ...?",
+    "opciones": [
+      "486",
+      "2187",
+      "729",
+      "732"
+    ],
+    "correcta": "729",
+    "justificacion": "Es una serie geométrica con razón r=3.",
+    "id": 1618
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 2, 4, 8, 16, 32, ...?",
+    "opciones": [
+      "64",
+      "66",
+      "32",
+      "128"
+    ],
+    "correcta": "64",
+    "justificacion": "Es una serie geométrica con razón r=2.",
+    "id": 1619
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 4, 8, 16, 32, 64, ...?",
+    "opciones": [
+      "64",
+      "130",
+      "256",
+      "128"
+    ],
+    "correcta": "128",
+    "justificacion": "Es una serie geométrica con razón r=2.",
+    "id": 1620
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 4, 12, 36, 108, 324, ...?",
+    "opciones": [
+      "2916",
+      "972",
+      "975",
+      "648"
+    ],
+    "correcta": "972",
+    "justificacion": "Es una serie geométrica con razón r=3.",
+    "id": 1621
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Series y Sucesiones",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué número sigue en la sucesión geométrica: 2, 6, 18, 54, 162, ...?",
+    "opciones": [
+      "489",
+      "486",
+      "1458",
+      "324"
+    ],
+    "correcta": "486",
+    "justificacion": "Es una serie geométrica con razón r=3.",
+    "id": 1622
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "Seleccione la palabra que está escrita correctamente:",
+    "opciones": [
+      "absorber",
+      "absober",
+      "absorvel",
+      "absorver"
+    ],
+    "correcta": "absorber",
+    "justificacion": "La ortografía correcta es \"absorber\".",
+    "id": 1623
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "LUZ : OSCURIDAD",
+    "opciones": [
+      "libro : página",
+      "sol : luz",
+      "fuego : ceniza",
+      "paz : guerra"
+    ],
+    "correcta": "paz : guerra",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1624
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "MÉDICO : ENFERMO",
+    "opciones": [
+      "cantante : voz",
+      "escritor : novela",
+      "abogado : cliente",
+      "árbol : bosque"
+    ],
+    "correcta": "abogado : cliente",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1625
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "PÁJARO : NIDO",
+    "opciones": [
+      "oso : cueva",
+      "fuego : ceniza",
+      "libro : página",
+      "músico : instrumento"
+    ],
+    "correcta": "oso : cueva",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1626
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "ESCULTORE : MÁRMOL",
+    "opciones": [
+      "escritor : novela",
+      "pintor : lienzo",
+      "músico : instrumento",
+      "pez : escama"
+    ],
+    "correcta": "pintor : lienzo",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1627
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "CAPITÁN : BARCO",
+    "opciones": [
+      "director : escuela",
+      "luna : noche",
+      "reloj : tiempo",
+      "balanza : peso"
+    ],
+    "correcta": "director : escuela",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1628
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "HOJA : ÁRBOL",
+    "opciones": [
+      "libro : página",
+      "cantante : voz",
+      "pétalo : flor",
+      "cielo : nube"
+    ],
+    "correcta": "pétalo : flor",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1629
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "LIBRO : PÁGINAS",
+    "opciones": [
+      "reloj : tiempo",
+      "músico : instrumento",
+      "casa : ladrillos",
+      "balanza : peso"
+    ],
+    "correcta": "casa : ladrillos",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1630
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "DENTISTA : DIENTE",
+    "opciones": [
+      "reloj : tiempo",
+      "cardiólogo : corazón",
+      "músico : instrumento",
+      "árbol : bosque"
+    ],
+    "correcta": "cardiólogo : corazón",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1631
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "MARTILLO : CLAVO",
+    "opciones": [
+      "destornillador : tornillo",
+      "cantante : voz",
+      "agua : río",
+      "reloj : tiempo"
+    ],
+    "correcta": "destornillador : tornillo",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1632
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "ALEGRÍA : SONRISA",
+    "opciones": [
+      "tristeza : lágrima",
+      "perro : hueso",
+      "pintor : cuadro",
+      "pez : escama"
+    ],
+    "correcta": "tristeza : lágrima",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1633
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "CIELO : AZUL",
+    "opciones": [
+      "gato : ratón",
+      "nieve : blanca",
+      "cielo : nube",
+      "músico : instrumento"
+    ],
+    "correcta": "nieve : blanca",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1634
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "SOLDADO : EJÉRCITO",
+    "opciones": [
+      "árbol : bosque",
+      "balanza : peso",
+      "pez : escama",
+      "abeja : enjambre"
+    ],
+    "correcta": "abeja : enjambre",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1635
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "PAN : TRIGO",
+    "opciones": [
+      "vino : uva",
+      "reloj : tiempo",
+      "sol : luz",
+      "gato : ratón"
+    ],
+    "correcta": "vino : uva",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1636
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "RELOJ : TIEMPO",
+    "opciones": [
+      "libro : página",
+      "agua : río",
+      "termómetro : temperatura",
+      "escritor : novela"
+    ],
+    "correcta": "termómetro : temperatura",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1637
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "DÍA : NOCHE",
+    "opciones": [
+      "gato : ratón",
+      "blanco : negro",
+      "músico : instrumento",
+      "sol : luz"
+    ],
+    "correcta": "blanco : negro",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1638
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "CANTANTE : VOZ",
+    "opciones": [
+      "bailarín : cuerpo",
+      "pintor : cuadro",
+      "músico : instrumento",
+      "reloj : tiempo"
+    ],
+    "correcta": "bailarín : cuerpo",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1639
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "AGUA : LÍQUIDO",
+    "opciones": [
+      "fuego : ceniza",
+      "cielo : nube",
+      "vapor : gas",
+      "perro : hueso"
+    ],
+    "correcta": "vapor : gas",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1640
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "ESPEJO : REFLEJO",
+    "opciones": [
+      "pintor : cuadro",
+      "cielo : nube",
+      "memoria : recuerdo",
+      "gato : ratón"
+    ],
+    "correcta": "memoria : recuerdo",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1641
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "ALAS : VOLAR",
+    "opciones": [
+      "luna : noche",
+      "cielo : nube",
+      "pintor : cuadro",
+      "piernas : caminar"
+    ],
+    "correcta": "piernas : caminar",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1642
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "LLAVE : CERRADURA",
+    "opciones": [
+      "contraseña : cuenta",
+      "músico : instrumento",
+      "pez : escama",
+      "agua : río"
+    ],
+    "correcta": "contraseña : cuenta",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1643
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "PLUMA : ESCRIBIR",
+    "opciones": [
+      "libro : página",
+      "pincel : pintar",
+      "pez : escama",
+      "árbol : bosque"
+    ],
+    "correcta": "pincel : pintar",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1644
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "SOL : DÍA",
+    "opciones": [
+      "libro : página",
+      "luna : noche",
+      "luna : noche",
+      "músico : instrumento"
+    ],
+    "correcta": "luna : noche",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1645
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "MOTOR : COCHE",
+    "opciones": [
+      "luna : noche",
+      "corazón : cuerpo",
+      "libro : página",
+      "pez : escama"
+    ],
+    "correcta": "corazón : cuerpo",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1646
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "TELA : VESTIDO",
+    "opciones": [
+      "árbol : bosque",
+      "músico : instrumento",
+      "libro : página",
+      "cuero : zapato"
+    ],
+    "correcta": "cuero : zapato",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1647
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "LÁPIZ : PAPEL",
+    "opciones": [
+      "tiza : pizarra",
+      "libro : página",
+      "agua : río",
+      "músico : instrumento"
+    ],
+    "correcta": "tiza : pizarra",
+    "justificacion": "Analogía basada en la relación lógica del par base.",
+    "id": 1648
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **INHERENTE**",
+    "opciones": [
+      "oculto",
+      "falso",
+      "ajeno",
+      "propio"
+    ],
+    "correcta": "propio",
+    "justificacion": "El sinónimo correcto es propio.",
+    "id": 1649
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **OBSTINADO**",
+    "opciones": [
+      "amable",
+      "dócil",
+      "flexible",
+      "terco"
+    ],
+    "correcta": "terco",
+    "justificacion": "El sinónimo correcto es terco.",
+    "id": 1650
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **EFÍMERO**",
+    "opciones": [
+      "antiguo",
+      "fugaz",
+      "pesado",
+      "eterno"
+    ],
+    "correcta": "fugaz",
+    "justificacion": "El sinónimo correcto es fugaz.",
+    "id": 1651
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **LÚGUBRE**",
+    "opciones": [
+      "sombrío",
+      "iluminado",
+      "claro",
+      "alegre"
+    ],
+    "correcta": "sombrío",
+    "justificacion": "El sinónimo correcto es sombrío.",
+    "id": 1652
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **SAGAZ**",
+    "opciones": [
+      "lento",
+      "tonto",
+      "fuerte",
+      "astuto"
+    ],
+    "correcta": "astuto",
+    "justificacion": "El sinónimo correcto es astuto.",
+    "id": 1653
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **IGNOTO**",
+    "opciones": [
+      "famoso",
+      "visible",
+      "desconocido",
+      "cercano"
+    ],
+    "correcta": "desconocido",
+    "justificacion": "El sinónimo correcto es desconocido.",
+    "id": 1654
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **INEFABLE**",
+    "opciones": [
+      "vulgar",
+      "hablador",
+      "indescriptible",
+      "común"
+    ],
+    "correcta": "indescriptible",
+    "justificacion": "El sinónimo correcto es indescriptible.",
+    "id": 1655
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **PROLÍFICO**",
+    "opciones": [
+      "fecundo",
+      "pobre",
+      "escaso",
+      "estéril"
+    ],
+    "correcta": "fecundo",
+    "justificacion": "El sinónimo correcto es fecundo.",
+    "id": 1656
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **APATÍA**",
+    "opciones": [
+      "fuerza",
+      "entusiasmo",
+      "indiferencia",
+      "pasión"
+    ],
+    "correcta": "indiferencia",
+    "justificacion": "El sinónimo correcto es indiferencia.",
+    "id": 1657
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **TÁCITO**",
+    "opciones": [
+      "hablado",
+      "claro",
+      "implícito",
+      "expreso"
+    ],
+    "correcta": "implícito",
+    "justificacion": "El sinónimo correcto es implícito.",
+    "id": 1658
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **MÍSERO**",
+    "opciones": [
+      "opulento",
+      "feliz",
+      "rico",
+      "indigente"
+    ],
+    "correcta": "indigente",
+    "justificacion": "El sinónimo correcto es indigente.",
+    "id": 1659
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **PERSPICAZ**",
+    "opciones": [
+      "agudo",
+      "torpe",
+      "lento",
+      "ciego"
+    ],
+    "correcta": "agudo",
+    "justificacion": "El sinónimo correcto es agudo.",
+    "id": 1660
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **SUTILEZA**",
+    "opciones": [
+      "fuerza",
+      "rudeza",
+      "peso",
+      "delicadeza"
+    ],
+    "correcta": "delicadeza",
+    "justificacion": "El sinónimo correcto es delicadeza.",
+    "id": 1661
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **VORAZ**",
+    "opciones": [
+      "lleno",
+      "tranquilo",
+      "satisfecho",
+      "hambriento"
+    ],
+    "correcta": "hambriento",
+    "justificacion": "El sinónimo correcto es hambriento.",
+    "id": 1662
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **HILARANTE**",
+    "opciones": [
+      "aburrido",
+      "cómico",
+      "serio",
+      "triste"
+    ],
+    "correcta": "cómico",
+    "justificacion": "El sinónimo correcto es cómico.",
+    "id": 1663
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **BIFURCACIÓN**",
+    "opciones": [
+      "unión",
+      "mezcla",
+      "división",
+      "junta"
+    ],
+    "correcta": "división",
+    "justificacion": "El sinónimo correcto es división.",
+    "id": 1664
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **COERCIÓN**",
+    "opciones": [
+      "libertad",
+      "presión",
+      "regalo",
+      "ayuda"
+    ],
+    "correcta": "presión",
+    "justificacion": "El sinónimo correcto es presión.",
+    "id": 1665
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **EPÍLOGO**",
+    "opciones": [
+      "prólogo",
+      "final",
+      "inicio",
+      "centro"
+    ],
+    "correcta": "final",
+    "justificacion": "El sinónimo correcto es final.",
+    "id": 1666
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **FALAZ**",
+    "opciones": [
+      "real",
+      "engañoso",
+      "honesto",
+      "verdadero"
+    ],
+    "correcta": "engañoso",
+    "justificacion": "El sinónimo correcto es engañoso.",
+    "id": 1667
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **GREGARIO**",
+    "opciones": [
+      "aislado",
+      "solitario",
+      "sociable",
+      "único"
+    ],
+    "correcta": "sociable",
+    "justificacion": "El sinónimo correcto es sociable.",
+    "id": 1668
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **HETEROGÉNEO**",
+    "opciones": [
+      "diverso",
+      "mismo",
+      "uniforme",
+      "igual"
+    ],
+    "correcta": "diverso",
+    "justificacion": "El sinónimo correcto es diverso.",
+    "id": 1669
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **INCÓLUME**",
+    "opciones": [
+      "herido",
+      "dañado",
+      "ileso",
+      "roto"
+    ],
+    "correcta": "ileso",
+    "justificacion": "El sinónimo correcto es ileso.",
+    "id": 1670
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **LETARGO**",
+    "opciones": [
+      "energía",
+      "actividad",
+      "desvelo",
+      "modorra"
+    ],
+    "correcta": "modorra",
+    "justificacion": "El sinónimo correcto es modorra.",
+    "id": 1671
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **MITIGAR**",
+    "opciones": [
+      "agravar",
+      "suavizar",
+      "aumentar",
+      "empeorar"
+    ],
+    "correcta": "suavizar",
+    "justificacion": "El sinónimo correcto es suavizar.",
+    "id": 1672
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Sinónimos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el sinónimo de la palabra: **NEFASTO**",
+    "opciones": [
+      "feliz",
+      "trágico",
+      "suertudo",
+      "bueno"
+    ],
+    "correcta": "trágico",
+    "justificacion": "El sinónimo correcto es trágico.",
+    "id": 1673
   }
 ]
