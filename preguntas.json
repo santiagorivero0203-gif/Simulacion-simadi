@@ -10121,5 +10121,846 @@
     ],
     "correcta": "El autor valora tanto la tecnología como el factor humano.",
     "justificacion": "**Concepto Fundamental:** Comprensión lectora (identificar ideas principales, inferencias y tono).\n\n**Resolución:** Al proponer 'equilibrio entre eficiencia tecnológica y calidez humana', el autor demuestra que valora ambos componentes."
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Tu eres el mejor estudiante de la clase.",
+      "Tú eres el mejor estudiante de la clase.",
+      "Tu érés el mejor estudiante de la clase.",
+      "Tú eréS el mejor estudiante de la clase."
+    ],
+    "correcta": "Tú eres el mejor estudiante de la clase.",
+    "justificacion": "'Tú' es el pronombre personal de segunda persona y siempre lleva tilde para diferenciarse del posesivo 'tu' (tu libro).",
+    "id": 1422
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El se quedó en casa mientras yo salía.",
+      "Él se quedó en casa mientras yo salía.",
+      "Él se quedó en casa mientras yo salia.",
+      "El se quedó en casa mientras yo salia."
+    ],
+    "correcta": "Él se quedó en casa mientras yo salía.",
+    "justificacion": "'Él' (pronombre personal) lleva tilde para diferenciarse del artículo 'el' (el gato). 'Salía' también lleva tilde por ser un esdrújulo verbal en pretérito imperfecto.",
+    "id": 1423
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "No sé si podrás venir mas tarde.",
+      "No se si podrás venir más tarde.",
+      "No sé si podrás venir más tarde.",
+      "No se si podras venir más tarde."
+    ],
+    "correcta": "No sé si podrás venir más tarde.",
+    "justificacion": "'Sé' (del verbo saber) lleva tilde para diferenciarse del pronombre reflexivo 'se'. 'Más' (adverbio de cantidad) lleva tilde para diferenciarse de la conjunción adversativa 'mas' (pero).",
+    "id": 1424
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Aún no ha llegado el tren, aunque llamó hace rato.",
+      "Aun no ha llegado el tren, aunque llamó hace rato.",
+      "Aún no ha llegado el tren, aunque llamo hace rato.",
+      "Aun no ha llegado el tren, aunque llamo hace rato."
+    ],
+    "correcta": "Aún no ha llegado el tren, aunque llamó hace rato.",
+    "justificacion": "'Aún' (con tilde) equivale a 'todavía' y es un adverbio de tiempo. 'Llamó' lleva tilde en la ó porque es una forma verbal en pretérito indefinido.",
+    "id": 1425
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Dé ese libro al niño para que lo lea.",
+      "De ese libro al niño para que lo lea.",
+      "Dé ese libro al niño para que lo léa.",
+      "De ese libro al nino para que lo lea."
+    ],
+    "correcta": "Dé ese libro al niño para que lo lea.",
+    "justificacion": "'Dé' es el modo imperativo del verbo 'dar' y lleva tilde para diferenciarse de la preposición 'de'. 'Niño' lleva la tilde en la ñ que forma parte del grafema, no es error ortográfico.",
+    "id": 1426
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Esta mañana vi que ésta silla estaba rota.",
+      "Esta mañana vi que esta silla estaba rota.",
+      "Ésta mañana vi que esta silla estaba rota.",
+      "Esta mañana ví que esta silla estaba rota."
+    ],
+    "correcta": "Esta mañana vi que esta silla estaba rota.",
+    "justificacion": "Según la RAE (desde 2010), los demostrativos 'este, esta, esto...' NO llevan tilde aunque sean pronombres. 'Vi' tampoco lleva tilde por ser monosílabo.",
+    "id": 1427
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Mi hermana que vive en Caracas, nos visitará mañana.",
+      "Mi hermana, que vive en Caracas nos visitará mañana.",
+      "Mi hermana, que vive en Caracas, nos visitará mañana.",
+      "Mi hermana que vive en Caracas nos visitará mañana."
+    ],
+    "correcta": "Mi hermana, que vive en Caracas, nos visitará mañana.",
+    "justificacion": "La oración subordinada adjetiva explicativa 'que vive en Caracas' debe ir entre comas porque da información adicional (no restrictiva) sobre 'mi hermana'.",
+    "id": 1428
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Carlos, trae el cuaderno por favor.",
+      "Carlos trae el cuaderno, por favor.",
+      "Carlos, trae el cuaderno, por favor.",
+      "Carlos trae el cuaderno por favor."
+    ],
+    "correcta": "Carlos, trae el cuaderno, por favor.",
+    "justificacion": "Cuando se llama a alguien por su nombre (vocativo), se separa con coma del resto de la oración. 'Por favor' al final también se aísla con coma cuando va pospuesto.",
+    "id": 1429
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Compré manzanas, peras naranjas y uvas.",
+      "Compré manzanas peras, naranjas y uvas.",
+      "Compré manzanas, peras, naranjas y uvas.",
+      "Compré manzanas, peras, naranjas, y uvas."
+    ],
+    "correcta": "Compré manzanas, peras, naranjas y uvas.",
+    "justificacion": "En enumeraciones, se coloca coma entre todos los elementos excepto antes de la última conjunción 'y' (salvo que esta 'y' tenga valor adversativo, lo cual no aplica aquí).",
+    "id": 1430
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Sin embargo la situación no mejoró.",
+      "Sin embargo, la situación no mejoró.",
+      "Sin, embargo la situación no mejoró.",
+      "Sin embargo la situacion, no mejoró."
+    ],
+    "correcta": "Sin embargo, la situación no mejoró.",
+    "justificacion": "Los conectores discursivos como 'sin embargo', 'no obstante', 'por tanto', 'es decir', cuando van al inicio de la oración, siempre se separan del resto con una coma.",
+    "id": 1431
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Voy a ver si haber algo en el refrigerador.",
+      "Voy a haber si a ver algo en el refrigerador.",
+      "Voy a ver si hay algo en el refrigerador.",
+      "Voy haber si ay algo en el refrigerador."
+    ],
+    "correcta": "Voy a ver si hay algo en el refrigerador.",
+    "justificacion": "'A ver' (preposición + infinitivo) expresa finalidad o intención. 'Hay' es la forma impersonal del verbo haber (existir). 'Haber' es el infinitivo del verbo auxiliar/impersonal, no se usa en este contexto.",
+    "id": 1432
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Echo de menos a mi familia cuando viajo.",
+      "Hecho de menos a mi familia cuando viajo.",
+      "Eso que echo de menos, ya lo hecho.",
+      "Hecho de menos a mi familia, pero ya lo he echo."
+    ],
+    "correcta": "Echo de menos a mi familia cuando viajo.",
+    "justificacion": "'Echo' (1ª persona del presente de indicativo del verbo 'echar') es la forma correcta para 'echar de menos' (extrañar). 'Hecho' es el participio del verbo 'hacer'.",
+    "id": 1433
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "¡Ay! Me duele la rodilla, está allí en el suelo.",
+      "¡Ay! Me duele la rodilla, esta ahí en el suelo.",
+      "¡Ay! Me duele la rodilla, está ahí en el suelo.",
+      "¡Hay! Me duele la rodilla, esta ahí en el suelo."
+    ],
+    "correcta": "¡Ay! Me duele la rodilla, está ahí en el suelo.",
+    "justificacion": "'¡Ay!' es una interjección de dolor. 'Está' (verbo estar) lleva tilde para diferenciarse de 'esta' (demostrativo). 'Ahí' (adverbio de lugar) indica proximidad al oyente y lleva tilde por ser aguda terminada en vocal.",
+    "id": 1434
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El barco tubo una avería grave en alta mar.",
+      "El barco tuvo una avería grave en alta mar.",
+      "El barco tubó una avería grave en alta mar.",
+      "El barco tuvo una abería grave en alta mar."
+    ],
+    "correcta": "El barco tuvo una avería grave en alta mar.",
+    "justificacion": "'Tuvo' (pretérito indefinido del verbo 'tener') se escribe con 'v' de vida. 'Avería' también se escribe con 'v'. 'Tubo' es un sustantivo (objeto cilíndrico hueco), no el verbo tener.",
+    "id": 1435
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "La baca de la vaca produce leche.",
+      "La vaca de la vaca produce leche.",
+      "La vaca produce leche de buena calidad.",
+      "La baca produce leche de buena calidad."
+    ],
+    "correcta": "La vaca produce leche de buena calidad.",
+    "justificacion": "'Vaca' (el animal) se escribe con 'v'. 'Baca' (portaequipajes del coche) es un sustantivo diferente. Las otras opciones mezclan incorrectamente las dos palabras.",
+    "id": 1436
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Havía mucha gente en la plaza cuando llegamos.",
+      "Había mucha gente en la plaza cuando llegamos.",
+      "Habia mucha gente en la plaza cuando llegamos.",
+      "Havía mucha jente en la plaza cuando llegamos."
+    ],
+    "correcta": "Había mucha gente en la plaza cuando llegamos.",
+    "justificacion": "'Había' (pretérito imperfecto de indicativo del verbo 'haber') se escribe con 'b'. Regla: los imperfectos de los verbos terminados en -er/-ir se escriben con 'b' (-ía, -ías, -ía, -íamos, -íais, -ían).",
+    "id": 1437
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El gerente gestionó la queja con eficiencia.",
+      "El jerente gestionó la queja con eficiencia.",
+      "El gerente jestionó la queja con eficiencia.",
+      "El jerente jestionó la queja con eficiencia."
+    ],
+    "correcta": "El gerente gestionó la queja con eficiencia.",
+    "justificacion": "'Gerente' y 'gestión/gestionó' se escriben con 'g'. Regla: el prefijo 'gest-' (del latín gestus) siempre usa 'g'. 'Queja' sí se escribe con 'j'.",
+    "id": 1438
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Ella se cayó porque el piso estaba mojado.",
+      "Ella se cayó porque el piso estaba mojado.",
+      "Ella se yayó porque el piso estaba mojado.",
+      "Eya se cayó porque el piso estaba mojado."
+    ],
+    "correcta": "Ella se cayó porque el piso estaba mojado.",
+    "justificacion": "'Ella' (pronombre) se escribe con 'll'. 'Cayó' (pretérito indefinido de 'caer') se escribe con 'y' porque los verbos cuya raíz termina en vocal forman el gerundio y el pretérito con 'y' (caer → cayó, creer → creyó).",
+    "id": 1439
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El presidente de Venezuela visitó París.",
+      "El Presidente de Venezuela visitó París.",
+      "El presidente de Venezuela visitó paris.",
+      "El presidente de venezuela visitó París."
+    ],
+    "correcta": "El presidente de Venezuela visitó París.",
+    "justificacion": "Los títulos como 'presidente' se escriben en minúscula a menos que acompañen al nombre propio (Presidente Maduro). Los nombres de países (Venezuela) y ciudades (París) siempre van con mayúscula inicial.",
+    "id": 1440
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Estudié Medicina en la Universidad central de Venezuela.",
+      "Estudié medicina en la Universidad Central de Venezuela.",
+      "Estudié medicina en la universidad central de venezuela.",
+      "Estudié Medicina en la Universidad Central de Venezuela."
+    ],
+    "correcta": "Estudié medicina en la Universidad Central de Venezuela.",
+    "justificacion": "Los nombres propios de instituciones llevan mayúscula en cada palabra sustantiva (Universidad Central de Venezuela). El nombre de la carrera o disciplina ('medicina') va en minúscula salvo que sea acrónimo.",
+    "id": 1441
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "A ver si puedo terminar el trabajo a tiempo.",
+      "Aver si puedo terminar el trabajo a tiempo.",
+      "A ver si puedo terminar el trabajo atiempo.",
+      "Aver si puedo terminar el trabajo atiempo."
+    ],
+    "correcta": "A ver si puedo terminar el trabajo a tiempo.",
+    "justificacion": "'A ver' (preposición + infinitivo, aquí con valor de 'veamos') se escribe siempre separado. 'A tiempo' (locución adverbial) también se escribe separado.",
+    "id": 1442
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Por qué no viniste a la reunión de ayer?",
+      "¿Porque no viniste a la reunión de ayer?",
+      "¿Por qué no viniste a la reunión de ayer?",
+      "¿Porqué no viniste a la reunión de ayer?"
+    ],
+    "correcta": "¿Por qué no viniste a la reunión de ayer?",
+    "justificacion": "'Por qué' en oraciones interrogativas directas e indirectas se escribe en dos palabras y con tilde. 'Porque' (junto, sin tilde) es la conjunción causal. 'Porqué' (junto, con tilde) es el sustantivo (el porqué de algo).",
+    "id": 1443
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El examen fue difícil; sin embargo todos aprobaron.",
+      "El examen fue difícil, sin embargo todos aprobaron.",
+      "El examen fue difícil; sin embargo, todos aprobaron.",
+      "El examen fue difícil sin embargo, todos aprobaron."
+    ],
+    "correcta": "El examen fue difícil; sin embargo, todos aprobaron.",
+    "justificacion": "Cuando 'sin embargo' conecta dos oraciones independientes, se usa punto y coma (;) antes y coma (,) después. La coma sola antes de 'sin embargo' es aceptable pero la opción con punto y coma es más correcta formalmente.",
+    "id": 1444
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Querida mamá: te escribo para contarte mis aventuras.",
+      "Querida mamá, te escribo para contarte mis aventuras.",
+      "Querida mamá; te escribo para contarte mis aventuras.",
+      "Querida mamá te escribo, para contarte mis aventuras."
+    ],
+    "correcta": "Querida mamá: te escribo para contarte mis aventuras.",
+    "justificacion": "En cartas y escritos formales, el saludo (vocativo) se separa del cuerpo del texto mediante dos puntos (:), no coma. Esta es una convención epistolar del español.",
+    "id": 1445
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El genio, no comete errores sus errores; son voluntarios.",
+      "El genio, no comete errores, sus errores; son voluntarios.",
+      "El genio, no comete errores, sus errores son voluntarios.",
+      "El genio no comete errores, sus errores son voluntarios."
+    ],
+    "correcta": "El genio no comete errores, sus errores son voluntarios.",
+    "justificacion": "La coma entre sujeto y verbo ('El genio, no comete') es incorrecta. La opción D no separa el sujeto del predicado.",
+    "id": 1446
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "El dibujo es el lenguaje mas antiguo, es un lenguaje universal.",
+      "El dibujo es el lenguaje más antiguo, es un lenguage universal.",
+      "El dibujo es el lenguaje más antiguo, es un lenguaje universal.",
+      "El dibujo es el lenguage más antiguo, es un lenguaje universal."
+    ],
+    "correcta": "El dibujo es el lenguaje más antiguo, es un lenguaje universal.",
+    "justificacion": "'Más' de cantidad lleva tilde, y 'lenguaje' se escribe con j.",
+    "id": 1447
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "La historia mas; famosa de persistencia humana la tenemos; en Tómas Alva Edison.",
+      "La história, más famosa, de persistencia humana la tenemos, en Tomás Alva Edison.",
+      "La historia más famosa de persistencia humana la tenemos en Tomás Alva Edison.",
+      "La historia más; famosa de persistencia humana la tenemos; en Tomas Alva Edison."
+    ],
+    "correcta": "La historia más famosa de persistencia humana la tenemos en Tomás Alva Edison.",
+    "justificacion": "No se deben usar comas ni puntos y comas interrumpiendo el flujo natural de la oración aquí. 'Más' lleva tilde, y 'Tomás' también.",
+    "id": 1448
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Hay juegos que permiten aprender más fácilmente.",
+      "Hay juegos que permiten aprender más facilmente.",
+      "Hay juegos qué permitén aprender más fácilmente.",
+      "Hay juegos que permitén aprender más fácilmente."
+    ],
+    "correcta": "Hay juegos que permiten aprender más fácilmente.",
+    "justificacion": "'fácilmente' conserva la tilde del adjetivo 'fácil'. 'Permiten' y 'que' no llevan tilde en este contexto.",
+    "id": 1449
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Hipócrates, \"el padre de la medicina\", nacio en Cos, isla del mar Egéo, en 460 aC.",
+      "Hipócrates \"el padre de la medicina\" nacio en Cos, isla del mar Egeo, en 460 aC.",
+      "Hipócrates, el padre de la medicina, nació en Cos, isla del mar Egeo en 460 aC.",
+      "Hipócrates, \"el padre de la medicina nació en Cos, isla del mar Egeo, en 460 aC."
+    ],
+    "correcta": "Hipócrates, el padre de la medicina, nació en Cos, isla del mar Egeo en 460 aC.",
+    "justificacion": "'Nació' lleva tilde por ser aguda terminada en vocal. 'Egeo' no lleva tilde. Las aposiciones explicativas ('el padre de la medicina') van entre comas.",
+    "id": 1450
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Su talento, dedicacion, estudio, genio y otras cualidades lo hicieron merecedor de los elogios de Platón de Aristóteles y de los hombres más brillantes de su época.",
+      "Su talento, dedicación, estudio, genio y otras cualidades lo hicieron merecedor de los elogios de Platón, de Aristóteles y de los hombres más brillantes de su época.",
+      "Su talento dedicación, estudio, genio y otras cualidades lo hicieron merecedor de los elogios de Platón, de Aristóteles y de los hombres mas brillantes de su época.",
+      "Su talento, dedicación, estudio, genio y otras cualidades lo hicieron merecedor de los elogios de Platón, de Aristoteles y de los hombres mas brillantes de su época."
+    ],
+    "correcta": "Su talento, dedicación, estudio, genio y otras cualidades lo hicieron merecedor de los elogios de Platón, de Aristóteles y de los hombres más brillantes de su época.",
+    "justificacion": "'Dedicación', 'Platón', 'Aristóteles', 'más', y 'época' llevan tilde obligatoriamente. Además, la enumeración debe estar separada por comas.",
+    "id": 1451
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "En la selva amazónica existe una gran variedad de pájaros EXÓTICOS muy cotizados en los mercados europeos.",
+    "opciones": [
+      "esotéricos",
+      "extravagantes",
+      "raros",
+      "canoros"
+    ],
+    "correcta": "raros",
+    "justificacion": "En este contexto, 'exótico' hace referencia a algo inusual o raro.",
+    "id": 1452
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "Montesquieu, sociólogo francés, hizo una HONDA crítica del régimen absolutista, intentó ELUCIDAR el origen del Estado y la naturaleza de las leyes.",
+    "opciones": [
+      "ferviente - explicar",
+      "profunda - dilucidar",
+      "ardiente - probar",
+      "severa - soslayar"
+    ],
+    "correcta": "profunda - dilucidar",
+    "justificacion": "'Honda' es sinónimo de profunda, y 'elucidar' es sinónimo de dilucidar (aclarar, explicar).",
+    "id": 1453
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "El déspota que RETIENE el poder en contra de la voluntad del pueblo debe ENFRENTAR un final incierto.",
+    "opciones": [
+      "ostenta - esperar",
+      "conquista - anhelar",
+      "detenta - afrontar",
+      "ejerce - abaldonar"
+    ],
+    "correcta": "detenta - afrontar",
+    "justificacion": "Retener el poder de forma ilegítima es 'detentar'. Enfrentar se relaciona con 'afrontar'.",
+    "id": 1454
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "Cuando una ideología se convierte en un DOGMA, pierde su capacidad de evolucionar.",
+    "opciones": [
+      "Axioma",
+      "Argumento",
+      "Apostasía",
+      "Entramado"
+    ],
+    "correcta": "Axioma",
+    "justificacion": "Un dogma o axioma es un principio o verdad innegable o incuestionable.",
+    "id": 1455
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Todo diagnóstico debe ir _____ por _____.",
+    "opciones": [
+      "reforzado - un consejo",
+      "garantizado - una medicina",
+      "acompañado - una curación",
+      "seguido - un tratamiento"
+    ],
+    "correcta": "seguido - un tratamiento",
+    "justificacion": "Lógicamente, tras el diagnóstico (identificación del problema médico) sigue el tratamiento.",
+    "id": 1456
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "El verdadero matrimonio no es la unión _____ de conflictos, sino la unión de cónyuges que, a pesar de esos conflictos que existen siempre e invariablemente, saben _____.",
+    "opciones": [
+      "libre - pelear",
+      "exenta - reconciliarse",
+      "llena - evitarlos",
+      "ausente - soportarse"
+    ],
+    "correcta": "exenta - reconciliarse",
+    "justificacion": "El texto hace contraste. Si los conflictos 'existen siempre', entonces no puede ser una unión 'exenta' (libre) de ellos de manera absoluta, pero sí deben saber 'reconciliarse'.",
+    "id": 1457
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "El reaccionario es un tipo de hombre enemigo absoluto del _____ que respeta escrupulosamente la rutina cotidiana.",
+    "opciones": [
+      "trabajo",
+      "gobierno",
+      "cambio",
+      "estado"
+    ],
+    "correcta": "cambio",
+    "justificacion": "Si es 'reaccionario' (opuesto a la innovación) y 'respeta la rutina', es enemigo del 'cambio'.",
+    "id": 1458
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "El siglo XX ha sido el gran siglo de los divorcios, el paso de la familia nuclear a un variado surtido de modelos. _____ podría pensarse que fue el amor libre el que descerrajó la conyugalidad, fue, sobre todo, el mercado libre.",
+    "opciones": [
+      "A pesar de que",
+      "Porque",
+      "Pese a",
+      "Aunque"
+    ],
+    "correcta": "Aunque",
+    "justificacion": "El conector 'Aunque' introduce una idea concesiva/adversativa adecuada: 'Aunque podría pensarse que fue X, en realidad fue Y'.",
+    "id": 1459
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "ACTOR : GUIÓN",
+    "opciones": [
+      "juez : sentencia",
+      "ciudadano : voto",
+      "cantante : pentagrama",
+      "bailarín : música"
+    ],
+    "correcta": "cantante : pentagrama",
+    "justificacion": "El actor sigue un guión para actuar, así como el cantante lee el pentagrama para cantar (ambas son artes escénicas/musicales basadas en una guía escrita).",
+    "id": 1460
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "DIESTRA : SINIESTRA",
+    "opciones": [
+      "delante : atrás",
+      "experto : torpe",
+      "babor : estribor",
+      "estribor : babor"
+    ],
+    "correcta": "estribor : babor",
+    "justificacion": "Relación de antonimia espacial lateral. Diestra es derecha, Siniestra es izquierda. Estribor es derecha (barco), Babor es izquierda.",
+    "id": 1461
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "ABEJA : MIEL",
+    "opciones": [
+      "remolacha : azúcar",
+      "maíz : aceite",
+      "gusano : seda",
+      "vaca : carne"
+    ],
+    "correcta": "gusano : seda",
+    "justificacion": "Relación animal - producto de su secreción/elaboración biológica directa.",
+    "id": 1462
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "DIARIO : IMPRENTA",
+    "opciones": [
+      "libro : librería",
+      "barco : astillero",
+      "guerra : arsenal",
+      "arena : mar"
+    ],
+    "correcta": "barco : astillero",
+    "justificacion": "Relación objeto - lugar de fabricación/construcción.",
+    "id": 1463
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "contexto": "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando a los demás. Así, por ejemplo, el médico no verá acaso más que enfermos (actuales o en potencia), hospitales y farmacias; el economista, productores, comerciantes y consumidores; el político, votantes y soldados. Por ello, cuando se habla de desarrollo, cada cual piensa en la expansión del aspecto que más le interesa. De esta lamentable y evitable especialización profesional resulta un mosaico caótico de concepciones de la sociedad y de su desarrollo, formado por visiones parciales, ninguna de las cuales permite comprender el problema global.",
+    "pregunta": "La idea fundamental planteada en el texto es:",
+    "opciones": [
+      "Existe un mosaico de concepciones respecto a la sociedad y a su desarrollo.",
+      "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando los demás.",
+      "El aspecto económico es el pilar fundamental para todo el desarrollo.",
+      "Cada profesional debe desarrollarse en el área de su competencia."
+    ],
+    "correcta": "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando los demás.",
+    "justificacion": "Es la tesis principal del autor, introducida en la primera oración y sustentada en todo el texto.",
+    "id": 1464
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "La suma del minuendo, sustraendo y la resta de una sustracción es 19.456 y el minuendo es el cuádruplo del sustraendo. Hallar el sustraendo.",
+    "opciones": [
+      "6.296",
+      "7.296",
+      "2.432",
+      "1.216"
+    ],
+    "correcta": "2.432",
+    "justificacion": "Propiedad: Minuendo + Sustraendo + Diferencia = 2*Minuendo. Entonces 2M = 19456 -> M = 9728. Como M = 4*S, entonces S = 9728 / 4 = 2432.",
+    "id": 1465
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Si dos números x y y, están en relación de 5:9 y además x - y = 48. (Suponiendo que hablan de |x-y|). ¿Cuál es el mayor?",
+    "opciones": [
+      "108",
+      "60",
+      "120",
+      "216"
+    ],
+    "correcta": "108",
+    "justificacion": "Sean 5k y 9k los números. La diferencia es 4k = 48 -> k = 12. El mayor es 9k = 9*12 = 108.",
+    "id": 1466
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Entre José, Eduardo y Rafael tienen 240 bolívares. Se sabe que la cantidad de dinero que cada uno tiene guarda entre sí la misma relación que hay entre los números 2, 3 y 5. ¿Cuál es la mayor cantidad de dinero que hay entre los tres?",
+    "opciones": [
+      "120",
+      "46",
+      "48",
+      "84"
+    ],
+    "correcta": "120",
+    "justificacion": "2k + 3k + 5k = 10k = 240 -> k = 24. El que más tiene es 5k = 5 * 24 = 120.",
+    "id": 1467
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "A mí me parece que él no está diciendo la verdad.",
+      "A mi me parece que el no está diciendo la verdad.",
+      "A mí me parece que el no está diciendo la verdad.",
+      "A mi me parece que él no está diciendo la verdad."
+    ],
+    "correcta": "A mí me parece que él no está diciendo la verdad.",
+    "justificacion": "'mí' (pronombre personal) y 'él' (pronombre personal) llevan tilde diacrítica para diferenciarse de 'mi' (posesivo) y 'el' (artículo).",
+    "id": 1468
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Después del accidente, el joven fué llevado de inmédiato al hospital.",
+      "Después del accidente, el joven fue llevado de inmediato al hospital.",
+      "Despues del accidente, el joven fue llevado de inmediato al hospital.",
+      "Después del accidente, el joven fue llevado de inmedíato al hospital."
+    ],
+    "correcta": "Después del accidente, el joven fue llevado de inmediato al hospital.",
+    "justificacion": "'Después' lleva tilde por ser aguda terminada en s. 'Fue' es monosílabo y no lleva tilde. 'Inmediato' es grave terminada en vocal, sin tilde.",
+    "id": 1469
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Los estudiantes que estudiaron mucho, aprobaron el exámen.",
+      "Los estudiantes, que estudiaron mucho aprobaron el examen.",
+      "Los estudiantes que estudiaron mucho aprobaron el examen.",
+      "Los estudiantes que estudiaron mucho, aprobaron el examen."
+    ],
+    "correcta": "Los estudiantes que estudiaron mucho aprobaron el examen.",
+    "justificacion": "No se debe separar el sujeto ('Los estudiantes que estudiaron mucho') del verbo ('aprobaron') con una coma. 'Examen' es grave terminada en n, no lleva tilde (su plural 'exámenes' sí).",
+    "id": 1470
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Es por eso, que debemos actuar ahora mismo.",
+      "Es por eso que debemos actuar ahora mísmo.",
+      "Es, por eso, que debemos actuar ahora mismo.",
+      "Es por eso que debemos actuar ahora mismo."
+    ],
+    "correcta": "Es por eso que debemos actuar ahora mismo.",
+    "justificacion": "La coma entre 'eso' y 'que' es incorrecta (separa elementos inseparables de la perífrasis). 'Mismo' es grave y no lleva tilde.",
+    "id": 1471
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Corrección Ortográfica",
+    "tipo": "comparacion_ortografica",
+    "pregunta": "¿Cuál de las siguientes oraciones está correctamente escrita?",
+    "opciones": [
+      "Iremos al concierto; sin embargo, no tenemos las entradas todavía.",
+      "Iremos al concierto, sin embargo no tenemos las entradas todavía.",
+      "Iremos al concierto; sin embargo no tenemos las entradas todavia.",
+      "Iremos al concierto sin embargo, no tenemos las entradas todavía."
+    ],
+    "correcta": "Iremos al concierto; sin embargo, no tenemos las entradas todavía.",
+    "justificacion": "El conector 'sin embargo' entre dos cláusulas se precede de punto y coma (o coma) y va seguido obligatoriamente de coma. 'Todavía' lleva tilde por hiato.",
+    "id": 1472
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "El orador mostró una actitud PUGNAZ durante todo el debate, atacando las ideas de su oponente.",
+    "opciones": [
+      "conciliadora",
+      "belicosa",
+      "pasiva",
+      "elocuente"
+    ],
+    "correcta": "belicosa",
+    "justificacion": "Pugnaz significa inclinado a la lucha o al enfrentamiento, su sinónimo directo es belicoso.",
+    "id": 1473
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "El proyecto fracasó debido a la INDOLENCIA de los trabajadores encargados.",
+    "opciones": [
+      "incompetencia",
+      "pereza",
+      "corrupción",
+      "ausencia"
+    ],
+    "correcta": "pereza",
+    "justificacion": "La indolencia es la falta de voluntad, la apatía o pereza frente a las obligaciones.",
+    "id": 1474
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "El avance de la tecnología médica ha sido tan _____ que enfermedades antes incurables hoy tienen un tratamiento _____.",
+    "opciones": [
+      "lento - costoso",
+      "vertiginoso - eficaz",
+      "limitado - paliativo",
+      "impredecible - dudoso"
+    ],
+    "correcta": "vertiginoso - eficaz",
+    "justificacion": "Si enfermedades antes incurables hoy se tratan, el avance debe ser 'vertiginoso' o rápido, y el tratamiento 'eficaz'.",
+    "id": 1475
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "ASTRÓNOMO : TELESCOPIO",
+    "opciones": [
+      "biólogo : probeta",
+      "médico : fonendoscopio",
+      "arquitecto : edificio",
+      "filósofo : libro"
+    ],
+    "correcta": "médico : fonendoscopio",
+    "justificacion": "Relación sujeto : instrumento principal de observación/diagnóstico.",
+    "id": 1476
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Tres socios, A, B y C, invierten en un negocio en la proporción de 3, 5 y 7. Si el negocio generó una ganancia total de 45.000 bolívares, ¿cuánto le corresponde al socio B?",
+    "opciones": [
+      "9.000",
+      "15.000",
+      "21.000",
+      "18.000"
+    ],
+    "correcta": "15.000",
+    "justificacion": "3k + 5k + 7k = 15k = 45000 -> k = 3000. Al socio B (5) le tocan 5 * 3000 = 15.000.",
+    "id": 1477
   }
 ]
