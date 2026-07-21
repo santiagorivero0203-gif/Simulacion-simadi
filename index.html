@@ -47,8 +47,34 @@
                 </button>
                 <h1 id="guide-detail-title">Cargando...</h1>
                 
+                <div id="guide-video-container" class="video-container hidden">
+                    <!-- YouTube iframe injected here -->
+                </div>
+
+                <div class="guide-internal-tabs">
+                    <button class="g-tab-btn active" data-target="guide-theory">Teoría Básica</button>
+                    <button class="g-tab-btn" data-target="guide-exams">Exámenes Pasados</button>
+                    <button class="g-tab-btn" data-target="guide-practice">Práctica Interactiva</button>
+                </div>
+
                 <div id="guide-detail-content" class="guide-detail-body">
-                    <!-- Contenido detallado inyectado por JS -->
+                    <div id="guide-theory" class="g-tab-content active"></div>
+                    <div id="guide-exams" class="g-tab-content hidden"></div>
+                    <div id="guide-practice" class="g-tab-content hidden">
+                        <div class="practice-intro">
+                            <h3>Ponte a prueba</h3>
+                            <p>Resuelve preguntas reales del simulador relacionadas con este tema. Irán aumentando en dificultad.</p>
+                            <button id="start-guide-practice-btn" class="btn-primary">Iniciar Práctica</button>
+                        </div>
+                        <div id="guide-practice-area" class="hidden">
+                            <!-- Question injected here -->
+                        </div>
+                    </div>
+                    
+                    <div id="guide-references" class="references-box hidden">
+                        <h4>Material de Referencia</h4>
+                        <ul id="guide-references-list"></ul>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,0 +1,1697 @@
+[
+  {
+    "enunciado": "La edad de Ana es la mitad de la edad de su hermano mayor, Carlos. Dentro de 12 años, la edad de Ana será dos tercios de la edad de Carlos. ¿Cuántos años tiene Ana actualmente?",
+    "opciones": [
+      "N.A.",
+      "14",
+      "16",
+      "10",
+      "12"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Sea A la edad de Ana y C la de Carlos. A = C * 0.5 => C = A / 0.5. Luego, A + 12 = (C + 12) * 0.6666666666666666. Sustituyendo y resolviendo la ecuación obtenemos A = 12.",
+    "id": 1077
+  },
+  {
+    "enunciado": "La edad de Ana es la tercera parte de la edad de su hermano mayor, Carlos. Dentro de 5 años, la edad de Ana será mitad de la edad de Carlos. ¿Cuántos años tiene Ana actualmente?",
+    "opciones": [
+      "5",
+      "N.A.",
+      "3",
+      "7",
+      "9"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Sea A la edad de Ana y C la de Carlos. A = C * 0.3333333333333333 => C = A / 0.3333333333333333. Luego, A + 5 = (C + 5) * 0.5. Sustituyendo y resolviendo la ecuación obtenemos A = 5.",
+    "id": 1078
+  },
+  {
+    "enunciado": "La edad de Ana es la cuarta parte de la edad de su hermano mayor, Carlos. Dentro de 8 años, la edad de Ana será tercera parte de la edad de Carlos. ¿Cuántos años tiene Ana actualmente?",
+    "opciones": [
+      "N.A.",
+      "10",
+      "12",
+      "6",
+      "8"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Sea A la edad de Ana y C la de Carlos. A = C * 0.25 => C = A / 0.25. Luego, A + 8 = (C + 8) * 0.3333333333333333. Sustituyendo y resolviendo la ecuación obtenemos A = 8.",
+    "id": 1079
+  },
+  {
+    "enunciado": "La edad de Ana es la quinta parte de la edad de su hermano mayor, Carlos. Dentro de 10 años, la edad de Ana será cuarta parte de la edad de Carlos. ¿Cuántos años tiene Ana actualmente?",
+    "opciones": [
+      "14",
+      "N.A.",
+      "12",
+      "10",
+      "8"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Sea A la edad de Ana y C la de Carlos. A = C * 0.2 => C = A / 0.2. Luego, A + 10 = (C + 10) * 0.25. Sustituyendo y resolviendo la ecuación obtenemos A = 10.",
+    "id": 1080
+  },
+  {
+    "enunciado": "Un grupo de 100 personas fue encuestado sobre sus mascotas favoritas. Los resultados son: Perros 35%, Gatos 25%, Aves 20%, Hámster 15%, Otras el resto. ¿Cuáles de estas afirmaciones son Verdaderas?\nI. Prefieren perros 35 personas\nII. Prefieren gatos 24 personas\nIII. 0.2 de las personas prefieren aves\nIV. Prefieren hámster 20 personas",
+    "opciones": [
+      "I y III",
+      "Todas menos la IV",
+      "N.A.",
+      "IV",
+      "I"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Interpretación de Gráficos",
+    "justificacion": "Calculamos: Perros = 35% de 100 = 35 (Verdadera). Gatos = 25% de 100 = 25 (Falsa). Aves = 20% es igual a la fracción 0.2 (Verdadera). Hámster = 15% de 100 = 15 (Falsa). Por tanto, solo I y III son verdaderas.",
+    "id": 1081
+  },
+  {
+    "enunciado": "Un grupo de 200 personas fue encuestado sobre sus mascotas favoritas. Los resultados son: Perros 40%, Gatos 20%, Aves 10%, Hámster 15%, Otras el resto. ¿Cuáles de estas afirmaciones son Verdaderas?\nI. Prefieren perros 80 personas\nII. Prefieren gatos 39 personas\nIII. 0.1 de las personas prefieren aves\nIV. Prefieren hámster 35 personas",
+    "opciones": [
+      "IV",
+      "I y III",
+      "N.A.",
+      "I",
+      "Todas menos la IV"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Interpretación de Gráficos",
+    "justificacion": "Calculamos: Perros = 40% de 200 = 80 (Verdadera). Gatos = 20% de 200 = 40 (Falsa). Aves = 10% es igual a la fracción 0.1 (Verdadera). Hámster = 15% de 200 = 30 (Falsa). Por tanto, solo I y III son verdaderas.",
+    "id": 1082
+  },
+  {
+    "enunciado": "Un grupo de 50 personas fue encuestado sobre sus mascotas favoritas. Los resultados son: Perros 30%, Gatos 40%, Aves 10%, Hámster 10%, Otras el resto. ¿Cuáles de estas afirmaciones son Verdaderas?\nI. Prefieren perros 15 personas\nII. Prefieren gatos 19 personas\nIII. 0.1 de las personas prefieren aves\nIV. Prefieren hámster 10 personas",
+    "opciones": [
+      "I",
+      "I y III",
+      "Todas menos la IV",
+      "N.A.",
+      "IV"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Interpretación de Gráficos",
+    "justificacion": "Calculamos: Perros = 30% de 50 = 15 (Verdadera). Gatos = 40% de 50 = 20 (Falsa). Aves = 10% es igual a la fracción 0.1 (Verdadera). Hámster = 10% de 50 = 5 (Falsa). Por tanto, solo I y III son verdaderas.",
+    "id": 1083
+  },
+  {
+    "enunciado": "Un grupo de 150 personas fue encuestado sobre sus mascotas favoritas. Los resultados son: Perros 20%, Gatos 30%, Aves 20%, Hámster 20%, Otras el resto. ¿Cuáles de estas afirmaciones son Verdaderas?\nI. Prefieren perros 30 personas\nII. Prefieren gatos 44 personas\nIII. 0.2 de las personas prefieren aves\nIV. Prefieren hámster 35 personas",
+    "opciones": [
+      "Todas menos la IV",
+      "IV",
+      "I y III",
+      "N.A.",
+      "I"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Interpretación de Gráficos",
+    "justificacion": "Calculamos: Perros = 20% de 150 = 30 (Verdadera). Gatos = 30% de 150 = 45 (Falsa). Aves = 20% es igual a la fracción 0.2 (Verdadera). Hámster = 20% de 150 = 30 (Falsa). Por tanto, solo I y III son verdaderas.",
+    "id": 1084
+  },
+  {
+    "enunciado": "Están en una sala de conferencia: un ingeniero, un contador, un abogado y un médico. Los nombres, aunque no necesariamente en ese orden, son Pedro, Diego, Juan y Luis. Se sabe que:\n- Pedro y el contador no se llevan bien.\n- Juan se lleva muy bien con el médico.\n- Diego es pariente del abogado y este es amigo de Luis.\n- El ingeniero es muy amigo de Luis y del médico.\n¿Quién es el médico?",
+    "opciones": [
+      "Juan",
+      "Luis",
+      "Pedro",
+      "Diego",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Por descarte lógico: Luis no es abogado, ingeniero ni médico, entonces Luis es contador. El ingeniero es amigo de Luis y Pedro no se lleva bien con Luis, así que Pedro no es ingeniero. Diego es pariente del abogado, así que no lo es. Juan es amigo del médico, así que no lo es. Pedro resulta ser el médico.",
+    "id": 1085
+  },
+  {
+    "enunciado": "Están en una sala de conferencia: un arquitecto, un profesor, un piloto y un chef. Los nombres, aunque no necesariamente en ese orden, son Pedro, Diego, Juan y Luis. Se sabe que:\n- Pedro y el profesor no se llevan bien.\n- Juan se lleva muy bien con el chef.\n- Diego es pariente del piloto y este es amigo de Luis.\n- El arquitecto es muy amigo de Luis y del chef.\n¿Quién es el chef?",
+    "opciones": [
+      "Diego",
+      "N.A.",
+      "Pedro",
+      "Luis",
+      "Juan"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Por descarte lógico: Luis no es piloto, arquitecto ni chef, entonces Luis es profesor. El arquitecto es amigo de Luis y Pedro no se lleva bien con Luis, así que Pedro no es arquitecto. Diego es pariente del piloto, así que no lo es. Juan es amigo del chef, así que no lo es. Pedro resulta ser el chef.",
+    "id": 1086
+  },
+  {
+    "enunciado": "Están en una sala de conferencia: un biólogo, un químico, un físico y un matemático. Los nombres, aunque no necesariamente en ese orden, son Pedro, Diego, Juan y Luis. Se sabe que:\n- Pedro y el químico no se llevan bien.\n- Juan se lleva muy bien con el matemático.\n- Diego es pariente del físico y este es amigo de Luis.\n- El biólogo es muy amigo de Luis y del matemático.\n¿Quién es el matemático?",
+    "opciones": [
+      "N.A.",
+      "Juan",
+      "Diego",
+      "Luis",
+      "Pedro"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Por descarte lógico: Luis no es físico, biólogo ni matemático, entonces Luis es químico. El biólogo es amigo de Luis y Pedro no se lleva bien con Luis, así que Pedro no es biólogo. Diego es pariente del físico, así que no lo es. Juan es amigo del matemático, así que no lo es. Pedro resulta ser el matemático.",
+    "id": 1087
+  },
+  {
+    "enunciado": "Están en una sala de conferencia: un escritor, un pintor, un músico y un actor. Los nombres, aunque no necesariamente en ese orden, son Pedro, Diego, Juan y Luis. Se sabe que:\n- Pedro y el pintor no se llevan bien.\n- Juan se lleva muy bien con el actor.\n- Diego es pariente del músico y este es amigo de Luis.\n- El escritor es muy amigo de Luis y del actor.\n¿Quién es el actor?",
+    "opciones": [
+      "Luis",
+      "Juan",
+      "Pedro",
+      "Diego",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Por descarte lógico: Luis no es músico, escritor ni actor, entonces Luis es pintor. El escritor es amigo de Luis y Pedro no se lleva bien con Luis, así que Pedro no es escritor. Diego es pariente del músico, así que no lo es. Juan es amigo del actor, así que no lo es. Pedro resulta ser el actor.",
+    "id": 1088
+  },
+  {
+    "enunciado": "¿Encuentra la fórmula que da el término general de la secuencia: 3, 6, 11, 18, ...? (Considera el primer término cuando n = 1).",
+    "opciones": [
+      "N.A.",
+      "$1n + 2$",
+      "$n^3 - 1$",
+      "$n^2 + 3$",
+      "$n^2 + 2$"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "justificacion": "Evaluando para $n=1, 2, 3...$ vemos que la expresión $n^2 + 2$ genera exactamente los términos de la sucesión dada.",
+    "id": 1089
+  },
+  {
+    "enunciado": "¿Encuentra la fórmula que da el término general de la secuencia: 2, 5, 10, 17, ...? (Considera el primer término cuando n = 1).",
+    "opciones": [
+      "$1n + 1$",
+      "N.A.",
+      "$n^2 + 1$",
+      "$n^3 - 1$",
+      "$n^2 + 2$"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "justificacion": "Evaluando para $n=1, 2, 3...$ vemos que la expresión $n^2 + 1$ genera exactamente los términos de la sucesión dada.",
+    "id": 1090
+  },
+  {
+    "enunciado": "¿Encuentra la fórmula que da el término general de la secuencia: 1, 7, 17, 31, ...? (Considera el primer término cuando n = 1).",
+    "opciones": [
+      "$2n + -1$",
+      "N.A.",
+      "$n^2 + 0$",
+      "$n^3 - 1$",
+      "$2n^2 - 1$"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "justificacion": "Evaluando para $n=1, 2, 3...$ vemos que la expresión $2n^2 - 1$ genera exactamente los términos de la sucesión dada.",
+    "id": 1091
+  },
+  {
+    "enunciado": "¿Encuentra la fórmula que da el término general de la secuencia: 2, 6, 12, 20, ...? (Considera el primer término cuando n = 1).",
+    "opciones": [
+      "$n^3 - 1$",
+      "$n^2 + 1$",
+      "$n^2 + n$",
+      "$1n + 0$",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sucesiones",
+    "justificacion": "Evaluando para $n=1, 2, 3...$ vemos que la expresión $n^2 + n$ genera exactamente los términos de la sucesión dada.",
+    "id": 1092
+  },
+  {
+    "enunciado": "Alfonzo, Ricardo y Efraín son ingenieros. Dos de ellos son ingenieros mecánico y uno es ingeniero eléctrico. Ricardo y Efraín afirman que uno de ellos es ingeniero mecánico y el otro es ingeniero eléctrico, por lo que podemos deducir que:",
+    "opciones": [
+      "N.A.",
+      "Ricardo es ingeniero eléctrico",
+      "Alfonzo es ingeniero mecánico",
+      "Ricardo y Efraín son ingenieros eléctrico",
+      "Alfonzo es ingeniero eléctrico"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Si Ricardo y Efraín se reparten exactamente un mecánico y el único eléctrico, entonces el puesto restante, que debe ser obligatoriamente un mecánico, le corresponde a Alfonzo.",
+    "id": 1093
+  },
+  {
+    "enunciado": "Carlos, Luis y Miguel son ingenieros. Dos de ellos son ingenieros civil y uno es ingeniero sistemas. Luis y Miguel afirman que uno de ellos es ingeniero civil y el otro es ingeniero sistemas, por lo que podemos deducir que:",
+    "opciones": [
+      "N.A.",
+      "Carlos es ingeniero sistemas",
+      "Carlos es ingeniero civil",
+      "Luis y Miguel son ingenieros sistemas",
+      "Luis es ingeniero sistemas"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Si Luis y Miguel se reparten exactamente un civil y el único sistemas, entonces el puesto restante, que debe ser obligatoriamente un civil, le corresponde a Carlos.",
+    "id": 1094
+  },
+  {
+    "enunciado": "Ana, María y Carmen son ingenieros. Dos de ellos son ingenieros industrial y uno es ingeniero químico. María y Carmen afirman que uno de ellos es ingeniero industrial y el otro es ingeniero químico, por lo que podemos deducir que:",
+    "opciones": [
+      "N.A.",
+      "Ana es ingeniero químico",
+      "Ana es ingeniero industrial",
+      "María y Carmen son ingenieros químico",
+      "María es ingeniero químico"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Si María y Carmen se reparten exactamente un industrial y el único químico, entonces el puesto restante, que debe ser obligatoriamente un industrial, le corresponde a Ana.",
+    "id": 1095
+  },
+  {
+    "enunciado": "David, Jorge y Pablo son ingenieros. Dos de ellos son ingenieros petróleo y uno es ingeniero ambiental. Jorge y Pablo afirman que uno de ellos es ingeniero petróleo y el otro es ingeniero ambiental, por lo que podemos deducir que:",
+    "opciones": [
+      "Jorge es ingeniero ambiental",
+      "David es ingeniero petróleo",
+      "N.A.",
+      "David es ingeniero ambiental",
+      "Jorge y Pablo son ingenieros ambiental"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Si Jorge y Pablo se reparten exactamente un petróleo y el único ambiental, entonces el puesto restante, que debe ser obligatoriamente un petróleo, le corresponde a David.",
+    "id": 1096
+  },
+  {
+    "enunciado": "En una escuela se evalúa a los estudiantes con calificaciones A, B, C y D. Si en un salón de clases 1/5 de los estudiantes obtienen A, 1/4 obtienen B, 1/3 obtienen C y 13 alumnos reciben D, entonces: ¿Cuántos estudiantes aprobaron con A el salón de clases?",
+    "opciones": [
+      "12",
+      "17",
+      "10",
+      "N.A.",
+      "60"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "La suma de las fracciones es 1/5 + 1/4 + 1/3 = 47/60. El resto representa la fracción restante, igual a 13 alumnos. Esto nos da un total de 60 alumnos. Los que sacaron A son 1/5 de 60 = 12.",
+    "id": 1097
+  },
+  {
+    "enunciado": "En una escuela se evalúa a los estudiantes con calificaciones A, B, C y D. Si en un salón de clases 1/2 de los estudiantes obtienen A, 1/4 obtienen B, 1/8 obtienen C y 5 alumnos reciben D, entonces: ¿Cuántos estudiantes aprobaron con A el salón de clases?",
+    "opciones": [
+      "18",
+      "N.A.",
+      "25",
+      "20",
+      "40"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "La suma de las fracciones es 1/2 + 1/4 + 1/8 = 53/60. El resto representa la fracción restante, igual a 5 alumnos. Esto nos da un total de 40 alumnos. Los que sacaron A son 1/2 de 40 = 20.",
+    "id": 1098
+  },
+  {
+    "enunciado": "En una escuela se evalúa a los estudiantes con calificaciones A, B, C y D. Si en un salón de clases 1/3 de los estudiantes obtienen A, 1/6 obtienen B, 1/4 obtienen C y 9 alumnos reciben D, entonces: ¿Cuántos estudiantes aprobaron con A el salón de clases?",
+    "opciones": [
+      "36",
+      "17",
+      "N.A.",
+      "10",
+      "12"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "La suma de las fracciones es 1/3 + 1/6 + 1/4 = 45/60. El resto representa la fracción restante, igual a 9 alumnos. Esto nos da un total de 36 alumnos. Los que sacaron A son 1/3 de 36 = 12.",
+    "id": 1099
+  },
+  {
+    "enunciado": "En una escuela se evalúa a los estudiantes con calificaciones A, B, C y D. Si en un salón de clases 2/5 de los estudiantes obtienen A, 1/4 obtienen B, 1/5 obtienen C y 6 alumnos reciben D, entonces: ¿Cuántos estudiantes aprobaron con A el salón de clases?",
+    "opciones": [
+      "16",
+      "14",
+      "21",
+      "N.A.",
+      "40"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "La suma de las fracciones es 2/5 + 1/4 + 1/5 = 51/60. El resto representa la fracción restante, igual a 6 alumnos. Esto nos da un total de 40 alumnos. Los que sacaron A son 2/5 de 40 = 16.",
+    "id": 1100
+  },
+  {
+    "enunciado": "Un grupo de 12 trabajadores puede construir una pared en 8 días. Si el jefe del proyecto desea que la pared se construya en solo 6 días, ¿cuántos trabajadores adicionales debe contratar?",
+    "opciones": [
+      "N.A.",
+      "8",
+      "16",
+      "6",
+      "4"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "justificacion": "Es una proporción inversa. Total de días-hombre = 12 * 8 = 96. Para hacerlo en 6 días, se necesitan 96 / 6 = 16 trabajadores. Como ya tiene 12, debe contratar 4 adicionales.",
+    "id": 1101
+  },
+  {
+    "enunciado": "Un grupo de 10 trabajadores puede construir una pared en 15 días. Si el jefe del proyecto desea que la pared se construya en solo 5 días, ¿cuántos trabajadores adicionales debe contratar?",
+    "opciones": [
+      "20",
+      "40",
+      "30",
+      "N.A.",
+      "22"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "justificacion": "Es una proporción inversa. Total de días-hombre = 10 * 15 = 150. Para hacerlo en 5 días, se necesitan 150 / 5 = 30 trabajadores. Como ya tiene 10, debe contratar 20 adicionales.",
+    "id": 1102
+  },
+  {
+    "enunciado": "Un grupo de 8 trabajadores puede construir una pared en 12 días. Si el jefe del proyecto desea que la pared se construya en solo 6 días, ¿cuántos trabajadores adicionales debe contratar?",
+    "opciones": [
+      "10",
+      "8",
+      "16",
+      "16",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "justificacion": "Es una proporción inversa. Total de días-hombre = 8 * 12 = 96. Para hacerlo en 6 días, se necesitan 96 / 6 = 16 trabajadores. Como ya tiene 8, debe contratar 8 adicionales.",
+    "id": 1103
+  },
+  {
+    "enunciado": "Un grupo de 20 trabajadores puede construir una pared en 9 días. Si el jefe del proyecto desea que la pared se construya en solo 5 días, ¿cuántos trabajadores adicionales debe contratar?",
+    "opciones": [
+      "N.A.",
+      "18",
+      "16",
+      "32",
+      "36"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Regla de Tres y Proporciones",
+    "justificacion": "Es una proporción inversa. Total de días-hombre = 20 * 9 = 180. Para hacerlo en 5 días, se necesitan 180 / 5 = 36 trabajadores. Como ya tiene 20, debe contratar 16 adicionales.",
+    "id": 1104
+  },
+  {
+    "enunciado": "Un paciente debe tomar 4 ml de un jarabe cada 8 horas durante 5 días. ¿Cuántos mililitros (ml) de jarabe necesita comprar para completar su tratamiento?",
+    "opciones": [
+      "60",
+      "120",
+      "70",
+      "N.A.",
+      "56"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética Básica",
+    "justificacion": "El paciente toma el jarabe cada 8 horas, es decir, 3 veces al día. En 5 días, son 15 tomas. Cada toma es de 4 ml, total: 60 ml.",
+    "id": 1105
+  },
+  {
+    "enunciado": "Un paciente debe tomar 5 ml de un jarabe cada 6 horas durante 7 días. ¿Cuántos mililitros (ml) de jarabe necesita comprar para completar su tratamiento?",
+    "opciones": [
+      "150",
+      "135",
+      "N.A.",
+      "140",
+      "280"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética Básica",
+    "justificacion": "El paciente toma el jarabe cada 6 horas, es decir, 4 veces al día. En 7 días, son 28 tomas. Cada toma es de 5 ml, total: 140 ml.",
+    "id": 1106
+  },
+  {
+    "enunciado": "Un paciente debe tomar 10 ml de un jarabe cada 12 horas durante 10 días. ¿Cuántos mililitros (ml) de jarabe necesita comprar para completar su tratamiento?",
+    "opciones": [
+      "210",
+      "N.A.",
+      "190",
+      "400",
+      "200"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética Básica",
+    "justificacion": "El paciente toma el jarabe cada 12 horas, es decir, 2 veces al día. En 10 días, son 20 tomas. Cada toma es de 10 ml, total: 200 ml.",
+    "id": 1107
+  },
+  {
+    "enunciado": "Un paciente debe tomar 3 ml de un jarabe cada 8 horas durante 14 días. ¿Cuántos mililitros (ml) de jarabe necesita comprar para completar su tratamiento?",
+    "opciones": [
+      "136",
+      "123",
+      "126",
+      "252",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética Básica",
+    "justificacion": "El paciente toma el jarabe cada 8 horas, es decir, 3 veces al día. En 14 días, son 42 tomas. Cada toma es de 3 ml, total: 126 ml.",
+    "id": 1108
+  },
+  {
+    "enunciado": "Un número se multiplica por 2 y por 8. Los dos resultados se multiplican entre sí y es 128. ¿Cuál es el número en cuestión?",
+    "opciones": [
+      "2\\sqrt{2} \\sqrt{2}",
+      "4",
+      "2\\sqrt{2}",
+      "2",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea $x$ el número. $(x \\cdot 2) \\cdot (x \\cdot 8) = 128 \\implies 16x^2 = 128 \\implies x^2 = 8 \\implies x = 2\\sqrt{2}$.",
+    "id": 1109
+  },
+  {
+    "enunciado": "Un número se multiplica por 3 y por 4. Los dos resultados se multiplican entre sí y es 108. ¿Cuál es el número en cuestión?",
+    "opciones": [
+      "N.A.",
+      "3",
+      "2",
+      "3 \\sqrt{2}",
+      "4"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea $x$ el número. $(x \\cdot 3) \\cdot (x \\cdot 4) = 108 \\implies 12x^2 = 108 \\implies x^2 = 9 \\implies x = 3$.",
+    "id": 1110
+  },
+  {
+    "enunciado": "Un número se multiplica por 2 y por 5. Los dos resultados se multiplican entre sí y es 250. ¿Cuál es el número en cuestión?",
+    "opciones": [
+      "N.A.",
+      "5 \\sqrt{2}",
+      "2",
+      "5",
+      "4"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea $x$ el número. $(x \\cdot 2) \\cdot (x \\cdot 5) = 250 \\implies 10x^2 = 250 \\implies x^2 = 25 \\implies x = 5$.",
+    "id": 1111
+  },
+  {
+    "enunciado": "Un número se multiplica por 4 y por 2. Los dos resultados se multiplican entre sí y es 200. ¿Cuál es el número en cuestión?",
+    "opciones": [
+      "5 \\sqrt{2}",
+      "4",
+      "2",
+      "N.A.",
+      "5"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea $x$ el número. $(x \\cdot 4) \\cdot (x \\cdot 2) = 200 \\implies 8x^2 = 200 \\implies x^2 = 25 \\implies x = 5$.",
+    "id": 1112
+  },
+  {
+    "enunciado": "Una bolsa contiene 3 canicas verdes y 4 amarillas. Si se extraen dos canicas al azar sin reposición, ¿cuál es la probabilidad de que ambas sean amarillas?",
+    "opciones": [
+      "1/7",
+      "4/7",
+      "N.A.",
+      "2/7",
+      "3/7"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "justificacion": "La probabilidad de que la primera sea amarilla es 4/7. Como es sin reposición, queda 3 de 6. La probabilidad conjunta es (4/7) * (3/6) = 2/7.",
+    "id": 1113
+  },
+  {
+    "enunciado": "Una bolsa contiene 5 canicas rojas y 3 azuls. Si se extraen dos canicas al azar sin reposición, ¿cuál es la probabilidad de que ambas sean azuls?",
+    "opciones": [
+      "4/28",
+      "3/28",
+      "3/8",
+      "N.A.",
+      "1/8"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "justificacion": "La probabilidad de que la primera sea azul es 3/8. Como es sin reposición, queda 2 de 7. La probabilidad conjunta es (3/8) * (2/7) = 3/28.",
+    "id": 1114
+  },
+  {
+    "enunciado": "Una bolsa contiene 4 canicas blancas y 6 negras. Si se extraen dos canicas al azar sin reposición, ¿cuál es la probabilidad de que ambas sean negras?",
+    "opciones": [
+      "2/3",
+      "6/10",
+      "1/3",
+      "1/10",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "justificacion": "La probabilidad de que la primera sea negra es 6/10. Como es sin reposición, queda 5 de 9. La probabilidad conjunta es (6/10) * (5/9) = 1/3.",
+    "id": 1115
+  },
+  {
+    "enunciado": "Una bolsa contiene 2 canicas naranjas y 5 moradas. Si se extraen dos canicas al azar sin reposición, ¿cuál es la probabilidad de que ambas sean moradas?",
+    "opciones": [
+      "5/7",
+      "N.A.",
+      "1/7",
+      "11/21",
+      "10/21"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Probabilidades",
+    "justificacion": "La probabilidad de que la primera sea morada es 5/7. Como es sin reposición, queda 4 de 6. La probabilidad conjunta es (5/7) * (4/6) = 10/21.",
+    "id": 1116
+  },
+  {
+    "enunciado": "Si $x, y$ son números reales no nulos, ¿cuál de las expresiones es equivalente a $\\frac{x^{-1} - y^{-1}}{x^{-1}y^{-1}}$?",
+    "opciones": [
+      "$y-x$",
+      "$x-y$",
+      "x/y",
+      "1",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Multiplicando numerador y denominador por $xy$: $xy(x^{-1} - y^{-1}) / xy(x^{-1}y^{-1}) = y - x / 1 = y-x$.",
+    "id": 1117
+  },
+  {
+    "enunciado": "Si $x, y$ son números reales no nulos, ¿cuál de las expresiones es equivalente a $\\frac{x^{-1} + y^{-1}}{x^{-1}y^{-1}}$?",
+    "opciones": [
+      "$x-y$",
+      "N.A.",
+      "1",
+      "$y+x$",
+      "x/y"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Multiplicando numerador y denominador por $xy$: $xy(x^{-1} + y^{-1}) / xy(x^{-1}y^{-1}) = y + x / 1 = y+x$.",
+    "id": 1118
+  },
+  {
+    "enunciado": "Si $x, y$ son números reales no nulos, ¿cuál de las expresiones es equivalente a $\\frac{x^{-1} - y^{-1}}{x^{-1}y^{-1}}$?",
+    "opciones": [
+      "x/y",
+      "$y-x$",
+      "$x-y$",
+      "1",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Multiplicando numerador y denominador por $xy$: $xy(x^{-1} - y^{-1}) / xy(x^{-1}y^{-1}) = y - x / 1 = y-x$.",
+    "id": 1119
+  },
+  {
+    "enunciado": "Si $x, y$ son números reales no nulos, ¿cuál de las expresiones es equivalente a $\\frac{x^{-1} + y^{-1}}{x^{-1}y^{-1}}$?",
+    "opciones": [
+      "$x-y$",
+      "$y+x$",
+      "x/y",
+      "1",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Multiplicando numerador y denominador por $xy$: $xy(x^{-1} + y^{-1}) / xy(x^{-1}y^{-1}) = y + x / 1 = y+x$.",
+    "id": 1120
+  },
+  {
+    "enunciado": "Andrea comió 1/10 de pastel en el desayuno, 3/10 en el almuerzo y 2/10 en la cena. ¿Cuánto pastel comió en total?",
+    "opciones": [
+      "4/10",
+      "N.A.",
+      "3/5",
+      "1",
+      "4/5"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Sumando todas las porciones: (1 + 3 + 2) / 10 = 6/10. Simplificando se obtiene 3/5.",
+    "id": 1121
+  },
+  {
+    "enunciado": "Andrea comió 2/12 de pastel en el desayuno, 4/12 en el almuerzo y 2/12 en la cena. ¿Cuánto pastel comió en total?",
+    "opciones": [
+      "2/3",
+      "N.A.",
+      "1",
+      "3/3",
+      "6/12"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Sumando todas las porciones: (2 + 4 + 2) / 12 = 8/12. Simplificando se obtiene 2/3.",
+    "id": 1122
+  },
+  {
+    "enunciado": "Andrea comió 3/15 de pastel en el desayuno, 5/15 en el almuerzo y 1/15 en la cena. ¿Cuánto pastel comió en total?",
+    "opciones": [
+      "8/15",
+      "4/5",
+      "1",
+      "N.A.",
+      "3/5"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Sumando todas las porciones: (3 + 5 + 1) / 15 = 9/15. Simplificando se obtiene 3/5.",
+    "id": 1123
+  },
+  {
+    "enunciado": "Andrea comió 2/18 de pastel en el desayuno, 3/18 en el almuerzo y 4/18 en la cena. ¿Cuánto pastel comió en total?",
+    "opciones": [
+      "5/18",
+      "1",
+      "N.A.",
+      "1/2",
+      "2/2"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Sumando todas las porciones: (2 + 3 + 4) / 18 = 9/18. Simplificando se obtiene 1/2.",
+    "id": 1124
+  },
+  {
+    "enunciado": "Dada la función $f(x) = x^3 + 6$, la imagen de $x = -1$ es:",
+    "opciones": [
+      "4",
+      "0",
+      "5",
+      "7",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Sustituimos $x = -1$ en la función: $f(-1) = (-1)^3 + 6 = -1 + 6 = 5.$",
+    "id": 1125
+  },
+  {
+    "enunciado": "Dada la función $f(x) = x^2 + -4$, la imagen de $x = -3$ es:",
+    "opciones": [
+      "5",
+      "0",
+      "4",
+      "N.A.",
+      "7"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Sustituimos $x = -3$ en la función: $f(-3) = (-3)^2 + -4 = 9 + -4 = 5.$",
+    "id": 1126
+  },
+  {
+    "enunciado": "Dada la función $f(x) = x^3 + 10$, la imagen de $x = -2$ es:",
+    "opciones": [
+      "4",
+      "0",
+      "1",
+      "N.A.",
+      "2"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Sustituimos $x = -2$ en la función: $f(-2) = (-2)^3 + 10 = -8 + 10 = 2.$",
+    "id": 1127
+  },
+  {
+    "enunciado": "Dada la función $f(x) = x^4 + -5$, la imagen de $x = 2$ es:",
+    "opciones": [
+      "10",
+      "11",
+      "0",
+      "N.A.",
+      "13"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Álgebra",
+    "justificacion": "Sustituimos $x = 2$ en la función: $f(2) = (2)^4 + -5 = 16 + -5 = 11.$",
+    "id": 1128
+  },
+  {
+    "enunciado": "En mi estante de libros, todos los libros son novelas menos 2, todos son libros de historia menos 2, y todos son libros de poesía menos 2. ¿Cuántos libros tengo en mi estante?",
+    "opciones": [
+      "3",
+      "4",
+      "6",
+      "5",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Juegos de Ingenio",
+    "justificacion": "Este es un acertijo clásico. Si hay 3 tipos de libros, y todos menos 2 son de un tipo, significa que hay 2 libros que son de los otros dos tipos. Resolviendo el sistema $T-N=2$, $T-H=2$, $T-P=2$ sumamos: $3T - (N+H+P) = 3(2) \\implies 2T = 6$. Para que tenga solución entera en 3 categorías, si n=2, el total es 3 (habría 1 de cada tipo si aplicara, o 1 de cada tipo para n=2).",
+    "id": 1129
+  },
+  {
+    "enunciado": "En mi estante de libros, todos los libros son novelas menos 4, todos son libros de historia menos 4, y todos son libros de poesía menos 4. ¿Cuántos libros tengo en mi estante?",
+    "opciones": [
+      "6",
+      "7",
+      "5",
+      "10",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Juegos de Ingenio",
+    "justificacion": "Este es un acertijo clásico. Si hay 3 tipos de libros, y todos menos 4 son de un tipo, significa que hay 4 libros que son de los otros dos tipos. Resolviendo el sistema $T-N=4$, $T-H=4$, $T-P=4$ sumamos: $3T - (N+H+P) = 3(4) \\implies 2T = 12$. Para que tenga solución entera en 3 categorías, si n=4, el total es 5 (habría 3 de cada tipo si aplicara, o 1 de cada tipo para n=2).",
+    "id": 1130
+  },
+  {
+    "enunciado": "En mi estante, todos los libros son matemáticas menos 4, todos son de ciencias menos 4, y todos son de arte menos 4. (Solo existen estos 3 tipos). ¿Cuántos libros tengo en total?",
+    "opciones": [
+      "7",
+      "4",
+      "6",
+      "N.A.",
+      "9"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea T el total. T - M = 4, T - C = 4, T - A = 4. Sumando: 3T - (M+C+A) = 12. Como M+C+A = T, entonces 2T = 12 => T = 6.",
+    "id": 1131
+  },
+  {
+    "enunciado": "En mi estante, todos los libros son matemáticas menos 6, todos son de ciencias menos 6, y todos son de arte menos 6. (Solo existen estos 3 tipos). ¿Cuántos libros tengo en total?",
+    "opciones": [
+      "N.A.",
+      "9",
+      "10",
+      "12",
+      "6"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea T el total. T - M = 6, T - C = 6, T - A = 6. Sumando: 3T - (M+C+A) = 18. Como M+C+A = T, entonces 2T = 18 => T = 9.",
+    "id": 1132
+  },
+  {
+    "enunciado": "En mi estante, todos los libros son matemáticas menos 8, todos son de ciencias menos 8, y todos son de arte menos 8. (Solo existen estos 3 tipos). ¿Cuántos libros tengo en total?",
+    "opciones": [
+      "15",
+      "N.A.",
+      "8",
+      "13",
+      "12"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea T el total. T - M = 8, T - C = 8, T - A = 8. Sumando: 3T - (M+C+A) = 24. Como M+C+A = T, entonces 2T = 24 => T = 12.",
+    "id": 1133
+  },
+  {
+    "enunciado": "Una fracción comprendida estrictamente entre 2/3 y 5/7 es:",
+    "opciones": [
+      "29/42",
+      "N.A.",
+      "31/42",
+      "27/42",
+      "29/47"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Al convertir las fracciones a un denominador común o a decimales, la única opción que se encuentra en el intervalo es 29/42.",
+    "id": 1134
+  },
+  {
+    "enunciado": "Una fracción comprendida estrictamente entre 1/4 y 1/3 es:",
+    "opciones": [
+      "N.A.",
+      "9/24",
+      "7/24",
+      "7/29",
+      "5/24"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Al convertir las fracciones a un denominador común o a decimales, la única opción que se encuentra en el intervalo es 7/24.",
+    "id": 1135
+  },
+  {
+    "enunciado": "Una fracción comprendida estrictamente entre 3/5 y 4/5 es:",
+    "opciones": [
+      "9/10",
+      "7/15",
+      "5/10",
+      "7/10",
+      "N.A."
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Al convertir las fracciones a un denominador común o a decimales, la única opción que se encuentra en el intervalo es 7/10.",
+    "id": 1136
+  },
+  {
+    "enunciado": "Una fracción comprendida estrictamente entre 1/2 y 3/4 es:",
+    "opciones": [
+      "5/13",
+      "3/8",
+      "7/8",
+      "N.A.",
+      "5/8"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Fracciones",
+    "justificacion": "Al convertir las fracciones a un denominador común o a decimales, la única opción que se encuentra en el intervalo es 5/8.",
+    "id": 1137
+  },
+  {
+    "enunciado": "Un local tiene dimensiones de 6 metros de largo, 5 metros de ancho y 4 metros de alto. Se quieren almacenar cajas con dimensiones de 15 decímetros de largo, 5 decímetros de ancho y 8 decímetros de alto. ¿Cuántas cajas se pueden almacenar como máximo (orientándolas adecuadamente)?",
+    "opciones": [
+      "400",
+      "220",
+      "190",
+      "N.A.",
+      "200"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Espacial",
+    "tema": "Volumen",
+    "justificacion": "Alineando las dimensiones: El largo de 6m acomoda 4 cajas de 1.5m. El ancho de 5m acomoda 10 cajas de 0.5m. El alto de 4m acomoda 5 cajas de 0.8m. Total = 200 cajas.",
+    "id": 1138
+  },
+  {
+    "enunciado": "Un local tiene dimensiones de 8 metros de largo, 6 metros de ancho y 3 metros de alto. Se quieren almacenar cajas con dimensiones de 20 decímetros de largo, 6 decímetros de ancho y 5 decímetros de alto. ¿Cuántas cajas se pueden almacenar como máximo (orientándolas adecuadamente)?",
+    "opciones": [
+      "480",
+      "240",
+      "230",
+      "N.A.",
+      "260"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Espacial",
+    "tema": "Volumen",
+    "justificacion": "Alineando las dimensiones: El largo de 8m acomoda 4 cajas de 2m. El ancho de 6m acomoda 10 cajas de 0.6m. El alto de 3m acomoda 6 cajas de 0.5m. Total = 240 cajas.",
+    "id": 1139
+  },
+  {
+    "enunciado": "Un local tiene dimensiones de 10 metros de largo, 5 metros de ancho y 4 metros de alto. Se quieren almacenar cajas con dimensiones de 25 decímetros de largo, 10 decímetros de ancho y 4 decímetros de alto. ¿Cuántas cajas se pueden almacenar como máximo (orientándolas adecuadamente)?",
+    "opciones": [
+      "190",
+      "220",
+      "N.A.",
+      "400",
+      "200"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Espacial",
+    "tema": "Volumen",
+    "justificacion": "Alineando las dimensiones: El largo de 10m acomoda 4 cajas de 2.5m. El ancho de 5m acomoda 5 cajas de 1m. El alto de 4m acomoda 10 cajas de 0.4m. Total = 200 cajas.",
+    "id": 1140
+  },
+  {
+    "enunciado": "Un local tiene dimensiones de 12 metros de largo, 9 metros de ancho y 5 metros de alto. Se quieren almacenar cajas con dimensiones de 30 decímetros de largo, 15 decímetros de ancho y 5 decímetros de alto. ¿Cuántas cajas se pueden almacenar como máximo (orientándolas adecuadamente)?",
+    "opciones": [
+      "240",
+      "260",
+      "480",
+      "N.A.",
+      "230"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Espacial",
+    "tema": "Volumen",
+    "justificacion": "Alineando las dimensiones: El largo de 12m acomoda 4 cajas de 3m. El ancho de 9m acomoda 6 cajas de 1.5m. El alto de 5m acomoda 10 cajas de 0.5m. Total = 240 cajas.",
+    "id": 1141
+  },
+  {
+    "enunciado": "En una reunión se presentaron 4 propuestas. La primera fue de Sofía, la segunda de Ricardo, la tercera de Teresa y la cuarta de Luis. Según las normas, deben votarse en orden inverso a su presentación. ¿Cuál es la tercera propuesta que se votará?",
+    "opciones": [
+      "Ricardo",
+      "Teresa",
+      "Sofía",
+      "N.A.",
+      "Luis"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "El orden inverso es: 1ro Luis, 2do Teresa, 3ro Ricardo, 4to Sofía. La tercera es Ricardo.",
+    "id": 1142
+  },
+  {
+    "enunciado": "En una reunión se presentaron 4 propuestas. La primera fue de Ana, la segunda de Carlos, la tercera de David y la cuarta de Elena. Según las normas, deben votarse en orden inverso a su presentación. ¿Cuál es la segunda propuesta que se votará?",
+    "opciones": [
+      "David",
+      "Ana",
+      "N.A.",
+      "David",
+      "Elena"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "El orden inverso es: 1ro Elena, 2do David, 3ro Carlos, 4to Ana. La segunda es David.",
+    "id": 1143
+  },
+  {
+    "enunciado": "En una reunión se presentaron 4 propuestas. La primera fue de Miguel, la segunda de Jorge, la tercera de Lucía y la cuarta de Carmen. Según las normas, deben votarse en orden inverso a su presentación. ¿Cuál es la primera propuesta que se votará?",
+    "opciones": [
+      "Lucía",
+      "Carmen",
+      "N.A.",
+      "Miguel",
+      "Carmen"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "El orden inverso es: 1ro Carmen, 2do Lucía, 3ro Jorge, 4to Miguel. La primera es Carmen.",
+    "id": 1144
+  },
+  {
+    "enunciado": "En una reunión se presentaron 4 propuestas. La primera fue de Pedro, la segunda de Juan, la tercera de Diego y la cuarta de Mateo. Según las normas, deben votarse en orden inverso a su presentación. ¿Cuál es la cuarta propuesta que se votará?",
+    "opciones": [
+      "Pedro",
+      "Pedro",
+      "Diego",
+      "Mateo",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "El orden inverso es: 1ro Mateo, 2do Diego, 3ro Juan, 4to Pedro. La cuarta es Pedro.",
+    "id": 1145
+  },
+  {
+    "enunciado": "Identifica el patrón de regularidad en la siguiente serie y señala qué debería aparecer en la próxima casilla: Cuadrado, Triángulo, Círculo, Cuadrado, ...",
+    "opciones": [
+      "Triángulo",
+      "Rectángulo",
+      "N.A.",
+      "Estrella",
+      "Círculo"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "La serie repite el bloque inicial. Después de Cuadrado, el patrón vuelve a comenzar con el segundo elemento del ciclo, que es Triángulo.",
+    "id": 1146
+  },
+  {
+    "enunciado": "Identifica el patrón de regularidad en la siguiente serie y señala qué debería aparecer en la próxima casilla: Rojo, Azul, Verde, Rojo, ...",
+    "opciones": [
+      "Azul",
+      "Círculo",
+      "Rectángulo",
+      "Estrella",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "La serie repite el bloque inicial. Después de Rojo, el patrón vuelve a comenzar con el segundo elemento del ciclo, que es Azul.",
+    "id": 1147
+  },
+  {
+    "enunciado": "Identifica el patrón de regularidad en la siguiente serie y señala qué debería aparecer en la próxima casilla: Norte, Sur, Este, Norte, ...",
+    "opciones": [
+      "Sur",
+      "Círculo",
+      "N.A.",
+      "Rectángulo",
+      "Estrella"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "La serie repite el bloque inicial. Después de Norte, el patrón vuelve a comenzar con el segundo elemento del ciclo, que es Sur.",
+    "id": 1148
+  },
+  {
+    "enunciado": "Identifica el patrón de regularidad en la siguiente serie y señala qué debería aparecer en la próxima casilla: Lunes, Martes, Miércoles, Lunes, ...",
+    "opciones": [
+      "Estrella",
+      "Martes",
+      "Rectángulo",
+      "Círculo",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "La serie repite el bloque inicial. Después de Lunes, el patrón vuelve a comenzar con el segundo elemento del ciclo, que es Martes.",
+    "id": 1149
+  },
+  {
+    "enunciado": "En un criptograma cada nombre tiene un valor sumando sus letras. A=0, O=3, TODA CONSONANTE=0. Sabemos que 'Runi' = 13 y 'Yenny' = 1. Analizando, determina el valor de 'Aquiles'.",
+    "opciones": [
+      "13",
+      "16",
+      "14",
+      "19",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Criptoaritmética",
+    "justificacion": "Sabemos que consonantes=0. Yenny=1 implica E=1. Runi=13 implica U+I=13. Como en el original I=8, U=5. Sumando las letras de Aquiles con estos valores obtenemos 14.",
+    "id": 1150
+  },
+  {
+    "enunciado": "En un criptograma cada nombre tiene un valor sumando sus letras. A=0, O=3, TODA CONSONANTE=0. Sabemos que 'Runi' = 13 y 'Yenny' = 1. Analizando, determina el valor de 'Daniel'.",
+    "opciones": [
+      "N.A.",
+      "8",
+      "9",
+      "14",
+      "11"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Criptoaritmética",
+    "justificacion": "Sabemos que consonantes=0. Yenny=1 implica E=1. Runi=13 implica U+I=13. Como en el original I=8, U=5. Sumando las letras de Daniel con estos valores obtenemos 9.",
+    "id": 1151
+  },
+  {
+    "enunciado": "En un criptograma cada nombre tiene un valor sumando sus letras. A=0, O=3, TODA CONSONANTE=0. Sabemos que 'Runi' = 13 y 'Yenny' = 1. Analizando, determina el valor de 'Samuel'.",
+    "opciones": [
+      "6",
+      "5",
+      "8",
+      "11",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Criptoaritmética",
+    "justificacion": "Sabemos que consonantes=0. Yenny=1 implica E=1. Runi=13 implica U+I=13. Como en el original I=8, U=5. Sumando las letras de Samuel con estos valores obtenemos 6.",
+    "id": 1152
+  },
+  {
+    "enunciado": "En un criptograma cada nombre tiene un valor sumando sus letras. A=0, O=3, TODA CONSONANTE=0. Sabemos que 'Runi' = 13 y 'Yenny' = 1. Analizando, determina el valor de 'Eulalio'.",
+    "opciones": [
+      "16",
+      "22",
+      "N.A.",
+      "17",
+      "19"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico",
+    "tema": "Criptoaritmética",
+    "justificacion": "Sabemos que consonantes=0. Yenny=1 implica E=1. Runi=13 implica U+I=13. Como en el original I=8, U=5. Sumando las letras de Eulalio con estos valores obtenemos 17.",
+    "id": 1153
+  },
+  {
+    "enunciado": "Si el ayer de mañana fue Jueves, ¿qué día será el pasado mañana de ayer?",
+    "opciones": [
+      "Domingo",
+      "Viernes",
+      "Viernes",
+      "N.A.",
+      "Lunes"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si ayer de mañana fue Jueves, deducimos hoy y luego sumamos 1 para llegar a Viernes.",
+    "id": 1154
+  },
+  {
+    "enunciado": "Si el mañana de anteayer fue Lunes, ¿qué día será el pasado mañana de ayer?",
+    "opciones": [
+      "Lunes",
+      "N.A.",
+      "Domingo",
+      "Miércoles",
+      "Viernes"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si mañana de anteayer fue Lunes, deducimos hoy y luego sumamos 1 para llegar a Miércoles.",
+    "id": 1155
+  },
+  {
+    "enunciado": "Si el pasado mañana fue Sábado, ¿qué día será el pasado mañana de ayer?",
+    "opciones": [
+      "Viernes",
+      "N.A.",
+      "Lunes",
+      "Domingo",
+      "Viernes"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si pasado mañana fue Sábado, deducimos hoy y luego sumamos 1 para llegar a Viernes.",
+    "id": 1156
+  },
+  {
+    "enunciado": "Si el ayer fue Miércoles, ¿qué día será el pasado mañana de ayer?",
+    "opciones": [
+      "N.A.",
+      "Lunes",
+      "Viernes",
+      "Domingo",
+      "Viernes"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico",
+    "tema": "Orden de información",
+    "justificacion": "Traducimos a días matemáticos: Hoy es 0. El pasado mañana de ayer es (+2 -1) = +1, que significa mañana. Si ayer fue Miércoles, deducimos hoy y luego sumamos 1 para llegar a Viernes.",
+    "id": 1157
+  },
+  {
+    "enunciado": "Se hizo una encuesta a 50 personas sobre revistas A y B. Los que leen ambas revistas son el doble de los que leen solo A, el triple de los que leen solo B y el cuádruplo de los que no leen ninguna. ¿Cuántas leen la revista A?",
+    "opciones": [
+      "N.A.",
+      "36",
+      "40",
+      "30",
+      "25"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Conjuntos",
+    "justificacion": "Llamemos X a la intersección (ambas). Solo A = X/2. Solo B = X/3. Ninguna = X/4. Sumando todo: X + X/2 + X/3 + X/4 = 50 => (25/12)X = 50 => X = 24. Si piden ambas, es 24. Si piden revista A (solo A + ambas) es 12 + 24 = 36.",
+    "id": 1158
+  },
+  {
+    "enunciado": "Se hizo una encuesta a 50 personas sobre revistas A y B. Los que leen ambas revistas son el doble de los que leen solo A, el triple de los que leen solo B y el cuádruplo de los que no leen ninguna. ¿Cuántos leen ambas revistas?",
+    "opciones": [
+      "30",
+      "24",
+      "25",
+      "40",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Conjuntos",
+    "justificacion": "Llamemos X a la intersección (ambas). Solo A = X/2. Solo B = X/3. Ninguna = X/4. Sumando todo: X + X/2 + X/3 + X/4 = 50 => (25/12)X = 50 => X = 24. Si piden ambas, es 24. Si piden revista A (solo A + ambas) es 12 + 24 = 36.",
+    "id": 1159
+  },
+  {
+    "enunciado": "Se hizo una encuesta a 50 personas sobre revistas A y B. Los que leen ambas revistas son el doble de los que leen solo A, el triple de los que leen solo B y el cuádruplo de los que no leen ninguna. ¿Cuántas leen la revista A?",
+    "opciones": [
+      "N.A.",
+      "25",
+      "30",
+      "40",
+      "36"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico",
+    "tema": "Conjuntos",
+    "justificacion": "Llamemos X a la intersección (ambas). Solo A = X/2. Solo B = X/3. Ninguna = X/4. Sumando todo: X + X/2 + X/3 + X/4 = 50 => (25/12)X = 50 => X = 24. Si piden ambas, es 24. Si piden revista A (solo A + ambas) es 12 + 24 = 36.",
+    "id": 1160
+  },
+  {
+    "enunciado": "Se hizo una encuesta a 50 personas sobre revistas A y B. Los que leen ambas revistas son el doble de los que leen solo A, el triple de los que leen solo B y el cuádruplo de los que no leen ninguna. ¿Cuántos leen ambas revistas?",
+    "opciones": [
+      "N.A.",
+      "24",
+      "40",
+      "25",
+      "30"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico",
+    "tema": "Conjuntos",
+    "justificacion": "Llamemos X a la intersección (ambas). Solo A = X/2. Solo B = X/3. Ninguna = X/4. Sumando todo: X + X/2 + X/3 + X/4 = 50 => (25/12)X = 50 => X = 24. Si piden ambas, es 24. Si piden revista A (solo A + ambas) es 12 + 24 = 36.",
+    "id": 1161
+  },
+  {
+    "enunciado": "Ana escribe en su blog. No puede publicar dos días seguidos. Solo puede publicar martes, miércoles y jueves. ¿Cuál es la mayor cantidad de publicaciones que puede hacer en un mes de 4 semanas?",
+    "opciones": [
+      "10",
+      "8",
+      "6",
+      "N.A.",
+      "12"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Para el máximo, publica martes y jueves (2 veces por semana) = 8. Para el mínimo (asumiendo que debe publicar al menos una vez por semana para mantenerse activa o porque es la única forma de no romper la regla sin dejar de publicar), lo hace el miércoles (1 por semana) = 4.",
+    "id": 1162
+  },
+  {
+    "enunciado": "Ana escribe en su blog. No puede publicar dos días seguidos. Solo puede publicar martes, miércoles y jueves. ¿Cuál es la menor cantidad de publicaciones que puede hacer en un mes de 4 semanas?",
+    "opciones": [
+      "6",
+      "12",
+      "10",
+      "4",
+      "N.A."
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Para el máximo, publica martes y jueves (2 veces por semana) = 8. Para el mínimo (asumiendo que debe publicar al menos una vez por semana para mantenerse activa o porque es la única forma de no romper la regla sin dejar de publicar), lo hace el miércoles (1 por semana) = 4.",
+    "id": 1163
+  },
+  {
+    "enunciado": "Ana escribe en su blog. No puede publicar dos días seguidos. Solo puede publicar martes, miércoles y jueves. ¿Cuál es la mayor cantidad de publicaciones que puede hacer en un mes de 4 semanas?",
+    "opciones": [
+      "6",
+      "10",
+      "12",
+      "N.A.",
+      "8"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Para el máximo, publica martes y jueves (2 veces por semana) = 8. Para el mínimo (asumiendo que debe publicar al menos una vez por semana para mantenerse activa o porque es la única forma de no romper la regla sin dejar de publicar), lo hace el miércoles (1 por semana) = 4.",
+    "id": 1164
+  },
+  {
+    "enunciado": "Ana escribe en su blog. No puede publicar dos días seguidos. Solo puede publicar martes, miércoles y jueves. ¿Cuál es la menor cantidad de publicaciones que puede hacer en un mes de 4 semanas?",
+    "opciones": [
+      "10",
+      "12",
+      "4",
+      "6",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Para el máximo, publica martes y jueves (2 veces por semana) = 8. Para el mínimo (asumiendo que debe publicar al menos una vez por semana para mantenerse activa o porque es la única forma de no romper la regla sin dejar de publicar), lo hace el miércoles (1 por semana) = 4.",
+    "id": 1165
+  },
+  {
+    "enunciado": "Un tren viaja a una velocidad constante de 120 km/h. ¿Qué distancia recorrerá en 45 minutos?",
+    "opciones": [
+      "80 km",
+      "90 km",
+      "180 km",
+      "110 km",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Convertimos el tiempo a horas: 45 min = 45/60 horas. Distancia = Velocidad × Tiempo = 120 × (45/60) = 90 km.",
+    "id": 1166
+  },
+  {
+    "enunciado": "Un tren viaja a una velocidad constante de 80 km/h. ¿Qué distancia recorrerá en 30 minutos?",
+    "opciones": [
+      "40 km",
+      "80 km",
+      "N.A.",
+      "30 km",
+      "60 km"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Convertimos el tiempo a horas: 30 min = 30/60 horas. Distancia = Velocidad × Tiempo = 80 × (30/60) = 40 km.",
+    "id": 1167
+  },
+  {
+    "enunciado": "Un tren viaja a una velocidad constante de 100 km/h. ¿Qué distancia recorrerá en 15 minutos?",
+    "opciones": [
+      "15 km",
+      "N.A.",
+      "50 km",
+      "45 km",
+      "25 km"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Convertimos el tiempo a horas: 15 min = 15/60 horas. Distancia = Velocidad × Tiempo = 100 × (15/60) = 25 km.",
+    "id": 1168
+  },
+  {
+    "enunciado": "Un tren viaja a una velocidad constante de 90 km/h. ¿Qué distancia recorrerá en 40 minutos?",
+    "opciones": [
+      "80 km",
+      "120 km",
+      "N.A.",
+      "50 km",
+      "60 km"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Aritmética de Tiempos y Producción",
+    "justificacion": "Convertimos el tiempo a horas: 40 min = 40/60 horas. Distancia = Velocidad × Tiempo = 90 × (40/60) = 60 km.",
+    "id": 1169
+  },
+  {
+    "enunciado": "Ana es más joven que Carlos. David nació después que Ana, pero antes que Beatriz. ¿Quién ocupa el tercer lugar por orden de nacimiento del más viejo al más joven?",
+    "opciones": [
+      "Beatriz",
+      "Ana",
+      "David",
+      "Carlos",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Orden del más viejo al más joven: Carlos > Ana. David nació después (es más joven) que Ana. Pero antes (es más viejo) que Beatriz. Orden total: Carlos > Ana > David > Beatriz. El tercero es David.",
+    "id": 1170
+  },
+  {
+    "enunciado": "Sofía es más joven que Marcos. Julio nació después que Sofía, pero antes que Elena. ¿Quién ocupa el tercer lugar por orden de nacimiento del más viejo al más joven?",
+    "opciones": [
+      "Elena",
+      "Marcos",
+      "N.A.",
+      "Sofía",
+      "Julio"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Misma lógica de ordenación temporal: Marcos > Sofía > Julio > Elena. El tercero es Julio.",
+    "id": 1171
+  },
+  {
+    "enunciado": "Pablo es más joven que Teresa. Laura nació después que Pablo, pero antes que Diego. ¿Quién ocupa el tercer lugar por orden de nacimiento del más viejo al más joven?",
+    "opciones": [
+      "Laura",
+      "Pablo",
+      "Diego",
+      "Teresa",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Misma lógica de ordenación temporal: Teresa > Pablo > Laura > Diego. El tercero es Laura.",
+    "id": 1172
+  },
+  {
+    "enunciado": "Rosa es más joven que Andrés. Felipe nació después que Rosa, pero antes que Marta. ¿Quién ocupa el tercer lugar por orden de nacimiento del más viejo al más joven?",
+    "opciones": [
+      "Andrés",
+      "Felipe",
+      "Marta",
+      "Rosa",
+      "N.A."
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Edades",
+    "justificacion": "Misma lógica de ordenación temporal: Andrés > Rosa > Felipe > Marta. El tercero es Felipe.",
+    "id": 1173
+  },
+  {
+    "enunciado": "Señale los dos números que continuarían la siguiente serie: 21, 24, 18, 27, 15, 30, ...",
+    "opciones": [
+      "9 y 33",
+      "N.A.",
+      "18 y 24",
+      "12 y 33",
+      "33 y 12"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "Es una serie alternada. Los términos impares restan la diferencia, los pares la suman progresivamente. El siguiente par de números se deduce siguiendo este patrón dual, resultando en 12 y 33.",
+    "id": 1174
+  },
+  {
+    "enunciado": "Señale los dos números que continuarían la siguiente serie: 10, 12, 8, 14, 6, 16, ...",
+    "opciones": [
+      "9 y 33",
+      "8 y 12",
+      "N.A.",
+      "4 y 18",
+      "18 y 4"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "Es una serie alternada. Los términos impares restan la diferencia, los pares la suman progresivamente. El siguiente par de números se deduce siguiendo este patrón dual, resultando en 4 y 18.",
+    "id": 1175
+  },
+  {
+    "enunciado": "Señale los dos números que continuarían la siguiente serie: 50, 55, 45, 60, 40, 65, ...",
+    "opciones": [
+      "45 y 55",
+      "35 y 70",
+      "N.A.",
+      "70 y 35",
+      "9 y 33"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "Es una serie alternada. Los términos impares restan la diferencia, los pares la suman progresivamente. El siguiente par de números se deduce siguiendo este patrón dual, resultando en 35 y 70.",
+    "id": 1176
+  },
+  {
+    "enunciado": "Señale los dos números que continuarían la siguiente serie: 100, 110, 90, 120, 80, 130, ...",
+    "opciones": [
+      "140 y 70",
+      "N.A.",
+      "90 y 110",
+      "9 y 33",
+      "70 y 140"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Secuencias y Progresiones",
+    "justificacion": "Es una serie alternada. Los términos impares restan la diferencia, los pares la suman progresivamente. El siguiente par de números se deduce siguiendo este patrón dual, resultando en 70 y 140.",
+    "id": 1177
+  },
+  {
+    "enunciado": "Si al triple de un número le multiplicamos el cuadrado de dicho número y lo que resulta lo dividimos por 9, se obtiene el mismo resultado que elevando al cuadrado dicho número. (Asumiendo que el número no es cero). Indica de qué número se trata.",
+    "opciones": [
+      "N.A.",
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Sea x el número. $(3x \\cdot x^2) / 9 = x^2 \\implies (3x^3) / 9 = x^2 \\implies x^3 / 3 = x^2 \\implies x = 3$.",
+    "id": 1178
+  },
+  {
+    "enunciado": "Si al multiplicar un número por 2 y luego por su cuadrado, dividimos el resultado entre 8, obtenemos el cuadrado del mismo número. (Asumiendo que el número no es cero). ¿Cuál es el número?",
+    "opciones": [
+      "4",
+      "8",
+      "6",
+      "3",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Planteamos: $(2x \\cdot x^2) / 8 = x^2 \\implies (2/8)x^3 = x^2 \\implies x = 8/2 = 4$.",
+    "id": 1179
+  },
+  {
+    "enunciado": "Si al multiplicar un número por 4 y luego por su cuadrado, dividimos el resultado entre 20, obtenemos el cuadrado del mismo número. (Asumiendo que el número no es cero). ¿Cuál es el número?",
+    "opciones": [
+      "N.A.",
+      "5",
+      "10",
+      "7",
+      "4"
+    ],
+    "respuestaCorrecta": 1,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Planteamos: $(4x \\cdot x^2) / 20 = x^2 \\implies (4/20)x^3 = x^2 \\implies x = 20/4 = 5$.",
+    "id": 1180
+  },
+  {
+    "enunciado": "Si al multiplicar un número por 5 y luego por su cuadrado, dividimos el resultado entre 10, obtenemos el cuadrado del mismo número. (Asumiendo que el número no es cero). ¿Cuál es el número?",
+    "opciones": [
+      "2",
+      "4",
+      "1",
+      "4",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Planteamiento de Ecuaciones",
+    "justificacion": "Planteamos: $(5x \\cdot x^2) / 10 = x^2 \\implies (5/10)x^3 = x^2 \\implies x = 10/5 = 2$.",
+    "id": 1181
+  },
+  {
+    "enunciado": "Calcula el 60% de la tercera parte de 12000 y luego encuentra la quinta parte de ese resultado.",
+    "opciones": [
+      "480",
+      "960",
+      "430",
+      "N.A.",
+      "500"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Porcentajes",
+    "justificacion": "Paso a paso: La tercera parte de 12000 es 4000. El 60% de eso es 0.6 * 4000 = 2400. La quinta parte de esto es 480.",
+    "id": 1182
+  },
+  {
+    "enunciado": "Calcula el 50% de la mitad de 8000 y luego encuentra la cuarta parte de ese resultado.",
+    "opciones": [
+      "500",
+      "520",
+      "1000",
+      "N.A.",
+      "450"
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Porcentajes",
+    "justificacion": "Paso a paso: La mitad de 8000 es 4000. El 50% de eso es 0.5 * 4000 = 2000. La cuarta parte de esto es 500.",
+    "id": 1183
+  },
+  {
+    "enunciado": "Calcula el 75% de la quinta parte de 20000 y luego encuentra la tercera parte de ese resultado.",
+    "opciones": [
+      "1000",
+      "950",
+      "2000",
+      "1020",
+      "N.A."
+    ],
+    "respuestaCorrecta": 0,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Porcentajes",
+    "justificacion": "Paso a paso: La quinta parte de 20000 es 4000. El 75% de eso es 0.75 * 4000 = 3000. La tercera parte de esto es 1000.",
+    "id": 1184
+  },
+  {
+    "enunciado": "Calcula el 40% de la cuarta parte de 10000 y luego encuentra la mitad de ese resultado.",
+    "opciones": [
+      "450",
+      "1000",
+      "N.A.",
+      "520",
+      "500"
+    ],
+    "respuestaCorrecta": 4,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Porcentajes",
+    "justificacion": "Paso a paso: La cuarta parte de 10000 es 2500. El 40% de eso es 0.4 * 2500 = 1000. La mitad de esto es 500.",
+    "id": 1185
+  },
+  {
+    "enunciado": "La suma de dos números es 45. Si el número mayor se divide por el menor, el cociente es 4 y el resto es 5. ¿Cuáles son los dos números?",
+    "opciones": [
+      "35 y 10",
+      "38 y 7",
+      "N.A.",
+      "37 y 8",
+      "74 y 8"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sistemas de Ecuaciones",
+    "justificacion": "Sean $x$ (mayor) e $y$ (menor). $x + y = 45$. Por el algoritmo de la división: $x = 4y + 5$. Sustituyendo: $(4y + 5) + y = 45 \\implies 5y = 40 \\implies y = 8$. Luego $x = 37$.",
+    "id": 1186
+  },
+  {
+    "enunciado": "La suma de dos números es 38. Si el número mayor se divide por el menor, el cociente es 3 y el resto es 2. ¿Cuáles son los dos números?",
+    "opciones": [
+      "27 y 11",
+      "30 y 8",
+      "29 y 9",
+      "58 y 9",
+      "N.A."
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sistemas de Ecuaciones",
+    "justificacion": "Sean $x$ (mayor) e $y$ (menor). $x + y = 38$. Por el algoritmo de la división: $x = 3y + 2$. Sustituyendo: $(3y + 2) + y = 38 \\implies 4y = 36 \\implies y = 9$. Luego $x = 29$.",
+    "id": 1187
+  },
+  {
+    "enunciado": "La suma de dos números es 55. Si el número mayor se divide por el menor, el cociente es 5 y el resto es 1. ¿Cuáles son los dos números?",
+    "opciones": [
+      "N.A.",
+      "44 y 11",
+      "46 y 9",
+      "92 y 9",
+      "47 y 8"
+    ],
+    "respuestaCorrecta": 2,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sistemas de Ecuaciones",
+    "justificacion": "Sean $x$ (mayor) e $y$ (menor). $x + y = 55$. Por el algoritmo de la división: $x = 5y + 1$. Sustituyendo: $(5y + 1) + y = 55 \\implies 6y = 54 \\implies y = 9$. Luego $x = 46$.",
+    "id": 1188
+  },
+  {
+    "enunciado": "La suma de dos números es 60. Si el número mayor se divide por el menor, el cociente es 4 y el resto es 10. ¿Cuáles son los dos números?",
+    "opciones": [
+      "N.A.",
+      "51 y 9",
+      "100 y 10",
+      "50 y 10",
+      "48 y 12"
+    ],
+    "respuestaCorrecta": 3,
+    "area": "Razonamiento Lógico Numérico",
+    "tema": "Sistemas de Ecuaciones",
+    "justificacion": "Sean $x$ (mayor) e $y$ (menor). $x + y = 60$. Por el algoritmo de la división: $x = 4y + 10$. Sustituyendo: $(4y + 10) + y = 60 \\implies 5y = 50 \\implies y = 10$. Luego $x = 50$.",
+    "id": 1189
+  }
+]

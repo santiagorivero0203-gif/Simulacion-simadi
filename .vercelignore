@@ -2,44 +2,18 @@
 # .vercelignore — Archivos excluidos del deploy
 # ============================================
 
-# PDFs (archivos pesados, solo para uso local)
-*.pdf
+# Directorios de desarrollo (no necesarios en producción)
+scripts/
+docs/
+resources/
+data/
 
-# Imágenes de WhatsApp (no se necesitan en producción)
-WhatsApp*.jpeg
-WhatsApp*.jpg
-
-# Scripts de generación de preguntas (solo para desarrollo local)
-add_certified.js
-add_diagnostico.js
-add_temas.js
-add_varied.js
-extract_pdf.js
-extract_pdfjs.js
-fix_verbal.js
-generador.js
-generador_v2.js
-generar_logaritmos.js
-generar_matematicas.js
-script_actualizacion.py
-
-# Archivos de análisis (documentación interna)
-Analisis_Examen_Razonamiento_Verbal_2.md
-Analisis_Matematicas_Adicionales.md
-Analisis_Prueba_Diagnostica.md
-
-# Datos en texto plano (no necesarios en producción)
-prueba_diagnostica_text.txt
-
-# JSONs intermedios de preguntas (ya fusionados en preguntas.json)
-preguntas_nuevas_1.json
-preguntas_nuevas_2.json
-
-# Dependencias de Node (no se necesitan en sitio estático)
+# Dependencias de Node
 node_modules/
 
-# Directorio de trabajo temporal
-scratch/
-
-# Archivos de configuración de proyecto
+# Configuración de proyecto
 package-lock.json
+.gitignore
+
+# Archivos de agentes/IDE
+.agents/
