@@ -10962,5 +10962,1016 @@
     "correcta": "15.000",
     "justificacion": "3k + 5k + 7k = 15k = 45000 -> k = 3000. Al socio B (5) le tocan 5 * 3000 = 15.000.",
     "id": 1477
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "En la selva amazónica existe una gran variedad de pájaros exóticos muy cotizados en los mercados europeos.",
+    "opciones": [
+      "esotéricos",
+      "extravagantes",
+      "raros",
+      "canoros"
+    ],
+    "correcta": "raros",
+    "justificacion": "Exótico en este contexto significa poco común o raro.",
+    "id": 1478
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "Montesquieu, sociólogo francés, hizo una honda crítica del régimen absolutista, intentó elucidar el origen del Estado y la naturaleza de las leyes.",
+    "opciones": [
+      "ferviente - explicar",
+      "profunda - dilucidar",
+      "ardiente - probar",
+      "severa - soslayar"
+    ],
+    "correcta": "profunda - dilucidar",
+    "justificacion": "Honda es profunda, elucidar es dilucidar.",
+    "id": 1479
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "El déspota que retiene el poder en contra de la voluntad del pueblo debe enfrentar un final incierto.",
+    "opciones": [
+      "ostenta - esperar",
+      "conquista - anhelar",
+      "detenta - afrontar",
+      "ejerce - abaldonar"
+    ],
+    "correcta": "detenta - afrontar",
+    "justificacion": "Detentar es retener el poder ilegítimamente.",
+    "id": 1480
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Sinónimos en Contexto",
+    "tipo": "opcion_multiple",
+    "pregunta": "Puesto que la lectura es de esencia mental, el objeto de todo entrenamiento para la lectura rápida debe considerar no sólo una buena mecánica lectora, sino también una perfecta calidad de compresión.",
+    "opciones": [
+      "origen - provechosa",
+      "sustancia - eficiente",
+      "fundamento - acelerada",
+      "naturaleza - veloz"
+    ],
+    "correcta": "naturaleza - veloz",
+    "justificacion": "Esencia se refiere a la naturaleza.",
+    "id": 1481
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Sabemos que la ciencia posee, tarde o temprano una _____ práctica, por consiguiente es imposible encontrar un saber estrictamente no _____.",
+    "opciones": [
+      "utilidad - teórico",
+      "falacia - científico",
+      "utilización - práctico",
+      "dificultad - útil"
+    ],
+    "correcta": "utilidad - teórico",
+    "justificacion": "Todo saber tiene aplicación.",
+    "id": 1482
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "MEDIR : CANTIDAD",
+    "opciones": [
+      "valorar : cualidad",
+      "difundir : novedad",
+      "pagar : tributo",
+      "sopesar : argumentos"
+    ],
+    "correcta": "valorar : cualidad",
+    "justificacion": "Se mide la cantidad, se valora la cualidad.",
+    "id": 1483
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "DEMOCRACIA : GOBIERNO",
+    "opciones": [
+      "autoridad : estado",
+      "cristianismo : religión",
+      "elección : voto",
+      "historia : pasado"
+    ],
+    "correcta": "cristianismo : religión",
+    "justificacion": "Relación de tipo a categoría general.",
+    "id": 1484
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Lógica Deductiva",
+    "tipo": "opcion_multiple",
+    "pregunta": "La ciudad D está al NE de la ciudad A, que se encuentra al Este de la B, la cual dista mucho de la cuidad C, que está ubicada al Noreste de la ciudad D, que está al Norte de la ciudad E. ¿Cuál es la ubicación de esta última?",
+    "opciones": [
+      "Al Norte de la ciudad C.",
+      "Al Sur de la ciudad A.",
+      "Al S.O e la ciudad A.",
+      "Al S.O de la ciudad C."
+    ],
+    "correcta": "Al Norte de la ciudad C.",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1485
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Lógica Deductiva",
+    "tipo": "opcion_multiple",
+    "pregunta": "Todas las aves tienen plumas. Hay animales que vuelan sin tener plumas; luego:",
+    "opciones": [
+      "Algunos animales que vuelan no son aves.",
+      "Todos los animales que vuelan son aves.",
+      "La mayoría de los animales carecen de plumas.",
+      "Hay ciertas aves que vuelan sin tener plumas."
+    ],
+    "correcta": "Algunos animales que vuelan no son aves.",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1486
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "La idea fundamental planteada en el texto, es:",
+    "opciones": [
+      "Existe un mosaico de concepciones respecto a la sociedad y a su desarrollo.",
+      "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando los demás.",
+      "A pesar de afirmarse lo contrario en el texto, el aspecto económico es el pilar fundamental para todo el desarrollo, lo demás se subordina a él.",
+      "Cada profesional debe desarrollarse en el área de su competencia, para participar en el desarrollo."
+    ],
+    "correcta": "Existe un mosaico de concepciones respecto a la sociedad y a su desarrollo.",
+    "contexto": "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando a los demás. Así, por ejemplo, el médico no verá acaso más que enfermos (actuales o en potencia), hospitales y farmacias; el economista, productores, comerciantes y consumidores; el político, votantes y soldados; el hombre de cultura, autores y lectores. Por ello, cuando se habla de desarrollo, cada cual piensa en la expansión del aspecto o sistema que más le interesa. En particular, los economistas a cargo de quienes suelen estar la planificación del desarrollo de una sociedad - suelen interesarse sólo por el sistema económico, suponiendo que es el primer motor y que el resto le está o debería estar subordinado; entienden por desarrollo el crecimiento de la producción y, en particular, de la industrialización. De esta lamentable y evitable especialización profesional resulta un mosaico caótico de concepciones de la sociedad y de su desarrollo, formado por visiones parciales, ninguna de las cuales permite comprender el problema global ni, con mayor razón, hacer algo por resolverlo.",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1487
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Leído y analizado el texto, se puede afirmar que los planteamientos principales son: 1) La cultura nos interesa a todos especialmente a los lectores universitarios. 2) Existe un descuido generalizado de los profesionales en áreas determinadas de su especialización. 3) El mal entendimiento del desarrollo ha llevado a algunos profesionales a pensar que éste simplemente se circunscribe a la producción. 4) La visión parcial que los profesionales tienen acerca de la sociedad no les permite comprender el problema global de ésta. 5) Lamentablemente, no existe una visión integral del desarrollo social por parte de los profesionales.",
+    "opciones": [
+      "Todos",
+      "3, 4, 5",
+      "1, 2, 3",
+      "2, 3, 5"
+    ],
+    "correcta": "Todos",
+    "contexto": "Cada profesional tiende a ver un solo aspecto de la sociedad descuidando a los demás. Así, por ejemplo, el médico no verá acaso más que enfermos (actuales o en potencia), hospitales y farmacias; el economista, productores, comerciantes y consumidores; el político, votantes y soldados; el hombre de cultura, autores y lectores. Por ello, cuando se habla de desarrollo, cada cual piensa en la expansión del aspecto o sistema que más le interesa. En particular, los economistas a cargo de quienes suelen estar la planificación del desarrollo de una sociedad - suelen interesarse sólo por el sistema económico, suponiendo que es el primer motor y que el resto le está o debería estar subordinado; entienden por desarrollo el crecimiento de la producción y, en particular, de la industrialización. De esta lamentable y evitable especialización profesional resulta un mosaico caótico de concepciones de la sociedad y de su desarrollo, formado por visiones parciales, ninguna de las cuales permite comprender el problema global ni, con mayor razón, hacer algo por resolverlo.",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1488
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "CUERO : PIEL",
+    "opciones": [
+      "elefante : trompa",
+      "diente : marfil",
+      "cocodrilo : cartera",
+      "serpiente : culebra",
+      "sapo : batracio"
+    ],
+    "correcta": "diente : marfil",
+    "justificacion": "El cuero es piel tratada, como el marfil proviene del diente.",
+    "id": 1489
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "BALIDO : OVEJA",
+    "opciones": [
+      "grito : baladro",
+      "lechigada : rata",
+      "pollada : pollo",
+      "relincho : yegua",
+      "gorgoteo : agua"
+    ],
+    "correcta": "relincho : yegua",
+    "justificacion": "Sonido onomatopéyico característico del animal.",
+    "id": 1490
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "CETRO : REY",
+    "opciones": [
+      "centro : príncipe",
+      "estrado : emperador",
+      "mascaypacha : colla",
+      "varayoc : cacique"
+    ],
+    "correcta": "varayoc : cacique",
+    "justificacion": "Símbolo de poder y autoridad del gobernante.",
+    "id": 1491
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "PLATINO : CENTENARIO",
+    "opciones": [
+      "plata : vigésimo",
+      "oro : quincuagésimo",
+      "diamante : heptagésimo",
+      "rubí : nonagésimo",
+      "uranio : sesquicentenaria"
+    ],
+    "correcta": "plata : vigésimo",
+    "justificacion": "Relaciones de aniversarios.",
+    "id": 1492
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "SIERRA : CARPINTERO",
+    "opciones": [
+      "pared : constructor",
+      "cuadro : diseñador",
+      "buril : mecánico",
+      "brocha : pintor",
+      "mármol : escultor"
+    ],
+    "correcta": "brocha : pintor",
+    "justificacion": "Herramienta y el oficio que la usa.",
+    "id": 1493
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "INDIVIDUO : MULTITUD",
+    "opciones": [
+      "tomo : volumen",
+      "libro : biblioteca",
+      "escrito : letras",
+      "hoja : abecedario",
+      "página : enciclopedia"
+    ],
+    "correcta": "tomo : volumen",
+    "justificacion": "Parte de un todo colectivo.",
+    "id": 1494
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "CARISMA : LÍDER",
+    "opciones": [
+      "atracción : feria",
+      "dominio : tribu",
+      "poder : desidia",
+      "carácter : jefe",
+      "magnetismo : imán"
+    ],
+    "correcta": "magnetismo : imán",
+    "justificacion": "Cualidad de atracción inherente.",
+    "id": 1495
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "LETRADO : BIRRETE",
+    "opciones": [
+      "campesino : gorra",
+      "anciano : canas",
+      "monarca : corona",
+      "niño : sombrero",
+      "escritorio : libro"
+    ],
+    "correcta": "monarca : corona",
+    "justificacion": "Símbolo que se lleva en la cabeza indicando estatus.",
+    "id": 1496
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "MACRO : MICRO",
+    "opciones": [
+      "bacilo : microbio",
+      "mujer : hombre",
+      "lente : microscopio",
+      "cosmos : átomo",
+      "atómico : molecular"
+    ],
+    "correcta": "cosmos : átomo",
+    "justificacion": "Lo inmenso frente a lo diminuto.",
+    "id": 1497
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "PLANTA : SEMILLA",
+    "opciones": [
+      "error : desgracia",
+      "derroche : dinero",
+      "moho : humedad",
+      "aridez : sol",
+      "planta : tierra"
+    ],
+    "correcta": "moho : humedad",
+    "justificacion": "La planta nace de la semilla.",
+    "id": 1498
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "MANÍACO : DEPRESIVO",
+    "opciones": [
+      "paciente : terapeuta",
+      "neurótico : psicótico",
+      "heroico : paranoico",
+      "sádico : masoquista",
+      "dipsomanía : anoréxico"
+    ],
+    "correcta": "sádico : masoquista",
+    "justificacion": "Trastornos opuestos o complementarios.",
+    "id": 1499
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "AFÍN : PRÓXIMO",
+    "opciones": [
+      "asaz : bastante",
+      "ad hoc : casual",
+      "venial : mortal",
+      "perfil : frontal",
+      "veraz : mendaz"
+    ],
+    "correcta": "asaz : bastante",
+    "justificacion": "Relación de sinonimia.",
+    "id": 1500
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Según se desprende del texto, la curandería en Venezuela:",
+    "opciones": [
+      "Empezó en la época Colonial.",
+      "Fue herencia de los indígenas",
+      "Fue traída a Venezuela desde Cuba.",
+      "Tuvo un origen africano."
+    ],
+    "correcta": "Empezó en la época Colonial.",
+    "contexto": "El ejercicio de la medicina en otras épocas / Historia de la Medicina en Venezuela de Ricardo Archila",
+    "justificacion": "Se infiere de la lectura histórica.",
+    "id": 1501
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Del contenido de la solicitud formulada a Carlos III por Don Lorenzo Campins y Ballester para que lo nombraran protomédico se puede inferir que los estudios universitarios de medicina:",
+    "opciones": [
+      "Eran reservados a los blancos.",
+      "Eran privilegio de los mulatos.",
+      "Se cursaban sin distinción de raza ni de credo.",
+      "Eran inexistentes en Venezuela."
+    ],
+    "correcta": "Eran reservados a los blancos.",
+    "contexto": "El ejercicio de la medicina en otras épocas / Historia de la Medicina en Venezuela de Ricardo Archila",
+    "justificacion": "Contexto histórico colonial de exclusión.",
+    "id": 1502
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "El autor afirma que durante la época colonial prevaleció la medicina empírica debido a:",
+    "opciones": [
+      "La ignorancia imperante en la población.",
+      "La influencia religiosa de los piaches.",
+      "El poco interés del gobierno por los problemas de salud.",
+      "La escasez de médicos."
+    ],
+    "correcta": "La escasez de médicos.",
+    "contexto": "El ejercicio de la medicina en otras épocas / Historia de la Medicina en Venezuela de Ricardo Archila",
+    "justificacion": "Mencionado en el texto como causa principal.",
+    "id": 1503
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "A partir de 1775:",
+    "opciones": [
+      "Los curanderos fueron eliminados dando paso a los médicos.",
+      "Sólo convivieron con los médicos los curanderos cultos que habían aprobado un examen de competencia.",
+      "Convivieron con los médicos dos clases de curanderos: los selectos, aprobados por las autoridades y los que ejercían sin control.",
+      "Los curanderos sólo ejercieron en el interior del país."
+    ],
+    "correcta": "Convivieron con los médicos dos clases de curanderos: los selectos, aprobados por las autoridades y los que ejercían sin control.",
+    "contexto": "El ejercicio de la medicina en otras épocas / Historia de la Medicina en Venezuela de Ricardo Archila",
+    "justificacion": "El texto detalla esta convivencia.",
+    "id": 1504
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "El caso de nuestros curanderos es aparentemente único en América Latina porque sólo en Venezuela:",
+    "opciones": [
+      "Los médicos sustituyeron a los curanderos sin enfrentamientos.",
+      "Hubo una prohibición total del ejercicio ilegal de la medicina mediante una Real Cédula de Carlos III.",
+      "Fue tal el auge de los curanderos que llegaron a superar en prestigio a los médicos cuyo gremio cayó en decadencia.",
+      "Se legalizó el ejercicio de la curandería al someter a los curiosos a un examen de competencia."
+    ],
+    "correcta": "Se legalizó el ejercicio de la curandería al someter a los curiosos a un examen de competencia.",
+    "contexto": "El ejercicio de la medicina en otras épocas / Historia de la Medicina en Venezuela de Ricardo Archila",
+    "justificacion": "La junta evaluadora fue un caso excepcional.",
+    "id": 1505
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Restablezca el orden más lógico del texto: 1) Encontrarse a sí mismo, establecer sus límites y sus posibilidades es el mejor medio de escoger el camino adecuado. 2) Por un lado está la búsqueda de cobijo; por el otro, la aceptación y el gusto del riesgo, lo mismo el de equivocarse que el de descubrir. 3) El hombre está partido por la naturaleza en dos vertientes: hacia la seguridad o hacia la aventura. 4) Es indudable que el precio que hay que pagar por la creatividad resulta incomparablemente mayor, puesto que es preciso consagrar a ella todas las capacidades del ser, mientras que el precio de la seguridad es el relativamente módico de la disciplina.",
+    "opciones": [
+      "(4) (2) (1) (3)",
+      "(3) (2) (4) (1)",
+      "(1) (3) (2) (4)",
+      "(2) (3) (1) (4)"
+    ],
+    "correcta": "(3) (2) (4) (1)",
+    "justificacion": "Orden lógico deductivo.",
+    "id": 1506
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Ordenación Lógica de Párrafos",
+    "tipo": "opcion_multiple",
+    "pregunta": "Restablezca el orden más lógico del texto: 1) De repente la persona se nos acerca lo suficiente como para que no exista ninguna duda respecto a su identidad. 2) Hacer un descubrimiento es, en cierto modo, algo parecido a ver en la lejanía a una persona a quien creemos reconocer, verla con una luz confusa, en una zona crepuscular. 3) Tenemos el descubrimiento, el resultado, el hecho, la fórmula, pero la fascinante zona crepuscular de sombras y luces confusas ha desaparecido. 4) Poco a poco esa persona avanza hacia nosotros y vamos viendo cada vez más su figura y sus rasgos, aún no podemos confirmar que es nuestro amigo, es una zona de oscuridad.",
+    "opciones": [
+      "(3) (2) (1) (4)",
+      "(2) (4) (1) (3)",
+      "(2) (3) (1) (4)",
+      "(2) (1) (4) (3)"
+    ],
+    "correcta": "(3) (2) (1) (4)",
+    "justificacion": "Secuencia de acercamiento visual.",
+    "id": 1507
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "Se _____ un reglamento _____ las condiciones de ascenso de los profesores universitarios.",
+    "opciones": [
+      "ha publicado - que modificaría",
+      "publicó - modificando",
+      "ha publicado - que modifica",
+      "publicaría - que habrá modificado"
+    ],
+    "correcta": "ha publicado - que modifica",
+    "justificacion": "Gramática correcta.",
+    "id": 1508
+  },
+  {
+    "area": "Razonamiento Verbal",
+    "tema": "Completación de Oraciones",
+    "tipo": "opcion_multiple",
+    "pregunta": "En caso de enfermedad, la familia y el círculo de amigos más próximos _____ todavía gran parte de la atención necesaria al paciente, pero esta clase de apoyo va mermando a medida que el círculo familiar se _____ y que aumenta el número de personas que viven solas.",
+    "opciones": [
+      "proporcionan - crece",
+      "prestan - restringe",
+      "otorgan - ensancha",
+      "comparten - disminuye"
+    ],
+    "correcta": "prestan - restringe",
+    "justificacion": "Se restringe el apoyo a medida que se aísla.",
+    "id": 1509
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Resolver (0,333...) / (0,122...) y hallar su generatriz",
+    "opciones": [
+      "30/11",
+      "11/270",
+      "270/11",
+      "1/3",
+      "N.A"
+    ],
+    "correcta": "30/11",
+    "justificacion": "(3/9) / (11/90) = (1/3) * (90/11) = 30/11.",
+    "id": 1510
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Si dos números x y y, están en relación de 5:9 y además x - y = 48. ¿Cuál es el mayor?",
+    "opciones": [
+      "108",
+      "60",
+      "120",
+      "216",
+      "48"
+    ],
+    "correcta": "108",
+    "justificacion": "9k - 5k = 48 -> 4k = 48 -> k = 12. El mayor es 9k = 108.",
+    "id": 1511
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dos vigas de madera de 48 y 36 metros de longitud se dividen en listones iguales y de mayor longitud posible. ¿Cuánto mide cada listón?",
+    "opciones": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "12"
+    ],
+    "correcta": "12",
+    "justificacion": "MCD(48, 36) = 12.",
+    "id": 1512
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Manuel, José y Alejandro, frecuentan un club de natación cada 7, 6 y 4 días respectivamente. Si el día 21 de noviembre coincidieran los tres en el club, ¿cuándo será la próxima fecha en la cual nuevamente coincidan?",
+    "opciones": [
+      "12 de Diciembre",
+      "13 de Febrero",
+      "13 de Enero",
+      "12 de Febrero",
+      "N.A"
+    ],
+    "correcta": "13 de Febrero",
+    "justificacion": "mcm(7,6,4) = 84 días. 21 Nov + 84 días = 13 Feb.",
+    "id": 1513
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Si D es inversamente proporcional a E y D es directamente proporcional a J, cuando D=5, E=4 y J=2. Hallar el valor de J cuando D=6 y E=35.",
+    "opciones": [
+      "25",
+      "37",
+      "19",
+      "21",
+      "23"
+    ],
+    "correcta": "21",
+    "justificacion": "(D*E)/J = constante = (5*4)/2 = 10. Si D=6 y E=35 -> (6*35)/J = 10 -> 210/10 = 21.",
+    "id": 1514
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "En la recuperación de la carretera a El Junquito, 30 obreros, durante 12 días, trabajando 10 horas diarias, asfaltaron 600 metros. Si se deben asfaltar 900 metros de la misma carretera, trabajando durante 6 horas diarias. ¿Cuántos días emplearán 36 obreros del mismo rendimiento?",
+    "opciones": [
+      "23 días",
+      "24 días",
+      "25 días",
+      "22 días",
+      "N.A"
+    ],
+    "correcta": "25 días",
+    "justificacion": "Regla de 3 compuesta.",
+    "id": 1515
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿De qué número es 513 el 43% menos?",
+    "opciones": [
+      "750",
+      "900",
+      "750",
+      "895",
+      "350"
+    ],
+    "correcta": "900",
+    "justificacion": "Si es 43% menos, es el 57%. 513 / 0.57 = 900.",
+    "id": 1516
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En la expresión 16a + 10 = 17b, a y b son magnitudes proporcionales?",
+    "opciones": [
+      "No",
+      "Sí",
+      "Depende del valor de a",
+      "Depende del valor de b",
+      "Si a = b"
+    ],
+    "correcta": "No",
+    "justificacion": "No son directamente proporcionales porque hay una constante aditiva.",
+    "id": 1517
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "En la hacienda El Carmen, 5 trabajadores siembran en 14 días, trabajando jornadas diarias de 10 horas, un terreno cuadrado de 20 metros de lado. ¿Cuántos trabajadores son necesarios si el terreno mide ahora 20 metros más por lado, la jornada de trabajo es disminuida en 3 horas, y se dispone de 6 días más?",
+    "opciones": [
+      "52",
+      "20",
+      "54",
+      "32",
+      "120"
+    ],
+    "correcta": "54",
+    "justificacion": "Proporcionalidad considerando áreas (20^2 vs 40^2).",
+    "id": 1518
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "En el corral de Don Pedro hay gallinas y conejos. Al contar desde su puerta, vio 12 cabezas y 34 patas. ¿Cuántas gallinas tiene Don Pedro en su corral?",
+    "opciones": [
+      "12",
+      "7",
+      "5",
+      "0"
+    ],
+    "correcta": "7",
+    "justificacion": "G+C=12, 2G+4C=34. Resolviendo: G=7 gallinas.",
+    "id": 1519
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "En una escuela de baile, hay 200 estudiantes, 90 estudiantes toman clases de salsa y bachata, 120 son hombres y 60 son hombres que toman clases de salsa y bachata. ¿Cuántas mujeres toman clases de salsa y bachata?",
+    "opciones": [
+      "90",
+      "30",
+      "60",
+      "0"
+    ],
+    "correcta": "30",
+    "justificacion": "90 en total - 60 hombres = 30 mujeres.",
+    "id": 1520
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Un tren sale a las 8 de la mañana viajando a una velocidad de 120 km por hora hacia una ciudad ubicada a 2.640 km de distancia. Considerando que la ciudad de llegada tiene dos horas más respecto a la de partida y que se hizo una parada de media hora para mantenimiento en una estación que está a 1.200 km antes de llegar a su destino. ¿A qué hora local llegará el tren a su destino?",
+    "opciones": [
+      "6:30 am",
+      "8:30 pm",
+      "6:30 pm",
+      "8:30 am"
+    ],
+    "correcta": "6:30 pm",
+    "justificacion": "Tiempo = 2640/120 = 22 horas. Parada = 0.5h. Diferencia zona = +2h. Total=24.5h. Llega al día siguiente a las 8:30am.",
+    "id": 1521
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Un grupo de excursionistas está formado por 48 personas. Para tomar una decisión sobre la ruta a seguir, se necesita que tres cuartas partes más dos de sus miembros estén de acuerdo. ¿Cuántos excursionistas deben estar de acuerdo para tomar la decisión?",
+    "opciones": [
+      "36",
+      "34",
+      "38",
+      "40"
+    ],
+    "correcta": "38",
+    "justificacion": "(3/4)*48 + 2 = 36 + 2 = 38.",
+    "id": 1522
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Si 3/4 de un número es 72, entonces: ¿Cuánto serán 2/3 del mismo número?",
+    "opciones": [
+      "64",
+      "80",
+      "84",
+      "55"
+    ],
+    "correcta": "64",
+    "justificacion": "El número es 96. (2/3)*96 = 64.",
+    "id": 1523
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hallar la longitud de los lados de un rectángulo cuyo perímetro es P=24 y cuyo lado mayor mide el triple que su lado menor. ¿Cuál es el área del rectángulo?",
+    "opciones": [
+      "27",
+      "24",
+      "9",
+      "3"
+    ],
+    "correcta": "27",
+    "justificacion": "2(3x + x) = 24 -> 8x = 24 -> x=3, 3x=9. Área = 3*9 = 27.",
+    "id": 1524
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Un niño y medio se comen un pastel y medio en un minuto y medio. ¿Cuántos niños hacen falta para comer 60 pasteles en media hora?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correcta": "3",
+    "justificacion": "1.5 niños = 1.5 pasteles en 1.5 min -> 1 niño = 1 pastel / 1.5 min. Para comer 60 en 30 min (2 por min), se requieren 3 niños.",
+    "id": 1525
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "De cuatro corredores de atletismo se sabe que C ha llegado inmediatamente detrás de B, y D ha llegado en medio de A y C. ¿Podría calcular el orden de llegada?",
+    "opciones": [
+      "ADCB",
+      "CDBA",
+      "BACD",
+      "CABD"
+    ],
+    "correcta": "BACD",
+    "justificacion": "Orden lógico de posiciones.",
+    "id": 1526
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "La más grande _____ que alguien puede _____ es no tener oportunidad de mantenerse a sí mismo.",
+    "opciones": [
+      "necesidad - soportar",
+      "ambición - cometer",
+      "falta - sufrir",
+      "carencia - desconocer"
+    ],
+    "correcta": "necesidad - soportar",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1527
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "No se pueden emitir conclusiones _____ basándose en _____ particulares.",
+    "opciones": [
+      "parciales - ideas",
+      "teóricas - problemas",
+      "universales - premisas",
+      "definidas - asuntos"
+    ],
+    "correcta": "parciales - ideas",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1528
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "El desarrollo equilibrado de la _____ depende del _____ de manera constante entre el ser vivo y su ecosistema.",
+    "opciones": [
+      "naturaleza - intercambio",
+      "razón - entendimiento",
+      "civilización - contacto",
+      "vida - ajuste"
+    ],
+    "correcta": "naturaleza - intercambio",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1529
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Encuentro fortuito o programado entre dos o más personas que intercambian ideas, experiencias, historias, chistes, cuentos, mediante conversación sostenida en un tiempo determinado:",
+    "opciones": [
+      "diálogo",
+      "evento",
+      "clase",
+      "paseo"
+    ],
+    "correcta": "diálogo",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1530
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Resolución de Problemas",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ruido y confusión grandes:",
+    "opciones": [
+      "desastre",
+      "ensordecimiento",
+      "barabunda",
+      "fiesta"
+    ],
+    "correcta": "desastre",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1531
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "MÉDICO es a HOSPITAL como:",
+    "opciones": [
+      "cantante es a público",
+      "estudiante es a liceo",
+      "ingeniero es a construcción",
+      "espectador es a teatro"
+    ],
+    "correcta": "cantante es a público",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1532
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Analogías y Relaciones Semánticas",
+    "tipo": "opcion_multiple",
+    "pregunta": "SEPARAR es a UNIR como:",
+    "opciones": [
+      "valiente es a fuerte",
+      "valiente es a temerario",
+      "valiente es a miedoso",
+      "valiente es a débil"
+    ],
+    "correcta": "valiente es a fuerte",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1533
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "La idea central del texto gira alrededor de:",
+    "opciones": [
+      "la omnipresencia de los héroes de nuestra historia en la vida actual.",
+      "los desastres de las revoluciones sucesivas de nuestra historia.",
+      "la gloria de la independencia nos enorgullece hoy.",
+      "los padres de la patria son criminales que deber estar encarcelados."
+    ],
+    "correcta": "la omnipresencia de los héroes de nuestra historia en la vida actual.",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1534
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Las palabras claves relacionadas con la temática del texto son:",
+    "opciones": [
+      "batalla, caballos, jinetes, museos.",
+      "pasado, presente, héroes, impugnación, revoluciones.",
+      "padres de la patria, panteón nacional, mausoleos.",
+      "internet, prensa, televisión, crimen."
+    ],
+    "correcta": "batalla, caballos, jinetes, museos.",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1535
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "La balanza comercial es un indicador _____ que refleja la diferencia entre las exportaciones e importaciones de bienes de un país durante un período determinado, generalmente un año.",
+    "opciones": [
+      "Económico",
+      "Informativo",
+      "Periodístico",
+      "Reglamentario"
+    ],
+    "correcta": "Económico",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Es un término puramente económico.",
+    "id": 1536
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Cuando una ideología se convierte en un dogma, pierde su capacidad de evolucionar. (Sinónimo de la palabra destacada -dogma-):",
+    "opciones": [
+      "Axioma",
+      "Argumento",
+      "Apostasía",
+      "Entramado"
+    ],
+    "correcta": "Axioma",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Principio indiscutible.",
+    "id": 1537
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "*(Texto: Más sobre el árbol nacional / Enrique Bernardo Núñez)* ¿Cuál es el tema del texto de Enrique Bernardo Núñez?",
+    "opciones": [
+      "Historia de Venezuela",
+      "Procedimiento para la elección de los símbolos patrios",
+      "Geografía de Venezuela",
+      "La poesía sobre los símbolos patrios"
+    ],
+    "correcta": "Procedimiento para la elección de los símbolos patrios",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Tema central del fragmento.",
+    "id": 1538
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "*(Texto: Carta abierta sobre la interculturalidad / Fernando Trujillo Sáez)* ¿De qué recursos se vale el autor para caracterizar la cultura?",
+    "opciones": [
+      "Citas",
+      "Ejemplificación y comparaciones",
+      "Metáforas",
+      "Metonimia"
+    ],
+    "correcta": "Ejemplificación y comparaciones",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Se evidencian en la lectura.",
+    "id": 1539
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione el conector que más convenga en cada caso: El siglo XX ha sido, junto al siglo de la mujer, el gran siglo de los divorcios, las separaciones, las parejas mecano, el paso de la familia nuclear a un variado surtido de modelos. _____ podría pensarse que fue el amor libre el que descerrajó la conyugalidad, fue, sobre todo, el mercado libre, el fin de la virtud del ahorro sexual, de la castidad.",
+    "opciones": [
+      "A pesar de que",
+      "Porque",
+      "Pese a",
+      "Aunque"
+    ],
+    "correcta": "Aunque",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Conector de contraste.",
+    "id": 1540
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Lee detenidamente la información proporcionada en el enunciado y selecciona la opción que representa la conclusión correcta basada únicamente en los datos dados. Todos los estudiantes del liceo que asisten al club de matemáticas: 1. son de 5to año. 2. María y Juan son estudiantes del club de matemáticas. 3. Algunos estudiantes de 5to año participan en el club de ciencias. 4. Hay tres estudiantes de 5to año en el equipo de debate.",
+    "opciones": [
+      "Todos los estudiantes de 5to año están en el club de matemáticas.",
+      "María y Juan participan en el club de ciencias.",
+      "Algunos estudiantes del equipo de debate están en el club de matemáticas.",
+      "María y Juan son estudiantes de 5to año."
+    ],
+    "correcta": "María y Juan son estudiantes de 5to año.",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Silogismo básico.",
+    "id": 1541
+  },
+  {
+    "area": "Razonamiento Lógico",
+    "tema": "Comprensión Lectora",
+    "tipo": "opcion_multiple",
+    "pregunta": "Seleccione aquella oración que no corresponda con la coherencia temática. (I) La resiliencia emocional se refiere a la capacidad de una persona para adaptarse y recuperarse emocionalmente de situaciones difíciles. (II) Implica mantener una actitud positiva ante la adversidad. (III) Y también el equilibrio emocional. Una estrategia es focalizar las soluciones y buscar el lado positivo de las situaciones difíciles. (IV) Se trata de un periodo de vida durante el cual se asiste a la escuela, incluyendo el aprendizaje académico y las experiencias que se viven durante la formación inicial.",
+    "opciones": [
+      "II",
+      "I",
+      "IV",
+      "III"
+    ],
+    "correcta": "II",
+    "contexto": "La Herencia de la Tribu / Ana Teresa Torres",
+    "justificacion": "Concepto extraído directamente de la prueba de admisión oficial.",
+    "id": 1542
   }
 ]
