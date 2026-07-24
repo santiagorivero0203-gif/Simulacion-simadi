@@ -325,6 +325,10 @@ function openGuideDetail(item) {
         document.querySelectorAll('.g-tab-btn')[0].click();
     }
 
+    if (window.MathJax) {
+        MathJax.typesetPromise();
+    }
+
     // 6. Setup Practice logic — with integrated DOM feedback (no alert())
     const startPracticeBtn = document.getElementById('start-guide-practice-btn');
     const practiceArea = document.getElementById('guide-practice-area');
@@ -417,6 +421,10 @@ function openGuideDetail(item) {
                 }
 
                 card.appendChild(feedbackDiv);
+                
+                if (window.MathJax) {
+                    MathJax.typesetPromise();
+                }
 
                 // "Next question" button reloads a new question
                 document.getElementById('next-practice-btn').onclick = () => {
@@ -430,6 +438,10 @@ function openGuideDetail(item) {
         practiceArea.innerHTML = '';
         practiceArea.appendChild(card);
         practiceArea.classList.remove('hidden');
+        
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
     });
     }
 
@@ -701,6 +713,10 @@ function renderQuestion() {
         btn.onclick = () => selectOption(opt);
         DOM.exam.optionsContainer.appendChild(btn);
     });
+
+    if (window.MathJax) {
+        MathJax.typesetPromise();
+    }
 }
 
 /**
@@ -827,6 +843,10 @@ function finishExam() {
     else circle.style.backgroundColor = 'var(--error)';
 
     switchScreen('report');
+    
+    if (window.MathJax) {
+        MathJax.typesetPromise();
+    }
 
     // Botón para reiniciar (recarga completa de la página)
     DOM.report.restartBtn.onclick = () => {
