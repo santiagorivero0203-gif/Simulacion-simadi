@@ -13938,5 +13938,2675 @@
     "correcta": "trágico",
     "justificacion": "El sinónimo correcto es trágico.",
     "id": 1673
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En el gobierno de cuál presidente se inauguró el Metro de Caracas?",
+    "opciones": [
+      "Luis Herrera",
+      "Jaime Lusinchi",
+      "Marcos Pérez Jiménez",
+      "José Tadeo Monagas"
+    ],
+    "correcta": "Luis Herrera",
+    "justificacion": "Inaugurado el 2 de enero de 1983.",
+    "id": 1674
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién es el autor de la novela \"María\"?",
+    "opciones": [
+      "Jorge Isaacs",
+      "Andrés Eloy Blanco",
+      "Pablo Neruda",
+      "Federico García Lorca"
+    ],
+    "correcta": "Jorge Isaacs",
+    "justificacion": "Obra cumbre del romanticismo hispanoamericano (1867).",
+    "id": 1675
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Personajes de Hamlet:",
+    "opciones": [
+      "Ofelia y Laertes",
+      "Romeo y Julieta",
+      "Otelo y Desdémona",
+      "Macbeth y Lady Macbeth"
+    ],
+    "correcta": "Ofelia y Laertes",
+    "justificacion": "Hijos de Polonio en la famosa tragedia de William Shakespeare.",
+    "id": 1676
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "En la oración \"Ambos niños\" la palabra \"ambos\"... es:",
+    "opciones": [
+      "Adjetivo distributivo",
+      "Adjetivo demostrativo",
+      "Sustantivo",
+      "Preposición"
+    ],
+    "correcta": "Adjetivo distributivo",
+    "justificacion": "Determina al sustantivo distribuyendo su significado.",
+    "id": 1677
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "El punto más septentrional de Venezuela es:",
+    "opciones": [
+      "Isla de Aves",
+      "Cerro Autana",
+      "Río Manzanares",
+      "Lago de Valencia"
+    ],
+    "correcta": "Isla de Aves",
+    "justificacion": "Extiende la zona económica exclusiva venezolana en el Caribe.",
+    "id": 1678
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "La temperatura en Venezuela está influenciada por:",
+    "opciones": [
+      "Altitud y Latitud",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Altitud y Latitud",
+    "justificacion": "Por su ubicación tropical, la altura es el factor térmico principal.",
+    "id": 1679
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el tipo de vegetación en el estado Falcón?",
+    "opciones": [
+      "Xerófila",
+      "Selva nublada",
+      "Sabana",
+      "Manglar"
+    ],
+    "correcta": "Xerófila",
+    "justificacion": "Adaptada a ambientes áridos y semiáridos.",
+    "id": 1680
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente que construyó la Gran Central Hidroeléctrica del Guri:",
+    "opciones": [
+      "Raúl Leoni",
+      "Rómulo Betancourt",
+      "José Tadeo Monagas",
+      "Francisco de Miranda"
+    ],
+    "correcta": "Raúl Leoni",
+    "justificacion": "Inauguró la primera etapa de la represa en 1968.",
+    "id": 1681
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Función de los adverbios:",
+    "opciones": [
+      "Modificar el verbo",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Modificar el verbo",
+    "justificacion": "También pueden modificar a un adjetivo u otro adverbio.",
+    "id": 1682
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué es un verbo copulativo?",
+    "opciones": [
+      "El que une el sujeto y el predicado",
+      "ONU",
+      "OTAN",
+      "FMI"
+    ],
+    "correcta": "El que une el sujeto y el predicado",
+    "justificacion": "Ejemplos: ser, estar, parecer.",
+    "id": 1683
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "\"La Mujiquita\" ¿a qué obra literaria pertenece?",
+    "opciones": [
+      "Doña Bárbara",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Doña Bárbara",
+    "justificacion": "Guillermo Mujica (Mujiquita) es el jefe civil en la obra de Rómulo Gallegos.",
+    "id": 1684
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A qué dios se alababa en el teatro de la Antigua Grecia?",
+    "opciones": [
+      "Dionisio",
+      "Apolo",
+      "Zeus",
+      "Hermes"
+    ],
+    "correcta": "Dionisio",
+    "justificacion": "Dios del vino y la fertilidad; el teatro surgió de sus rituales.",
+    "id": 1685
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál Presidente Venezolano decretó la educación gratuita y obligatoria?",
+    "opciones": [
+      "Antonio Guzmán Blanco",
+      "José Antonio Páez",
+      "Carlos Andrés Pérez",
+      "Marcos Pérez Jiménez"
+    ],
+    "correcta": "Antonio Guzmán Blanco",
+    "justificacion": "Promulgado en el Decreto de Instrucción Pública de 1870.",
+    "id": 1686
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál Presidente Venezolano decretó la nacionalización del petróleo?",
+    "opciones": [
+      "Carlos Andrés Pérez",
+      "Rafael Caldera",
+      "Luis Herrera Campins",
+      "Francisco de Miranda"
+    ],
+    "correcta": "Carlos Andrés Pérez",
+    "justificacion": "Ejecutada el 1 de enero de 1976.",
+    "id": 1687
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "El autor del Cantar de Mio Cid es:",
+    "opciones": [
+      "Anónimo",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Anónimo",
+    "justificacion": "Es la obra cumbre de la épica castellana.",
+    "id": 1688
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el Parque Nacional más antiguo de Venezuela?",
+    "opciones": [
+      "Henri Pittier",
+      "Cerro Autana",
+      "Río Orinoco",
+      "Lago de Valencia"
+    ],
+    "correcta": "Henri Pittier",
+    "justificacion": "Creado en 1937, inicialmente llamado Rancho Grande.",
+    "id": 1689
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente que abolió la esclavitud en Venezuela:",
+    "opciones": [
+      "José Gregorio Monagas",
+      "Ramón J. Velásquez",
+      "Eleazar López Contreras",
+      "Raúl Leoni"
+    ],
+    "correcta": "José Gregorio Monagas",
+    "justificacion": "Decretado el 24 de marzo de 1854.",
+    "id": 1690
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cómo se llamaba el caballo de Don Quijote?",
+    "opciones": [
+      "Rocinante",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Rocinante",
+    "justificacion": "El fiel y delgado corcel del hidalgo manchego.",
+    "id": 1691
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Conjuntamente con Charles Darwin ¿quién dio grandes aportes a la teoría evolucionista?",
+    "opciones": [
+      "Jean Baptiste Lamarck",
+      "Tales de Mileto",
+      "Diego Velázquez",
+      "Augusto Pinochet"
+    ],
+    "correcta": "Jean Baptiste Lamarck",
+    "justificacion": "Aunque el coautor directo fue Wallace, Lamarck sentó bases previas (transformismo).",
+    "id": 1692
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el Parque Nacional más extenso de Venezuela?",
+    "opciones": [
+      "Parima-Tapirapecó",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Parima-Tapirapecó",
+    "justificacion": "Ubicado en Amazonas, con más de 3.9 millones de hectáreas.",
+    "id": 1693
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Literatura y Gramática",
+    "tipo": "opcion_multiple",
+    "pregunta": "Uno de ellos no es escritor del siglo de oro español o siglo de las luces:",
+    "opciones": [
+      "Antonio Machado",
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "William Shakespeare"
+    ],
+    "correcta": "Antonio Machado",
+    "justificacion": "Pertenece a la Generación del 98 (siglo XX).",
+    "id": 1694
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Cuando el Bolívar se devalúa...",
+    "opciones": [
+      "Aumenta el precio de las importaciones que se hacen en dólares",
+      "OTAN",
+      "ONU",
+      "OIT"
+    ],
+    "correcta": "Aumenta el precio de las importaciones que se hacen en dólares",
+    "justificacion": "Se necesitan más bolívares para comprar la misma divisa.",
+    "id": 1695
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Poeta venezolano autor de \"Vuelta a la Patria\":",
+    "opciones": [
+      "Antonio Pérez Bonalde",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Antonio Pérez Bonalde",
+    "justificacion": "Poema representativo del romanticismo venezolano.",
+    "id": 1696
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Político, erudito, autor de \"Las Lanzas Coloradas\":",
+    "opciones": [
+      "Arturo Uslar Pietri",
+      "Mario Vargas Llosa",
+      "Jacinto Benavente",
+      "Pablo Neruda"
+    ],
+    "correcta": "Arturo Uslar Pietri",
+    "justificacion": "Novela histórica sobre la Guerra de Independencia.",
+    "id": 1697
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "El porcentaje de pobreza en Venezuela de 2023 es de un:",
+    "opciones": [
+      "50.5%",
+      "42.2%",
+      "62.6%",
+      "46.0%"
+    ],
+    "correcta": "50.5%",
+    "justificacion": "Cifra representativa de la pobreza multidimensional según reportes como ENCOVI.",
+    "id": 1698
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "El precio de la cesta básica alimentaria es de:",
+    "opciones": [
+      "473,95$",
+      "47315.00$",
+      "47505.00$",
+      "47440.00$"
+    ],
+    "correcta": "473,95$",
+    "justificacion": "Aproximación de costos según estimaciones de CENDAS a lo largo de 2023.",
+    "id": 1699
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente venezolano que gobernó dos veces, fundador del Partido Acción Democrática (AD) que murió en Nueva York:",
+    "opciones": [
+      "Rómulo Betancourt",
+      "Carlos Andrés Pérez",
+      "Antonio Guzmán Blanco",
+      "Wolfgang Larrazábal"
+    ],
+    "correcta": "Rómulo Betancourt",
+    "justificacion": "Presidente entre 1945-1948 y 1959-1964.",
+    "id": 1700
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hay sobreproducción de leche, ¿qué se hará con el exceso?",
+    "opciones": [
+      "Se disminuirán los precios para favorecer la oferta",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Se disminuirán los precios para favorecer la oferta",
+    "justificacion": "Principio básico de oferta y demanda.",
+    "id": 1701
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Patrimonio cultural de la humanidad:",
+    "opciones": [
+      "Coro y la Ciudad Universitaria de Caracas",
+      "Damasco",
+      "Buenos Aires",
+      "Santiago de Chile"
+    ],
+    "correcta": "Coro y la Ciudad Universitaria de Caracas",
+    "justificacion": "Declarados por la UNESCO en 1993 y 2000 respectivamente.",
+    "id": 1702
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente que legalizó los partidos políticos en Venezuela:",
+    "opciones": [
+      "Isaías Medina Angarita",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Isaías Medina Angarita",
+    "justificacion": "Permitió la legalización de AD y el Partido Comunista.",
+    "id": 1703
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál fue el porcentaje de inflación promedio del año 2023?",
+    "opciones": [
+      "193%",
+      "184.7%",
+      "205.1%",
+      "188.5%"
+    ],
+    "correcta": "193%",
+    "justificacion": "Cifra reportada por el Observatorio Venezolano de Finanzas (OVF).",
+    "id": 1704
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Actual vicepresidente de la República de Venezuela:",
+    "opciones": [
+      "Delcy Rodríguez",
+      "PNUMA",
+      "MERCOSUR",
+      "CARICOM"
+    ],
+    "correcta": "Delcy Rodríguez",
+    "justificacion": "En el cargo desde el año 2018.",
+    "id": 1705
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Arquitecto de la UCV:",
+    "opciones": [
+      "Carlos Raúl Villanueva",
+      "MERCOSUR",
+      "ONU",
+      "BID"
+    ],
+    "correcta": "Carlos Raúl Villanueva",
+    "justificacion": "Diseñó la Ciudad Universitaria de Caracas (Síntesis de las Artes Mayores).",
+    "id": 1706
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Es una rama de la geografía física que estudia el elemento líquido de la tierra:",
+    "opciones": [
+      "Hidrografía",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Hidrografía",
+    "justificacion": "Estudia las aguas continentales (ríos, lagos, cuencas).",
+    "id": 1707
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "La catarata más alta del mundo es:",
+    "opciones": [
+      "Ángel",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Alexander Graham Bell"
+    ],
+    "correcta": "Ángel",
+    "justificacion": "El Salto Ángel, ubicado en Venezuela, con 979 metros de caída.",
+    "id": 1708
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Debido a la atracción del sol y de la luna, las aguas del mar alcanzan su altura máxima, esto se denomina:",
+    "opciones": [
+      "Marea viva / c) Pleamar",
+      "Marea baja",
+      "Bajamar",
+      "Reflujo"
+    ],
+    "correcta": "Marea viva / c) Pleamar",
+    "justificacion": "Pleamar es marea alta; marea viva es la máxima influenciada por la alineación solar/lunar.",
+    "id": 1709
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué país tiene más población?",
+    "opciones": [
+      "México",
+      "Finlandia",
+      "España",
+      "Siria"
+    ],
+    "correcta": "México",
+    "justificacion": "De las opciones, México supera los 128 millones de habitantes.",
+    "id": 1710
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "La Cordillera de Kilimanjaro está en:",
+    "opciones": [
+      "África",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "África",
+    "justificacion": "Montaña ubicada en Tanzania; es el pico más alto del continente africano.",
+    "id": 1711
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "El lago más grande del mundo es:",
+    "opciones": [
+      "Mar Caspio",
+      "Isla de Aves",
+      "Cerro Copey",
+      "Lago Tanganica"
+    ],
+    "correcta": "Mar Caspio",
+    "justificacion": "Es un lago endorreico de agua salobre que abarca más de 371.000 km².",
+    "id": 1712
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "Lago que se encuentra en África:",
+    "opciones": [
+      "Tanganica",
+      "Henri Pittier",
+      "Salto Ángel",
+      "Lago de Valencia"
+    ],
+    "correcta": "Tanganica",
+    "justificacion": "Uno de los Grandes Lagos de África.",
+    "id": 1713
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Actualidad, Política y Economía",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Dónde y en qué fecha se concedió la orden de Libertador a Simón Bolívar?",
+    "opciones": [
+      "Convento de San Francisco, el 14 de octubre de 1813",
+      "Convento de San Francisco, el 5 de julio de 1811",
+      "Palacio Federal Legislativo, el 19 de abril de 1810",
+      "Convento de San Francisco, el 24 de junio de 1821"
+    ],
+    "correcta": "Convento de San Francisco, el 14 de octubre de 1813",
+    "justificacion": "Título otorgado por la municipalidad de Caracas tras la Campaña Admirable.",
+    "id": 1714
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El río Orinoco nace en el estado:",
+    "opciones": [
+      "Amazonas",
+      "Zulia",
+      "Monagas",
+      "Carabobo"
+    ],
+    "correcta": "Amazonas",
+    "justificacion": "Nace en el cerro Delgado Chalbaud.",
+    "id": 1715
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente de la República de Venezuela en ejercicio que es llevado a juicio:",
+    "opciones": [
+      "Carlos Andrés Pérez",
+      "Marcos Pérez Jiménez",
+      "Luis Herrera Campins",
+      "José Tadeo Monagas"
+    ],
+    "correcta": "Carlos Andrés Pérez",
+    "justificacion": "Destituido en 1993 por malversación de fondos.",
+    "id": 1716
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Cuenca de tipo endorreica:",
+    "opciones": [
+      "Lago de Valencia",
+      "Río Orinoco",
+      "Cerro Autana",
+      "Península de Paria"
+    ],
+    "correcta": "Lago de Valencia",
+    "justificacion": "Cuenca cerrada que no tiene salida al mar.",
+    "id": 1717
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El Parque Nacional Cerro Copey se halla ubicado en el estado:",
+    "opciones": [
+      "Nueva Esparta",
+      "Lara",
+      "Amazonas",
+      "Trujillo"
+    ],
+    "correcta": "Nueva Esparta",
+    "justificacion": "Principal pulmón vegetal de la isla de Margarita.",
+    "id": 1718
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Primera medalla olímpica de oro obtenida por un atleta venezolano:",
+    "opciones": [
+      "Francisco \"Morochito\" Rodríguez",
+      "NAFTA (TLC)",
+      "OTAN",
+      "OIT"
+    ],
+    "correcta": "Francisco \"Morochito\" Rodríguez",
+    "justificacion": "Ganada en boxeo durante los JJ.OO. de México 1968.",
+    "id": 1719
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ciudad en la que estalla el Movimiento bautizado como \"La Cosiata\" liderado por José Antonio Páez:",
+    "opciones": [
+      "Valencia",
+      "Isla de Aves",
+      "Península de Paria",
+      "Henri Pittier"
+    ],
+    "correcta": "Valencia",
+    "justificacion": "Movimiento separatista originado en 1826.",
+    "id": 1720
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "La Procesión de la Divina Pastora se celebra en el estado:",
+    "opciones": [
+      "Lara",
+      "Nueva Esparta",
+      "Aragua",
+      "Falcón"
+    ],
+    "correcta": "Lara",
+    "justificacion": "Evento mariano multitudinario realizado cada 14 de enero en Barquisimeto.",
+    "id": 1721
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Autor de la música del Alma Llanera:",
+    "opciones": [
+      "Pedro Elías Gutiérrez",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Pedro Elías Gutiérrez",
+    "justificacion": "Zarzuela estrenada en 1914; la letra es de Rafael Bolívar Coronado.",
+    "id": 1722
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "La península de Paria se encuentra en el estado:",
+    "opciones": [
+      "Sucre",
+      "Aragua",
+      "Carabobo",
+      "Amazonas"
+    ],
+    "correcta": "Sucre",
+    "justificacion": "Ubicada al nororiente de Venezuela.",
+    "id": 1723
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Los alzamientos militares conocidos como \"El Carupanazo\" y \"El Porteñazo\" se efectuaron contra el gobierno del presidente:",
+    "opciones": [
+      "Rómulo Betancourt",
+      "Jaime Lusinchi",
+      "Carlos Andrés Pérez",
+      "Eleazar López Contreras"
+    ],
+    "correcta": "Rómulo Betancourt",
+    "justificacion": "Rebeliones cívico-militares ocurridas en 1962.",
+    "id": 1724
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El Monumento Natural Cerro Autana se encuentra en el estado:",
+    "opciones": [
+      "Amazonas",
+      "Nueva Esparta",
+      "Bolívar",
+      "Monagas"
+    ],
+    "correcta": "Amazonas",
+    "justificacion": "Formación tepuyana sagrada para la etnia Piaroa.",
+    "id": 1725
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Las poblaciones de Táriba, La Grita y Rubio se encuentran en el estado:",
+    "opciones": [
+      "Táchira",
+      "Aragua",
+      "Yaracuy",
+      "Falcón"
+    ],
+    "correcta": "Táchira",
+    "justificacion": "Ciudades representativas de los Andes venezolanos.",
+    "id": 1726
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Año en que el rey Carlos III crea la Capitanía General de Venezuela:",
+    "opciones": [
+      "1777",
+      "1810",
+      "1767",
+      "1789"
+    ],
+    "correcta": "1777",
+    "justificacion": "Unificó político-militarmente a las provincias venezolanas.",
+    "id": 1727
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "La Bipolaridad se refiere al dominio que los Estados Unidos y la Unión Soviética impusieron a partir de:",
+    "opciones": [
+      "La Segunda Guerra Mundial",
+      "ONU",
+      "UNICEF",
+      "FOGADE"
+    ],
+    "correcta": "La Segunda Guerra Mundial",
+    "justificacion": "Dio inicio a la Guerra Fría.",
+    "id": 1728
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál de los Organismos Internacionales que se mencionan a continuación se identifica con las siglas FMI?",
+    "opciones": [
+      "Fondo Monetario Internacional",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Fondo Monetario Internacional",
+    "justificacion": "Institución financiera clave del sistema de Bretton Woods.",
+    "id": 1729
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el Organismo del Estado Venezolano encargado de estimar los índices de inflación?",
+    "opciones": [
+      "Banco Central de Venezuela",
+      "Colombia",
+      "Jordania",
+      "México"
+    ],
+    "correcta": "Banco Central de Venezuela",
+    "justificacion": "Organismo rector de las políticas monetarias.",
+    "id": 1730
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El \"Acta de la Independencia\" se firmó el:",
+    "opciones": [
+      "5 de julio de 1811",
+      "19 de abril de 1810",
+      "24 de junio de 1821",
+      "5 de julio de 1810"
+    ],
+    "correcta": "5 de julio de 1811",
+    "justificacion": "Venezuela declara formalmente su separación de la corona española.",
+    "id": 1731
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué General chileno derrocó al presidente Salvador Allende el 11 de septiembre de 1973?",
+    "opciones": [
+      "Augusto Pinochet",
+      "Miguel Ángel",
+      "Diego Velázquez",
+      "Copérnico"
+    ],
+    "correcta": "Augusto Pinochet",
+    "justificacion": "Lideró el golpe de estado que instauró una dictadura en Chile.",
+    "id": 1732
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "La catarata más alta del Mar Caribe:",
+    "opciones": [
+      "Error en la pregunta original.",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Error en la pregunta original.",
+    "justificacion": "Geográficamente, ninguna de las opciones (Niágara, Iguazú, etc.) corresponde al Mar Caribe.",
+    "id": 1733
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El fundador, por Venezuela, de la OPEP fue:",
+    "opciones": [
+      "Juan Pablo Pérez Alfonzo",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Juan Pablo Pérez Alfonzo",
+    "justificacion": "Cofundador de la OPEP en 1960 junto al saudí Juan Pablo Pérez Alfonzo.",
+    "id": 1734
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Expresión latina que significa \"desde el principio\":",
+    "opciones": [
+      "\"Ab initio\"",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "\"Ab initio\"",
+    "justificacion": "Modismo utilizado habitualmente en textos legales.",
+    "id": 1735
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "La Revolución Francesa se desarrolló en el año:",
+    "opciones": [
+      "1789",
+      "1776",
+      "1804",
+      "1815"
+    ],
+    "correcta": "1789",
+    "justificacion": "Año de la Toma de la Bastilla.",
+    "id": 1736
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Señala el fin del Imperio de los Zares y es el primer intento exitoso de implantación de un régimen comunista:",
+    "opciones": [
+      "Revolución Rusa",
+      "La Cosiata",
+      "Caída del Muro de Berlín",
+      "Primera Guerra Mundial"
+    ],
+    "correcta": "Revolución Rusa",
+    "justificacion": "Ocurrida en 1917, liderada por los bolcheviques.",
+    "id": 1737
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ubica la relación incorrecta:",
+    "opciones": [
+      "Otto Von Bismarck : Revolución Industrial",
+      "Segunda Guerra Mundial",
+      "La Cosiata",
+      "Revolución Francesa"
+    ],
+    "correcta": "Otto Von Bismarck : Revolución Industrial",
+    "justificacion": "Bismarck es figura clave de la unificación alemana, no de la revolución industrial.",
+    "id": 1738
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál de las siguientes relaciones país-situación geográfica dominante es la incorrecta?",
+    "opciones": [
+      "Bolivia / país oceánico",
+      "Jordania",
+      "Siria",
+      "Estados Unidos"
+    ],
+    "correcta": "Bolivia / país oceánico",
+    "justificacion": "Bolivia es un país mediterráneo, sin salida soberana al mar.",
+    "id": 1739
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál de las siguientes relaciones país/capital política es la correcta?",
+    "opciones": [
+      "Finlandia / Helsinki",
+      "España",
+      "Chile",
+      "Ecuador"
+    ],
+    "correcta": "Finlandia / Helsinki",
+    "justificacion": "Coincidencia geográfica correcta.",
+    "id": 1740
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál de las siguientes relaciones país/capital es la incorrecta?",
+    "opciones": [
+      "Siria / Ammán",
+      "México",
+      "Finlandia",
+      "Colombia"
+    ],
+    "correcta": "Siria / Ammán",
+    "justificacion": "La capital de Siria es Damasco; Ammán es la capital de Jordania.",
+    "id": 1741
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Pintor español, autor de \"Las Meninas\"...:",
+    "opciones": [
+      "Diego Velázquez",
+      "OMS",
+      "BID",
+      "NAFTA (TLC)"
+    ],
+    "correcta": "Diego Velázquez",
+    "justificacion": "Maestro de la pintura del Siglo de Oro español.",
+    "id": 1742
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Compositor ruso, autor de \"El lago de los cisnes\", \"Cascanueces\"...:",
+    "opciones": [
+      "Pedro Tchaikovski",
+      "Alexander Graham Bell",
+      "Sócrates",
+      "Benjamín Franklin"
+    ],
+    "correcta": "Pedro Tchaikovski",
+    "justificacion": "Representante fundamental del romanticismo musical ruso.",
+    "id": 1743
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En dónde se encuentra la fortaleza de Machu Picchu?",
+    "opciones": [
+      "Cuzco",
+      "Caracas",
+      "Ammán",
+      "París"
+    ],
+    "correcta": "Cuzco",
+    "justificacion": "Antigua ciudad inca en la cordillera de los Andes, Perú.",
+    "id": 1744
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Químico francés del siglo XVIII... \"Nada se crea, nada se destruye...\":",
+    "opciones": [
+      "Antonio Lavoisier",
+      "Louis Pasteur",
+      "Jean Baptiste Lamarck",
+      "Albert Einstein"
+    ],
+    "correcta": "Antonio Lavoisier",
+    "justificacion": "Considerado el padre de la química moderna.",
+    "id": 1745
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Escritor dramático español, Premio Nobel de Literatura... \"Los intereses creados\":",
+    "opciones": [
+      "Jacinto Benavente",
+      "Rómulo Gallegos",
+      "Miguel de Cervantes",
+      "Jorge Luis Borges"
+    ],
+    "correcta": "Jacinto Benavente",
+    "justificacion": "Ganador del Nobel en 1922.",
+    "id": 1746
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Matemático y filósofo griego... el agua es el principio de todo:",
+    "opciones": [
+      "Tales de Mileto",
+      "Antonio Lavoisier",
+      "Jean Baptiste Lamarck",
+      "Adam Smith"
+    ],
+    "correcta": "Tales de Mileto",
+    "justificacion": "Uno de los Siete Sabios de Grecia.",
+    "id": 1747
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ingeniero y físico norteamericano, inventó el primer teléfono:",
+    "opciones": [
+      "Alexander Graham Bell",
+      "Miguel Ángel",
+      "Jean Baptiste Lamarck",
+      "Diego Velázquez"
+    ],
+    "correcta": "Alexander Graham Bell",
+    "justificacion": "Patentó el invento en 1876 (aunque Meucci fue su verdadero inventor).",
+    "id": 1748
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cómo se llama la ciencia que se dedica al estudio de los tejidos...:",
+    "opciones": [
+      "Histología",
+      "Verbo copulativo",
+      "Adverbio",
+      "Hemeroteca"
+    ],
+    "correcta": "Histología",
+    "justificacion": "Subdisciplina fundamental de la biología y la medicina.",
+    "id": 1749
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Astrónomo polaco... demostró que giran sobre sí mismos y alrededor del sol:",
+    "opciones": [
+      "Copérnico",
+      "Augusto Pinochet",
+      "Miguel Ángel",
+      "Jacinto Convit"
+    ],
+    "correcta": "Copérnico",
+    "justificacion": "Formuló la teoría heliocéntrica del Sistema Solar.",
+    "id": 1750
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Escrito de Simón Bolívar en el cual dejó sentado los propósitos de la revolución...:",
+    "opciones": [
+      "Carta de Jamaica",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Carta de Jamaica",
+    "justificacion": "Escrita en 1815, detalla su visión geopolítica para América Latina.",
+    "id": 1751
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el verdadero nombre de Pablo Neruda?",
+    "opciones": [
+      "Neftalí Ricardo Reyes",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Neftalí Ricardo Reyes",
+    "justificacion": "Poeta chileno, adoptó su seudónimo en honor a Jan Neruda.",
+    "id": 1752
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A qué gran filósofo se obligó a beber cicuta para quitarle la vida?",
+    "opciones": [
+      "Sócrates",
+      "Isaac Newton",
+      "Charles Darwin",
+      "Louis Pasteur"
+    ],
+    "correcta": "Sócrates",
+    "justificacion": "Condenado en Atenas por corromper a la juventud.",
+    "id": 1753
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Uno de estos países no pertenece a la Comunidad Andina de Naciones (CAN):",
+    "opciones": [
+      "Venezuela",
+      "Chile",
+      "Colombia",
+      "Jordania"
+    ],
+    "correcta": "Venezuela",
+    "justificacion": "Venezuela se retiró oficialmente del bloque en el año 2006.",
+    "id": 1754
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El creador de la Ciencia Económica es:",
+    "opciones": [
+      "Adam Smith",
+      "Miguel Ángel",
+      "Charles Darwin",
+      "Jean Baptiste Lamarck"
+    ],
+    "correcta": "Adam Smith",
+    "justificacion": "Autor de \"La riqueza de las naciones\" (1776).",
+    "id": 1755
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién inventó la vacuna contra la lepra?",
+    "opciones": [
+      "Jacinto Convit",
+      "Jean Baptiste Lamarck",
+      "Charles Darwin",
+      "Louis Pasteur"
+    ],
+    "correcta": "Jacinto Convit",
+    "justificacion": "Médico y científico venezolano nominado al Nobel.",
+    "id": 1756
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El Pararrayos fue inventado por el científico:",
+    "opciones": [
+      "Benjamín Franklin",
+      "Copérnico",
+      "Louis Pasteur",
+      "Isaac Newton"
+    ],
+    "correcta": "Benjamín Franklin",
+    "justificacion": "Experimento de la cometa en 1752.",
+    "id": 1757
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Químico y bacteriólogo francés, descubrió los microorganismos...:",
+    "opciones": [
+      "Louis Pasteur",
+      "Adam Smith",
+      "Jean Baptiste Lamarck",
+      "Galileo Galilei"
+    ],
+    "correcta": "Louis Pasteur",
+    "justificacion": "Creador del proceso de pasteurización y vacuna contra la rabia.",
+    "id": 1758
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Uno de los siguientes ríos no es afluente del río Orinoco:",
+    "opciones": [
+      "Manzanares",
+      "Salto Ángel",
+      "Henri Pittier",
+      "Península de Paria"
+    ],
+    "correcta": "Manzanares",
+    "justificacion": "Este río desemboca en el Mar Caribe (estado Sucre).",
+    "id": 1759
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cómo se llamaba el primer animal en ir al espacio?",
+    "opciones": [
+      "La perra Laika",
+      "El mono Albert",
+      "El chimpancé Ham",
+      "La perra Belka"
+    ],
+    "correcta": "La perra Laika",
+    "justificacion": "Lanzada por la Unión Soviética en el Sputnik 2 (1957).",
+    "id": 1760
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "\"El cuadrado de la hipotenusa...\" es el teorema de:",
+    "opciones": [
+      "Pitágoras",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Pitágoras",
+    "justificacion": "Relación geométrica fundamental de los triángulos rectángulos.",
+    "id": 1761
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El órgano reproductor de la planta es:",
+    "opciones": [
+      "La flor",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "La flor",
+    "justificacion": "Contiene estambres y pistilos para la reproducción.",
+    "id": 1762
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Enfermedad de origen patológico en la cual el individuo tiene tendencia a hurtar:",
+    "opciones": [
+      "Cleptomanía",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Cleptomanía",
+    "justificacion": "Trastorno de control de los impulsos.",
+    "id": 1763
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "A la colección de periódicos y revistas... se denomina:",
+    "opciones": [
+      "Hemeroteca",
+      "Adverbio",
+      "Pronombre",
+      "Histología"
+    ],
+    "correcta": "Hemeroteca",
+    "justificacion": "Archivo o sección dedicada a publicaciones periódicas.",
+    "id": 1764
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Texto corto en prosa donde el autor expresa su opinión:",
+    "opciones": [
+      "Ensayo",
+      "Histología",
+      "Adjetivo numeral",
+      "Adjetivo distributivo"
+    ],
+    "correcta": "Ensayo",
+    "justificacion": "Género literario de argumentación libre.",
+    "id": 1765
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Nombre que se da a las personas sagaces, astutas:",
+    "opciones": [
+      "Ladino",
+      "Adjetivo distributivo",
+      "Histología",
+      "Hemeroteca"
+    ],
+    "correcta": "Ladino",
+    "justificacion": "Referencia a alguien taimado y con facilidad para el engaño.",
+    "id": 1766
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ciencia encargada de organizar metódicamente en cifras...:",
+    "opciones": [
+      "Estadística",
+      "Adjetivo distributivo",
+      "Ladino",
+      "Adjetivo demostrativo"
+    ],
+    "correcta": "Estadística",
+    "justificacion": "Rama de las matemáticas aplicadas.",
+    "id": 1767
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Famosas pirámides de Egipto...:",
+    "opciones": [
+      "Keops, Kefrén, Micerino",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Keops, Kefrén, Micerino",
+    "justificacion": "Conjunto monumental de la meseta de Guiza.",
+    "id": 1768
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quiénes inventaron el papel?",
+    "opciones": [
+      "Los chinos",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Los chinos",
+    "justificacion": "Atribuido a Cai Lun en el año 105 d.C.",
+    "id": 1769
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué ingrediente principal se utiliza para la elaboración del majarete?",
+    "opciones": [
+      "Maíz",
+      "Arroz",
+      "Trigo",
+      "Yuca"
+    ],
+    "correcta": "Maíz",
+    "justificacion": "Se prepara con harina de maíz, coco y papelón.",
+    "id": 1770
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Lo que separa a la pre-historia de la historia es:",
+    "opciones": [
+      "La aparición de la escritura",
+      "El descubrimiento del fuego",
+      "El uso de los metales",
+      "La domesticación de animales"
+    ],
+    "correcta": "La aparición de la escritura",
+    "justificacion": "Ocurrió en Mesopotamia (Sumeria) cerca del 3000 a.C.",
+    "id": 1771
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Dónde se encuentra la obra de Miguel Ángel \"La Creación del Mundo\"?",
+    "opciones": [
+      "En la Capilla Sixtina",
+      "En el Museo del Prado",
+      "En el Palacio de Versalles",
+      "En la Catedral de Notre Dame"
+    ],
+    "correcta": "En la Capilla Sixtina",
+    "justificacion": "Fresco pintado en la bóveda del Vaticano.",
+    "id": 1772
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "En Venezuela el Poder Ejecutivo se ejerce por:",
+    "opciones": [
+      "Presidente, Vicepresidente y Ministros",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Presidente, Vicepresidente y Ministros",
+    "justificacion": "Ellos conforman el Consejo de Ministros de la nación.",
+    "id": 1773
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El Decreto de Instrucción primaria pública... fue dictado por:",
+    "opciones": [
+      "Antonio Guzmán Blanco",
+      "Juan Vicente Gómez",
+      "Marcos Pérez Jiménez",
+      "Cipriano Castro"
+    ],
+    "correcta": "Antonio Guzmán Blanco",
+    "justificacion": "Emitido en el año 1870.",
+    "id": 1774
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Reglamentar las leyes electorales... es competencia de:",
+    "opciones": [
+      "Consejo Nacional Electoral",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Consejo Nacional Electoral",
+    "justificacion": "Ente rector del Poder Electoral venezolano.",
+    "id": 1775
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "El gobierno y la administración de los Municipios corresponde al:",
+    "opciones": [
+      "Alcalde o Alcaldesa",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Alcalde o Alcaldesa",
+    "justificacion": "Conforma el órgano ejecutivo local (apoyado por el Concejo Municipal).",
+    "id": 1776
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "País que ocupa el primer lugar en la producción de petróleo:",
+    "opciones": [
+      "Estados Unidos",
+      "Bolivia",
+      "Colombia",
+      "Siria"
+    ],
+    "correcta": "Estados Unidos",
+    "justificacion": "Superó a otros países gracias al auge del fracking.",
+    "id": 1777
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En qué año se nacionalizó la Industria Petrolera en Venezuela?",
+    "opciones": [
+      "1976",
+      "1958",
+      "1983",
+      "1969"
+    ],
+    "correcta": "1976",
+    "justificacion": "Creación legal de Petróleos de Venezuela S.A. (PDVSA).",
+    "id": 1778
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Caída del Muro de Berlín:",
+    "opciones": [
+      "9 de Noviembre de 1989",
+      "12 de Octubre de 1992",
+      "1 de Septiembre de 1985",
+      "10 de Diciembre de 1991"
+    ],
+    "correcta": "9 de Noviembre de 1989",
+    "justificacion": "Hito fundamental que marcó el fin de la Guerra Fría.",
+    "id": 1779
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hueco que se produce cuando al Gobierno le falta dinero...:",
+    "opciones": [
+      "Déficit Fiscal",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Déficit Fiscal",
+    "justificacion": "Egresos superan a los ingresos de un Estado.",
+    "id": 1780
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Dinero que se recibe por concepto de depósito en un banco:",
+    "opciones": [
+      "Interés Pasivo",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Interés Pasivo",
+    "justificacion": "Rendimiento que paga la entidad al ahorrista.",
+    "id": 1781
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Comparación entre las ventas y compras de mercancía del extranjero:",
+    "opciones": [
+      "Balanza Comercial",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Balanza Comercial",
+    "justificacion": "Mide exportaciones versus importaciones.",
+    "id": 1782
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Moneda extranjera utilizada para el intercambio de bienes...:",
+    "opciones": [
+      "La Divisa",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "La Divisa",
+    "justificacion": "Cualquier moneda internacional aceptada como medio de pago.",
+    "id": 1783
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Historia y Geografía General",
+    "tipo": "opcion_multiple",
+    "pregunta": "Fernando de Magallanes, navegante, fue de nacionalidad:",
+    "opciones": [
+      "Portuguesa",
+      "FAO",
+      "PNUMA",
+      "ANP"
+    ],
+    "correcta": "Portuguesa",
+    "justificacion": "Navegante al servicio de la corona española, inició la vuelta al mundo.",
+    "id": 1784
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas ONU?",
+    "opciones": [
+      "Organización de Naciones Unidas para el Desarrollo",
+      "Organismo de Naciones Unidas",
+      "Organización de Naciones Unificadas",
+      "Organización de las Naciones Unidas"
+    ],
+    "correcta": "Organización de las Naciones Unidas",
+    "justificacion": "Foro global de paz y derecho internacional",
+    "id": 1785
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OIT?",
+    "opciones": [
+      "Organización Internacional de Trabajadores",
+      "Oficina de Integración del Trabajo",
+      "Organismo de Inversión y Trabajo",
+      "Organización Internacional del Trabajo"
+    ],
+    "correcta": "Organización Internacional del Trabajo",
+    "justificacion": "Agencia de la ONU enfocada en derechos laborales",
+    "id": 1786
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas FAO?",
+    "opciones": [
+      "Fuerzas Aliadas de Occidente",
+      "Federación de Alimentación y Agricultura",
+      "Fondo para la Alimentación Organizada",
+      "Organización de las Naciones Unidas para la Alimentación y la Agricultura"
+    ],
+    "correcta": "Organización de las Naciones Unidas para la Alimentación y la Agricultura",
+    "justificacion": "Lucha mundial contra el hambre",
+    "id": 1787
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas BID?",
+    "opciones": [
+      "Banco Internacional de Desarrollo",
+      "Banco Interamericano de Inversiones",
+      "Banca de Integración Democrática",
+      "Banco Interamericano de Desarrollo"
+    ],
+    "correcta": "Banco Interamericano de Desarrollo",
+    "justificacion": "Financiamiento para América Latina y el Caribe",
+    "id": 1788
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas UNICEF?",
+    "opciones": [
+      "Unión Internacional para la Infancia",
+      "Fondo de Naciones Unidas para la Educación",
+      "Fondo Internacional de Emergencia Social",
+      "Fondo de las Naciones Unidas para la Infancia"
+    ],
+    "correcta": "Fondo de las Naciones Unidas para la Infancia",
+    "justificacion": "Ayuda humanitaria para niños",
+    "id": 1789
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas CARICOM?",
+    "opciones": [
+      "Comunidad del Caribe y Colombia",
+      "Comisión de Asuntos Regionales del Caribe",
+      "Consorcio de Armadores del Caribe",
+      "Comunidad del Caribe"
+    ],
+    "correcta": "Comunidad del Caribe",
+    "justificacion": "Organización internacional de 15 naciones caribeñas",
+    "id": 1790
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas NAFTA (TLC)?",
+    "opciones": [
+      "Tratado Libre de Comercio Andino",
+      "Acuerdo de Naciones para el Comercio Fiel",
+      "Tratado Latinoamericano de Comercio",
+      "Tratado de Libre Comercio de América del Norte"
+    ],
+    "correcta": "Tratado de Libre Comercio de América del Norte",
+    "justificacion": "Bloque comercial EEUU-Canadá-México",
+    "id": 1791
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas PNUMA?",
+    "opciones": [
+      "Programa de Naciones Unidas para el Medio Ambiente",
+      "Programa Nacional de Utilidad Medioambiental",
+      "Plan de Naciones Unidas sobre el Medio Ambiente",
+      "Programa de las Naciones Unidas para el Medio Ambiente"
+    ],
+    "correcta": "Programa de las Naciones Unidas para el Medio Ambiente",
+    "justificacion": "Coordinador de respuestas ambientales",
+    "id": 1792
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas SENIAT?",
+    "opciones": [
+      "Servicio Nacional de Impuestos y Aduanas",
+      "Sistema de Recaudación Tributaria Nacional",
+      "Servicio Estatal de Navegación y Aduanas",
+      "Servicio Nacional Integrado de Administración Aduanera y Tributaria"
+    ],
+    "correcta": "Servicio Nacional Integrado de Administración Aduanera y Tributaria",
+    "justificacion": "Ente recaudador venezolano",
+    "id": 1793
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas FOGADE?",
+    "opciones": [
+      "Fondo de Garantía de Depósitos",
+      "Fondo de Ahorro y Depósitos Estatales",
+      "Fideicomiso de Depósitos Bancarios",
+      "Fondo de Protección Social de los Depósitos Bancarios"
+    ],
+    "correcta": "Fondo de Protección Social de los Depósitos Bancarios",
+    "justificacion": "Garantiza los ahorros en Vzla",
+    "id": 1794
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OEA?",
+    "opciones": [
+      "Organización de Estados Andinos",
+      "Organismo del Espacio Americano",
+      "Organización de Estados Aliados",
+      "Organización de los Estados Americanos"
+    ],
+    "correcta": "Organización de los Estados Americanos",
+    "justificacion": "Foro político multilateral continental",
+    "id": 1795
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas FMI?",
+    "opciones": [
+      "Fondo de Mercadeo Internacional",
+      "Federación Monetaria de Inversiones",
+      "Fideicomiso Monetario Internacional",
+      "Fondo Monetario Internacional"
+    ],
+    "correcta": "Fondo Monetario Internacional",
+    "justificacion": "Fomenta la estabilidad financiera global",
+    "id": 1796
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OMS?",
+    "opciones": [
+      "Organismo de Medicina Social",
+      "Organización Mundial de Siniestros",
+      "Oficina Médica de la Salud",
+      "Organización Mundial de la Salud"
+    ],
+    "correcta": "Organización Mundial de la Salud",
+    "justificacion": "Organismo rector en salud pública internacional",
+    "id": 1797
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas SELA?",
+    "opciones": [
+      "Sistema Económico de Latinoamérica",
+      "Secretaría de Enlace de América Latina",
+      "Sociedad Económica Latinoamericana",
+      "Sistema Económico Latinoamericano y del Caribe"
+    ],
+    "correcta": "Sistema Económico Latinoamericano y del Caribe",
+    "justificacion": "Promueve la consulta económica regional",
+    "id": 1798
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OTAN?",
+    "opciones": [
+      "Organización de Tratados del Atlántico Norte",
+      "Organización del Tratado del Atlántico",
+      "Alianza de Defensa del Atlántico",
+      "Organización del Tratado del Atlántico Norte"
+    ],
+    "correcta": "Organización del Tratado del Atlántico Norte",
+    "justificacion": "Alianza militar intergubernamental",
+    "id": 1799
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas UE?",
+    "opciones": [
+      "Unión de Estados",
+      "Unidad Europea",
+      "Unión Económica Europea",
+      "Unión Europea"
+    ],
+    "correcta": "Unión Europea",
+    "justificacion": "Comunidad política de derecho en el continente europeo",
+    "id": 1800
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas MERCOSUR?",
+    "opciones": [
+      "Mercado Común de Sudamérica",
+      "Mercado del Cono Sur",
+      "Mercado de Cooperación del Sur",
+      "Mercado Común del Sur"
+    ],
+    "correcta": "Mercado Común del Sur",
+    "justificacion": "Bloque comercial sudamericano",
+    "id": 1801
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OPEP?",
+    "opciones": [
+      "Organización de Productores de Petróleo",
+      "Organismo de Países Exportadores",
+      "Organización de Países Productores de Energía",
+      "Organización de Países Exportadores de Petróleo"
+    ],
+    "correcta": "Organización de Países Exportadores de Petróleo",
+    "justificacion": "Coordina políticas de producción petrolera",
+    "id": 1802
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Organismos Internacionales y Nacionales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué significan las siglas OLP?",
+    "opciones": [
+      "Organización para la Libertad de Palestina",
+      "Oficina de Liberación Palestina",
+      "Organización de Liberación Patriótica",
+      "Organización para la Liberación de Palestina"
+    ],
+    "correcta": "Organización para la Liberación de Palestina",
+    "justificacion": "Coalición representativa del pueblo palestino",
+    "id": 1803
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En qué año fue fundada la ONU?",
+    "opciones": [
+      "1945",
+      "1939",
+      "1950",
+      "1948"
+    ],
+    "correcta": "1945",
+    "justificacion": "Creada tras finalizar la Segunda Guerra Mundial.",
+    "id": 1804
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Países que participan en la Comunidad Andina de Naciones:",
+    "opciones": [
+      "Colombia, Ecuador, Bolivia, Perú",
+      "Chile",
+      "Argentina",
+      "México"
+    ],
+    "correcta": "Colombia, Ecuador, Bolivia, Perú",
+    "justificacion": "Venezuela se retiró de este bloque de integración sudamericano en 2006.",
+    "id": 1805
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es el principal objetivo de la OPEP?",
+    "opciones": [
+      "Todas las anteriores (o mediar precios justos)",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Todas las anteriores (o mediar precios justos)",
+    "justificacion": "Creada para unificar políticas petroleras y estabilizar los precios.",
+    "id": 1806
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué países conforman el llamado Grupo de los Tres (G-3)?",
+    "opciones": [
+      "Colombia, Venezuela y México",
+      "Chile",
+      "Jordania",
+      "Perú"
+    ],
+    "correcta": "Colombia, Venezuela y México",
+    "justificacion": "Tratado de libre comercio formado en la década de los 90.",
+    "id": 1807
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A quién se le conoce como el hombre de la Perestroika y el Glasnot?",
+    "opciones": [
+      "Mijail Gorbachov",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Mijail Gorbachov",
+    "justificacion": "Último líder de la URSS impulsó estas reformas de apertura.",
+    "id": 1808
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Nombre del actual Secretario General de la ONU:",
+    "opciones": [
+      "António Guterres",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "António Guterres",
+    "justificacion": "Político portugués, asumió el cargo en 2017.",
+    "id": 1809
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién fue el autor de \"La Divina Comedia\"?",
+    "opciones": [
+      "Dante Alighieri",
+      "William Shakespeare",
+      "Antonio Machado",
+      "Pablo Neruda"
+    ],
+    "correcta": "Dante Alighieri",
+    "justificacion": "Clásico de la literatura italiana e universal (Infierno, Purgatorio, Paraíso).",
+    "id": 1810
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A quién pertenece la frase \"hay que sembrar el petróleo\"?",
+    "opciones": [
+      "Arturo Uslar Pietri",
+      "Dante Alighieri",
+      "William Shakespeare",
+      "Federico García Lorca"
+    ],
+    "correcta": "Arturo Uslar Pietri",
+    "justificacion": "Célebre editorial publicado en el diario Ahora en 1936.",
+    "id": 1811
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A quién pertenece la frase \"el fin justifica los medios\"?",
+    "opciones": [
+      "Maquiavelo",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Maquiavelo",
+    "justificacion": "Atribuida a su filosofía política expresada en \"El Príncipe\".",
+    "id": 1812
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Sistema político en el cual la autoridad es ejercida por un Rey:",
+    "opciones": [
+      "Ninguna (Monarquía)",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Ninguna (Monarquía)",
+    "justificacion": "El término exacto es monarquía, no listada en las opciones A-C.",
+    "id": 1813
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Libertad, Igualdad y Fraternidad eran los principios de la:",
+    "opciones": [
+      "Revolución Francesa",
+      "Guerra Federal",
+      "La Cosiata",
+      "Guerra Fría"
+    ],
+    "correcta": "Revolución Francesa",
+    "justificacion": "Lema oficial originado a finales del siglo XVIII.",
+    "id": 1814
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿En qué año comenzó la Revolución Francesa?",
+    "opciones": [
+      "1789",
+      "1776",
+      "1804",
+      "1815"
+    ],
+    "correcta": "1789",
+    "justificacion": "Dio fin al absolutismo e impulsó los derechos ciudadanos.",
+    "id": 1815
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Triple Alianza durante la Primera Guerra Mundial:",
+    "opciones": [
+      "Alemania-Imperio Austro-Húngaro-Italia",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Alemania-Imperio Austro-Húngaro-Italia",
+    "justificacion": "Coalición formada en contraposición a la Triple Entente.",
+    "id": 1816
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Hecho histórico con que finaliza la Primera Guerra Mundial:",
+    "opciones": [
+      "Tratado de Versalles",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Tratado de Versalles",
+    "justificacion": "Firmado en 1919, imponiendo fuertes sanciones a Alemania.",
+    "id": 1817
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Aliados durante la Segunda Guerra Mundial:",
+    "opciones": [
+      "Inglaterra-Rusia-Estados Unidos",
+      "Colombia",
+      "Chile",
+      "México"
+    ],
+    "correcta": "Inglaterra-Rusia-Estados Unidos",
+    "justificacion": "Fuerzas que combatieron contra las potencias del Eje (Alemania, Italia, Japón).",
+    "id": 1818
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Objetivo del Plan Marshall:",
+    "opciones": [
+      "Recuperación de Europa después de la 2da Guerra Mundial",
+      "OTAN",
+      "CARICOM",
+      "FOGADE"
+    ],
+    "correcta": "Recuperación de Europa después de la 2da Guerra Mundial",
+    "justificacion": "Iniciativa de financiamiento impulsada por EE.UU.",
+    "id": 1819
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Ley que penaliza a los extranjeros que inviertan en Cuba:",
+    "opciones": [
+      "Helms-Burton",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Helms-Burton",
+    "justificacion": "Aprobada por EE.UU. en 1996 reforzando el embargo.",
+    "id": 1820
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Nombre del Presidente de la ANP:",
+    "opciones": [
+      "Mahmoud Abbas",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Mahmoud Abbas",
+    "justificacion": "Lidera la Autoridad Nacional Palestina desde la muerte de Arafat.",
+    "id": 1821
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿A cuál gobernante de Venezuela se le llama Benemérito?",
+    "opciones": [
+      "Juan Vicente Gómez",
+      "Hugo Chávez",
+      "Rómulo Betancourt",
+      "Carlos Andrés Pérez"
+    ],
+    "correcta": "Juan Vicente Gómez",
+    "justificacion": "Título autootorgado durante su extensa dictadura.",
+    "id": 1822
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién era la llamada \"Dama de Hierro\"?",
+    "opciones": [
+      "Margaret Thatcher",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Margaret Thatcher",
+    "justificacion": "Ex primera ministra del Reino Unido por sus estrictas políticas.",
+    "id": 1823
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién sucedió al Gral. Juan Vicente Gómez en el poder?",
+    "opciones": [
+      "Gral. López Contreras",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Gral. López Contreras",
+    "justificacion": "Asumió el gobierno tras la muerte del dictador en 1935.",
+    "id": 1824
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién sucedió a Raúl Leoni en el Poder?",
+    "opciones": [
+      "Rafael Caldera (1er gob.)",
+      "José Tadeo Monagas",
+      "José Antonio Páez",
+      "Hugo Chávez"
+    ],
+    "correcta": "Rafael Caldera (1er gob.)",
+    "justificacion": "Primera transición pacífica entre partidos distintos (AD a COPEI).",
+    "id": 1825
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Primer Ministro de Israel asesinado (Premio Nobel de la Paz 94):",
+    "opciones": [
+      "Yitzhak Rabin",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Yitzhak Rabin",
+    "justificacion": "Asesinado en 1995 por extremistas tras los acuerdos de Oslo.",
+    "id": 1826
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Túpac Amaru es el nombre de:",
+    "opciones": [
+      "a y b",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "a y b",
+    "justificacion": "Caudillo indígena peruano y nombre de un movimiento armado (MRTA).",
+    "id": 1827
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cómo se comunicaban los miembros de la secta Puertas del Cielo...?",
+    "opciones": [
+      "Vía Internet",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Vía Internet",
+    "justificacion": "Secta famosa por utilizar diseño web antes de su suicidio colectivo en 1997.",
+    "id": 1828
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente venezolano que elimina pena de muerte por delito político (1847-1851):",
+    "opciones": [
+      "José Tadeo Monagas",
+      "Raúl Leoni",
+      "Luis Herrera Campins",
+      "Carlos Andrés Pérez"
+    ],
+    "correcta": "José Tadeo Monagas",
+    "justificacion": "Sustituyó la pena por la expulsión del país en 1849.",
+    "id": 1829
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Presidente que proclama la abolición de la esclavitud en 1854:",
+    "opciones": [
+      "José Gregorio Monagas",
+      "Antonio Guzmán Blanco",
+      "Wolfgang Larrazábal",
+      "Eleazar López Contreras"
+    ],
+    "correcta": "José Gregorio Monagas",
+    "justificacion": "Hermano de José Tadeo, decretó la libertad definitiva.",
+    "id": 1830
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "El \"Septenio\" es una denominación atribuida a la presidencia de:",
+    "opciones": [
+      "Antonio Guzmán Blanco",
+      "Ramón J. Velásquez",
+      "Carlos Andrés Pérez",
+      "Marcos Pérez Jiménez"
+    ],
+    "correcta": "Antonio Guzmán Blanco",
+    "justificacion": "Fue el primero de sus tres períodos de gobierno (1870-1877).",
+    "id": 1831
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "El título de \"Ilustre Americano\" se le atribuye a:",
+    "opciones": [
+      "Antonio Guzmán Blanco",
+      "Rafael Caldera",
+      "Jaime Lusinchi",
+      "Eleazar López Contreras"
+    ],
+    "correcta": "Antonio Guzmán Blanco",
+    "justificacion": "Concedido por el Congreso a solicitud de sus partidarios.",
+    "id": 1832
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Bajo qué mandato se decreta la instrucción pública gratuita:",
+    "opciones": [
+      "Antonio Guzmán Blanco",
+      "José Antonio Páez",
+      "Juan Vicente Gómez",
+      "Jaime Lusinchi"
+    ],
+    "correcta": "Antonio Guzmán Blanco",
+    "justificacion": "Transformó el sistema educativo venezolano.",
+    "id": 1833
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Letra del Himno decretado en el año:",
+    "opciones": [
+      "1881",
+      "1870",
+      "1895",
+      "1905"
+    ],
+    "correcta": "1881",
+    "justificacion": "Guzmán Blanco lo decretó como canto patriótico oficial.",
+    "id": 1834
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "\"La Rotunda\" era:",
+    "opciones": [
+      "Una cárcel",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Una cárcel",
+    "justificacion": "Prisión infame en Caracas utilizada para castigar disidentes políticos.",
+    "id": 1835
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Bajo qué mandato se legaliza el divorcio civil en 1904:",
+    "opciones": [
+      "Gral. Cipriano Castro",
+      "Raúl Leoni",
+      "Francisco de Miranda",
+      "Rómulo Betancourt"
+    ],
+    "correcta": "Gral. Cipriano Castro",
+    "justificacion": "Secularizó instituciones previamente controladas por la Iglesia.",
+    "id": 1836
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Se logró cancelar la totalidad de la deuda externa bajo:",
+    "opciones": [
+      "Gral. Juan Vicente Gómez",
+      "José Antonio Páez",
+      "Antonio Guzmán Blanco",
+      "Rafael Caldera"
+    ],
+    "correcta": "Gral. Juan Vicente Gómez",
+    "justificacion": "Celebrando el centenario de la muerte de Bolívar en 1930.",
+    "id": 1837
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Primera Ley del Trabajo fue promulgada por:",
+    "opciones": [
+      "López Contreras",
+      "Marcos Pérez Jiménez",
+      "Rómulo Betancourt",
+      "Carlos Andrés Pérez"
+    ],
+    "correcta": "López Contreras",
+    "justificacion": "Aprobada en 1936 como respuesta a las protestas laborales posgomecistas.",
+    "id": 1838
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Acontecimiento del 23 de enero de 1958:",
+    "opciones": [
+      "Caída del régimen de Pérez Jiménez",
+      "Opción incorrecta 1",
+      "Opción incorrecta 2",
+      "Opción incorrecta 3"
+    ],
+    "correcta": "Caída del régimen de Pérez Jiménez",
+    "justificacion": "Rebelión cívico-militar que instauró la democracia.",
+    "id": 1839
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Plan de Becas Gran Mariscal de Ayacucho concebido bajo el gobierno de:",
+    "opciones": [
+      "Carlos Andrés Pérez (1er gob)",
+      "Rafael Caldera",
+      "Rómulo Betancourt",
+      "Francisco de Miranda"
+    ],
+    "correcta": "Carlos Andrés Pérez (1er gob)",
+    "justificacion": "Financiado durante el \"boom\" petrolero de los años 70.",
+    "id": 1840
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "La compañía Guipuzcoana se estableció para:",
+    "opciones": [
+      "Crear un monopolio comercial entre España y Venezuela",
+      "México",
+      "Bolivia",
+      "Perú"
+    ],
+    "correcta": "Crear un monopolio comercial entre España y Venezuela",
+    "justificacion": "También controlaba el contrabando holandés en el cacao.",
+    "id": 1841
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién ejerce el Poder Judicial en nuestro país?",
+    "opciones": [
+      "El Tribunal Supremo de Justicia",
+      "La Fiscalía General",
+      "La Defensoría del Pueblo",
+      "El Congreso de la República"
+    ],
+    "correcta": "El Tribunal Supremo de Justicia",
+    "justificacion": "Máximo órgano rector de las cortes.",
+    "id": 1842
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién ejerce el Poder Legislativo en nuestro país?",
+    "opciones": [
+      "La Asamblea Nacional",
+      "El Senado",
+      "La Cámara de Diputados",
+      "El Tribunal Supremo"
+    ],
+    "correcta": "La Asamblea Nacional",
+    "justificacion": "Órgano unicameral encargado de la creación de leyes.",
+    "id": 1843
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién ejerce el Poder Ciudadano en nuestro país?",
+    "opciones": [
+      "El Consejo Moral Republicano",
+      "El Consejo de Ministros",
+      "El Consejo Electoral",
+      "La Contraloría General"
+    ],
+    "correcta": "El Consejo Moral Republicano",
+    "justificacion": "Integrado por Contraloría, Defensoría y Ministerio Público.",
+    "id": 1844
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Qué Batalla se libró el 24 de junio de 1821?",
+    "opciones": [
+      "La Batalla de Carabobo",
+      "La Batalla de Boyacá",
+      "La Batalla de Pichincha",
+      "La Batalla de Junín"
+    ],
+    "correcta": "La Batalla de Carabobo",
+    "justificacion": "Selló la independencia política de Venezuela.",
+    "id": 1845
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Título \"Gran Mariscal de Ayacucho\" (1825) entregado a:",
+    "opciones": [
+      "Antonio José de Sucre",
+      "Francisco de Miranda",
+      "José Antonio Páez",
+      "Santiago Mariño"
+    ],
+    "correcta": "Antonio José de Sucre",
+    "justificacion": "Por su victoria definitiva sobre las fuerzas realistas en Perú.",
+    "id": 1846
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "Tras Wolfgang Larrazábal en 1959, ¿quién toma el poder?",
+    "opciones": [
+      "Rómulo Betancourt",
+      "Eleazar López Contreras",
+      "Hugo Chávez",
+      "Jaime Lusinchi"
+    ],
+    "correcta": "Rómulo Betancourt",
+    "justificacion": "Ganador de las primeras elecciones del periodo democrático.",
+    "id": 1847
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién sucede a Raúl Leoni después de su mandato?",
+    "opciones": [
+      "Rafael Caldera",
+      "Eleazar López Contreras",
+      "Antonio Guzmán Blanco",
+      "Cipriano Castro"
+    ],
+    "correcta": "Rafael Caldera",
+    "justificacion": "Electo para el período 1969-1974.",
+    "id": 1848
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién toma riendas del país tras ser juzgado CAP en 1993?",
+    "opciones": [
+      "Ramón J. Velásquez",
+      "Octavio Lepage",
+      "Hugo Chávez",
+      "Carlos Andrés Pérez"
+    ],
+    "correcta": "Ramón J. Velásquez",
+    "justificacion": "Asumió un gobierno de transición designado por el Congreso.",
+    "id": 1849
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "En el año 1977, ¿quién era el Presidente de Venezuela?",
+    "opciones": [
+      "Carlos Andrés Pérez",
+      "Ramón J. Velásquez",
+      "José Gregorio Monagas",
+      "Rafael Caldera"
+    ],
+    "correcta": "Carlos Andrés Pérez",
+    "justificacion": "Transcurría su primer mandato constitucional (1974-1979).",
+    "id": 1850
+  },
+  {
+    "area": "Cultura General",
+    "tema": "Conocimientos Generales",
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Quién condujo las riendas del país en el periodo 1984-1989?",
+    "opciones": [
+      "Jaime Lusinchi",
+      "Carlos Andrés Pérez",
+      "Francisco de Miranda",
+      "Antonio Guzmán Blanco"
+    ],
+    "correcta": "Jaime Lusinchi",
+    "justificacion": "Ganó bajo las siglas de Acción Democrática.",
+    "id": 1851
   }
 ]
