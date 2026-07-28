@@ -1362,8 +1362,10 @@ const ProctoringSystem = (() => {
             // Paso 3: Inicializar MediaPipe Face Mesh
             faceMesh = await initFaceMesh();
 
-            // Paso 4: Dejamos el widget oculto durante el examen
-            // elements.widget.classList.remove('hidden');
+            // Paso 4: Mostrar el widget de la cámara flotante en la esquina superior derecha
+            if (elements.widget) {
+                elements.widget.classList.remove('hidden');
+            }
 
             // Paso 5: Configurar el intervalo de procesamiento de frames
             // Usamos Camera de MediaPipe para sincronizar el procesamiento
