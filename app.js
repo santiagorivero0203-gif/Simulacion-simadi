@@ -115,8 +115,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Configurar listener para el formulario de inicio del examen
         DOM.setup.form.addEventListener('submit', startSimulation);
 
-        // Iniciar preview de cámara si está disponible
-        if (typeof ProctoringSystem !== 'undefined') {
+        // Iniciar preview de cámara si está disponible y seleccionado
+        const enableCameraCheckbox = document.getElementById('enable-camera');
+        if (typeof ProctoringSystem !== 'undefined' && enableCameraCheckbox?.checked) {
             ProctoringSystem.initPreview();
         }
 
@@ -633,7 +634,15 @@ function startSimulation(e) {
     // =============================================
     // INICIAR SISTEMA DE MONITOREO ANTI-TRAMPAS
     // =============================================
-    initProctoring();
+    const enableCamera = document.getElementById('enable-camera')?.checked;
+    if (enableCamera) {
+        initProctoring();
+    } else {
+        console.log("[Proctoring] Examen iniciado sin monitoreo de cámara.");
+        if (typeof ProctoringSystem !== 'undefined') {
+            ProctoringSystem.stop();
+        }
+    }
 }
 
 /**
@@ -1520,13 +1529,8 @@ const ExtraDOM = {
 let currentAuthMode = 'login'; // 'login' | 'register'
 
 document.addEventListener('DOMContentLoaded', async () => {
-    // Inicializar Auth Service
-    if (window.authService) {
-        await authService.init();
-        authService.onAuthChange(updateAuthUI);
-        updateAuthUI(authService.currentUser);
-    }
-
+    // 1. ASIGNAR EVENT LISTENERS (Sincrónicamente para que la UI funcione siempre)
+    
     // Configurar Navegación a Comunidad
     if (DOM.nav.comunidad) {
         DOM.nav.comunidad.addEventListener('click', () => {
@@ -1620,6 +1624,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
+    // Botón crear nota
+    ExtraDOM.community.btnNewNote?.addEventListener('click', async () => {
+        if (!authService.isLoggedIn()) {
+            alert("Inicia sesión para compartir una nota o experiencia.");
+            ExtraDOM.authModal.container.classList.remove('hidden');
+            return;
+        }
+
+        const type = prompt("Tipo de nota (truco/experiencia/explicacion):", "truco");
+        if (!type) return;
+        const content = prompt("Escribe tu anotación (apoya a la comunidad!):");
+        if (!content) return;
+
+        const currentTopic = document.getElementById('guide-detail-title').textContent;
+        const user = authService.getUserData();
+
+        try {
+            await communityService.addNote(user.id, user.username, currentTopic, 'Guía', type, content);
+            alert("¡Nota publicada exitosamente!");
+            loadCommunityNotesForGuide();
+        } catch (e) {
+            alert("Error al publicar nota.");
+        }
+    });
+
     // Listener para la carga de contenido en Guías (Interceptar la tab de Comunidad)
     DOM.nav.tabBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -1669,28 +1698,57 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
-    // Botón crear nota
-    ExtraDOM.community.btnNewNote?.addEventListener('click', async () => {
-        if (!authService.isLoggedIn()) {
-            alert("Inicia sesión para compartir una nota o experiencia.");
-            ExtraDOM.authModal.container.classList.remove('hidden');
-            return;
+    // 2. INICIALIZAR SERVICIOS ASÍNCRONOS
+    try {
+        if (window.authService) {
+            await authService.init();
+            authService.onAuthChange(updateAuthUI);
+            updateAuthUI(authService.currentUser);
         }
+    } catch (e) {
+        console.error("Error inicializando Supabase Auth. Es posible que estés usando file:// y bloquee los requests.", e);
+    }
 
-        const type = prompt("Tipo de nota (truco/experiencia/explicacion):", "truco");
-        if (!type) return;
-        const content = prompt("Escribe tu anotación (apoya a la comunidad!):");
-        if (!content) return;
+    // 3. MODO OSCURO (PERSISTENCIA Y ACCIÓN)
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    
+    if (savedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        if (themeToggleBtn) themeToggleBtn.textContent = '☀️';
+    } else {
+        document.documentElement.removeAttribute('data-theme');
+        if (themeToggleBtn) themeToggleBtn.textContent = '🌙';
+    }
 
-        const currentTopic = document.getElementById('guide-detail-title').textContent;
-        const user = authService.getUserData();
+    themeToggleBtn?.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        if (currentTheme === 'dark') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'light');
+            themeToggleBtn.textContent = '🌙';
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+            themeToggleBtn.textContent = '☀️';
+        }
+    });
 
-        try {
-            await communityService.addNote(user.id, user.username, currentTopic, 'Guía', type, content);
-            alert("¡Nota publicada exitosamente!");
-            loadCommunityNotesForGuide();
-        } catch (e) {
-            alert("Error al publicar nota.");
+    // 4. CONTROL DE CÁMARA OPCIONAL (SETUP LISTENER)
+    const enableCameraCheckbox = document.getElementById('enable-camera');
+    const cameraWrapper = document.getElementById('camera-wrapper');
+
+    enableCameraCheckbox?.addEventListener('change', () => {
+        if (enableCameraCheckbox.checked) {
+            cameraWrapper?.classList.remove('hidden');
+            if (typeof ProctoringSystem !== 'undefined') {
+                ProctoringSystem.initPreview();
+            }
+        } else {
+            cameraWrapper?.classList.add('hidden');
+            if (typeof ProctoringSystem !== 'undefined') {
+                ProctoringSystem.stop();
+            }
         }
     });
 });

@@ -7,17 +7,17 @@
 const SUPABASE_URL = '';
 const SUPABASE_ANON_KEY = '';
 
-let supabase = null;
+let supabaseClient = null;
 const isSupabaseConfigured = SUPABASE_URL !== '' && SUPABASE_ANON_KEY !== '';
 
 if (isSupabaseConfigured && window.supabase) {
-    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     console.log("Supabase Client Initialized");
 } else {
     console.warn("Supabase no está configurado o el script de Supabase no cargó. Funcionando en Modo Local (Mock).");
     
     // Mock local de Supabase para desarrollo sin credenciales
-    supabase = {
+    supabaseClient = {
         auth: {
             signUp: async ({email, password, options}) => {
                 const user = { id: 'mock-uuid', email, user_metadata: options?.data };
@@ -59,5 +59,5 @@ if (isSupabaseConfigured && window.supabase) {
     };
 }
 
-window.supabaseClient = supabase;
+window.supabaseClient = supabaseClient;
 window.isSupabaseConfigured = isSupabaseConfigured;

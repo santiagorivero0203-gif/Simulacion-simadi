@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Diagnóstico Integral (TDI) - Simulador</title>
+    <title>Simulación Simadi</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- MediaPipe: Utilidades de cámara para capturar y procesar frames del video -->
@@ -30,11 +30,9 @@
 </head>
 <body>
     <header class="app-header">
-        <div class="logo">TDI Simulador</div>
-        <nav class="app-nav">
-            <button id="nav-simulador" class="nav-btn active">Simulador</button>
-            <button id="nav-guias" class="nav-btn">Guías de Estudio</button>
-            <button id="nav-comunidad" class="nav-btn">Comunidad</button>
+        <div class="logo">Simulación Simadi</div>
+        <div class="header-controls">
+            <button id="theme-toggle" class="btn-icon" title="Alternar Modo Oscuro">🌙</button>
             <div class="auth-widget" id="auth-widget">
                 <button id="auth-login-btn" class="btn-secondary btn-small">Iniciar Sesión</button>
                 <div id="auth-user-info" class="hidden auth-user-info">
@@ -43,10 +41,18 @@
                     <button id="auth-logout-btn" class="btn-logout">Salir</button>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <main class="container">
+        
+        <!-- Pestañas principales integradas (Segmented Control) -->
+        <nav class="app-nav">
+            <button id="nav-simulador" class="nav-btn active">📝 Simulador</button>
+            <button id="nav-guias" class="nav-btn">📚 Guías de Estudio</button>
+            <button id="nav-comunidad" class="nav-btn">🌍 Comunidad</button>
+        </nav>
+
         <!-- Pantalla de Guías de Estudio -->
         <section id="guides-screen" class="screen">
             <div class="card">
@@ -144,9 +150,14 @@
                     </div>
 
                     <div class="form-group" id="camera-preview-container">
-                        <label>Verificación de Cámara (Obligatorio)</label>
-                        <video id="setup-camera-preview" autoplay playsinline muted style="width: 100%; max-width: 320px; border-radius: 8px; background: #000; display: block; margin: 0 auto;"></video>
-                        <small id="setup-camera-status">Por favor concede permiso para usar tu cámara...</small>
+                        <label style="display: flex; align-items: center; cursor: pointer; font-weight: 600;">
+                            <input type="checkbox" id="enable-camera" style="margin-right: 8px; width: 1.2rem; height: 1.2rem;"> 
+                            Activar monitoreo por cámara (Opcional)
+                        </label>
+                        <div id="camera-wrapper" class="hidden" style="margin-top: 1rem;">
+                            <video id="setup-camera-preview" autoplay playsinline muted style="width: 100%; max-width: 320px; border-radius: 8px; background: #000; display: block; margin: 0 auto;"></video>
+                            <small id="setup-camera-status" style="display:block; text-align:center; margin-top:0.5rem;">Cámara activada para monitoreo.</small>
+                        </div>
                     </div>
 
 
