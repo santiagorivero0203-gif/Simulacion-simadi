@@ -1468,7 +1468,337 @@ const ProctoringSystem = (() => {
 
 // Hacer accesible el módulo de proctoring globalmente
 // para que pueda ser detenido desde finishExam()
-window.proctoring = ProctoringSystem;
+
+// ============================================
+// INTEGRACIÓN CON SUPABASE (AUTH & COMUNIDAD)
+// ============================================
+
+// Referencias extra para el DOM
+Object.assign(DOM.nav, {
+    comunidad: document.getElementById('nav-comunidad'),
+    authLoginBtn: document.getElementById('auth-login-btn'),
+    authUserInfo: document.getElementById('auth-user-info'),
+    authUserAvatar: document.getElementById('auth-user-avatar'),
+    authUserName: document.getElementById('auth-user-name'),
+    authLogoutBtn: document.getElementById('auth-logout-btn')
+});
+
+Object.assign(DOM.screens, {
+    community: document.getElementById('community-screen')
+});
+
+const ExtraDOM = {
+    authModal: {
+        container: document.getElementById('auth-modal'),
+        closeBtn: document.getElementById('auth-modal-close'),
+        form: document.getElementById('auth-form'),
+        tabLogin: document.getElementById('tab-login'),
+        tabRegister: document.getElementById('tab-register'),
+        groupUsername: document.getElementById('group-username'),
+        username: document.getElementById('auth-username'),
+        email: document.getElementById('auth-email'),
+        password: document.getElementById('auth-password'),
+        errorMsg: document.getElementById('auth-error-msg'),
+        submitBtn: document.getElementById('auth-submit-btn')
+    },
+    reportModal: {
+        container: document.getElementById('report-modal'),
+        closeBtn: document.getElementById('report-modal-close'),
+        form: document.getElementById('report-form'),
+        reason: document.getElementById('report-reason'),
+        details: document.getElementById('report-details'),
+        openBtn: document.getElementById('report-question-btn')
+    },
+    community: {
+        averagesContainer: document.getElementById('global-averages-container'),
+        feedContainer: document.getElementById('global-community-feed'),
+        guideFeed: document.getElementById('guide-community-feed'),
+        btnNewNote: document.getElementById('btn-new-note')
+    }
+};
+
+let currentAuthMode = 'login'; // 'login' | 'register'
+
+document.addEventListener('DOMContentLoaded', async () => {
+    // Inicializar Auth Service
+    if (window.authService) {
+        await authService.init();
+        authService.onAuthChange(updateAuthUI);
+        updateAuthUI(authService.currentUser);
+    }
+
+    // Configurar Navegación a Comunidad
+    if (DOM.nav.comunidad) {
+        DOM.nav.comunidad.addEventListener('click', () => {
+            switchScreen('community');
+            DOM.nav.simulador.classList.remove('active');
+            DOM.nav.guias.classList.remove('active');
+            DOM.nav.comunidad.classList.add('active');
+            loadCommunityStats();
+        });
+    }
+
+    // Al hacer click en otras tabs, desactivar la de comunidad
+    DOM.nav.simulador.addEventListener('click', () => DOM.nav.comunidad?.classList.remove('active'));
+    DOM.nav.guias.addEventListener('click', () => DOM.nav.comunidad?.classList.remove('active'));
+
+    // Configurar Modal Auth
+    DOM.nav.authLoginBtn?.addEventListener('click', () => {
+        ExtraDOM.authModal.container.classList.remove('hidden');
+    });
+
+    ExtraDOM.authModal.closeBtn?.addEventListener('click', () => {
+        ExtraDOM.authModal.container.classList.add('hidden');
+    });
+
+    DOM.nav.authLogoutBtn?.addEventListener('click', async () => {
+        try {
+            await authService.signOut();
+        } catch (e) {
+            console.error("Error al salir", e);
+        }
+    });
+
+    ExtraDOM.authModal.tabLogin?.addEventListener('click', () => setAuthMode('login'));
+    ExtraDOM.authModal.tabRegister?.addEventListener('click', () => setAuthMode('register'));
+
+    ExtraDOM.authModal.form?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        ExtraDOM.authModal.errorMsg.classList.add('hidden');
+        ExtraDOM.authModal.submitBtn.disabled = true;
+        ExtraDOM.authModal.submitBtn.textContent = 'Procesando...';
+
+        const email = ExtraDOM.authModal.email.value;
+        const password = ExtraDOM.authModal.password.value;
+        const username = ExtraDOM.authModal.username.value;
+
+        try {
+            if (currentAuthMode === 'login') {
+                await authService.signIn(email, password);
+            } else {
+                await authService.signUp(email, password, username);
+            }
+            ExtraDOM.authModal.container.classList.add('hidden');
+            ExtraDOM.authModal.form.reset();
+        } catch (err) {
+            ExtraDOM.authModal.errorMsg.textContent = err.message || "Error al autenticar";
+            ExtraDOM.authModal.errorMsg.classList.remove('hidden');
+        } finally {
+            ExtraDOM.authModal.submitBtn.disabled = false;
+            ExtraDOM.authModal.submitBtn.textContent = 'Ingresar';
+        }
+    });
+
+    // Configurar Modal Reporte
+    ExtraDOM.reportModal.openBtn?.addEventListener('click', () => {
+        ExtraDOM.reportModal.container.classList.remove('hidden');
+    });
+
+    ExtraDOM.reportModal.closeBtn?.addEventListener('click', () => {
+        ExtraDOM.reportModal.container.classList.add('hidden');
+    });
+
+    ExtraDOM.reportModal.form?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const reason = ExtraDOM.reportModal.reason.value;
+        const details = ExtraDOM.reportModal.details.value;
+        const qIndex = state.currentQuestionIndex;
+        const qId = state.examQuestions[qIndex]?.id || 'unknown';
+
+        try {
+            await communityService.reportQuestion(
+                authService.currentUser?.id || null, 
+                qId, 
+                reason, 
+                details
+            );
+            alert("¡Gracias por tu reporte! Hemos registrado el problema.");
+            ExtraDOM.reportModal.container.classList.add('hidden');
+            ExtraDOM.reportModal.form.reset();
+        } catch (err) {
+            alert("Error al enviar el reporte. Intenta de nuevo.");
+        }
+    });
+
+    // Listener para la carga de contenido en Guías (Interceptar la tab de Comunidad)
+    DOM.nav.tabBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Si el tab clickeado no es de la vista interna de guías, sino la principal
+            // No hacemos nada extra.
+        });
+    });
+
+    // Delegación de eventos para las pestañas internas de la guía
+    document.querySelector('.guide-internal-tabs')?.addEventListener('click', (e) => {
+        if (e.target.classList.contains('g-tab-btn')) {
+            const targetId = e.target.dataset.target;
+            if (targetId === 'guide-community') {
+                loadCommunityNotesForGuide();
+            }
+        }
+    });
+
+    // Hook a finishExam original para guardar datos
+    const originalFinishExam = window.finishExam || finishExam;
+    window.finishExam = async function() {
+        originalFinishExam(); // Ejecutar lógica original
+        
+        // Guardar resultado en Supabase si está logueado
+        if (authService.isLoggedIn()) {
+            const area = state.config.area;
+            const totalQuestions = state.config.numQuestions;
+            let correctCount = 0;
+            state.examQuestions.forEach((q, i) => {
+                if (state.userAnswers[i] === q.correcta) correctCount++;
+            });
+            
+            try {
+                await communityService.saveExamResult(
+                    authService.currentUser.id,
+                    area,
+                    correctCount,
+                    totalQuestions,
+                    state.timeUsed
+                );
+                
+                // Mostrar alerta sutil (opcional)
+                console.log("Resultado guardado en la comunidad.");
+            } catch (err) {
+                console.error("No se pudo guardar el resultado", err);
+            }
+        }
+    };
+
+    // Botón crear nota
+    ExtraDOM.community.btnNewNote?.addEventListener('click', async () => {
+        if (!authService.isLoggedIn()) {
+            alert("Inicia sesión para compartir una nota o experiencia.");
+            ExtraDOM.authModal.container.classList.remove('hidden');
+            return;
+        }
+
+        const type = prompt("Tipo de nota (truco/experiencia/explicacion):", "truco");
+        if (!type) return;
+        const content = prompt("Escribe tu anotación (apoya a la comunidad!):");
+        if (!content) return;
+
+        const currentTopic = document.getElementById('guide-detail-title').textContent;
+        const user = authService.getUserData();
+
+        try {
+            await communityService.addNote(user.id, user.username, currentTopic, 'Guía', type, content);
+            alert("¡Nota publicada exitosamente!");
+            loadCommunityNotesForGuide();
+        } catch (e) {
+            alert("Error al publicar nota.");
+        }
+    });
+});
+
+function setAuthMode(mode) {
+    currentAuthMode = mode;
+    if (mode === 'login') {
+        ExtraDOM.authModal.tabLogin.classList.add('active');
+        ExtraDOM.authModal.tabRegister.classList.remove('active');
+        ExtraDOM.authModal.groupUsername.classList.add('hidden');
+        ExtraDOM.authModal.username.removeAttribute('required');
+    } else {
+        ExtraDOM.authModal.tabRegister.classList.add('active');
+        ExtraDOM.authModal.tabLogin.classList.remove('active');
+        ExtraDOM.authModal.groupUsername.classList.remove('hidden');
+        ExtraDOM.authModal.username.setAttribute('required', 'true');
+    }
+}
+
+function updateAuthUI(user) {
+    if (user) {
+        DOM.nav.authLoginBtn.classList.add('hidden');
+        DOM.nav.authUserInfo.classList.remove('hidden');
+        const userData = authService.getUserData();
+        DOM.nav.authUserName.textContent = userData.username;
+        if (user.user_metadata?.avatar_url) {
+            DOM.nav.authUserAvatar.src = user.user_metadata.avatar_url;
+        } else {
+            DOM.nav.authUserAvatar.src = `https://api.dicebear.com/7.x/avataaars/svg?seed=${user.id}`;
+        }
+    } else {
+        DOM.nav.authLoginBtn.classList.remove('hidden');
+        DOM.nav.authUserInfo.classList.add('hidden');
+    }
+}
+
+async function loadCommunityStats() {
+    if (!authService.isLoggedIn()) {
+        ExtraDOM.community.averagesContainer.innerHTML = '<p class="empty-state">Inicia sesión para ver las estadísticas globales.</p>';
+        return;
+    }
+    
+    ExtraDOM.community.averagesContainer.innerHTML = '<p>Cargando promedios...</p>';
+    
+    const areas = ["Razonamiento Lógico Numérico", "Razonamiento Verbal", "Ciencia y Tecnología", "Cultura General"];
+    let html = '';
+    
+    for (const area of areas) {
+        const avg = await communityService.getCommunityAverage(area);
+        html += `
+            <div class="average-card">
+                <h4>${area}</h4>
+                <div class="average-score">${avg}%</div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: ${avg}%"></div>
+                </div>
+            </div>
+        `;
+    }
+    
+    ExtraDOM.community.averagesContainer.innerHTML = html;
+}
+
+async function loadCommunityNotesForGuide() {
+    const topicTitle = document.getElementById('guide-detail-title').textContent;
+    ExtraDOM.community.guideFeed.innerHTML = '<p>Cargando anotaciones de la comunidad...</p>';
+    
+    try {
+        const notes = await communityService.getNotesForTopic(topicTitle);
+        
+        if (notes.length === 0) {
+            ExtraDOM.community.guideFeed.innerHTML = '<p class="empty-state">No hay notas para este tema aún. ¡Sé el primero en compartir!</p>';
+            return;
+        }
+
+        const html = notes.map(note => `
+            <div class="note-card">
+                <div class="note-header">
+                    <span class="note-author">${note.author_name}</span>
+                    <span class="note-type ${note.note_type}">${note.note_type}</span>
+                </div>
+                <div class="note-content">${note.content}</div>
+                <div class="note-footer">
+                    <button class="btn-like" onclick="likeNote('${note.id}', ${note.likes_count})">
+                        👍 Me sirvió (${note.likes_count})
+                    </button>
+                </div>
+            </div>
+        `).join('');
+        
+        ExtraDOM.community.guideFeed.innerHTML = html;
+    } catch (e) {
+        ExtraDOM.community.guideFeed.innerHTML = '<p class="error-message">Error al cargar notas.</p>';
+    }
+}
+
+window.likeNote = async function(noteId, currentLikes) {
+    if (!authService.isLoggedIn()) {
+        alert("Debes iniciar sesión para valorar notas.");
+        return;
+    }
+    try {
+        await communityService.likeNote(noteId, currentLikes);
+        loadCommunityNotesForGuide(); // Refrescar lista
+    } catch (e) {
+        alert("Error al dar me gusta.");
+    }
+};window.proctoring = ProctoringSystem;
 
 /**
  * Función de inicialización del proctoring.

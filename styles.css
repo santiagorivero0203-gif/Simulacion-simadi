@@ -984,3 +984,248 @@ button:disabled {
     min-width: 160px;
     margin-top: 0.5rem;
 }
+
+/* ============================================ */
+/* ESTILOS DE AUTENTICACIÓN Y COMUNIDAD */
+/* ============================================ */
+
+/* Widget Auth en Header */
+.auth-widget {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--border-color);
+}
+
+.auth-user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.auth-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px var(--border-color);
+}
+
+.btn-logout {
+    background: none;
+    border: none;
+    color: var(--error);
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-logout:hover {
+    text-decoration: underline;
+}
+
+/* Modal Estilos Ajustados (Auth y Reporte) */
+.auth-modal-content, .report-modal-content {
+    border: none;
+    text-align: left;
+}
+
+.modal-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.modal-header-flex .modal-title {
+    margin-bottom: 0;
+    color: var(--text-main);
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: var(--error);
+}
+
+/* Auth Tabs */
+.auth-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 1.5rem;
+}
+
+.auth-tab {
+    flex: 1;
+    background: none;
+    border: none;
+    padding: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.auth-tab.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+/* Pantalla de Comunidad */
+.community-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+    .community-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.community-stats-panel, .community-feed-panel {
+    background: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.community-stats-panel h3, .community-feed-panel h3, .community-header h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.community-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Tarjeta Promedio */
+.average-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.average-card h4 {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+.average-score {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.progress-bar-bg {
+    background: var(--border-color);
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.progress-bar-fill {
+    background: var(--primary-color);
+    height: 100%;
+}
+
+/* Notas Comunitarias */
+.community-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.note-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.note-author {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+
+.note-type {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--bg-color);
+    border-radius: 12px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.note-type.truco { background: #E0F2FE; color: #0284C7; }
+.note-type.experiencia { background: #FEF3C7; color: #D97706; }
+.note-type.explicacion { background: #D1FAE5; color: #059669; }
+
+.note-content {
+    font-size: 0.95rem;
+    color: var(--text-main);
+    margin-bottom: 0.75rem;
+}
+
+.note-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-like {
+    background: none;
+    border: none;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.btn-like:hover {
+    color: var(--success);
+}
+
+.empty-state {
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.error-message {
+    color: var(--error);
+    font-size: 0.85rem;
+    background: #FEF2F2;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    text-align: center;
+}

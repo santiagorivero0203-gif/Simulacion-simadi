@@ -4,6 +4,7 @@
   "description": "Simulador TDI - Test Diagnóstico Integral para preparación universitaria UCV",
   "main": "app.js",
   "scripts": {
+    "start": "npx -y serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["simulador", "tdi", "ucv", "examen", "preparatoria"],
